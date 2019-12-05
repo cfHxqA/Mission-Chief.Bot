@@ -1,3 +1,4 @@
+
 [
   {
     "code":"au",
@@ -15,6 +16,11 @@
     "url":"https://www.centro-de-mando.es/"
   },
   {
+    "code":"fr",
+    "sha":"3092623217de2a7e67f7dfe4534278217c68d197",
+    "url":"https://www.operateur112.fr/"
+  },
+  {
     "code":"it",
     "sha":"8ad39365915ab45bf3b7834a77c8c67bd0d91b67",
     "url":"https://www.operatore112.it/"
@@ -28,6 +34,11 @@
     "code":"pl",
     "sha":"60657647326070dd2b334964a5b60ac4dae1df77",
     "url":"https://www.operatorratunkowy.pl/"
+  },
+  {
+    "code":"ru",
+    "sha":"98ee826df0a2ddd6191ddfcb005e591dbcd6fb69",
+    "url":"https://www.dispetcher112.ru/"
   },
   {
     "code":"se",
