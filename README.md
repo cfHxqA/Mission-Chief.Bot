@@ -22,13 +22,16 @@ Missions can be independently started, stopped and post-alarmed! In addition, pa
 
 **The following servers are supported:**
 - [https://www.centro-de-mando.es/](https://www.centro-de-mando.es/)
+- [https://www.dispetcher112.ru/](https://www.dispetcher112.ru/)
 - [https://www.larmcentralen-spelet.se/](https://www.larmcentralen-spelet.se/)
 - [https://www.leitstellenspiel.de/](https://www.leitstellenspiel.de/)
 - [https://www.meldkamerspel.com/](https://www.meldkamerspel.com/)
+- [https://www.missionchief.com/](https://www.missionchief.com/)
 - [https://www.missionchief.co.uk/](https://www.missionchief.co.uk/)
 - [https://www.missionchief-australia.com/](https://www.missionchief-australia.com/)
-- [https://www.operatorratunkowy.pl/](https://www.operatorratunkowy.pl/)
+- [https://www.operateur112.fr/](https://www.operateur112.fr/)
 - [https://www.www.operatore112.it/](https://www.operatore112.it/)
+- [https://www.operatorratunkowy.pl/](https://www.operatorratunkowy.pl/)
 
 # Features
 
