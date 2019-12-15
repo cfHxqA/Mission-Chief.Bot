@@ -48,5 +48,10 @@
     "code":"uk",
     "sha":"9a33dcde776c80acf85eed5e4b9a5f59d1c3191b",
     "url":"https://www.missionchief.co.uk/"
+  },
+  {
+    "code":"us",
+    "sha":"15047db65446cb9d8eb4ebf693eb56ecc6d1ccda",
+    "url":"https://www.missionchief.com/"
   }
 ]
