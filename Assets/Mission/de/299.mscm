@@ -1,0 +1,29 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 299;
+
+/* declares mission title */
+Mission.Title = "Strohballen qualmen in Scheune";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 2500;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 5,6);
+Mission.SetVehicleMissing(new int[] { 3 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 2 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 5 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 11, 13, 14, 15, 16 }, 1,2);
