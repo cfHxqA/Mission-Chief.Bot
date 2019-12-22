@@ -10,18 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 312;
+Mission.Id = 494;
 
 /* declares mission title */
-Mission.Title = "Verunglückter Fallschirmspringer";
+Mission.Title = "Beschädigte Radarfalle";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 0;
+Mission.Credits = 400;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 28, 74 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 29 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 2 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 32 }, 1,1);
