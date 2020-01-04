@@ -1,0 +1,22 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares vehicle id */
+Vehicle.Id = 39;
+
+/* declares vehicle category */
+Vehicle.Category = "GKW";
+
+/* declares vehicle title */
+Vehicle.Title = "GKW";
+
+/* declares vehicle pattern */
+Vehicle.PatternAdd(new string[] { "GKW", "Gerätekraftwagen" });
