@@ -42,14 +42,19 @@ Missions can be independently started, stopped and post-alarmed! In addition, pa
 
 # Requirements (Windows-/MacOS-/Linux)
 
-- [.NET Core 3.0 Runtime or higher]([https://dotnet.microsoft.com/download/dotnet-core/current/runtime](https://dotnet.microsoft.com/download/dotnet-core/current/runtime))
+- [.NET Core 3.0 Runtime or higher]([https://dotnet.microsoft.com/download/dotnet-core/current/runtime](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
+
+\* Be sure to install the __32- and 64-bit version on windows__! Both are absolutely necessary!
 
 # How to use it? (Windows)
 
-Unpack the downloaded archive like **MSC-Bot.zip**. If this is all done, start the application and set your settings! **As a Windows user you can choose between the console or the user interface!**
+Unpack the downloaded archive  **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings! **As a Windows user you can choose between the console or the user interface!**
 
-**MacOS-/Linux:**
-Enter `dotnet BotNix.App.dll` into into the command line to start the bot.
+# How to use it? (Linux-/MacOS)
+
+Unpack the downloaded archive  **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
+
+Enter `dotnet /your/location/BotNix.App.dll` into into the command line to start the bot.
 
 # Legal
 
