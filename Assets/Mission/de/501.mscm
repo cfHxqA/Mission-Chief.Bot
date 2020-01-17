@@ -1,0 +1,42 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 501;
+
+/* declares mission title */
+Mission.Title = "Schwimmbaddach eingestürzt";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 8000;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 30 }, 6,7);
+Mission.SetVehicleMissing(new int[] { 3 }, 2,3);
+Mission.SetVehicleMissing(new int[] { 57 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 2 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 39 }, 3,4);
+Mission.SetVehicleMissing(new int[] { 30 }, 2,3);
+Mission.SetVehicleMissing(new int[] { 40 }, 2,3);
+Mission.SetVehicleMissing(new int[] { 41 }, 2,3);
+Mission.SetVehicleMissing(new int[] { 30 }, 6,7);
+Mission.SetVehicleMissing(new int[] { 43 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 44 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 32 }, 4,5);
+Mission.SetVehicleMissing(new int[] { 28, 74 }, 20,21);
+Mission.SetVehicleMissing(new int[] { 31, 29 }, 10,21);
+Mission.SetVehicleMissing(new int[] { 55 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 56 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 59 }, 1,2);
+Mission.SetVehicleMissing(new int[] { 60 }, 1,2);
