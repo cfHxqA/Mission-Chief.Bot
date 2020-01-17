@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "KdoW-LNA";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "KdoW-LNA" });
+Vehicle.PatternAdd(new string[] { "KdoW-LNA", "LNA" });
