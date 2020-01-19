@@ -13,10 +13,10 @@
 Vehicle.Id = 44;
 
 /* declares vehicle category */
-Vehicle.Category = "Boote";
+Vehicle.Category = "Anhänger";
 
 /* declares vehicle title */
 Vehicle.Title = "Anh DLE";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Anh DLE", "Boote", "Boot" });
+Vehicle.PatternAdd(new string[] { "Anh DLE", "Anhänger Drucklufterzeugung" });

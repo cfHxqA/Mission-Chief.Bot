@@ -30,6 +30,11 @@
     "url":"https://www.meldkamerspel.com/"
   },
   {
+    "code":"no",
+    "sha":"3e87efed00a4088471946a92f985c4381bcd145c",
+    "url":"https://www.nodsentralspillet.com/"
+  },
+  {
     "code":"pl",
     "sha":"60657647326070dd2b334964a5b60ac4dae1df77",
     "url":"https://www.operatorratunkowy.pl/"
