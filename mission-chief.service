@@ -1,0 +1,11 @@
+[Unit]
+Description=Mission-Chief.Bot - Service
+
+[Service]
+WorkingDirectory=/root
+Type=forking
+ExecStart=/bin/bash 'Mission-Chief.Bot.sh' start
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
