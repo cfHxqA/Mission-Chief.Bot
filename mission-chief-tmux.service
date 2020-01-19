@@ -2,9 +2,9 @@
 Description=Mission-Chief.Bot - Service
 
 [Service]
-WorkingDirectory=/root
+WorkingDirectory=/root/MSC-Bot
 Type=forking
-ExecStart=/bin/bash 'Mission-Chief.Bot.sh' start
+ExecStart=/bin/bash 'Mission-Chief.Bot-tmux.sh' start
 KillMode=process
 
 [Install]
