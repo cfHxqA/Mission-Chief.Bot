@@ -29,8 +29,9 @@ Missions can be independently started, stopped and post-alarmed! In addition, pa
 - [https://www.missionchief.com/](https://www.missionchief.com/)
 - [https://www.missionchief.co.uk/](https://www.missionchief.co.uk/)
 - [https://www.missionchief-australia.com/](https://www.missionchief-australia.com/)
+- [https://www.nodsentralspillet.com/](https://www.nodsentralspillet.com/)
 - [https://www.operateur112.fr/](https://www.operateur112.fr/)
-- [https://www.www.operatore112.it/](https://www.operatore112.it/)
+- [https://www.operatore112.it/](https://www.operatore112.it/)
 - [https://www.operatorratunkowy.pl/](https://www.operatorratunkowy.pl/)
 
 # Features
