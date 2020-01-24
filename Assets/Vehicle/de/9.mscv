@@ -19,4 +19,4 @@ Vehicle.Category = "Löschfahrzeuge";
 Vehicle.Title = "LF 16-TS";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "LF 16-TS", "Löschfahrzeuge", "Löschfahrzeug" });
+Vehicle.PatternAdd(new string[] { "LF 16-TS", "Löschfahrzeuge", "Löschfahrzeug", "Wir benötigen noch min. 1 Feuerwehrmann." });

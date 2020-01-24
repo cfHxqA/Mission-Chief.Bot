@@ -9,7 +9,7 @@
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
 '
 # declare the base directry to the bot
-BaseDirectory="test"
+BaseDirectory="/root/MSC-Bot"
 
 # declare the timeout for checking if process is terminated
 TimeoutValidation=60
