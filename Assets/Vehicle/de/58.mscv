@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "KTW Typ B";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "KTW Typ B" });
+Vehicle.PatternAdd(new string[] { "KTW Typ B", "RTW oder KTW Typ B" });
