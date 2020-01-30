@@ -10,10 +10,10 @@
  */
 
 /* declares mission id */
-Mission.Id = 292;
+Mission.Id = 36;
 
 /* declares mission title */
-Mission.Title = "Heatstroke";
+Mission.Title = "Chest Pains";
 
 /* declares mission description */
 Mission.Description = "";
@@ -22,4 +22,3 @@ Mission.Description = "";
 Mission.Credits = 0;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);

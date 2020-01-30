@@ -10,16 +10,22 @@
  */
 
 /* declares mission id */
-Mission.Id = 292;
+Mission.Id = 41;
 
 /* declares mission title */
-Mission.Title = "Heatstroke";
+Mission.Title = "Car workshop fire";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 0;
+Mission.Credits = 6000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 8, 8); 
+Mission.SetVehicleMissing(new int[] { 3 }, 2, 2); 
+Mission.SetVehicleMissing(new int[] { 2 }, 2, 2); 
+Mission.SetVehicleMissing(new int[] { 4 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 7 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 8 }, 2, 2); 

@@ -10,16 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 292;
+Mission.Id = 61;
 
 /* declares mission title */
-Mission.Title = "Heatstroke";
+Mission.Title = "Light Aircraft Crash (Airfield)";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 0;
+Mission.Credits = 2500;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 1, 1); 

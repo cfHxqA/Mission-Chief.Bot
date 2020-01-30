@@ -10,16 +10,20 @@
  */
 
 /* declares mission id */
-Mission.Id = 292;
+Mission.Id = 108;
 
 /* declares mission title */
-Mission.Title = "Heatstroke";
+Mission.Title = "Burning thatched roof house ignited by fireworks";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 0;
+Mission.Credits = 4200;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 5, 5); 
+Mission.SetVehicleMissing(new int[] { 2 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 3 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 10 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 8 }, 2, 2); 
