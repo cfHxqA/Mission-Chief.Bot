@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "RTW";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "RTW", "RTW oder KTW Typ B", "Ein Fahrzeug hat einen Sprechwunsch" });
+Vehicle.PatternAdd(new string[] { "RTW", "RTW oder KTW Typ B", "Ein Fahrzeug hat einen Sprechwunsch", "RTW oder KTW oder KTW-B" });
