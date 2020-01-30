@@ -19,4 +19,4 @@ Vehicle.Category = "Firetrucks";
 Vehicle.Title = "Type 1 fire engine";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Firetrucks", "Firetruck", "Type 1 fire engine" });
+Vehicle.PatternAdd(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Type 1 fire engine" });
