@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Quint";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "platform trucks", "platform truck", "platform", "Firetruck", "Firetrucks", "firetruck", "firetrucks" });
+Vehicle.PatternAdd(new string[] { "platform trucks", "platform truck", "platform", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck" });

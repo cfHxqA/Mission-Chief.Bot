@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ALS Ambulance";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Ambulance", "Transport is needed" });
+Vehicle.PatternAdd(new string[] { "Ambulance", "ambulance", "Transport is needed" });

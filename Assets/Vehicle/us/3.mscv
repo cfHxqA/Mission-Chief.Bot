@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Battalion chief unit";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Battalion chief unit" });
+Vehicle.PatternAdd(new string[] { "Battalion chief unit", "Battalion chief units", "battalion chief unit", "battalion chief units" });
