@@ -19,3 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Utility unit";
 
 /* declares vehicle pattern */
+Vehicle.PatternAdd(new string[] { "Heavy rescue vehicle", "Heavy rescue" });
