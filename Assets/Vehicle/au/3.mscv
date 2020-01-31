@@ -19,3 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Rapid Response";
 
 /* declares vehicle pattern */
+Vehicle.PatternAdd(new string[] { "Rapid Response Vehicles" });
