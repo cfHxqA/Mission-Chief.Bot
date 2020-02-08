@@ -19,4 +19,4 @@ Vehicle.Category = "ULF mit Löscharm";
 Vehicle.Title = "ULF mit Löscharm";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "ULF mit Löscharm", "ULF mit Löscharm" });
+Vehicle.AddOrUpdatePattern(new string[] { "ULF mit Löscharm", "ULF mit Löscharm" });

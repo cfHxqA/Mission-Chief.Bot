@@ -19,4 +19,4 @@ Vehicle.Category = "Wasserwerfer";
 Vehicle.Title = "WaWe 10";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "WaWe 10", "Wasserwerfer" });
+Vehicle.AddOrUpdatePattern(new string[] { "WaWe 10", "Wasserwerfer" });

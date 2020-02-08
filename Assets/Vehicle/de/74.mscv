@@ -19,4 +19,4 @@ Vehicle.Category = "Rettungswache";
 Vehicle.Title = "NAW";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "NAW", "Notarztwagen" });
+Vehicle.AddOrUpdatePattern(new string[] { "NAW", "Notarztwagen" });

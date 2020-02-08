@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Turntable Ladder";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Turntable Ladder trucks" });
+Vehicle.AddOrUpdatePattern(new string[] { "Turntable Ladder trucks" });

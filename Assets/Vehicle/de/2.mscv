@@ -19,4 +19,4 @@ Vehicle.Category = "Drehleitern";
 Vehicle.Title = "DLK 23";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "DLK 23", "Drehleitern", "Drehleiter" });
+Vehicle.AddOrUpdatePattern(new string[] { "DLK 23", "Drehleitern", "Drehleiter" });

@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Mobile air";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Mobile air", "mobile air", "Mobile Air Unit" });
+Vehicle.AddOrUpdatePattern(new string[] { "Mobile air", "mobile air", "Mobile Air Unit" });

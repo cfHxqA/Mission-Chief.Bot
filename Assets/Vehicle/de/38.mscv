@@ -19,4 +19,4 @@ Vehicle.Category = "Rettungswache";
 Vehicle.Title = "Krankentransportwagen";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "KTW", "Krankentransportwagen", "RTW oder KTW oder KTW-B" });
+Vehicle.AddOrUpdatePattern(new string[] { "KTW", "Krankentransportwagen", "RTW oder KTW oder KTW-B" });

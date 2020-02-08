@@ -15,8 +15,11 @@ Vehicle.Id = 56;
 /* declares vehicle category */
 Vehicle.Category = "";
 
+/** declare vehicle is unique */
+Vehicle.IsUnique = true;
+
 /* declares vehicle title */
 Vehicle.Title = "KdoW-OrgL";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "KdoW-OrgL", "OrgL" });
+Vehicle.AddOrUpdatePattern(new string[] { "KdoW-OrgL", "OrgL" });

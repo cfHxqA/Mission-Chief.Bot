@@ -19,4 +19,4 @@ Vehicle.Category = "Schlauchwagen";
 Vehicle.Title = "SW 1000";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Schlauchwagen", "SW 1000", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches" });
+Vehicle.AddOrUpdatePattern(new string[] { "Schlauchwagen", "SW 1000", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches" });

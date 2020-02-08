@@ -19,4 +19,4 @@ Vehicle.Category = "LKW K 9";
 Vehicle.Title = "LKW K 9";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "LKW K 9", "LKW K9", "LKW Kipper" });
+Vehicle.AddOrUpdatePattern(new string[] { "LKW K 9", "LKW K9", "LKW Kipper" });

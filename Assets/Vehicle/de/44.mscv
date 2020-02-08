@@ -19,4 +19,4 @@ Vehicle.Category = "Anhänger";
 Vehicle.Title = "Anh DLE";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Anh DLE", "Anhänger Drucklufterzeugung" });
+Vehicle.AddOrUpdatePattern(new string[] { "Anh DLE", "Anhänger Drucklufterzeugung" });

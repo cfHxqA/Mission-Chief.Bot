@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "WLF";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "WLF" });
+Vehicle.AddOrUpdatePattern(new string[] { "WLF" });

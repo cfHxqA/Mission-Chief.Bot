@@ -19,4 +19,4 @@ Vehicle.Category = "GW-Höhenrettung";
 Vehicle.Title = "GW-Höhenrettung";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "GW-Höhenrettung", "GW-Höhenrettung" });
+Vehicle.AddOrUpdatePattern(new string[] { "GW-Höhenrettung", "GW-Höhenrettung" });

@@ -19,4 +19,4 @@ Vehicle.Category = "GW-Gefahrgut";
 Vehicle.Title = "GW-Gefahrgut";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "GW-Gefahrgut", "GW-Gefahrgut" });
+Vehicle.AddOrUpdatePattern(new string[] { "GW-Gefahrgut", "GW-Gefahrgut" });

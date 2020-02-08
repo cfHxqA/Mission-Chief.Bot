@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Rescue Engine";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Heavy rescue vehicle", "Heavy rescue", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"});
+Vehicle.AddOrUpdatePattern(new string[] { "Heavy rescue vehicle", "Heavy rescue", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"});

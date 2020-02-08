@@ -19,4 +19,4 @@ Vehicle.Category = "Turbolöscher";
 Vehicle.Title = "Turbolöscher";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Turbolöscher", "Turbolöscher" });
+Vehicle.AddOrUpdatePattern(new string[] { "Turbolöscher", "Turbolöscher" });

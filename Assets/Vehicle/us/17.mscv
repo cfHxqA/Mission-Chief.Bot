@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ARFF Crash Tender";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "ARFF", "arff" });
+Vehicle.AddOrUpdatePattern(new string[] { "ARFF", "arff" });

@@ -19,4 +19,4 @@ Vehicle.Category = "Tauchkraftwagen";
 Vehicle.Title = "Tauchkraftwagen";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Tauchkraftwagen" });
+Vehicle.AddOrUpdatePattern(new string[] { "Tauchkraftwagen" });

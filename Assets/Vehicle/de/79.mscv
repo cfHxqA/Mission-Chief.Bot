@@ -19,4 +19,4 @@ Vehicle.Category = "SEK-Fahrzeuge";
 Vehicle.Title = "SEK - ZF";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "SEK - ZF", "SEK-Fahrzeuge" });
+Vehicle.AddOrUpdatePattern(new string[] { "SEK - ZF", "SEK-Fahrzeuge" });

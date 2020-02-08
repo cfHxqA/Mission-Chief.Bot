@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "K-9 Unit";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "K-9 Unit" });
+Vehicle.AddOrUpdatePattern(new string[] { "K-9 Unit" });

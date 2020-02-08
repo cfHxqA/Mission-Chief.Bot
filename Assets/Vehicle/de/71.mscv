@@ -19,4 +19,4 @@ Vehicle.Category = "Boot";
 Vehicle.Title = "AB-MZB";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "AB-MZB", "Abrollbehälter Mehrzweckboot", "Boot" });
+Vehicle.AddOrUpdatePattern(new string[] { "AB-MZB", "Abrollbehälter Mehrzweckboot", "Boot" });

@@ -19,4 +19,4 @@ Vehicle.Category = "Rettungstreppen";
 Vehicle.Title = "Rettungstreppe";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Rettungstreppe", "Rettungstreppen" });
+Vehicle.AddOrUpdatePattern(new string[] { "Rettungstreppe", "Rettungstreppen" });

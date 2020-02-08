@@ -19,4 +19,4 @@ Vehicle.Category = "MTW-TZ";
 Vehicle.Title = "MTW-TZ";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "MTW-TZ", "MTW TZ", "THW-Einsatzleitung" });
+Vehicle.AddOrUpdatePattern(new string[] { "MTW-TZ", "MTW TZ", "THW-Einsatzleitung" });

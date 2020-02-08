@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Brannbilstige";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "brannbiler", "brannbil", "høyderedskap" });
+Vehicle.AddOrUpdatePattern(new string[] { "brannbiler", "brannbil", "høyderedskap" });

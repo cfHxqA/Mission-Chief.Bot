@@ -19,4 +19,4 @@ Vehicle.Category = "SEK-Fahrzeuge";
 Vehicle.Title = "SEK - MTF";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "SEK - MTF", "SEK-Fahrzeuge" });
+Vehicle.AddOrUpdatePattern(new string[] { "SEK - MTF", "SEK-Fahrzeuge" });

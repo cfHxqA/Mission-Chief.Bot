@@ -19,4 +19,4 @@ Vehicle.Category = "GKW";
 Vehicle.Title = "GKW";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "GKW", "Gerätekraftwagen" });
+Vehicle.AddOrUpdatePattern(new string[] { "GKW", "Gerätekraftwagen" });
