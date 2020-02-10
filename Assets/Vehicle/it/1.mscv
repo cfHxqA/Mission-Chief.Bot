@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "AS";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "AS" });
+Vehicle.AddOrUpdatePattern(new string[] { "AS", "Autoscale" });

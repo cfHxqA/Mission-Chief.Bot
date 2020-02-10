@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "KILO";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "KILO" });
+Vehicle.AddOrUpdatePattern(new string[] { "KILO", "Kilolitriche" });

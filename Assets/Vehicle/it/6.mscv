@@ -20,3 +20,4 @@ Vehicle.Title = "AF/NBCR";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "AF/NBCR" });
+Vehicle.AddOrUpdatePattern(@"([0-9]+) N\.B\.C\.R\.", 1);
