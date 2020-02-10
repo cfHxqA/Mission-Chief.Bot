@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "APS";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "APS" });
+Vehicle.AddOrUpdatePattern(new string[] { "APS", "APS/ABP" });
