@@ -22,6 +22,6 @@ Vehicle.Title = "TLF 16";
 Vehicle.AddOrUpdatePattern(new string[] { "TLF 16", "Löschfahrzeuge", "Löschfahrzeug" });
 
 /* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern("min\\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)", 1); /* needed personal 1-9 */
-Vehicle.AddOrUpdatePattern("min\\. (1[0-8]) Feuerwehrleute", 2);                  /* needed personal between 10-18 */
-Vehicle.AddOrUpdatePattern("min\\. (19|2[0-7]) Feuerwehrleute", 3);               /* needed personal between 19 - 27 */
+Vehicle.AddOrUpdatePattern(@"min\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)", 1); /* needed personal 1-9 */
+Vehicle.AddOrUpdatePattern(@"min\. (1[0-8]) Feuerwehrleute", 2);                  /* needed personal between 10-18 */
+Vehicle.AddOrUpdatePattern(@"min\. (19|2[0-7]) Feuerwehrleute", 3);               /* needed personal between 19 - 27 */
