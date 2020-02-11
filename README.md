@@ -18,7 +18,7 @@ It is the only and best bot for the game  „**Mission Chief**“.
 
 **Why?** The missions are alerted immediately and after alarmed. Speech requests are processed, regardless of whether patient or prisoner. The distance of the vehicles to the mission can be determined.
 
-**The following servers are supported:**
+### **The following servers are supported:**
 - [https://www.centro-de-mando.es/](https://www.centro-de-mando.es/)
 - [https://www.dispetcher112.ru/](https://www.dispetcher112.ru/)
 - [https://www.larmcentralen-spelet.se/](https://www.larmcentralen-spelet.se/)
@@ -32,24 +32,24 @@ It is the only and best bot for the game  „**Mission Chief**“.
 - [https://www.operatore112.it/](https://www.operatore112.it/)
 - [https://www.operatorratunkowy.pl/](https://www.operatorratunkowy.pl/)
 
-# Features
+### Features
 
  - Start (*Alliance-, Planned-, Event-*)Mission
  - Send missing vehicles to (Alliance-, Planned-, Event-)Mission
  - Transport patients to hospital or prison cells!
  - Regulare distance for vehicles to any mission type!
 
-# Requirements (Windows-/MacOS-/Linux)
+### Requirements (Windows-/MacOS-/Linux)
 
 - [.NET Core 3.0 Runtime or higher]([https://dotnet.microsoft.com/download/dotnet-core/current/runtime](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
 
 \* Be sure to install the __32- and 64-bit version on windows__! Both are absolutely necessary!
 
-# How to use it? (Windows)
+### How to use it? (Windows)
 
 Unpack the downloaded archive  **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings! **As a Windows user you can choose between the console or the user interface!**
 
-# How to use it? (Linux-/MacOS)
+### How to use it? (Linux-/MacOS)
 
 Unpack the downloaded archive  **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
 
