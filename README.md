@@ -1,6 +1,3 @@
-
-
-  
 <p align="center">
   <a href="https://discord.gg/8FMzSRJ">
     <img src="https://discordapp.com/api/guilds/365129052832530433/widget.png?style=banner2" />
@@ -17,8 +14,9 @@
 
 # Mission-Chief.Bot
 
-It is the only and best bot for the game „**Mission Chief**“.
-Missions can be independently started, stopped and post-alarmed! In addition, patients can also be transported to hospitals or prison cells. It can be regulated the distance for (*Alliance-, Planned-, Event-*)Mission. 
+It is the only and best bot for the game  „**Mission Chief**“.
+
+**Why?** The missions are alerted immediately and after alarmed. Speech requests are processed, regardless of whether patient or prisoner. The distance of the vehicles to the mission can be determined.
 
 **The following servers are supported:**
 - [https://www.centro-de-mando.es/](https://www.centro-de-mando.es/)
