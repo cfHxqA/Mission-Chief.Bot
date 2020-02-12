@@ -19,4 +19,4 @@ Vehicle.Category = "MEK-Fahrzeuge";
 Vehicle.Title = "MEK - ZF";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "MEK - ZF", "MEK-Fahrzeuge" });
+Vehicle.AddOrUpdatePattern(new string[] { "MEK-ZF", "MEK-Fahrzeug", "MEK-Fahrzeuge" });
