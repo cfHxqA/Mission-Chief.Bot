@@ -20,3 +20,6 @@ Vehicle.Title = "EMS Chief";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "EMS Chief" });
+
+/* Vehicle type only needed onces in a missions */
+Vehicle.IsUnique = true;
