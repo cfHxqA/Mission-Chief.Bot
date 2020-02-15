@@ -19,4 +19,4 @@ Vehicle.Category = "Firetrucks";
 Vehicle.Title = "Water Ladder";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Water Ladder" });
+Vehicle.AddOrUpdatePattern(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Water Ladder", "Fire engine" });
