@@ -10,10 +10,10 @@
  */
 
 /* declares mission id */
-Mission.Id = 508;
+Mission.Id = 509;
 
 /* declares mission title */
-Mission.Title = "Pfählungsverletzung";
+Mission.Title = "Brennender Stall";
 
 /* declares mission description */
 Mission.Description = "";
@@ -22,10 +22,10 @@ Mission.Description = "";
 Mission.Credits = 110;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 6,7);
-Mission.SetVehicleMissing(new int[] { 2 }, 2,3);
-Mission.SetVehicleMissing(new int[] { 11, 13, 14, 15, 16 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 5 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 3, 34 }, 2,3);
-Mission.SetVehicleMissing(new int[] { 34 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 32 }, 2,3);
+Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 6, 7);
+Mission.SetVehicleMissing(new int[] { 2 }, 2, 3);
+Mission.SetVehicleMissing(new int[] { 11, 13, 14, 15, 16 }, 1, 2);
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 2);
+Mission.SetVehicleMissing(new int[] { 3, 34 }, 2, 3);
+Mission.SetVehicleMissing(new int[] { 34 }, 1,2 );
+Mission.SetVehicleMissing(new int[] { 32 }, 2, 3);
