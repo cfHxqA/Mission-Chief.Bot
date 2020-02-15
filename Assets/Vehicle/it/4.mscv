@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Ambulanza BLSD";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Ambulanza BLSD", "Trasporto necessario" });
+Vehicle.AddOrUpdatePattern(new string[] { "Ambulanza", "Ambulanza BLSD", "Trasporto necessario" });
