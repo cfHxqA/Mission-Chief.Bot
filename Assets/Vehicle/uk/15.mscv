@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ICCU";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "ICCU" });
+Vehicle.AddOrUpdatePattern(new string[] { "ICCU", "Incident Command", "Control Unit" });

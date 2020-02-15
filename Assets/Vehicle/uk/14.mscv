@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "BASU";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "BASU" });
+Vehicle.AddOrUpdatePattern(new string[] { "BASU", "Breathing Apparatus Support Unit" });

@@ -19,4 +19,4 @@ Vehicle.Category = "Firetrucks";
 Vehicle.Title = "Light 4X4 Pump (L4P)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Light 4X4 Pump (L4P)", "Light 4X4 Pump", "Fire engine" });
+Vehicle.AddOrUpdatePattern(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Light 4X4 Pump (L4P)", "Light 4X4 Pump", "Fire engine", "Fire engines" });
