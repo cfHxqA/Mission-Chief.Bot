@@ -24,4 +24,5 @@ Mission.Credits = 4800;
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 6, 6); 
 Mission.SetVehicleMissing(new int[] { 2 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 3 }, 2, 2); 
 Mission.SetVehicleMissing(new int[] { 7 }, 1, 1); 
