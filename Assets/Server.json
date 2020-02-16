@@ -10,6 +10,11 @@
     "url":"https://www.leitstellenspiel.de/"
   },
   {
+    "code":"dk",
+    "sha":"bf28688990ce03af0bbcfdc94c9eb6896dae88c4",
+    "url":"https://www.alarmcentral-spil.dk/"
+  },
+  {
     "code":"es",
     "sha":"c0e466bccbdb8a0695afbe938e86e0c6d1eb22a2",
     "url":"https://www.centro-de-mando.es/"
