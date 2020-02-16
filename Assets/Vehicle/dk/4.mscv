@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Pionertjenesten";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Pionertjenesten" });
+Vehicle.AddOrUpdatePattern(new string[] { "Pionertjenesten", "Tungt redningskøretøj" });

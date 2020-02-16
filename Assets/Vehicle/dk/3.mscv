@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Indsatsleder";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Indsatsleder" });
+Vehicle.AddOrUpdatePattern(new string[] { "Indsatsleder", "Indsatsledere" });
