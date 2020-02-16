@@ -19,6 +19,7 @@ It is the only and best bot for the game  „**Mission Chief**“.
 **Why?** The missions are alerted immediately and after alarmed. Speech requests are processed, regardless of whether patient or prisoner. The distance of the vehicles to the mission can be determined.
 
 ### **The following servers are supported:**
+- [https://www.alarmcentral-spil.dk/](https://www.alarmcentral-spil.dk/)
 - [https://www.centro-de-mando.es/](https://www.centro-de-mando.es/)
 - [https://www.dispetcher112.ru/](https://www.dispetcher112.ru/)
 - [https://www.larmcentralen-spelet.se/](https://www.larmcentralen-spelet.se/)
