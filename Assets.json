@@ -476,7 +476,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/au/99.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "610881cf907ca91203e75620ca782d97",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/au/9999.mscm"
   },
   {
@@ -2520,8 +2520,12 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/de/99.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "a551fa6afa67adc6a6a7ee31cfcfc8e5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/de/9999.mscm"
+  },
+  {
+    "md5": "7d6193b2f2230a8e0799f3286acb3309",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/dk/9999.mscm"
   },
   {
     "md5": "cdb7198dd2a3c2b63a724160ccc3b32d",
@@ -2968,7 +2972,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/it/99.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "610881cf907ca91203e75620ca782d97",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/it/9999.mscm"
   },
   {
@@ -3300,7 +3304,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/no/9.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "7d6193b2f2230a8e0799f3286acb3309",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/no/9999.mscm"
   },
   {
@@ -3864,7 +3868,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/uk/99.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "fbe5b531c6b077fdbfc42061ba5f4aa8",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/uk/9999.mscm"
   },
   {
@@ -5272,7 +5276,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/us/99.mscm"
   },
   {
-    "md5": "49a61101f3f4061fd83af0673a9809b3",
+    "md5": "d4549b0d70a69bc7c8ac332cfd6de9b8",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Mission/us/9999.mscm"
   },
   {
@@ -5690,6 +5694,46 @@
   {
     "md5": "20eacb0cd2f3015ad8516d6724af3f80",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/de/90.mscv"
+  },
+  {
+    "md5": "c3889622b921402a80d4187fc38a9365",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/0.mscv"
+  },
+  {
+    "md5": "cf6678899b883e49d1b88e26203fdf7f",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/1.mscv"
+  },
+  {
+    "md5": "fe85dadfef8191c544e93da04107a535",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/2.mscv"
+  },
+  {
+    "md5": "8451bd20d331b703aae1a9be30ef6513",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/3.mscv"
+  },
+  {
+    "md5": "f5d672cd97d0bee38adbe8b45702b398",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/4.mscv"
+  },
+  {
+    "md5": "2f4f2b60b42cbe0bae508699cf96089c",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/5.mscv"
+  },
+  {
+    "md5": "aa11cab3aee3e9ac0c50683af5f7b254",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/6.mscv"
+  },
+  {
+    "md5": "27ee885ba6dd23c0b1b56a381d8f6710",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/7.mscv"
+  },
+  {
+    "md5": "0aac1a8978b04d6ffccb299c504ec850",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/8.mscv"
+  },
+  {
+    "md5": "72719b16f6b754757b1636a22e0325db",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/dk/9.mscv"
   },
   {
     "md5": "87306acc8d65ea7ef7cb3a224b28bebb",
