@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Large Fireboat";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Large Fireboat" });
+Vehicle.AddOrUpdatePattern(new string[] { "Large Fireboat", "Large fire boats" });

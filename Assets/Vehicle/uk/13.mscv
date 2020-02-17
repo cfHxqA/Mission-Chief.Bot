@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Armed Response Vehicle (ARV)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car" });
+Vehicle.AddOrUpdatePattern(new string[] { "Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car", "Prisoners must be transported" });
