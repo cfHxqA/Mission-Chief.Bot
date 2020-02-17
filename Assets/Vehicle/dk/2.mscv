@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Stigevogn";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Stigevogn" });
+Vehicle.AddOrUpdatePattern(new string[] { "Stigevogn", "platformvogne" });
