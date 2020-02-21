@@ -16,7 +16,7 @@ Vehicle.Id = 1;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "Class 1 Tanker";
+Vehicle.Title = "Light Tanker";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Fire engine" });

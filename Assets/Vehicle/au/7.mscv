@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "HAZMAT Truck";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "HazMat Unit" });
+Vehicle.AddOrUpdatePattern(new string[] { "HAZMAT Unit" });

@@ -16,7 +16,7 @@ Vehicle.Id = 12;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "Rescue Engine";
+Vehicle.Title = "Rescue Pumper";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Fire engine", "Heavy Rescue" });
+Vehicle.AddOrUpdatePattern(new string[] { "Fire engine", "Rescue Pumper" });
