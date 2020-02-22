@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Kommandoenhet";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "innsatsledere" });
+Vehicle.AddOrUpdatePattern(new string[] { "Innsatsledere", "innsatsledere" });

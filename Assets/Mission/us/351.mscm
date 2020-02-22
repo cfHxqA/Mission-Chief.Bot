@@ -1,0 +1,28 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 351;
+
+/* declares mission title */
+Mission.Title = "Injured person on high voltage mast";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 650;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 0, 1, 13, 18 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 2, 13 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 4, 8, 18, 21, 28 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 1); 

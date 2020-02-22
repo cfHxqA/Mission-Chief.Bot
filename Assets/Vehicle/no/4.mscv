@@ -16,6 +16,7 @@ Vehicle.Id = 4;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "MRU";
+Vehicle.Title = "Redningsbil";
 
 /* declares vehicle pattern */
+Vehicle.AddOrUpdatePattern(new string[] { "Redningsbil", "redningsbil" });
