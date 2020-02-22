@@ -19,4 +19,4 @@ Vehicle.Category = "Polizeihubschrauber";
 Vehicle.Title = "Polizeihubschrauber";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Polizeihubschrauber", "Polizeihubschrauber" });
+Vehicle.AddOrUpdatePattern(new string[] { "Polizeihubschrauber" });
