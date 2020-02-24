@@ -19,4 +19,4 @@ Vehicle.Category = "GW-Taucher";
 Vehicle.Title = "GW-Taucher";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GW-Taucher", "GW-Taucher" });
+Vehicle.AddOrUpdatePattern(new string[] { "GW-Taucher" });
