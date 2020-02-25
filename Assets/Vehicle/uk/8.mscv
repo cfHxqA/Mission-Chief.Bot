@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Incident response vehicle (IRV)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Incident response vehicle (IRV)", "Incident response vehicle", "IRV", "Prisoners must be transported", "Police car" });
+Vehicle.AddOrUpdatePattern(new string[] { "Incident response vehicle (IRV)", "Incident response vehicle", "IRV", "Police car" });

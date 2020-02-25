@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Dog Support Unit (DSU)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Dog Support Unit (DSU)", "Dog Support Unit", "DSU", "Police car", "Prisoners must be transported" });
+Vehicle.AddOrUpdatePattern(new string[] { "Dog Support Unit (DSU)", "Dog Support Unit", "DSU", "Police car" });
