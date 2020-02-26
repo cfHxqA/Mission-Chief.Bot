@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Volante";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Volante", "Volanti" });
+Vehicle.AddOrUpdatePattern(new string[] { "Volante", "Volanti", "I detenuti devono essere trasportati" });
