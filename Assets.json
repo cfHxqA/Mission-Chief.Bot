@@ -1,6 +1,6 @@
 [
   {
-    "md5": "a91044bcf7345cad2b8b0afe12c8f15f",
+    "md5": "132650626163a638dfe5d72d14933cd6",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Server.json"
   },
   {
@@ -6254,6 +6254,46 @@
   {
     "md5": "5415855d545fea4bb18822aa71b86901",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/it/9.mscv"
+  },
+  {
+    "md5": "0683f171d973a907dfef4f3c8ec67141",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/0.mscv"
+  },
+  {
+    "md5": "848da74b1722da378e120eb32a03c29a",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/1.mscv"
+  },
+  {
+    "md5": "d363985505ae74db24cdeb8ced82fd77",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/2.mscv"
+  },
+  {
+    "md5": "13835cd4c307be396b37693a8f8e91bb",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/3.mscv"
+  },
+  {
+    "md5": "aca580aebb0cd593a4c701549c4f144c",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/4.mscv"
+  },
+  {
+    "md5": "d1dda89f5b53eb6db863bcc330e4b447",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/5.mscv"
+  },
+  {
+    "md5": "6f4d60dd918897c547d183c44cb13bdc",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/6.mscv"
+  },
+  {
+    "md5": "92a077599f8f19f9a1979354a4c87b2a",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/7.mscv"
+  },
+  {
+    "md5": "03690642ff2cf19eea583c571e06e802",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/8.mscv"
+  },
+  {
+    "md5": "6b1ef88dc9f94c95deaf01fc8f847593",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/jp/9.mscv"
   },
   {
     "md5": "c4105d951e8165516e38161aee8c2f14",

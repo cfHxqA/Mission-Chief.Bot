@@ -30,6 +30,11 @@
     "url":"https://www.operatore112.it/"
   },
   {
+    "code":"jp",
+    "sha":"0fdfde1b7da1db6ab7475871f54071f086c00fba",
+    "url":"https://www.missionchief-japan.com/"
+  },
+  {
     "code":"nl",
     "sha":"b4d9c1a6e18fe1e6b2dd0a970e3a5530be3edd33",
     "url":"https://www.meldkamerspel.com/"
