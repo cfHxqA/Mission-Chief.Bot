@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "CBRN";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "CBRN" });
+Vehicle.AddOrUpdatePattern(new string[] { "CBRN", "gift og kemikalie-enhed" });
