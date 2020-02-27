@@ -16,7 +16,7 @@ Vehicle.Id = 4;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "大型救助ユニット （MRU） - 車両のカラ";
+Vehicle.Title = "大型救助ユニット （MRU）";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "大型救助ユニット （MRU） - 車両のカラ" });
+Vehicle.AddOrUpdatePattern(new string[] { "大型救助ユニット （MRU）" });

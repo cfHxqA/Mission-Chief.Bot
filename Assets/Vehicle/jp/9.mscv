@@ -16,7 +16,7 @@ Vehicle.Id = 9;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "SARヘリコプター - 車両のカラ";
+Vehicle.Title = "SARヘリコプター";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "SARヘリコプター - 車両のカラ" });
+Vehicle.AddOrUpdatePattern(new string[] { "SARヘリコプター" });
