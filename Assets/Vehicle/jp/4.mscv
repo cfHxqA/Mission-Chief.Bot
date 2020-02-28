@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "大型救助ユニット （MRU）";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "大型救助ユニット （MRU）" });
+Vehicle.AddOrUpdatePattern(new string[] { "大型救助ユニット （MRU）", "大型救助車両" });
