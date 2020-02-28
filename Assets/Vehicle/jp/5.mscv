@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "救急車";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "救急車" });
+Vehicle.AddOrUpdatePattern(new string[] { "救急車", "輸送が必要です" });

@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ターンテーブルはしご （TL）";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "ターンテーブルはしご （TL）" });
+Vehicle.AddOrUpdatePattern(new string[] { "ターンテーブルはしご （TL）", "プラットフォームトラック" });

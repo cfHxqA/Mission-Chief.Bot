@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "救助ハシゴ";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "救助ハシゴ", "戦術対応車両 （TRV）" });
+Vehicle.AddOrUpdatePattern(new string[] { "救助ハシゴ", "戦術対応車両 （TRV）", "消防車" });
