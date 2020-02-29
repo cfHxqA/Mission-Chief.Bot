@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "CT (6x6)";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "CT (6x6)" });
+Vehicle.AddOrUpdatePattern(new string[] { "CT (6x6)" });

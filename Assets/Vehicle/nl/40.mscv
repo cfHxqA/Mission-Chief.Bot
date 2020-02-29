@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ME Flexbus";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "ME Flexbus" });
+Vehicle.AddOrUpdatePattern(new string[] { "ME Flexbus" });

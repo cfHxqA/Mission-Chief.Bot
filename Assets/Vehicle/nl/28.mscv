@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Politiehelikopter";
 
 /* declares vehicle pattern */
-Vehicle.PatternAdd(new string[] { "Politiehelikopter" });
+Vehicle.AddOrUpdatePattern(new string[] { "Politiehelikopter" });
