@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "DM Noodhulp";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "DM Noodhulp" });
+Vehicle.AddOrUpdatePattern(new string[] { "DM Noodhulp", "Noodhulpeenheden", "Noodhulpeenheid" });
