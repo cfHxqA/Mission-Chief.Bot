@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "WO";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "WO" });
+Vehicle.AddOrUpdatePattern(new string[] { "WO", "Waterongevallenvoertuig" });
