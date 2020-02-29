@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "MMT-Auto";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "MMT-Auto" });
+Vehicle.AddOrUpdatePattern(new string[] { "MMT-Auto", "MMT-Arts" });

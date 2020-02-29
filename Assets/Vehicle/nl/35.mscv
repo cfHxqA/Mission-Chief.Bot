@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "OVD-P";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "OVD-P" });
+Vehicle.AddOrUpdatePattern(new string[] { "OVD-P", "Officier van Dienst - Politie", "Officieren van Dienst - Politie" });

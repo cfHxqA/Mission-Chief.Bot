@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "ABH";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "ABH" });
+Vehicle.AddOrUpdatePattern(new string[] { "ABH", "Adembeschermingsvoertuig of haakarmbak" });
