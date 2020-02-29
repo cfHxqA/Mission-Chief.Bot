@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "PM-WVD";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "PM-WVD", "Waarschuwings- en Verkenningsdiensten" });
+Vehicle.AddOrUpdatePattern(new string[] { "PM-WVD", "Waarschuwings- en Verkenningsdienst", "Waarschuwings- en Verkenningsdiensten" });
