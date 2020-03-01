@@ -28,6 +28,7 @@ It is the only and best bot for the game  „**Mission Chief**“.
 - [https://www.missionchief.com/](https://www.missionchief.com/)
 - [https://www.missionchief.co.uk/](https://www.missionchief.co.uk/)
 - [https://www.missionchief-australia.com/](https://www.missionchief-australia.com/)
+- [https://www.missionchief-japan.com/](https://www.missionchief-japan.com/)
 - [https://www.nodsentralspillet.com/](https://www.nodsentralspillet.com/)
 - [https://www.operateur112.fr/](https://www.operateur112.fr/)
 - [https://www.operatore112.it/](https://www.operatore112.it/)
