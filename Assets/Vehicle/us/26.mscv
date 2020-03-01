@@ -20,3 +20,11 @@ Vehicle.Title = "SWAT SUV";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Swat", "swat", "SWAT" });
+
+/* regex-pattern need personnel */
+Vehicle.AddOrUpdatePattern(@"([1-4]) SWAT Personnel", 1);  /* needed personnel 1-4 */
+Vehicle.AddOrUpdatePattern(@"([5-9]) SWAT Personnel", 2);  /* needed personnel 5-9 */
+Vehicle.AddOrUpdatePattern(@"(1[0-4]) SWAT Personnel", 3); /* needed personnel 10-14 */
+Vehicle.AddOrUpdatePattern(@"(1[5-9]) SWAT Personnel", 4); /* needed personnel 15-19 */
+Vehicle.AddOrUpdatePattern(@"(2[0-4]) SWAT Personnel", 5); /* needed personnel 20-24 */
+Vehicle.AddOrUpdatePattern(@"(2[5-9]) SWAT Personnel", 6); /* needed personnel 25-29 */

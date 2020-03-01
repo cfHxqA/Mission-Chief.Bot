@@ -18,4 +18,5 @@ Vehicle.Category = "";
 /* declares vehicle title */
 Vehicle.Title = "Mass Casualty Unit";
 
-/* declares vehicle pattern */
+/* regex-pattern need personnel */
+Vehicle.AddOrUpdatePattern(@"([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel", 1); /* needed personnel 6-99 */
