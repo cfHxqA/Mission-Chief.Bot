@@ -19,4 +19,4 @@ Vehicle.Category = "Boot";
 Vehicle.Title = "MZB";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "MZB", "Mehrzweckboot", "Boot", "Boote" });
+Vehicle.AddOrUpdatePattern(new string[] { "MZB", "Mehrzweckboot", "Boot", "Boote", "GW-Taucher", "GW-Wasserrettung" });
