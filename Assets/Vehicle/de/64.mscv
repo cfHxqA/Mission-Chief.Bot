@@ -19,6 +19,7 @@ Vehicle.Category = "";
 Vehicle.Title = "GW-Wasserrettung";
 
 /* declares vehicle pattern */
+Vehicle.AddOrUpdatePattern(new string[] { "GW-Wasserrettung", "GW-W" });
 
 /* regex-pattern need personal */
 Vehicle.AddOrUpdatePattern(@"min\. ([1-6]) Personen mit GW-Wasserrettung Ausbildung", 1);        /* needed personal 1-6 */
