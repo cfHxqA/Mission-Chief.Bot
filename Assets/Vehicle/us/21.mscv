@@ -20,3 +20,6 @@ Vehicle.Title = "Heavy Rescue + Boat";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "boat", "Boat" });
+
+/* regex-pattern need personnel */
+Vehicle.AddOrUpdatePattern(@"([1-4]) more people with water rescue training", 1); /* needed personnel 1-4 */
