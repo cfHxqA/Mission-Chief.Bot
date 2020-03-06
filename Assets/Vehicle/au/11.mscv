@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "MCV";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "MCV" });
+Vehicle.AddOrUpdatePattern(new string[] { "MCV", "Mobile Command Vehicle" });
