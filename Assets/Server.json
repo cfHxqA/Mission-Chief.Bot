@@ -35,6 +35,11 @@
     "url":"https://www.missionchief-japan.com/"
   },
   {
+    "code":"kr",
+    "sha":"0d36bab6f7c312b9b3d766afd0b64cc28c9f7b2a",
+    "url":"https://www.missionchief-korea.com/"
+  },
+  {
     "code":"nl",
     "sha":"b4d9c1a6e18fe1e6b2dd0a970e3a5530be3edd33",
     "url":"https://www.meldkamerspel.com/"
