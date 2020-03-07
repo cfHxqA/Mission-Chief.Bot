@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "전술 대응 차량 (TRV)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "전술 대응 차량 (TRV)" });
+Vehicle.AddOrUpdatePattern(new string[] { "전술 대응 차량 (TRV)", "구조사다리", "소방차 " });

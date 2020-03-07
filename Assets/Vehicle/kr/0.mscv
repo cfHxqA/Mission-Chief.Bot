@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "구조사다리";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "구조사다리" });
+Vehicle.AddOrUpdatePattern(new string[] { "구조사다리", "전술 대응 차량 (TRV)", "소방차 " });
