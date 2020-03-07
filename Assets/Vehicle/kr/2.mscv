@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "고가 사다리 (TL)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "고가 사다리 (TL)" });
+Vehicle.AddOrUpdatePattern(new string[] { "고가 사다리 (TL)", "플랫폼 트럭" });
