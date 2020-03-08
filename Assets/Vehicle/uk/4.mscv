@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "	Rescue Support Unit (RSU)";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Rescue Support Unit (RSU)", "RSU", "Rescue Support Unit" });
+Vehicle.AddOrUpdatePattern(new string[] { "Rescue Support Unit (RSU)", "RSU", "Rescue Support Unit", "Rescue Support Unit or Rescue Pump" });
