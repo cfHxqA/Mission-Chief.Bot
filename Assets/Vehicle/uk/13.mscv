@@ -20,3 +20,7 @@ Vehicle.Title = "Armed Response Vehicle (ARV)";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car" });
+
+/* regex-pattern need personal */
+Vehicle.AddOrUpdatePattern("([1-4]) Armed Response Personnel", 1); /* needed personal 1-4 */
+Vehicle.AddOrUpdatePattern("([5-8]) Armed Response Personnel", 2); /* needed personal 5-8 */
