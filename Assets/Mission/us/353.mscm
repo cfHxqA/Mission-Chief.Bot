@@ -16,7 +16,7 @@ Mission.Id = 353;
 Mission.Title = "Residential police raid";
 
 /* declares mission description */
-Mission.Description = "DO NOT try to edit me! I am the basis for NON-EXISTING MISSION FILES! Capito!?";
+Mission.Description = "";
 
 /* declares credits for mission */
 Mission.Credits = 750;
