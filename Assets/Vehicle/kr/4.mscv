@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "구조공작차 （MRU）";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "구조공작차 （MRU）" });
+Vehicle.AddOrUpdatePattern(new string[] { "구조공작차 （MRU）", "중장비 구조 차량" });
