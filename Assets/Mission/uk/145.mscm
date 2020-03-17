@@ -10,23 +10,24 @@
  */
 
 /* declares mission id */
-Mission.Id = 41;
+Mission.Id = 144;
 
 /* declares mission title */
-Mission.Title = "Car workshop fire";
+Mission.Title = "Threatening an official";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 6000;
+Mission.Credits = 750;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 8, 8); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 10, 10);
+Mission.SetVehicleMissing(new int[] { 2 }, 4, 4);  
+Mission.SetVehicleMissing(new int[] { 4 }, 2, 2); 
 Mission.SetVehicleMissing(new int[] { 3 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 2 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 4, 16 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 15 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 8 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 14 }, 1, 1); 
 Mission.SetVehicleMissing(new int[] { 6 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 7 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 8 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 5 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 5 }, 4, 4);  

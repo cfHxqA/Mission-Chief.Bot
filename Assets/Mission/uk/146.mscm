@@ -10,16 +10,19 @@
  */
 
 /* declares mission id */
-Mission.Id = 109;
+Mission.Id = 146;
 
 /* declares mission title */
-Mission.Title = "Trespasser on railway line";
+Mission.Title = "Injured person on high voltage mast";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 1000;
+Mission.Credits = 650;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 8 }, 2, 2); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 2 }, 1, 1);  
+Mission.SetVehicleMissing(new int[] { 4 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);  
