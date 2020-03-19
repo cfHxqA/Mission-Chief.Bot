@@ -10,13 +10,13 @@
  */
 
 /* declares vehicle id */
-Vehicle.Id = 9;
+Vehicle.Id = 17;
 
 /* declares vehicle category */
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "HEMS";
+Vehicle.Title = "CARP";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "HEMS", "Ambulance", "Transport is needed" });
+Vehicle.AddOrUpdatePattern(new string[] { "CARP", "Rescue Support Unit or Rescue Pump", "Aerial" });
