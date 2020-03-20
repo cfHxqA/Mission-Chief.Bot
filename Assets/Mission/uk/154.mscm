@@ -19,7 +19,7 @@ Mission.Title = "Back pain";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = ;
+Mission.Credits = 0;
 
 /* declares required vehicles for mission */
 

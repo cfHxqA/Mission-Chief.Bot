@@ -19,8 +19,7 @@ Mission.Title = "Serious head injury";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = ;
+Mission.Credits = 0;
 
 /* declares required vehicles for mission */
-
 Mission.SetVehicleMissing(new int[] { 5, 9 }, 1, 1); 
