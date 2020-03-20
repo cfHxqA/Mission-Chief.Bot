@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Radiowóz";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Radiowóz" });
+Vehicle.AddOrUpdatePattern(new string[] { "Radiowóz", "radiowóz" });
