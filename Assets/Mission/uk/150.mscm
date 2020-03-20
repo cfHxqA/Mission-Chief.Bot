@@ -10,19 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 26;
+Mission.Id = 150;
 
 /* declares mission title */
-Mission.Title = "Small Supermarket Fire";
+Mission.Title = "3rd degree burns";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 1500;
+Mission.Credits = ;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 4, 4); 
-Mission.SetVehicleMissing(new int[] { 3 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 2, 17 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 5 }, 2, 2); 
+Mission.SetVehicleMissing(new int[] { 5, 9 }, 1, 1); 
