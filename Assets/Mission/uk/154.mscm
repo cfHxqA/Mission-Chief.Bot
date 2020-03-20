@@ -22,4 +22,5 @@ Mission.Description = "";
 Mission.Credits = ;
 
 /* declares required vehicles for mission */
+
 Mission.SetVehicleMissing(new int[] { 5, 9 }, 1, 1); 

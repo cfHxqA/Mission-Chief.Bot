@@ -22,7 +22,7 @@ Mission.Description = "";
 Mission.Credits = 4200;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 16 }, 5, 5); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 16, 17 }, 5, 5); 
 Mission.SetVehicleMissing(new int[] { 2, 17 }, 1, 1); 
 Mission.SetVehicleMissing(new int[] { 3 }, 1, 1); 
 Mission.SetVehicleMissing(new int[] { 8 }, 2, 2); 
