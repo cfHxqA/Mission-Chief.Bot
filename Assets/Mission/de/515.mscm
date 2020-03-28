@@ -1,0 +1,40 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 515;
+
+/* declares mission title */
+Mission.Title = "Brand einer Produktionshalle";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 8300;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 30 }, 10,10);
+Mission.SetVehicleMissing(new int[] { 2 }, 3,3);
+Mission.SetVehicleMissing(new int[] { 3, 78 }, 2,2);
+Mission.SetVehicleMissing(new int[] { 34 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 5, 48 }, 2,2);
+Mission.SetVehicleMissing(new int[] { 12 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 11, 62 }, 2,2);
+Mission.SetVehicleMissing(new int[] { 84 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 85 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 83 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 32 }, 4,4);
+Mission.SetVehicleMissing(new int[] { 39 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 40 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 41 }, 1,1);
+Mission.SetVehicleMissing(new int[] { 28 }, 8,8);
+Mission.SetVehicleMissing(new int[] { 74 }, 2,2);
