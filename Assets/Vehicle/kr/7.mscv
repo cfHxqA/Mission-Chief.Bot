@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "생화학 인명구조차";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "생화학 인명구조차", "危険物取扱車両" });
+Vehicle.AddOrUpdatePattern(new string[] { "생화학 인명구조차", "危険物取扱車両", "생화학 차량" });
