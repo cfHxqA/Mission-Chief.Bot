@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "NEF";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "NEF" });
+Vehicle.AddOrUpdatePattern(new string[] { "NEF", "NAW", "Notarztwagen" });
