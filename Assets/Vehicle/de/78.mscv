@@ -19,4 +19,4 @@ Vehicle.Category = "Feuerwehr";
 Vehicle.Title = "AB-Einsatzleitung";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "AB-Einsatzleitung", "Abrollbehälter Einsatzleitung" });
+Vehicle.AddOrUpdatePattern(new string[] { "AB-Einsatzleitung", "Abrollbehälter Einsatzleitung", "ELW 2" });
