@@ -19,7 +19,7 @@ Vehicle.Category = "Löschfahrzeuge";
 Vehicle.Title = "TLF 3000";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "TLF 3000", "Löschfahrzeuge", "Löschfahrzeug" });
+Vehicle.AddOrUpdatePattern(new string[] { "TLF 3000", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe" });
 
 /* regex-pattern need personal */
 Vehicle.AddOrUpdatePattern(@"min\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)", 1); /* needed personal 1-9 */
