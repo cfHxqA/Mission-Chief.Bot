@@ -1,0 +1,27 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares vehicle id */
+Vehicle.Id = 15;
+
+/* declares vehicle category */
+Vehicle.Category = "";
+
+/* declares vehicle title */
+Vehicle.Title = "TOG Armoured Bearcat";
+
+/* declares vehicle pattern */
+Vehicle.AddOrUpdatePattern(new string[] { "TOG Armoured Bearcat" });
+
+/* regex-pattern need personal */
+Vehicle.AddOrUpdatePattern(@"([1-9]|10) TOG Personnel", 1);  /* needed personal 1-10 */
+Vehicle.AddOrUpdatePattern(@"(1[1-9]|20) TOG Personnel", 2); /* needed personal 11-20 */
+Vehicle.AddOrUpdatePattern(@"(2[1-9]|30) TOG Personnel", 3); /* needed personal 21-30 */

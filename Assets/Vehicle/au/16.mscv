@@ -1,0 +1,27 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares vehicle id */
+Vehicle.Id = 16;
+
+/* declares vehicle category */
+Vehicle.Category = "";
+
+/* declares vehicle title */
+Vehicle.Title = "K-9 Unit";
+
+/* declares vehicle pattern */
+Vehicle.AddOrUpdatePattern(new string[] { "K-9 Units", "K-9 Unit" });
+
+/* regex-pattern need personal */
+Vehicle.AddOrUpdatePattern(@"([12]) K-9 Units", 1);  /* needed personal 1-2 */
+Vehicle.AddOrUpdatePattern(@"([34]) K-9 Units", 1);  /* needed personal 3-4 */
+Vehicle.AddOrUpdatePattern(@"([56]) K-9 Units", 1);  /* needed personal 5-6 */
