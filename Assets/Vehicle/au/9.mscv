@@ -16,7 +16,7 @@ Vehicle.Id = 9;
 Vehicle.Category = "";
 
 /* declares vehicle title */
-Vehicle.Title = "Helitak";
+Vehicle.Title = "Air Ambulance";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Helitak" });
+Vehicle.AddOrUpdatePattern(new string[] { "Air Ambulance" });
