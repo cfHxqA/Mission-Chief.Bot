@@ -1,0 +1,22 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 358;
+
+/* declares mission title */
+Mission.Title = "Easter egg stolen from basket";
+
+/* declares credits for mission */
+Mission.Credits = 100;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 10, 19, 23 }, 1, 1); 
