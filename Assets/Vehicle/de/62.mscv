@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "AB-Schlauch";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "AB-Schlauch" });
+Vehicle.AddOrUpdatePattern(new string[] { "AB-Schlauch", "Schlauchwagen", "SW 1000", "SW 2000", "SW 2000-Tr", "SW Kats", "GW-L2-Wasser", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches" });
