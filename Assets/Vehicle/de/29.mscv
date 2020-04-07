@@ -13,7 +13,7 @@
 Vehicle.Id = 29;
 
 /* declares vehicle category */
-Vehicle.Category = "";
+Vehicle.Category = "Rettung";
 
 /* declares vehicle title */
 Vehicle.Title = "NEF";
