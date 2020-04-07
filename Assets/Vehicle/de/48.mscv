@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "AB-Atemschutz";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "AB-Atemschutz" });
+Vehicle.AddOrUpdatePattern(new string[] { "AB-Atemschutz", "GW-A", "GW-A oder AB-Atemschutz" });

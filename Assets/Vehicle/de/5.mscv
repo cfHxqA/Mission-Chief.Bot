@@ -16,7 +16,7 @@ Vehicle.Id = 5;
 Vehicle.Category = "GW-A";
 
 /* declares vehicle title */
-Vehicle.Title = "GW-A00";
+Vehicle.Title = "GW-A";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GW-A00", "GW-A", "GW-A oder AB-Atemschutz" });
+Vehicle.AddOrUpdatePattern(new string[] { "GW-A", "GW-A oder AB-Atemschutz" });
