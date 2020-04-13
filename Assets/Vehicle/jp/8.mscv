@@ -19,4 +19,4 @@ Vehicle.Category = "Löschfahrzeuge";
 Vehicle.Title = "事故対応車両 （IRV）";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "事故対応車両 （IRV）" });
+Vehicle.AddOrUpdatePattern(new string[] { "事故対応車両 （IRV）", "パトカー" });
