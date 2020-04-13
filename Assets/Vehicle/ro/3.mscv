@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Unitate șef batalion";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Unitate șef batalion" });
+Vehicle.AddOrUpdatePattern(new string[] { "Unitate șef batalion", "unități de Materiale periculoase" });

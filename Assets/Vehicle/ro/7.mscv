@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Materiale periculoase";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Materiale periculoase" });
+Vehicle.AddOrUpdatePattern(new string[] { "Materiale periculoase", "unități de Materiale periculoase" });
