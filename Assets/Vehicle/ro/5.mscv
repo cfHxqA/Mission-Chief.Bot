@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Ambulanță ALS";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Ambulanță ALS", "Ambulanță" });
+Vehicle.AddOrUpdatePattern(new string[] { "Ambulanță ALS", "Ambulanță", "Transport necesar" });
