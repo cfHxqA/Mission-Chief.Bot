@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Pompă de incendiu tip 1";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Pompă de incendiu tip 1", "Pompă de incendiu tip 2", "mașină de pompieri" });
+Vehicle.AddOrUpdatePattern(new string[] { "Pompă de incendiu tip 1", "Pompă de incendiu tip 2", "mașină de pompieri", "mașini de pompieri" });
