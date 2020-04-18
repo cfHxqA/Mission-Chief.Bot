@@ -1,13 +1,18 @@
-
-<p align="center"> <a href="https://discord.gg/8FMzSRJ"> <img src="https://discordapp.com/api/guilds/365129052832530433/widget.png?style=banner2" /> </a> </p>
+<p align="center">
+  <a href="https://discord.gg/8FMzSRJ">
+    <img src="https://discordapp.com/api/guilds/365129052832530433/widget.png?style=banner2" />
+  </a>
+</p>
 
 <hr />
 
 # Preview
 
-<p align="center"> <img src="https://extraimage.net/images/2019/11/27/524113b6e5f1da71a5adf8cf6b04993e.png" /> <img src="https://extraimage.net/images/2019/11/23/a12c1f58cf16c002ed44403dda8f5123.png" /> </p>
+<p align="center">
+  <img src="https://extraimage.net/images/2019/11/27/524113b6e5f1da71a5adf8cf6b04993e.png" /> <img src="https://extraimage.net/images/2019/11/23/a12c1f58cf16c002ed44403dda8f5123.png" />
+</p>
 
-# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.2.2.0/) ![watcher](https://badgen.net/github/watchers/cfHxqA/Mission-Chief.Bot)
+# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.2.2.2/) ![watcher](https://badgen.net/github/watchers/cfHxqA/Mission-Chief.Bot)
 
 It is a helper that drives progress in the game! Not only work on missions, but also deliver prisoners and patients!
 
@@ -46,4 +51,4 @@ Violation of any of the terms below will result in the termination of your Accou
 
 # License
 
-Attribution-NonCommercial-NoDerivs 4.0 Unported <[http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)>
+[Attribution-NonCommercial-NoDerivs 4.0 Unported](https://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)
