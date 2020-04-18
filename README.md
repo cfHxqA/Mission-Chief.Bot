@@ -51,4 +51,4 @@ Violation of any of the terms below will result in the termination of your Accou
 
 # License
 
-[Attribution-NonCommercial-NoDerivs 4.0 Unported](https://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[Attribution-NonCommercial-NoDerivs 4.0 Unported](https://creativecommons.org/licenses/by-nc-nd/4.0/)
