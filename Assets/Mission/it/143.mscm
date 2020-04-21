@@ -1,0 +1,27 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 143;
+
+/* declares mission title */
+Mission.Title = "Incontro della lepre nella città delle uova di Pasqua";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 7000;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 0 , 9 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 4 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 7 }, 8, 8);
