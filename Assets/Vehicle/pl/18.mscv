@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "SUV SPKP";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "SUV SPKP" });
+Vehicle.AddOrUpdatePattern(new string[] { "SUV SPKP", "policjanci SPKP" });
