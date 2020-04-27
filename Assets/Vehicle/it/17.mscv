@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "UOPI Suv";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "UOPI Suv" });
+Vehicle.AddOrUpdatePattern(new string[] { "UOPI Suv", "UOPI SUV" });
