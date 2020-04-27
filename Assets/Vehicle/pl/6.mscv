@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Cysterna gaśnicza";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Cysterna gaśnicza" });
+Vehicle.AddOrUpdatePattern(new string[] { "Cysterna gaśnicza", "cysterna z wodą" });

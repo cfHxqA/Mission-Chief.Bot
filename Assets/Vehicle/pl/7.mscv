@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Samochód ratownictwa chemicznego";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Samochód ratownictwa chemicznego" });
+Vehicle.AddOrUpdatePattern(new string[] { "Samochód ratownictwa chemicznego", "– Rchem", "Rchem" });

@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Drabina mechaniczna";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Drabina mechaniczna" });
+Vehicle.AddOrUpdatePattern(new string[] { "Drabina mechaniczna", "Samochód Ratownictwa Technicznego" });
