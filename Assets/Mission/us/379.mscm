@@ -1,6 +1,6 @@
 /**
- * @author     cfHxqA
- * @copyright  2019 - 2020 (C) by cfHxqA
+ * @author     TK-MSC-Gen
+ * @copyright  2020 (C) by Tschonke
  *
  * @package    MSC.Bot
  * @subpackage MSC.Bot.API.Game.Assets
@@ -10,16 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 153;
+Mission.Id = 379;
 
 /* declares mission title */
-Mission.Title = "Mandato di arresto";
+Mission.Title = "SCUBA Injury";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 2000;
+Mission.Credits = 600;
 
-/* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 7 }, 3, 3);
+/*ALS Ambulance */
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
