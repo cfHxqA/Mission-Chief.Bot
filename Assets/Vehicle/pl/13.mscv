@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Podnośnik hydrauliczny";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Podnośnik hydrauliczny", "Samochód Ratownictwa Technicznego" });
+Vehicle.AddOrUpdatePattern(new string[] { "Podnośnik hydrauliczny", "Samochód Ratownictwa Technicznego", "– SP wysokościowe" });
