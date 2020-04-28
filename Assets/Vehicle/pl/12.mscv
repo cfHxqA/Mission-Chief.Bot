@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "GBARt";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GBARt", "Ciężki samochód ratowniczo-gaśniczy", "samochód pożarniczy", "Samochód Ratownictwa Technicznego });
+Vehicle.AddOrUpdatePattern(new string[] { "GBARt", "Ciężki samochód ratowniczo-gaśniczy", "samochód pożarniczy", "Samochód Ratownictwa Technicznego" });
