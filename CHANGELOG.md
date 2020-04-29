@@ -1,6 +1,5 @@
 + CHANGES MISSION,
-  - Fixed bug that missed missions will not be started
-  - Fixed a bug that mission assets were included with a 0-minimum value
+  - Fixed a bug that missions are generated in the event of a server error (no timeout)
 
 + CHANGES ASSETS,
   - Assets-PL, Mission-/Vehicles updated
