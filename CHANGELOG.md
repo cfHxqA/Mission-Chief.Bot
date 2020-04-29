@@ -1,9 +1,9 @@
 + CHANGES MISSION,
-  - Fixed bug that vehicle limit will NOT be accepted on initial alarm
-  - Fixed bug that mission generation stops if the servers are NOT reachable
+  - Fixed bug that missed missions will not be started
+  - Fixed a bug that mission assets were included with a 0-minimum value
 
 + CHANGES ASSETS,
-  - Assets-NO, Mission-/Vehicles updated
+  - Assets-PL, Mission-/Vehicles updated
 
 + Mandatory, 
   - Error and source code optimization
