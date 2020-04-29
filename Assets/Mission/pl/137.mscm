@@ -10,20 +10,19 @@
  */
 
 /* declares mission id */
-Mission.Id = 29;
+Mission.Id = 137;
 
 /* declares mission title */
-Mission.Title = "Wyciek nieznanej substancji z cysterny";
+Mission.Title = "Poszkodowana osoba przez słup wysokiego napięcia";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 5300;
+Mission.Credits = 650;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4); 
-Mission.SetVehicleMissing(new int[] { 4, 12 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 3 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 8 }, 3, 3); 
-Mission.SetVehicleMissing(new int[] { 7 }, 2, 2); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 12}, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 2, 13 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 1); 
