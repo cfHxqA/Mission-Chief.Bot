@@ -1,5 +1,5 @@
 + CHANGES MISSION,
-  - Fixed a bug that missions are generated in the event of a server error (no timeout)
+  - Fixed bug that missions are NOT generated in the event of a server error (no timeout)
 
 + CHANGES ASSETS,
   - Assets-PL, Mission-/Vehicles updated
