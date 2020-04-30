@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VE";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VE" });
+Vehicle.AddOrUpdatePattern(new string[] { "VE", "caminhão plataforma" });

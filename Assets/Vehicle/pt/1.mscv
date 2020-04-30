@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VLCI";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VLCI", "VRCI", "caminhão de bombeiro" });
+Vehicle.AddOrUpdatePattern(new string[] { "VLCI", "VRCI", "caminhão de bombeiro", "caminhões de bombeiro" });
