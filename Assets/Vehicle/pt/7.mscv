@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VPME";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VPME" });
+Vehicle.AddOrUpdatePattern(new string[] { "VPME", "veículos para produtos perigosos" });

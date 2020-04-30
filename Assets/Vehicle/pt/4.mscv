@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VSAT";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VSAT" });
+Vehicle.AddOrUpdatePattern(new string[] { "VSAT", "Veículo de resgate pesado" });

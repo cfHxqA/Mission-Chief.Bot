@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VCOT";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VCOT" });
+Vehicle.AddOrUpdatePattern(new string[] { "VCOT", "viatura de batalhão" });
