@@ -22,6 +22,6 @@ Vehicle.Title = "Opancerzony Pojazd SPKP";
 Vehicle.AddOrUpdatePattern(new string[] { "Opancerzony Pojazd SPKP" });
 
 /* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern("([1-6]) policjancji SPKP", 1);        /* needed personal 1-6 */
-Vehicle.AddOrUpdatePattern("([7-9]|1[0-2]) policjancji SPKP", 2); /* needed personal 7-12 */
-Vehicle.AddOrUpdatePattern("(1[3-8]) policjancji SPKP", 3);       /* needed personal 13-18 */
+Vehicle.AddOrUpdatePattern("([1-6]) policjanci SPKP", 1);        /* needed personal 1-6 */
+Vehicle.AddOrUpdatePattern("([7-9]|1[0-2]) policjanci SPKP", 2); /* needed personal 7-12 */
+Vehicle.AddOrUpdatePattern("(1[3-8]) policjanci SPKP", 3);       /* needed personal 13-18 */
