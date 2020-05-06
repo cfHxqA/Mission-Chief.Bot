@@ -22,6 +22,6 @@ Vehicle.Title = "Jednostka K-9";
 Vehicle.AddOrUpdatePattern(new string[] { "Jednostka K-9" });
 
 /* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern("([12]) Jednostka K-9", 1); /* needed personal 1-2 */
-Vehicle.AddOrUpdatePattern("([34]) Jednostka K-9", 2); /* needed personal 3-4 */
-Vehicle.AddOrUpdatePattern("([56]) Jednostka K-9", 3); /* needed personal 5-6 */
+Vehicle.AddOrUpdatePattern("([12]) Jednostek K-9", 1); /* needed personal 1-2 */
+Vehicle.AddOrUpdatePattern("([34]) Jednostek K-9", 2); /* needed personal 3-4 */
+Vehicle.AddOrUpdatePattern("([56]) Jednostek K-9", 3); /* needed personal 5-6 */
