@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "CCGC";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "CCGC" });
+Vehicle.AddOrUpdatePattern(new string[] { "CCGC", "camion-citerne" });

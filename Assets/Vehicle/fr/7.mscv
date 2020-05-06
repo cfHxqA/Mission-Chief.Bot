@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VIRT";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VIRT" });
+Vehicle.AddOrUpdatePattern(new string[] { "VIRT", "véhicule(s) risques technologiques" });
