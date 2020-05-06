@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "UMH";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "UMH", "Ambulance", "Transport nécessaire" });
+Vehicle.AddOrUpdatePattern(new string[] { "UMH", "Ambulance", "ambulance", "Transport nécessaire" });

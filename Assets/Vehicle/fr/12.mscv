@@ -19,4 +19,4 @@ Vehicle.Category = "Fourgon d’incendie";
 Vehicle.Title = "FPTSR";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "FPTSR", "FPT", "FPTL", "fourgon d’incendie" });
+Vehicle.AddOrUpdatePattern(new string[] { "FPTSR", "FPT", "FPTL", "fourgon d’incendie", "fourgons d’incendie" });
