@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VGRIMP";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VGRIMP" });
+Vehicle.AddOrUpdatePattern(new string[] { "VGRIMP", "spécialistes IMP manquants" });
