@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "BEA";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "BEA", "Moyen Élévateur Aérien" });
+Vehicle.AddOrUpdatePattern(new string[] { "BEA", "Moyen Élévateur Aérien", "EPA" });
