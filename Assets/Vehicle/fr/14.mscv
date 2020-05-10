@@ -19,4 +19,8 @@ Vehicle.Category = "";
 Vehicle.Title = "VGRIMP";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VGRIMP", "spécialistes IMP manquants" });
+Vehicle.AddOrUpdatePattern(new string[] { "VGRIMP" });
+
+/* regex-pattern need personal */
+Vehicle.AddOrUpdatePattern("([1-5]) spécialistes IMP manquants", 1);    /* needed personal between 1-5 */
+Vehicle.AddOrUpdatePattern("([6-9]|10) spécialistes IMP manquants", 2); /* needed personal between 6-10 */

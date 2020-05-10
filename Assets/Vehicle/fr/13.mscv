@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VTU";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VTU", "Véhicule Tout Usage", "VSR", "Véhicule de secours routier" });
+Vehicle.AddOrUpdatePattern(new string[] { "VTU", "Véhicule Tout Usage" });
