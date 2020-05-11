@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VSR";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VSR", "Véhicule de secours routier" });
+Vehicle.AddOrUpdatePattern(new string[] { "VSR", "Véhicule de secours routier", "véhicule de secours routier" });
