@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Samochód Dowodzenia i Łączności";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Samochód Dowodzenia i Łączności" });
+Vehicle.AddOrUpdatePattern(new string[] { "Samochód Dowodzenia i Łączności", "samochód dowodzenia i łączności" });
