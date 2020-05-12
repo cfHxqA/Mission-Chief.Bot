@@ -19,4 +19,4 @@ Vehicle.Category = "Autres véhicules";
 Vehicle.Title = "EPA";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "EPA", "Moyen Élévateur Aérien" });
+Vehicle.AddOrUpdatePattern(new string[] { "EPA", "Moyen Élévateur Aérien", "Moyens Élévateurs Aériens" });
