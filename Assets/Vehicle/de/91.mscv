@@ -13,10 +13,10 @@
 Vehicle.Id = 91;
 
 /* declares vehicle category */
-Vehicle.Category = "";
+Vehicle.Category = "Rettungshundefahrzeug";
 
 /* declares vehicle title */
 Vehicle.Title = "Rettungshundefahrzeug";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Rettungshundefahrzeug" });
+Vehicle.AddOrUpdatePattern(new string[] { "Rettungshundefahrzeug", "Rettungshundestaffel/n", "Rettungshundestaffel" });
