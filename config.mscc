@@ -4,7 +4,7 @@
       "country" : "us",
       "username" : "CHANGEME",
       "password" : "CHANGEME",
-      "proxy" : null,
+      "proxy" : null
     },
     "mission" : {
       "alliance" : {
@@ -13,8 +13,10 @@
         "distance" : 400,
         "is_enabled" : false,
         "is_events_enabled" : false,
-        "is_created_enabled": false,
-        "is_created_events_enabled": false
+        "min_amount_credits" : 0,
+        "max_amount_credits" : 0,
+        "min_amount_vehicle" : 0,
+        "max_amount_vehicle" : 0
       },
       "distance" : 400,
       "forward" : {
@@ -24,16 +26,18 @@
       "interval" : 1,
       "interval_revocation" : 60,
       "is_complete_enabled" : false,
-      "is_complete_enabled_limit": 1,
+      "is_complete_enabled_limit": 5,
       "is_enabled" : true,
-      "is_events_enabled" : false,
+      "is_events_enabled" : true,
       "share" : {
         "default_vehicle" : [],
         "default_vehicle_amount" : 0,
-        "is_enabled" : false,
-        "is_vehicle_missing_enabled" : false,
+        "is_enabled" : true,
+        "is_vehicle_missing_enabled" : true,
         "min_amount_credits" : 0,
-        "min_amount_vehicle" : 0
+        "max_amount_credits" : 0,
+        "min_amount_vehicle" : 0,
+        "max_amount_vehicle" : 0
       },
       "speed_step" : 60
     },
@@ -41,7 +45,7 @@
       "distance" : 400,
       "interval" : 1,
       "is_alliance_enabled" : true,
-      "is_alliance_enabled_limit": 10,
+      "is_alliance_enabled_limit": 0,
       "is_enabled" : true
     }
   }
