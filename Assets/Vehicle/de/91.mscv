@@ -19,4 +19,4 @@ Vehicle.Category = "Rettungshundefahrzeug";
 Vehicle.Title = "Rettungshundefahrzeug";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Rettungshundefahrzeug", "Rettungshundestaffel/n", "Rettungshundestaffel" });
+Vehicle.AddOrUpdatePattern(new string[] { "1 Rettungshundestaffel/n.", "Rettungshundefahrzeug", "Rettungshundestaffel/n", "Rettungshundestaffel" });
