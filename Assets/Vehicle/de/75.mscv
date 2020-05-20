@@ -19,4 +19,4 @@ Vehicle.Category = "Flugfeldlöschfahrzeuge";
 Vehicle.Title = "FLF";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "FLF", "Flugfeldlöschfahrzeuge" });
+Vehicle.AddOrUpdatePattern(new string[] { "FLF", "Flugfeldlöschfahrzeuge", "Flugfeldlöschfahrzeug" });
