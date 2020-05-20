@@ -2,8 +2,8 @@
  * @author     cfHxqA
  * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -13,7 +13,7 @@
 Mission.Id = 40;
 
 /* declares mission title */
-Mission.Title = "Upadek";
+Mission.Title = "Upadek z wysokości";
 
 /* declares mission description */
 Mission.Description = "";
@@ -22,4 +22,4 @@ Mission.Description = "";
 Mission.Credits = 0;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 5, 9 }, 1, 1);

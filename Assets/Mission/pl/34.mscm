@@ -2,8 +2,8 @@
  * @author     cfHxqA
  * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -13,7 +13,7 @@
 Mission.Id = 34;
 
 /* declares mission title */
-Mission.Title = "Ogień w szpitalu";
+Mission.Title = "Pożar w szpitalu";
 
 /* declares mission description */
 Mission.Description = "";
@@ -22,9 +22,8 @@ Mission.Description = "";
 Mission.Credits = 6000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 10, 10); 
-Mission.SetVehicleMissing(new int[] { 3 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 4, 12 }, 2, 2); 
-Mission.SetVehicleMissing(new int[] { 6 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 2, 13 }, 3, 3); 
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 25); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 10, 10);
+Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 2, 13 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);

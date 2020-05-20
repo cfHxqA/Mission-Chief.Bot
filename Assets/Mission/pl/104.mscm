@@ -2,8 +2,8 @@
  * @author     cfHxqA
  * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -19,11 +19,10 @@ Mission.Title = "Wypadek dwóch samochodów - Zderzenie boczne";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 6500;
+Mission.Credits = 3200;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4); 
-Mission.SetVehicleMissing(new int[] { 3 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 8 }, 1, 1); 
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 8, 17 }, 1, 1);

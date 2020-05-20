@@ -1,0 +1,27 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
+ *
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 154;
+
+/* declares mission title */
+Mission.Title = "Najazd na dom";
+
+/* declares mission description */
+Mission.Description = "";
+
+/* declares credits for mission */
+Mission.Credits = 1250;
+
+/* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 14 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 8, 17 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 16 }, 1, 1);
