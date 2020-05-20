@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://discord.gg/8FMzSRJ">
-    <img src="https://discordapp.com/api/guilds/365129052832530433/widget.png?style=banner2" />
-  </a>
-</p>
-
-<hr />
-
 # Preview
 
 <p align="center">
