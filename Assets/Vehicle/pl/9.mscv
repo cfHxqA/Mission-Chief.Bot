@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Śmigłowiec LPR";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Śmigłowiec LPR" });
+Vehicle.AddOrUpdatePattern(new string[] { "Śmigłowiec LPR", "Ambulans P", "Ambulans", "ambulans", "Potrzebny transport" });
