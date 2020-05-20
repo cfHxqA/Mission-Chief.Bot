@@ -1,9 +1,9 @@
 /**
  * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -13,24 +13,22 @@
 Mission.Id = 488;
 
 /* declares mission title */
-Mission.Title = "Massenanfall an Erkrankten";
+Mission.Title = "Massenanfall an Erkrankten - Stadion";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 2500;
+Mission.Credits = 14000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 30 }, 2,2);
-Mission.SetVehicleMissing(new int[] { 31 }, 2,2);
-Mission.SetVehicleMissing(new int[] { 32 }, 2,2);
-Mission.SetVehicleMissing(new int[] { 3 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 5, 48 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 12 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 53, 54 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 55 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 56 }, 1,1);
-Mission.SetVehicleMissing(new int[] { 74 }, 10,10);
-Mission.SetVehicleMissing(new int[] { 28 }, 8,8);
-Mission.SetVehicleMissing(new int[] { 29 }, 8,8);
+Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 16, 16);
+Mission.SetVehicleMissing(new int[] { 55 }, 46, 46);
+Mission.SetVehicleMissing(new int[] { 56 }, 46, 46);
+Mission.SetVehicleMissing(new int[] { 3, 34 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 34 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 4, 30, 47, 90 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 5, 48 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 12 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 32 }, 14, 14);
+Mission.SetVehicleMissing(new int[] { 29 }, 1, 1);

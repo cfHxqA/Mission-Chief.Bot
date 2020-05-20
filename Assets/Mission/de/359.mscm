@@ -1,9 +1,9 @@
 /**
  * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -22,10 +22,10 @@ Mission.Description = "";
 Mission.Credits = 9000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 61 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 32 }, 5,6);
-Mission.SetVehicleMissing(new int[] { 50 }, 6,7);
-Mission.SetVehicleMissing(new int[] { 35 }, 2,3);
-Mission.SetVehicleMissing(new int[] { 52 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 51 }, 1,2);
-Mission.SetVehicleMissing(new int[] { 81, 82 }, 4,5);
+Mission.SetVehicleMissing(new int[] { 81, 82 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 35 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 52 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 61 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 32 }, 5, 5);
+Mission.SetVehicleMissing(new int[] { 50 }, 6, 6);
+Mission.SetVehicleMissing(new int[] { 51 }, 1, 1);

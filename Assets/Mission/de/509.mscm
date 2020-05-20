@@ -1,9 +1,9 @@
 /**
  * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -19,13 +19,13 @@ Mission.Title = "Brennender Stall";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 110;
+Mission.Credits = 3500;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 6, 7);
-Mission.SetVehicleMissing(new int[] { 2 }, 2, 3);
-Mission.SetVehicleMissing(new int[] { 11, 13, 14, 15, 16 }, 1, 2);
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 2);
-Mission.SetVehicleMissing(new int[] { 3, 34 }, 2, 3);
-Mission.SetVehicleMissing(new int[] { 34 }, 1,2 );
-Mission.SetVehicleMissing(new int[] { 32 }, 2, 3);
+Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 6, 6);
+Mission.SetVehicleMissing(new int[] { 3, 34 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 34 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 2, 85 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 13, 14, 15, 16, 62 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 5, 48 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 32 }, 2, 2);

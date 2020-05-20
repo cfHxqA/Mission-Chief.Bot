@@ -11,6 +11,8 @@
         "default_vehicle" : [],
         "default_vehicle_amount" : 0,
         "distance" : 400,
+        "is_created_enabled": false,
+        "is_created_events_enabled": false,
         "is_enabled" : false,
         "is_events_enabled" : false,
         "min_amount_credits" : 0,
