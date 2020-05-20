@@ -12,7 +12,7 @@
   <img src="https://extraimage.net/images/2019/11/27/524113b6e5f1da71a5adf8cf6b04993e.png" /> <img src="https://extraimage.net/images/2019/11/23/a12c1f58cf16c002ed44403dda8f5123.png" />
 </p>
 
-# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.2.2.2/) ![watcher](https://badgen.net/github/watchers/cfHxqA/Mission-Chief.Bot)
+# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.2.2.4/) [![Discord](https://img.shields.io/discord/365129052832530433.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/8FMzSRJ) [![Discord](https://img.shields.io/discord/572882995917226049.svg?label=Leitstellenspiel-Bot&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ShjPccq)
 
 It is a helper that drives progress in the game! Not only work on missions, but also deliver prisoners and patients!
 
