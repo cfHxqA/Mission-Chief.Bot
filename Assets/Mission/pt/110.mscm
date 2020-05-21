@@ -10,16 +10,19 @@
  */
 
 /* declares mission id */
-Mission.Id = 84;
+Mission.Id = 110;
 
 /* declares mission title */
-Mission.Title = "Buscas domiciliárias";
+Mission.Title = "Fogo num aterro sanitário";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 750;
+Mission.Credits = 3500;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 8 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 5, 5);
+Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 2 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);

@@ -10,16 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 84;
+Mission.Id = 108;
 
 /* declares mission title */
-Mission.Title = "Buscas domiciliárias";
+Mission.Title = "Corredor lesionado";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 750;
+Mission.Credits = 0;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 8 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);

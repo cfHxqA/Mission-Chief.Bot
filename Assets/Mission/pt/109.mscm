@@ -10,16 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 84;
+Mission.Id = 109;
 
 /* declares mission title */
-Mission.Title = "Buscas domiciliárias";
+Mission.Title = "Criança perdida";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 750;
+Mission.Credits = 700;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 8 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 8 }, 3, 3);
