@@ -1,0 +1,25 @@
+/**
+ * @author     cfHxqA
+ * @copyright  2019 - 2020 (C) by cfHxqA
+ *
+ * @package    MSC.Bot
+ * @subpackage MSC.Bot.API.Game.Assets
+ * @category   Mission Chief
+ *
+ * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
+ */
+
+/* declares mission id */
+Mission.Id = 385;
+
+/* declares mission title */
+Mission.Title = "Trespasser on Tracks";
+
+/* declares mission description */
+Mission.Description = "description";
+
+/* declares credits for mission */
+Mission.Credits = 900;
+
+/*Police Group */
+Mission.SetVehicleMissing(new int[] { 19, 10, 23 }, 3, 3);
