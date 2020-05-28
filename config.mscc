@@ -41,7 +41,7 @@
         "min_amount_vehicle" : 0,
         "max_amount_vehicle" : 0
       },
-      "speed_step" : 60
+      "speed_step" : 3
     },
     "speech" : {
       "distance" : 400,
