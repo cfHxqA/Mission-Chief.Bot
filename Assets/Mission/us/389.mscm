@@ -10,16 +10,18 @@
  */
 
 /* declares mission id */
-Mission.Id = 388;
+Mission.Id = 389;
 
 /* declares mission title */
-Mission.Title = "Trespasser on Tracks";
+Mission.Title = "Small forest fire";
 
 /* declares mission description */
-Mission.Description = "description";
+Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 900;
+Mission.Credits = 2000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 19, 10, 23 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 7 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 30, 31, 32 }, 3, 3);

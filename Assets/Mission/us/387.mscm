@@ -21,5 +21,5 @@ Mission.Description = "description";
 /* declares credits for mission */
 Mission.Credits = 900;
 
-/*Police Group */
+/* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 19, 10, 23 }, 3, 3);
