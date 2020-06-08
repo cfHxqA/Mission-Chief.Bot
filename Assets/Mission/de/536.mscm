@@ -15,6 +15,9 @@ Mission.Id = 536;
 /* declares mission title */
 Mission.Title = "Einbruch in Supermarkt";
 
+/* declares mission description */
+Mission.Description = "";
+
 /* declares credits for mission */
 Mission.Credits = 600;
 

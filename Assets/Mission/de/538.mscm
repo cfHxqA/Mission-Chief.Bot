@@ -15,10 +15,11 @@ Mission.Id = 538;
 /* declares mission title */
 Mission.Title = "Verbrennung";
 
+/* declares mission description */
+Mission.Description = "";
+
 /* declares credits for mission */
 Mission.Credits = 0;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 28, 74 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 29, 31 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 31 }, 0, 1);
+Mission.SetVehicleMissing(new int[] { 28 }, 1, 1); Mission.SetVehicleMissing(new int[] { 28 }, 1, 1);

@@ -23,8 +23,6 @@ Mission.Credits = 4500;
 
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90 }, 4, 4);
-Mission.SetVehicleMissing(new int[] { 55 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 56 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 57 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 3, 34 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 2, 85 }, 2, 2);
@@ -36,4 +34,7 @@ Mission.SetVehicleMissing(new int[] { 43 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 41 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 42, 65 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 44 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 29 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 28 }, 4, 4); Mission.SetVehicleMissing(new int[] { 55 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 56 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 28 }, 15, 15);
+Mission.SetVehicleMissing(new int[] { 29, 74 }, 7, 7); 
