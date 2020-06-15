@@ -1,7 +1,10 @@
 + CHANGES MISSION,
-  - Fixed bug that missions are NOT generated in the event of a server error (no timeout)
+  - Fixed bug that the distance for helicopters and vehicles is read incorrectly
 
 + CHANGES ASSETS,
+  - Assets-DE, Mission-/Vehicles updated
+  - Assets-FI, Mission-/Vehicles updated
+  - Assets-JP, Mission-/Vehicles updated
   - Assets-PL, Mission-/Vehicles updated
 
 + Mandatory, 
