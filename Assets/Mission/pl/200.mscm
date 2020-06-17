@@ -10,21 +10,17 @@
  */
 
 /* declares mission id */
-Mission.Id = 186;
+Mission.Id = 200;
 
 /* declares mission title */
-Mission.Title = "Zabezpieczenie meczu piłkarskiego";
+Mission.Title = "Osoba tonąca w wodzie";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 3700;
+Mission.Credits = 800;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 3, 3);
-Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 8, 17 }, 4, 4);
-Mission.SetVehicleMissing(new int[] { 16 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 5 }, 3, 3);
-Mission.SetVehicleMissing(new int[] { 15, 18 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 19 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 26, 21 }, 1, 1);
