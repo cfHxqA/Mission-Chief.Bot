@@ -1,7 +1,7 @@
 # Preview
 
 <p align="center">
-  <img src="https://i.imgur.com/gacDkgO.png" /> <img src="https://i.imgur.com/86VIo9W.png" />
+  <img src="https://i.imgur.com/gacDkgO.png" />
 </p>
 
 # Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.2.2.4/) [![Discord](https://img.shields.io/discord/365129052832530433.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/8FMzSRJ) [![Discord](https://img.shields.io/discord/572882995917226049.svg?label=Leitstellenspiel-Bot&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ShjPccq)
