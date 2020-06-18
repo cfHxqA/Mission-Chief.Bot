@@ -12,7 +12,7 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 > <ins>Sure - why not?</ins>! „_You can only send the vehicles within a defined radius, for alliance missions or leave it alone!_“
 
 > Can prisoners be transported and patients deliver to hospitals?<br>
-> „_<ins>SOf course!</ins> Set a radius, or the prisoners and patients will be released if there is no cell or bed available!_“
+> „_<ins>Of course!</ins> Set a radius, or the prisoners and patients will be released if there is no cell or bed available!_“
 
 ### **The following servers are supported:**
 ![country-au](https://img.shields.io/badge/AU%3F-yes-green.svg) ![country-de](https://img.shields.io/badge/DE%3F-yes-green.svg) ![country-dk](https://img.shields.io/badge/DK%3F-yes-green.svg) ![country-es](https://img.shields.io/badge/ES%3F-yes-green.svg) ![country-fi](https://img.shields.io/badge/FI%3F-yes-green.svg) ![country-fr](https://img.shields.io/badge/FR%3F-yes-green.svg) ![country-it](https://img.shields.io/badge/IT%3F-yes-green.svg) ![country-jp](https://img.shields.io/badge/JP%3F-yes-green.svg) ![country-kr](https://img.shields.io/badge/KR%3F-yes-green.svg) ![country-nl](https://img.shields.io/badge/NL%3F-yes-green.svg) ![country-no](https://img.shields.io/badge/NO%3F-yes-green.svg) ![country-pl](https://img.shields.io/badge/PL%3F-yes-green.svg) ![country-pt](https://img.shields.io/badge/PT%3F-yes-green.svg) ![country-ro](https://img.shields.io/badge/RO%3F-yes-green.svg) ![country-ru](https://img.shields.io/badge/RU%3F-yes-green.svg) ![country-se](https://img.shields.io/badge/SE%3F-yes-green.svg) ![country-uk](https://img.shields.io/badge/UK%3F-yes-green.svg) ![country-us](https://img.shields.io/badge/US%3F-yes-green.svg)
