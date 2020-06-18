@@ -1,11 +1,6 @@
 + CHANGES MISSION,
-  - Fixed bug that the distance for helicopters and vehicles is read incorrectly
-
-+ CHANGES ASSETS,
-  - Assets-DE, Mission-/Vehicles updated
-  - Assets-FI, Mission-/Vehicles updated
-  - Assets-JP, Mission-/Vehicles updated
-  - Assets-PL, Mission-/Vehicles updated
+  - Fixed a bug that a "crash" is generated when the mission pool is empty
+  - Fixed an error that event based missions will NOT be shared properly
 
 + Mandatory, 
   - Error and source code optimization
