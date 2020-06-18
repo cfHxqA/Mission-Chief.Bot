@@ -22,7 +22,7 @@ It is a helper that drives progress in the game! Not only work on missions, but 
 
 ### Requirements (Windows-/MacOS-/Linux)
 
--   [.NET Core 3.0 Runtime or higher](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
+-   [.NET Core 3.1 Runtime or higher](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
 
 * Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
 
