@@ -32,6 +32,7 @@
       "is_complete_vehicle_missing_load_enabled" : false,
       "is_enabled" : true,
       "is_events_enabled" : true,
+      "is_required_complete_enabled" : false,
       "share" : {
         "default_vehicle" : [],
         "default_vehicle_amount" : 0,
