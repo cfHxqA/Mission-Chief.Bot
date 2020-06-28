@@ -1,5 +1,9 @@
 + CHANGES MISSION,
-  - Fixed bug that the distance of the helicopter is ignored when alarming (see miles / km)
+  - Fixed an issue where nearby vehicles would NOT be alerted
+  
++ CHANGES SETTINGS,
+  - Missions, `is_required_complete_enabled` added
+    Description: Specifies that the vehicle amount for a mission MUST be complete or NOT to alert it
 
 + Mandatory, 
   - Error and source code optimization
