@@ -15,7 +15,7 @@ Vehicle.Id = 56;
 /* declares vehicle category */
 Vehicle.Category = "";
 
-/** declare vehicle is unique */
+/* declare vehicle is unique */
 Vehicle.IsUnique = true;
 
 /* declares vehicle title */
