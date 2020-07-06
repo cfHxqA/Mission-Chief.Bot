@@ -2,8 +2,8 @@
  * @author     cfHxqA
  * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -22,4 +22,4 @@ Mission.Description = "";
 Mission.Credits = 400;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 13, 18 }, 1, 1); 
+Mission.SetVehicleMissing(new int[] { 0, 1, 4, 13, 18, 30, 31, 32 }, 1, 1);

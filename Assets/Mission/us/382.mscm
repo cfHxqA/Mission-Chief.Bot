@@ -2,8 +2,8 @@
  * @author     cfHxqA
  * @copyright  2019 - 2020 (C) by cfHxqA
  *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
+ * @package    Mission-Chief.Bot
+ * @subpackage Mission-Chief.Bot.Assets.Mission
  * @category   Mission Chief
  *
  * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
@@ -19,11 +19,13 @@ Mission.Title = "Large Earthquake";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 650;
+Mission.Credits = 2100;
 
 /* declares required vehicles for mission */
+Mission.SetVehicleMissing(new int[] { 0, 1, 4, 13, 18, 30, 31, 32 }, 5, 5);
 Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 18, 0, 1, 13 }, 5, 5);
-Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 2, 13 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 21, 4, 18 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 4, 8, 18 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 5 }, 10, 10);
+Mission.SetVehicleMissing(new int[] { 11 }, 1, 1);
