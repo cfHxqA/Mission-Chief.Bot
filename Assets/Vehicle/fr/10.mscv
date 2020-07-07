@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VAR";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VAR" });
+Vehicle.AddOrUpdatePattern(new string[] { "VAR", "Véhicule d'Assistance Respiratoire" });
