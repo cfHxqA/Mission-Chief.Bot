@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "VPL";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "VPL", "SAV (Sauvetage Aquatique)" });
+Vehicle.AddOrUpdatePattern(new string[] { "VPL", "SAV", "SAV (Sauvetage Aquatique)" });
