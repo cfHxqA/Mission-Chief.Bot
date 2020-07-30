@@ -19,7 +19,7 @@ Vehicle.Category = "Tauchkraftwagen";
 Vehicle.Title = "Tauchkraftwagen";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Tauchkraftwagen" });
+Vehicle.AddOrUpdatePattern(new string[] { "Tauchkraftwagen", "GW-Taucher" });
 
 /* regex-pattern need personal */
 Vehicle.AddOrUpdatePattern(@"min\. ([12]) Personen mit GW-Wasserrettung Ausbildung", 1); /* needed personal 1-2 */
