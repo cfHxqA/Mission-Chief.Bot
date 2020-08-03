@@ -19,4 +19,8 @@ Vehicle.Category = "";
 Vehicle.Title = "Anh Hund";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Anh Hund", "1 Rettungshundestaffel/n.", "Rettungshundefahrzeug", "Rettungshundestaffel/n", "Rettungshundestaffel" });
+Vehicle.AddOrUpdatePattern(new string[] { "Anh Hund", "Rettungshundefahrzeug", "Rettungshundestaffel" });
+
+/* regex-pattern need personal */
+Vehicle.AddOrUpdatePattern(@"1 Rettungshundestaffel\/n", 1); /* needed rescue dog 1 */
+Vehicle.AddOrUpdatePattern(@"2 Rettungshundestaffel\/n", 2); /* needed rescue dog 2 */
