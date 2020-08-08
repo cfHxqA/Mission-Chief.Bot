@@ -10,17 +10,21 @@
  */
 
 /* declares mission id */
-Mission.Id = 13;
+Mission.Id = 114;
 
 /* declares mission title */
-Mission.Title = "Kuorma-autopalo";
+Mission.Title = "Teollisuusrakennuspalo";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 980;
+Mission.Credits = 5300;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 5, 5);
+Mission.SetVehicleMissing(new int[] { 4 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 2 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 6 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 7 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 5 }, 4, 4);

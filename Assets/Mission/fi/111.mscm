@@ -10,17 +10,22 @@
  */
 
 /* declares mission id */
-Mission.Id = 13;
+Mission.Id = 111;
 
 /* declares mission title */
-Mission.Title = "Kuorma-autopalo";
+Mission.Title = "Tieliikenneonnettomuus maan alla, suuri (tunneli)";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 980;
+Mission.Credits = 7000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 6, 6);
+Mission.SetVehicleMissing(new int[] { 4 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 3 }, 3, 3);
 Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 7 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 8 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 5 }, 14, 14);

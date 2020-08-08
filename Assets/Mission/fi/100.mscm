@@ -10,17 +10,17 @@
  */
 
 /* declares mission id */
-Mission.Id = 13;
+Mission.Id = 100;
 
 /* declares mission title */
-Mission.Title = "Kuorma-autopalo";
+Mission.Title = "Pieni hotellipalo";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 980;
+Mission.Credits = 3000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 5 }, 6, 6);
