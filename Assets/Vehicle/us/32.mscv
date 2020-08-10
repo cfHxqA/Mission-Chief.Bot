@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Type 7 engine";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Type 7 engine", "Wildland fire engines", "Wildland fire engine" });
+Vehicle.AddOrUpdatePattern(new string[] { "Type 7 engine", "Wildland fire engines", "Wildland fire engine", "Wildland fire vehicle" });
