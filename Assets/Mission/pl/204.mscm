@@ -19,7 +19,7 @@ Mission.Title = "Bus w Wodzie";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 3000;
+Mission.Credits = 4000;
 
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 5, 5);

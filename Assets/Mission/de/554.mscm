@@ -10,18 +10,16 @@
  */
 
 /* declares mission id */
-Mission.Id = 87;
+Mission.Id = 554;
 
 /* declares mission title */
-Mission.Title = "Wypadek traktora";
+Mission.Title = "Einbruch in Wohnhaus";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 1700;
+Mission.Credits = 800;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 3, 3);
-Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 32 }, 2, 2);

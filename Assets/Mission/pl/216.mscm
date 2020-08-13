@@ -10,18 +10,19 @@
  */
 
 /* declares mission id */
-Mission.Id = 87;
+Mission.Id = 216;
 
 /* declares mission title */
-Mission.Title = "Wypadek traktora";
+Mission.Title = "Pożar sadzy w kominie";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 1700;
+Mission.Credits = 3500;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 4, 4);
 Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
-Mission.SetVehicleMissing(new int[] { 5 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 2, 13 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1);

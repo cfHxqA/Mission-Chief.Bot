@@ -19,7 +19,7 @@ Mission.Title = "Pożar wagonów kolejowych na bocznicy";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 2300;
+Mission.Credits = 3000;
 
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 4, 4);

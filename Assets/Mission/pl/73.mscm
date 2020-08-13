@@ -19,7 +19,7 @@ Mission.Title = "Poważny wypadek z udziałem autobusu";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 2000;
+Mission.Credits = 2500;
 
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 4, 4);

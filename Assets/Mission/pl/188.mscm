@@ -19,7 +19,7 @@ Mission.Title = "Zawalenie się wieży kościoła";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 5600;
+Mission.Credits = 8000;
 
 /* declares required vehicles for mission */
 Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 10, 10);
