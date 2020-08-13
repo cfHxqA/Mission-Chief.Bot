@@ -50,8 +50,10 @@
     },
     "speech" : {
       "distance" : 400,
-      "capacity" : 0,
-      "capacity_alliance" : 0,
+      "capacity_patient" : 0,
+      "capacity_prisoner" : 0,
+      "capacity_alliance_patient" : 0,
+      "capacity_alliance_prisoner" : 0,
       "interval" : 1,
       "is_alliance_enabled" : true,
       "is_alliance_enabled_limit": 0,
