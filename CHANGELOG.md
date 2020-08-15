@@ -1,6 +1,5 @@
 + CHANGES Missions,
-  - Fixed that the standard vehicles are sent to EVERY mission when released
-  - Fixed that an error was caused when the follow-up is present
+  - Fixed the beds to be released in (alliance-)hospitals being ignored
 
 + Mandatory, 
   - Error and source code optimization
