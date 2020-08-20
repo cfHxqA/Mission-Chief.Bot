@@ -23,3 +23,4 @@ Vehicle.AddOrUpdatePattern(new string[] { "Boat", "Boats" });
 
 /* regex-pattern need personnel */
 Vehicle.AddOrUpdatePattern(@"([1-4]) more (people|person) with water rescue training", 1); /* needed personnel 1-4 */
+Vehicle.AddOrUpdatePattern(@"([5-8]) more (people|person) with water rescue training", 1); /* needed personnel 5-8 */
