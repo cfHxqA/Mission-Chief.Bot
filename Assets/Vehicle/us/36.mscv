@@ -20,3 +20,6 @@ Vehicle.Title = "Air tanker";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Air tanker" });
+
+/* regex-pattern need water */
+Vehicle.AddOrUpdatePattern(@"(\d+) gal\. water", 1);
