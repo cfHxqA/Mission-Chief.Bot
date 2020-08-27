@@ -6,6 +6,12 @@
       "password" : "CHANGEME",
       "proxy" : null
     },
+    "building" : {
+      "hire" : {
+        "is_enabled" : false,
+        "duration"   : 1,
+      }
+    },
     "mission" : {
       "alliance" : {
         "default_vehicle" : [],
@@ -37,10 +43,12 @@
       "share" : {
         "default_vehicle" : [],
         "default_vehicle_amount" : 0,
+        "estimated_duration" : 300,
         "is_enabled" : false,
         "is_event_enabled" : false,
         "is_requests_enabled" : false,
         "is_vehicle_missing_enabled" : false,
+        "message" : "",
         "min_amount_credits" : 0,
         "max_amount_credits" : 0,
         "min_amount_vehicle" : 0,
