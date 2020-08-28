@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Tyypin 1 paloauto";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Tyypin 1 paloauto", "Tyypin 2 paloauto", "paloauto" });
+Vehicle.AddOrUpdatePattern(new string[] { "Tyypin 1 paloauto", "Tyypin 2 paloauto", "paloautoa", "paloauto" });
