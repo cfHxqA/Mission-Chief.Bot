@@ -15,11 +15,8 @@ Vehicle.Id = 31;
 /* declares vehicle category */
 Vehicle.Category = "Rettung";
 
-/* declare vehicle is unique */
-Vehicle.IsUnique = true;
-
 /* declares vehicle title */
 Vehicle.Title = "RTH";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "RTH", "NEF" });
+Vehicle.AddOrUpdatePattern(new string[] { "RTH", "NEF", "NAW", "Notarztwagen", "Ein Fahrzeug hat einen Sprechwunsch" });
