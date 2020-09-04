@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "SRWys";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "SRWys" });
+Vehicle.AddOrUpdatePattern(new string[] { "SRWys", "Samochodów Ratownictwa wysokościowego" });

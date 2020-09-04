@@ -20,3 +20,6 @@ Vehicle.Title = "Ciężki samochód gaśniczy";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Ciężki samochód gaśniczy", "Średni samochód gaśniczy", "samochód pożarniczy", "samochody(-ów) pożarnicze(-ych)" });
+
+/* regex-pattern need water */
+Vehicle.AddOrUpdatePattern(@"([0-9]+) litrów wody", 1);
