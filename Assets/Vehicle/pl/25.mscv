@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "Dźwig SP";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Dźwig SP" });
+Vehicle.AddOrUpdatePattern(new string[] { "Dźwig SP", "Dźwigów SP" });
