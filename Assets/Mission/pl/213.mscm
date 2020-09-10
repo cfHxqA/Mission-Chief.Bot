@@ -19,9 +19,9 @@ Mission.Title = "Duży pożar pola";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 1800;
+Mission.Credits = 3800;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 6, 6);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 8, 8);
 Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 6 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);

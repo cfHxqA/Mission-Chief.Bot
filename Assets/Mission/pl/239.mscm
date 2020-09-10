@@ -13,7 +13,7 @@
 Mission.Id = 239;
 
 /* declares mission title */
-Mission.Title = "Pożar komina chutniczego";
+Mission.Title = "Pożar komina hutniczego";
 
 /* declares mission description */
 Mission.Description = "";
@@ -22,7 +22,7 @@ Mission.Description = "";
 Mission.Credits = 4000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 8, 8);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 8, 8);
 Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
 Mission.SetVehicleMissing(new int[] { 2, 13 }, 3, 3);
 Mission.SetVehicleMissing(new int[] { 4, 12 }, 2, 2);

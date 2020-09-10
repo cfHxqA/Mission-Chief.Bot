@@ -10,16 +10,22 @@
  */
 
 /* declares mission id */
-Mission.Id = 11;
+Mission.Id = 241;
 
 /* declares mission title */
-Mission.Title = "Zwarcie w instalacji elektrycznej";
+Mission.Title = "Karambol w tunelu";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 240;
+Mission.Credits = 3200;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 11 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 8, 17 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 5 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 9 }, 1, 1);

@@ -19,12 +19,13 @@ Mission.Title = "Pożar w szpitalu";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 6000;
+Mission.Credits = 6400;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 10, 10);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 10, 10);
 Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
 Mission.SetVehicleMissing(new int[] { 2, 13 }, 3, 3);
 Mission.SetVehicleMissing(new int[] { 4, 12 }, 2, 2);
 Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 10 }, 2, 2);
 Mission.SetVehicleMissing(new int[] { 5 }, 25, 25);

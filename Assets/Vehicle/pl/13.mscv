@@ -20,6 +20,3 @@ Vehicle.Title = "Podnośnik hydrauliczny";
 
 /* declares vehicle pattern */
 Vehicle.AddOrUpdatePattern(new string[] { "Podnośnik hydrauliczny", "– SP wysokościowe" });
-
-/* regex-pattern need water */
-Vehicle.AddOrUpdatePattern(@"([0-9]+) litrów wody", 1);

@@ -10,16 +10,20 @@
  */
 
 /* declares mission id */
-Mission.Id = 11;
+Mission.Id = 242;
 
 /* declares mission title */
-Mission.Title = "Zwarcie w instalacji elektrycznej";
+Mission.Title = "Przewrócenie Się Cysterny Z Paliwem";
 
 /* declares mission description */
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 240;
+Mission.Credits = 3000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 25 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 8, 17 }, 2, 2);
+Mission.SetVehicleMissing(new int[] { 5 }, 2, 2);

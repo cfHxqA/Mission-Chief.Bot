@@ -19,9 +19,12 @@ Mission.Title = "Pożar Dużego Magazynu";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 9500;
+Mission.Credits = 10000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 9, 9);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 12, 12);
 Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 11 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 2, 13 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 10 }, 1, 1);

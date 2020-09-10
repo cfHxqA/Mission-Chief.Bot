@@ -19,13 +19,15 @@ Mission.Title = "Pożar dużego supermarketu";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 3000;
+Mission.Credits = 6000;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 6, 6);
-Mission.SetVehicleMissing(new int[] { 3 }, 2, 2);
-Mission.SetVehicleMissing(new int[] { 2, 13 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 10, 10);
+Mission.SetVehicleMissing(new int[] { 3 }, 3, 3);
+Mission.SetVehicleMissing(new int[] { 11 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 2, 13 }, 3, 3);
 Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
+Mission.SetVehicleMissing(new int[] { 10 }, 2, 2);
 Mission.SetVehicleMissing(new int[] { 8, 17 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 5 }, 6, 6);

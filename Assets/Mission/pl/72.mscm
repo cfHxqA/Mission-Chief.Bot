@@ -19,10 +19,11 @@ Mission.Title = "Katastrofa awionetki";
 Mission.Description = "";
 
 /* declares credits for mission */
-Mission.Credits = 4000;
+Mission.Credits = 4500;
 
 /* declares required vehicles for mission */
-Mission.SetVehicleMissing(new int[] { 0, 1, 12, 13 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 0, 1, 12 }, 4, 4);
+Mission.SetVehicleMissing(new int[] { 25 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 3 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 4, 12 }, 1, 1);
 Mission.SetVehicleMissing(new int[] { 6 }, 1, 1);
