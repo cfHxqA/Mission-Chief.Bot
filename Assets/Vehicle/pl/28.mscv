@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "SLRr";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "SLRr" });
+Vehicle.AddOrUpdatePattern(new string[] { "SLRr", "samochodów Oficera Operacyjnego lub SLRr" });
