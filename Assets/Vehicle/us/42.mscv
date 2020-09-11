@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "FBI Unit";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "FBI Unit" });
+Vehicle.AddOrUpdatePattern(new string[] { "FBI Unit", "FBI Units" });

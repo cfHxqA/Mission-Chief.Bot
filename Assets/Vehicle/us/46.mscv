@@ -19,4 +19,4 @@ Vehicle.Category = "";
 Vehicle.Title = "FBI Surveillance Drone";
 
 /* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "FBI Surveillance Drone" });
+Vehicle.AddOrUpdatePattern(new string[] { "FBI Surveillance Drone", "FBI Investigation wagon or Surveillance Drone" });
