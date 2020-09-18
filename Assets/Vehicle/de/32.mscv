@@ -1,29 +1,14 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 32;
-
-/* declares vehicle category */
-Vehicle.Category = "Streifenwagen";
-
-/* declares vehicle title */
-Vehicle.Title = "FuStW";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "FuStW", "Streifenwagen", "Gefangene sollen abtransportiert werden" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([12]) Polizisten", 1); /* needed personal between 1-2 */
-Vehicle.AddOrUpdatePattern(@"min\. ([34]) Polizisten", 2); /* needed personal between 3-4 */
-Vehicle.AddOrUpdatePattern(@"min\. ([56]) Polizisten", 3); /* needed personal between 5-6 */
-Vehicle.AddOrUpdatePattern(@"min\. ([78]) Polizisten", 4); /* needed personal between 7-8 */
-Vehicle.AddOrUpdatePattern(@"min\. (9|10) Polizisten", 5); /* needed personal between 9-10 */
+{
+  "object" : 32,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["FuStW", "Streifenwagen", "Gefangene sollen abtransportiert werden"],
+    "extend" : {
+      "min\\. ([12]) Polizisten" : 1,
+      "min\\. ([34]) Polizisten" : 2,
+      "min\\. ([56]) Polizisten" : 3,
+      "min\\. ([78]) Polizisten" : 4,
+      "min\\. (9|10) Polizisten" : 5
+    }
+  }
+}

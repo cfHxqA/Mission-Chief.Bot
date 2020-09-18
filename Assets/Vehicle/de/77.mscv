@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 77;
-
-/* declares vehicle category */
-Vehicle.Category = "Feuerwehr";
-
-/* declares vehicle title */
-Vehicle.Title = "AB-Gefahrgut";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "AB-Gefahrgut", "Abrollbehälter Gefahrgut", "GW-Gefahrgut" });
+{
+  "object" : 77,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AB-Gefahrgut", "Abrollbehälter Gefahrgut", "GW-Gefahrgut"],
+    "extend" : {}
+  }
+}

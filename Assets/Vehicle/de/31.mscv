@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 31;
-
-/* declares vehicle category */
-Vehicle.Category = "Rettung";
-
-/* declares vehicle title */
-Vehicle.Title = "RTH";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "RTH", "NEF", "NAW", "Notarztwagen", "Ein Fahrzeug hat einen Sprechwunsch" });
+{
+  "object" : 31,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["RTH", "NEF", "NAW", "Notarztwagen", "Ein Fahrzeug hat einen Sprechwunsch"],
+    "extend" : {}
+  }
+}

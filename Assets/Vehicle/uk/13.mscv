@@ -1,26 +1,9 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 13;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "Armed Response Vehicle (ARV)";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern("([1-4]) Armed Response Personnel", 1); /* needed personal 1-4 */
-Vehicle.AddOrUpdatePattern("([5-8]) Armed Response Personnel", 2); /* needed personal 5-8 */
+{
+  "object" : 13,
+  "is_matchless" : false,
+  "pattern" : ["Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car"],
+  "extend" : {
+    "([1-4]) Armed Response Personnel" : 1,
+    "([5-8]) Armed Response Personnel" : 2
+  }
+}

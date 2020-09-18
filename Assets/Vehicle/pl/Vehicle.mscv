@@ -1,0 +1,19 @@
+{
+  "ambulances" : [5],
+  "battalion_chief_vehicles" : [3],
+  "boats" : [26, 21],
+  "diver_units" : [24],
+  "firetrucks" : [0, 1, 12],
+  "fwk" : [25],
+  "hazmat_vehicles" : [7],
+  "heavy_rescue_vehicles" : [4, 12],
+  "k9" : [16],
+  "mobile_air_vehicles" : [10],
+  "mobile_command_vehicles" : [11],
+  "platform_trucks" : [2, 13],
+  "police_cars" : [8, 17],
+  "police_helicopters" : [14],
+  "rescue_helicopter" : [9],
+  "water_rescue" : [19],
+  "water_tankers" : [6]
+}

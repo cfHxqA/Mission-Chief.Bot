@@ -1,27 +1,12 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 69;
-
-/* declares vehicle category */
-Vehicle.Category = "Tauchkraftwagen";
-
-/* declares vehicle title */
-Vehicle.Title = "Tauchkraftwagen";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Tauchkraftwagen", "GW-Taucher" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([12]) Personen mit GW-Wasserrettung Ausbildung", 1); /* needed personal 1-2 */
-Vehicle.AddOrUpdatePattern(@"min\. ([34]) Personen mit GW-Wasserrettung Ausbildung", 2); /* needed personal 3-4 */
-Vehicle.AddOrUpdatePattern(@"min\. ([56]) Personen mit GW-Wasserrettung Ausbildung", 3); /* needed personal 5-6 */
+{
+  "object" : 69,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Tauchkraftwagen", "GW-Taucher"],
+    "extend" : {
+      "min\\. ([12]) (Person|Personen) mit GW-Wasserrettung Ausbildung" : 1,
+      "min\\. ([34]) Personen mit GW-Wasserrettung Ausbildung" : 2,
+      "min\\. ([56]) Personen mit GW-Wasserrettung Ausbildung" : 3
+    }
+  }
+}

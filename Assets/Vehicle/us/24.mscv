@@ -1,25 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 24;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "Large Fireboat";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Large Fireboat", "Large fire boats" });
-
-/* regex-pattern need personnel */
-Vehicle.AddOrUpdatePattern(@"([1-4]) more (people|person) with water rescue training", 1); /* needed personnel 1-4 */
+{
+  "object" : 24,
+  "is_matchless" : false,
+  "pattern" : ["Large Fireboat", "Large fire boats"],
+  "extend" : {
+    "([1-4]) more (people|person) with water rescue training" : 1
+  }
+}

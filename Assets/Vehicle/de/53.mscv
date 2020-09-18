@@ -1,26 +1,11 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 53;
-
-/* declares vehicle category */
-Vehicle.Category = "Dekon-P";
-
-/* declares vehicle title */
-Vehicle.Title = "Dekon-P";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Dekon-P", "Dekon-P" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([1-6]) Personen mit Dekon-P Ausbildung", 1);        /* needed personal 1-6 */
-Vehicle.AddOrUpdatePattern(@"min\. ([7-9]|1[0-2]) Personen mit Dekon-P Ausbildung", 2); /* needed personal 7-12 */
+{
+  "object" : 53,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Dekon-P", "AB-Dekon-P"],
+    "extend" : {
+      "min\\. ([1-6]) (Person|Personen) mit Dekon-P Ausbildung" : 1,
+      "min\\. ([7-9]|1[0-2]) Personen mit Dekon-P Ausbildung" : 2
+    }
+  }
+}

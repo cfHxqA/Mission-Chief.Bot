@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 83;
-
-/* declares vehicle category */
-Vehicle.Category = "GW-Werkfeuerwehr";
-
-/* declares vehicle title */
-Vehicle.Title = "GW-Werkfeuerwehr";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GW-Werkfeuerwehr", "GW-Werkfeuerwehr" });
+{
+  "object" : 83,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GW-Werkfeuerwehr"],
+    "extend" : {}
+  }
+}

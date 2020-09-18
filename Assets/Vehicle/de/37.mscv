@@ -1,31 +1,16 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 37;
-
-/* declares vehicle category */
-Vehicle.Category = "Löschfahrzeuge";
-
-/* declares vehicle title */
-Vehicle.Title = "TSF-W";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "TSF-W", "Löschfahrzeuge", "Löschfahrzeug" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)", 1); /* needed personal 1-9 */
-Vehicle.AddOrUpdatePattern(@"min\. (1[0-8]) Feuerwehrleute", 2);                  /* needed personal between 10-18 */
-Vehicle.AddOrUpdatePattern(@"min\. (19|2[0-7]) Feuerwehrleute", 3);               /* needed personal between 19 - 27 */
-Vehicle.AddOrUpdatePattern(@"min\. (2[89]|3[0-6]) Feuerwehrleute", 4);            /* needed personal between 28 - 36 */
-
-/* regex-pattern need water */
-Vehicle.AddOrUpdatePattern(@"([0-9]+) l\. Wasser", 1);
+{
+  "object" : 37,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["TSF-W", "Löschfahrzeuge", "Löschfahrzeug"],
+    "extend" : {
+      "min\\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
+      "min\\. (1[0-8]) Feuerwehrleute" : 2,
+      "min\\. (19|2[0-7]) Feuerwehrleute" : 3,
+      "min\\. (2[89]|3[0-6]) Feuerwehrleute" : 4,
+      "min\\. (3[7-9]|4[0-5]) Feuerwehrleute" : 5,
+      "min\\. (4[6-9]|5[0-4]) Feuerwehrleute" : 6,
+      "([0-9]+) l\\. Wasser" : 1
+    }
+  }
+}

@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 20;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "Mass Casualty Unit";
-
-/* regex-pattern need personnel */
-Vehicle.AddOrUpdatePattern(@"([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel", 1); /* needed personnel 6-99 */
+{
+  "object" : 20,
+  "is_matchless" : false,
+  "pattern" : ["Mass Casualty Unit"],
+  "extend" : {
+    "([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel" : 1
+  }
+}

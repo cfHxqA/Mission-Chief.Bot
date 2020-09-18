@@ -1,27 +1,10 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 18;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "SUV SPKP";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "SUV SPKP", "policjanci SPKP" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern("([1-4]) policjanci SPKP", 1);    /* needed personal 1-4 */
-Vehicle.AddOrUpdatePattern("([5-8]) policjanci SPKP", 2);    /* needed personal 5-8 */
-Vehicle.AddOrUpdatePattern("(9|1[0-2]) policjanci SPKP", 3); /* needed personal 9-12 */
+{
+  "object" : 18,
+  "is_matchless" : false,
+  "pattern" : ["SUV SPKP", "policjanci SPKP"],
+  "extend" : {
+    "([1-4]) policjanci SPKP" : 1,
+    "[5-8]) policjanci SPKP" : 2,
+    "(9|1[0-2]) policjanci SPKP" : 3
+  }
+}

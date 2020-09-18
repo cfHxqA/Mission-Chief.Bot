@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 84;
-
-/* declares vehicle category */
-Vehicle.Category = "ULF mit Löscharm";
-
-/* declares vehicle title */
-Vehicle.Title = "ULF mit Löscharm";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "ULF mit Löscharm", "ULF mit Löscharm" });
+{
+  "object" : 84,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["ULF mit Löscharm"],
+    "extend" : {}
+  }
+}

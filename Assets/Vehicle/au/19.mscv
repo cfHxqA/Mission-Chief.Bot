@@ -1,0 +1,8 @@
+{
+  "object" : 19,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Tanker", "Fire engines", "Fire engine"],
+    "extend" : {}
+  }
+}

@@ -1,27 +1,13 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 63;
-
-/* declares vehicle category */
-Vehicle.Category = "GW-Taucher";
-
-/* declares vehicle title */
-Vehicle.Title = "GW-Taucher";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GW-Taucher", "Tauchkraftwagen" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([12]) Personen mit GW-Wasserrettung Ausbildung", 1); /* needed personal 1-2 */
-Vehicle.AddOrUpdatePattern(@"min\. ([34]) Personen mit GW-Wasserrettung Ausbildung", 2); /* needed personal 3-4 */
-Vehicle.AddOrUpdatePattern(@"min\. ([56]) Personen mit GW-Wasserrettung Ausbildung", 3); /* needed personal 5-6 */
+{
+  "object" : 63,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GW-Taucher", "Tauchkraftwagen"],
+    "extend" : {
+      "min\\. ([1-6]) (Person|Personen) mit GW-Wasserrettung Ausbildung" : 1,
+      "min\\. ([7-9]|1[0-2]) Personen mit GW-Wasserrettung Ausbildung" : 2,
+      "min\\. (1[3-8]) Personen mit GW-Wasserrettung Ausbildung" : 3,
+      "min\\. (19|2[0-4]) Personen mit GW-Wasserrettung Ausbildung" : 4
+    }
+  }
+}

@@ -1,25 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 55;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/** declare vehicle is unique */
-Vehicle.IsUnique = true;
-
-/* declares vehicle title */
-Vehicle.Title = "KdoW-LNA";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "KdoW-LNA", "LNA" });
+{
+  "object" : 55,
+  "is_matchless" : true,
+  "pattern" : {
+    "base" : ["KdoW-LNA", "LNA"],
+    "extend" : {}
+  }
+}

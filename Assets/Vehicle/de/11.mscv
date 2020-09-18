@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 11;
-
-/* declares vehicle category */
-Vehicle.Category = "GW L 2 Wasser";
-
-/* declares vehicle title */
-Vehicle.Title = "GW-L2-Wasser";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "GW-L2-Wasser", "GW L 2 Wasser", "Schlauchwagen", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches" });
+{
+  "object" : 11,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GW-L2-Wasser", "GW L 2 Wasser", "Schlauchwagen", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches"],
+    "extend" : {}
+  }
+}

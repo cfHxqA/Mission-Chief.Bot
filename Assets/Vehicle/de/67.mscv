@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 67;
-
-/* declares vehicle category */
-Vehicle.Category = "Boote";
-
-/* declares vehicle title */
-Vehicle.Title = "Anh SchlB";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Anh SchlB", "Boote", "Boot" });
+{
+  "object" : 67,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Anh SchlB", "Boote", "Boot"],
+    "extend" : {}
+  }
+}

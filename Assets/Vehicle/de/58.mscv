@@ -1,22 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 58;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "KTW Typ B";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "KTW Typ B", "RTW oder KTW Typ B", "RTW oder KTW oder KTW-B" });
+{
+  "object" : 58,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["KTW Typ B", "RTW oder KTW Typ B", "RTW oder KTW oder KTW-B"],
+    "extend" : {}
+  }
+}

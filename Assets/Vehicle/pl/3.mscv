@@ -1,22 +1,6 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 3;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "Samochód szefa brygady";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Samochód szefa brygady", "samochód Oficera Operacyjnego", "samochody(-ów) Oficera Operacyjnego", "samochodów Oficera Operacyjnego lub SLRr" });
+{
+  "object" : 3,
+  "is_matchless" : false,
+  "pattern" : ["Samochód szefa brygady", "samochód Oficera Operacyjnego", "samochody(-ów) Oficera Operacyjnego", "samochodów Oficera Operacyjnego lub SLRr"],
+  "extend" : {}
+}

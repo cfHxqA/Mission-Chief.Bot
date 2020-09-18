@@ -1,22 +1,6 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 16;
-
-/* declares vehicle category */
-Vehicle.Category = "Firetrucks";
-
-/* declares vehicle title */
-Vehicle.Title = "Rescue Pump";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Rescue Pump", "Fire engine", "Fire engines", "Rescue Pump", "Rescue Support Unit or Rescue Pump" });
+{
+  "object" : 16,
+  "is_matchless" : false,
+  "pattern" : ["Rescue Pump", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Fire engine", "Fire engines", "Rescue Pump", "Rescue Support Unit or Rescue Pump"],
+  "extend" : {}
+}

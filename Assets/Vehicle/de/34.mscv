@@ -1,25 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 34;
-
-/* declares vehicle category */
-Vehicle.Category = "ELW 2";
-
-/* declares vehicle title */
-Vehicle.Title = "ELW 2";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "ELW 2", "ELW 1" });
-
-/* regex-pattern need personal */
-Vehicle.AddOrUpdatePattern(@"min\. ([0-9]) Person mit ELW-2 Ausbildung", 1); /* needed personal 1-9 */
+{
+  "object" : 34,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["ELW 1", "ELW 2"],
+    "extend" : {}
+  }
+}

@@ -1,25 +1,8 @@
-/**
- * @author     cfHxqA
- * @copyright  2019 (C) by cfHxqA
- *
- * @package    MSC.Bot
- * @subpackage MSC.Bot.API.Game.Assets
- * @category   Mission Chief
- *
- * @license    Attribution-NonCommercial-NoDerivs 4.0 Unported <http://creativecommons.org/licenses/by-nc-nd/4.0/>
- */
-
-/* declares vehicle id */
-Vehicle.Id = 36;
-
-/* declares vehicle category */
-Vehicle.Category = "";
-
-/* declares vehicle title */
-Vehicle.Title = "Air tanker";
-
-/* declares vehicle pattern */
-Vehicle.AddOrUpdatePattern(new string[] { "Air tanker" });
-
-/* regex-pattern need water */
-Vehicle.AddOrUpdatePattern(@"(\d+) gal\. water", 1);
+{
+  "object" : 36,
+  "is_matchless" : false,
+  "pattern" : ["Air tanker"],
+  "extend" : {
+    "(\\d+) gal\\. water" : 1
+  }
+}
