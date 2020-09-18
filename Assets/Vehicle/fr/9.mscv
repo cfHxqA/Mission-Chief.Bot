@@ -2,7 +2,7 @@
   "object" : 9,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Dragon", "hélicoptère"],
+    "base" : ["Dragon", "hélicoptère", "hélicoptère de secours"],
     "extend" : {}
   }
 }
