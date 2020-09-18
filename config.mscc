@@ -1,71 +1,63 @@
 {
-  "game" : {
-    "environment" : {
-      "country" : "us",
-      "username" : "CHANGEME",
-      "password" : "CHANGEME",
-      "proxy" : null
+  "environment" : {
+    "country" : "us",
+    "username" : "CHANGEME",
+    "password" : "CHANGEME",
+  },
+  "building" : {
+    "hire" : {
+      "is_enabled" : false,
+      "default_amount" : 1
+    }
+  },
+  "interval" : 3,
+  "filter" : {
+    "alliance" : {
+      "distance" : 400,
+      "is_created_enabled": false,
+      "is_created_events_enabled": false,
+      "is_enabled" : false,
+      "is_events_enabled" : false
     },
-    "building" : {
-      "hire" : {
-        "is_enabled" : false,
-        "duration"   : 1,
+    "distance" : 400,
+    "forward" : {
+      "distance" : 400,
+      "estimated_duration" : 300,
+      "is_enabled" : false
+    },
+    "is_enabled" : false,
+    "is_events_enabled" : false,
+    "is_complete_vehicles_enabled" : false,
+    "is_complete_vehicles_list_enabled" : false,
+    "limit" : {
+      "is_enabled" : false,
+      "is_user_enabled" : false,
+      "default_amount" : 5
+    },
+    "share" : {
+      "is_enabled" : false,
+      "is_events_enabled" : false,
+      "is_requests_enabled" : false,
+      "is_vehicle_missing_enabled" : false,
+      "message" : {
+        "is_alliance_chat_enabled" : false,
+        "scheme" : "{Address} - {Place}, ${Credits}"
       }
     },
-    "mission" : {
-      "alliance" : {
-        "default_vehicle" : [],
-        "default_vehicle_amount" : 0,
-        "distance" : 400,
-        "is_created_enabled": false,
-        "is_created_events_enabled": false,
-        "is_enabled" : false,
-        "is_events_enabled" : false,
-        "min_amount_credits" : 0,
-        "max_amount_credits" : 0,
-        "min_amount_vehicle" : 0,
-        "max_amount_vehicle" : 0
-      },
-      "distance" : 400,
-      "forward" : {
-        "distance" : 400,
-        "is_enabled" : false,
-        "remaining_duration" : 300
-      },
-      "interval" : 1,
-      "interval_revocation" : 60,
-      "is_complete_enabled" : false,
-      "is_complete_enabled_limit": 5,
-      "is_complete_vehicle_missing_load_enabled" : false,
-      "is_enabled" : true,
-      "is_events_enabled" : true,
-      "is_required_complete_enabled" : false,
-      "share" : {
-        "default_vehicle" : [],
-        "default_vehicle_amount" : 0,
-        "estimated_duration" : 300,
-        "is_enabled" : false,
-        "is_event_enabled" : false,
-        "is_requests_enabled" : false,
-        "is_vehicle_missing_enabled" : false,
-        "message" : "",
-        "min_amount_credits" : 0,
-        "max_amount_credits" : 0,
-        "min_amount_vehicle" : 0,
-        "max_amount_vehicle" : 0
-      },
-      "speed_step" : 3
-    },
     "speech" : {
-      "distance" : 400,
+      "alliance" : {
+        "capacity_patient" : 0,
+        "capacity_prisoner" : 0,
+        "distance" : 400,
+        "is_enabled" : false,
+        "tax": 0
+      },
       "capacity_patient" : 0,
       "capacity_prisoner" : 0,
-      "capacity_alliance_patient" : 0,
-      "capacity_alliance_prisoner" : 0,
+      "distance" : 400,
       "interval" : 1,
-      "is_alliance_enabled" : true,
-      "is_alliance_enabled_limit": 0,
-      "is_enabled" : true
+      "is_enabled" : false
     }
-  }
+  },
+  "speed_step" : 3
 }
