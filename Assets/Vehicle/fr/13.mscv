@@ -2,5 +2,5 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : ["VTU", "Véhicule Tout Usage", "Véhicule de secours routier", "véhicule de secours routier"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

@@ -3,7 +3,7 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["FuStW", "Streifenwagen", "Gefangene sollen abtransportiert werden"],
-    "extend" : {
+    "pattern.extend" : {
       "min\\. ([12]) Polizisten" : 1,
       "min\\. ([34]) Polizisten" : 2,
       "min\\. ([56]) Polizisten" : 3,

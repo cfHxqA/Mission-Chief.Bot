@@ -2,5 +2,5 @@
   "object" : 6,
   "is_matchless" : false,
   "pattern" : ["Cysterna gaśnicza", "cysterna z wodą", "cystern(-y) z wodą"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

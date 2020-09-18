@@ -2,5 +2,5 @@
   "object" : 18,
   "is_matchless" : false,
   "pattern" : ["Choucas"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

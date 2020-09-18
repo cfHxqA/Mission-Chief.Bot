@@ -2,5 +2,5 @@
   "object" : 19,
   "is_matchless" : false,
   "pattern" : ["S.WOPR"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

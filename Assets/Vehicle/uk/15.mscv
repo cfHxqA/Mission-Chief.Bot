@@ -2,5 +2,5 @@
   "object" : 15,
   "is_matchless" : false,
   "pattern" : ["ICCU", "Incident Command", "Control Unit"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

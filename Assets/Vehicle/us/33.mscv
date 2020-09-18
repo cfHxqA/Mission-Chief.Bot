@@ -2,7 +2,7 @@
   "object" : 33,
   "is_matchless" : false,
   "pattern" : ["Pumper Tanker", "Water Tanker"],
-  "extend" : {
+  "pattern.extend" : {
     "(\\d+) gal\\. water" : 1
   }
 }

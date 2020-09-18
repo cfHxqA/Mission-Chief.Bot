@@ -2,5 +2,5 @@
   "object" : 6,
   "is_matchless" : false,
   "pattern" : ["CCGC", "camion-citerne"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

@@ -2,5 +2,5 @@
   "object" : 16,
   "is_matchless" : false,
   "pattern" : ["VPL", "SAV", "SAV (Sauvetage Aquatique)", "PLG", "PLG (Plongeur)"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

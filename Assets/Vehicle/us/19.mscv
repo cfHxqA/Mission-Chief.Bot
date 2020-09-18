@@ -2,5 +2,5 @@
   "object" : 19,
   "is_matchless" : false,
   "pattern" : ["K-9 Unit"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

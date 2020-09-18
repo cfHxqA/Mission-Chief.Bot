@@ -2,5 +2,5 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : ["Drabina mechaniczna", "– SP wysokościowe"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

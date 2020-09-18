@@ -2,7 +2,7 @@
   "object" : 18,
   "is_matchless" : false,
   "pattern" : ["SUV SPKP", "policjanci SPKP"],
-  "extend" : {
+  "pattern.extend" : {
     "([1-4]) policjanci SPKP" : 1,
     "[5-8]) policjanci SPKP" : 2,
     "(9|1[0-2]) policjanci SPKP" : 3

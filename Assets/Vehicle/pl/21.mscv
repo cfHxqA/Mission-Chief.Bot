@@ -2,5 +2,5 @@
   "object" : 21,
   "is_matchless" : false,
   "pattern" : ["L.Ratownicza"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

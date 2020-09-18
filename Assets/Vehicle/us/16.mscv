@@ -2,7 +2,7 @@
   "object" : 16,
   "is_matchless" : false,
   "pattern" : ["Swat", "swat", "SWAT"],
-  "extend" : {
+  "pattern.extend" : {
     "([0-6]) SWAT Personnel" : 1,
     "([7-9]|1[0-2]) SWAT Personnel" : 2,
     "(1[3-8]) SWAT Personnel" : 3,

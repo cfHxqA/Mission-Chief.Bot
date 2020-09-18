@@ -2,5 +2,5 @@
   "object" : 12,
   "is_matchless" : false,
   "pattern" : ["Mobile Command Vehicle", "mobile Command Vehicle", "Mobile Command Vehicles", "mobile Command Vehicles"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

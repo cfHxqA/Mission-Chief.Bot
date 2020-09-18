@@ -2,5 +2,5 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : ["platform trucks", "platform truck", "platform"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

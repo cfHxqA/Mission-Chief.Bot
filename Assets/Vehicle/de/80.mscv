@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["SEK-MTF", "SEK-Fahrzeug", "SEK-Fahrzeuge"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

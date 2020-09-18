@@ -2,5 +2,5 @@
   "object" : 10,
   "is_matchless" : false,
   "pattern" : ["VAR", "Véhicule d'Assistance Respiratoire"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

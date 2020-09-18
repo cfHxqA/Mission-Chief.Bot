@@ -2,5 +2,5 @@
   "object" : 17,
   "is_matchless" : false,
   "pattern" : ["Motocykl Policyjny"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

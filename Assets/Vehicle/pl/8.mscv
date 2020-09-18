@@ -2,5 +2,5 @@
   "object" : 8,
   "is_matchless" : false,
   "pattern" : ["Radiowóz", "radiowóz", "Więźniowie muszą zostać przetransportowani"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

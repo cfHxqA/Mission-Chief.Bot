@@ -2,5 +2,5 @@
   "object" : 3,
   "is_matchless" : false,
   "pattern" : ["Samochód szefa brygady", "samochód Oficera Operacyjnego", "samochody(-ów) Oficera Operacyjnego", "samochodów Oficera Operacyjnego lub SLRr"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

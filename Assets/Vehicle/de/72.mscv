@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["WaWe 10", "Wasserwerfer"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

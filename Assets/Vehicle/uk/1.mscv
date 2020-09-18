@@ -2,5 +2,5 @@
   "object" : 1,
   "is_matchless" : false,
   "pattern" : ["Light 4X4 Pump (L4P)", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Light 4X4 Pump", "Fire engine", "Fire engines"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

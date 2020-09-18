@@ -2,5 +2,5 @@
   "object" : 41,
   "is_matchless" : false,
   "pattern" : ["Crew cap semi"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

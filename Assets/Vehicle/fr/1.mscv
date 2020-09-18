@@ -2,5 +2,5 @@
   "object" : 1,
   "is_matchless" : false,
   "pattern" : ["FPTL", "FPT", "FPTSR", "fourgon d’incendie", "fourgons d’incendie"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

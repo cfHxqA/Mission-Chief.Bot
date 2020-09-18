@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["FüKw"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

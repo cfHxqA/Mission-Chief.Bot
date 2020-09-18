@@ -2,5 +2,5 @@
   "object" : 4,
   "is_matchless" : false,
   "pattern" : ["VSR", "Véhicule de secours routier", "véhicule de secours routier"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

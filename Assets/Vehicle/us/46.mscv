@@ -2,5 +2,5 @@
   "object" : 46,
   "is_matchless" : false,
   "pattern" : ["FBI Surveillance Drone", "FBI Investigation wagon or Surveillance Drone"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

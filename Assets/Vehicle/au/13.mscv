@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Aerial Pumper", "Fire engines", "Fire engine"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

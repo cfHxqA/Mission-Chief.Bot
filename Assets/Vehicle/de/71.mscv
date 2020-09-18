@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-MZB", "Abrollbehälter Mehrzweckboot", "Boot", "Boote"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

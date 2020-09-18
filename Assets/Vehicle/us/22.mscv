@@ -2,7 +2,7 @@
   "object" : 22,
   "is_matchless" : false,
   "pattern" : ["Boat", "Boats"],
-  "extend" : {
+  "pattern.extend" : {
     "([1-4]) more (people|person) with water rescue training" : 1,
     "([5-8]) more (people|person) with water rescue training" : 2
   }

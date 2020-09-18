@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Ambulance", "Transport is needed"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

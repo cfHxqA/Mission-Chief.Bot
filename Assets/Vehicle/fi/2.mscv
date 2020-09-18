@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Nostolava-auto", "nostolava-auto"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

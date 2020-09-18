@@ -2,5 +2,5 @@
   "object" : 28,
   "is_matchless" : false,
   "pattern" : ["SLRr", "samochodów Oficera Operacyjnego lub SLRr"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

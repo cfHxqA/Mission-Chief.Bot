@@ -2,5 +2,5 @@
   "object" : 24,
   "is_matchless" : false,
   "pattern" : ["Samochód SLRw"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

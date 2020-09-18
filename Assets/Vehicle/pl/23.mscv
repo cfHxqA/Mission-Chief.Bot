@@ -2,5 +2,5 @@
   "object" : 23,
   "is_matchless" : false,
   "pattern" : ["Skuter"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

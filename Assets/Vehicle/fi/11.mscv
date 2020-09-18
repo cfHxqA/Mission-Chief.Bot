@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Johtokeskusauto", "johtokeskusauto"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

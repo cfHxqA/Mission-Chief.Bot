@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Support Vehicles", "Support Vehicle"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

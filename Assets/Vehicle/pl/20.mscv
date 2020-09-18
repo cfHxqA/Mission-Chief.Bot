@@ -2,5 +2,5 @@
   "object" : 20,
   "is_matchless" : false,
   "pattern" : ["Quad"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

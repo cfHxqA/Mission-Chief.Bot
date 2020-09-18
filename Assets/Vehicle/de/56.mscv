@@ -3,6 +3,6 @@
   "is_matchless" : true,
   "pattern" : {
     "base" : ["KdoW-OrgL", "OrgL"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

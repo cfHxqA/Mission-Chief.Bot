@@ -2,5 +2,5 @@
   "object" : 14,
   "is_matchless" : false,
   "pattern" : ["Police Helicopter", "Police helicopter", "police helicopter", "Policehelicopter"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

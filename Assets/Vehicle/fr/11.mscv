@@ -2,5 +2,5 @@
   "object" : 11,
   "is_matchless" : false,
   "pattern" : ["VPC"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

@@ -2,5 +2,5 @@
   "object" : 11,
   "is_matchless" : false,
   "pattern" : ["Samochód Dowodzenia i Łączności", "samochód dowodzenia i łączności"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

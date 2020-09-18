@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["1 Rettungshundestaffel/n.", "Rettungshundefahrzeug", "Rettungshundestaffel/n", "Rettungshundestaffel"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

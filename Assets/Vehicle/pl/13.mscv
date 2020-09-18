@@ -2,5 +2,5 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : ["Podnośnik hydrauliczny", "– SP wysokościowe"],
-  "extend" : {}
+  "pattern.extend" : {}
 }

@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Säiliöauto", "säiliöauto", "säiliöautoa"],
-    "extend" : {}
+    "pattern.extend" : {}
   }
 }

@@ -2,5 +2,5 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : ["Samochód ratownictwa chemicznego", "– Rchem", "Rchem"],
-  "extend" : {}
+  "pattern.extend" : {}
 }
