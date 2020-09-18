@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-Atemschutz", "GW-A", "GW-A oder AB-Atemschutz"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

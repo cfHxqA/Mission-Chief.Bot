@@ -1,6 +1,8 @@
 {
   "object" : 40,
   "is_matchless" : false,
-  "pattern" : ["Dozer Trailer"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Dozer Trailer"],
+    "extend" : {}
+  }
 }

@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["HAZMAT Units", "HAZMAT Unit", "HAZMAT Truck(s)"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["LKW K 9", "LKW K9", "LKW Kipper"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

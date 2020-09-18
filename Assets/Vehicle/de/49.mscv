@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-Öl", "GW-Öl"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

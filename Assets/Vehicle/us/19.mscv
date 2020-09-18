@@ -1,6 +1,8 @@
 {
   "object" : 19,
   "is_matchless" : false,
-  "pattern" : ["K-9 Unit"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["K-9 Unit"],
+    "extend" : {}
+  }
 }

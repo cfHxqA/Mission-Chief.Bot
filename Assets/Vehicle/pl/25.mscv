@@ -1,6 +1,8 @@
 {
   "object" : 25,
   "is_matchless" : false,
-  "pattern" : ["Dźwig SP", "Dźwigów SP"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Dźwig SP", "Dźwigów SP"],
+    "extend" : {}
+  }
 }

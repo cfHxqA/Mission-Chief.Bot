@@ -1,6 +1,8 @@
 {
   "object" : 19,
   "is_matchless" : false,
-  "pattern" : ["Joint Response Unit"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Joint Response Unit"],
+    "extend" : {}
+  }
 }

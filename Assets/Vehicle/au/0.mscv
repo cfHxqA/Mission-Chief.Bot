@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Pumper", "Fire engines", "Fire engine"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

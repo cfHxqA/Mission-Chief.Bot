@@ -1,6 +1,8 @@
 {
   "object" : 13,
   "is_matchless" : false,
-  "pattern" : ["platform trucks", "platform truck", "platform", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["platform trucks", "platform truck", "platform", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 3,
   "is_matchless" : false,
-  "pattern" : ["VLCG", "chef de groupe requis", "chefs de groupe requis"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["VLCG", "chef de groupe requis", "chefs de groupe requis"],
+    "extend" : {}
+  }
 }

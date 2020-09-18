@@ -1,6 +1,8 @@
 {
   "object" : 29,
   "is_matchless" : false,
-  "pattern" : ["GLBA"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["GLBA"],
+    "extend" : {}
+  }
 }

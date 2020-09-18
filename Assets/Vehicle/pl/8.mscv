@@ -1,6 +1,8 @@
 {
   "object" : 8,
   "is_matchless" : false,
-  "pattern" : ["Radiowóz", "radiowóz", "Więźniowie muszą zostać przetransportowani"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Radiowóz", "radiowóz", "Więźniowie muszą zostać przetransportowani"],
+    "extend" : {}
+  }
 }

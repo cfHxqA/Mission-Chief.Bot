@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Anh MzAB", "Boote", "Boot"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

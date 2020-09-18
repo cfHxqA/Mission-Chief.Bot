@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["FwK", "Feuerwehrkräne (FwK)"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

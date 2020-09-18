@@ -1,9 +1,11 @@
 {
   "object" : 21,
   "is_matchless" : false,
-  "pattern" : ["boat", "Boat", "Heavy rescue", "Heavy rescue vehicle"],
-  "pattern.extend" : {
-    "([1-4]) more (people|person) with water rescue training" : 1,
-    "([5-8]) more (people|person) with water rescue training" : 2
+  "pattern" : {
+    "base" : ["boat", "Boat", "Heavy rescue", "Heavy rescue vehicle"],
+    "extend" : {
+      "([1-4]) more (people|person) with water rescue training" : 1,
+      "([5-8]) more (people|person) with water rescue training" : 2
+    }
   }
 }

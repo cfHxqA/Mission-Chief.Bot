@@ -1,8 +1,10 @@
 {
   "object" : 20,
   "is_matchless" : false,
-  "pattern" : ["Mass Casualty Unit"],
-  "pattern.extend" : {
-    "([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel" : 1
+  "pattern" : {
+    "base" : ["Mass Casualty Unit"],
+    "extend" : {
+      "([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel" : 1
+    }
   }
 }

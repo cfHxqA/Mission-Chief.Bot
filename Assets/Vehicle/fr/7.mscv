@@ -1,6 +1,8 @@
 {
   "object" : 7,
   "is_matchless" : false,
-  "pattern" : ["VIRT", "véhicule(s) risques technologiques"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["VIRT", "véhicule(s) risques technologiques"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 18,
   "is_matchless" : false,
-  "pattern" : ["Co-Responder Vehicle"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Co-Responder Vehicle"],
+    "extend" : {}
+  }
 }

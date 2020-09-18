@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["TM 50", "Teleskopmasten", "Teleskopmast"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

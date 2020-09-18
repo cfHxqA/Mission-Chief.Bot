@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["NAW", "Notarztwagen", "NEF", "RTW", "Ein Fahrzeug hat einen Sprechwunsch"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

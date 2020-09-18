@@ -1,6 +1,8 @@
 {
   "object" : 45,
   "is_matchless" : false,
-  "pattern" : ["FBI Bomb Technician Vehicle"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["FBI Bomb Technician Vehicle"],
+    "extend" : {}
+  }
 }

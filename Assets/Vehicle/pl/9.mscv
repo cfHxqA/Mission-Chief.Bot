@@ -1,6 +1,8 @@
 {
   "object" : 9,
   "is_matchless" : false,
-  "pattern" : ["Śmigłowiec LPR", "Ambulans P", "Ambulans", "ambulans", "Potrzebny transport"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Śmigłowiec LPR", "Ambulans P", "Ambulans", "ambulans", "Potrzebny transport"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 46,
   "is_matchless" : false,
-  "pattern" : ["FBI Surveillance Drone", "FBI Investigation wagon or Surveillance Drone"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["FBI Surveillance Drone", "FBI Investigation wagon or Surveillance Drone"],
+    "extend" : {}
+  }
 }

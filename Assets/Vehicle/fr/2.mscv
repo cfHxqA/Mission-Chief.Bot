@@ -1,6 +1,8 @@
 {
   "object" : 2,
   "is_matchless" : false,
-  "pattern" : ["EPA", "Moyen Élévateur Aérien", "Moyens Élévateurs Aériens"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["EPA", "Moyen Élévateur Aérien", "Moyens Élévateurs Aériens"],
+    "extend" : {}
+  }
 }

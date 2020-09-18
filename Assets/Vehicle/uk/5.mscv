@@ -1,6 +1,8 @@
 {
   "object" : 5,
   "is_matchless" : false,
-  "pattern" : ["Ambulance", "Transport is needed"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Ambulance", "Transport is needed"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 8,
   "is_matchless" : false,
-  "pattern" : ["Heavy rescue vehicle", "Heavy rescue"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Heavy rescue vehicle", "Heavy rescue"],
+    "extend" : {}
+  }
 }

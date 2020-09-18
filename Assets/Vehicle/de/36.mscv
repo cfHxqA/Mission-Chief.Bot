@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["MTW", "Mannschaftstransport-Wagen"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

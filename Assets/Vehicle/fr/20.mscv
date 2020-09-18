@@ -1,6 +1,8 @@
 {
   "object" : 20,
   "is_matchless" : false,
-  "pattern" : ["Unité motocycliste", "unité cynophile"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Unité motocycliste", "unité cynophile"],
+    "extend" : {}
+  }
 }

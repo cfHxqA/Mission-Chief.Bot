@@ -1,6 +1,8 @@
 {
   "object" : 4,
   "is_matchless" : false,
-  "pattern" : ["Rescue Support Unit (RSU)", "RSU", "Rescue Support Unit", "Rescue Support Unit or Rescue Pump" ],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Rescue Support Unit (RSU)", "RSU", "Rescue Support Unit", "Rescue Support Unit or Rescue Pump" ],
+    "extend" : {}
+  }
 }

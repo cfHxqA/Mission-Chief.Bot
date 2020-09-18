@@ -1,6 +1,8 @@
 {
   "object" : 3,
   "is_matchless" : false,
-  "pattern" : ["Fire Officer", "Fire Officers"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Fire Officer", "Fire Officers"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 26,
   "is_matchless" : false,
-  "pattern" : ["Łódź SP"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Łódź SP"],
+    "extend" : {}
+  }
 }

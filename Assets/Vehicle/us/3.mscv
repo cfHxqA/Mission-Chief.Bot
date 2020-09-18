@@ -1,6 +1,8 @@
 {
   "object" : 3,
   "is_matchless" : false,
-  "pattern" : ["Battalion chief unit", "Battalion chief units", "battalion chief unit", "battalion chief units"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Battalion chief unit", "Battalion chief units", "battalion chief unit", "battalion chief units"],
+    "extend" : {}
+  }
 }

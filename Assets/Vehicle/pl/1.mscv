@@ -1,8 +1,10 @@
 {
   "object" : 1,
   "is_matchless" : false,
-  "pattern" : ["Średni samochód gaśniczy", "Ciężki samochód gaśniczy", "samochód pożarniczy", "samochody(-ów) pożarnicze(-ych)"],
-  "pattern.extend" : {
-    "([0-9]+) litrów wody" : 1
+  "pattern" : {
+    "base" : ["Średni samochód gaśniczy", "Ciężki samochód gaśniczy", "samochód pożarniczy", "samochody(-ów) pożarnicze(-ych)"],
+    "extend" : {
+      "([0-9]+) litrów wody" : 1
+    }
   }
 }

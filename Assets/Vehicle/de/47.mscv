@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

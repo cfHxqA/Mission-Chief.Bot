@@ -3,7 +3,7 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["K-9 Units", "K-9 Unit"],
-    "pattern.extend" : {
+    "extend" : {
       "([12]) K-9 Units" : 1,
       "([34]) K-9 Units" : 2,
       "([56]) K-9 Units" : 3,

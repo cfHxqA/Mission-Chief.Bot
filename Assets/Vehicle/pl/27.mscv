@@ -1,6 +1,8 @@
 {
   "object" : 27,
   "is_matchless" : false,
-  "pattern" : ["SRWys", "Samochodów Ratownictwa wysokościowego", "Samochód Ratownictwa wysokościowego"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["SRWys", "Samochodów Ratownictwa wysokościowego", "Samochód Ratownictwa wysokościowego"],
+    "extend" : {}
+  }
 }

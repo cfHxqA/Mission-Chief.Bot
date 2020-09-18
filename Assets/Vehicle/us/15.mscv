@@ -1,6 +1,8 @@
 {
   "object" : 15,
   "is_matchless" : false,
-  "pattern" : ["Fly-Car"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Fly-Car"],
+    "extend" : {}
+  }
 }

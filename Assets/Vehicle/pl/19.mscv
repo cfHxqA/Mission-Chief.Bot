@@ -1,6 +1,8 @@
 {
   "object" : 19,
   "is_matchless" : false,
-  "pattern" : ["S.WOPR"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["S.WOPR"],
+    "extend" : {}
+  }
 }

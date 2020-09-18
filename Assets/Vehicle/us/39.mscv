@@ -1,6 +1,8 @@
 {
   "object" : 39,
   "is_matchless" : false,
-  "pattern" : ["Type 6 engine"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Type 6 engine"],
+    "extend" : {}
+  }
 }

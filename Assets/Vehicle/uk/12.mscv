@@ -1,6 +1,8 @@
 {
   "object" : 12,
   "is_matchless" : false,
-  "pattern" : ["Dog Support Unit (DSU)", "Dog Support Unit", "DSU", "Police car"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Dog Support Unit (DSU)", "Dog Support Unit", "DSU", "Police car"],
+    "extend" : {}
+  }
 }

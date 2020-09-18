@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["MTW-TZ", "MTW TZ", "THW-Einsatzleitung"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

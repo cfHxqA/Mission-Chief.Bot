@@ -1,6 +1,8 @@
 {
   "object" : 8,
   "is_matchless" : false,
-  "pattern" : ["Incident response vehicle (IRV)", "Incident response vehicle", "IRV", "Police car", "Prisoners must be transported"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Incident response vehicle (IRV)", "Incident response vehicle", "IRV", "Police car", "Prisoners must be transported"],
+    "extend" : {}
+  }
 }

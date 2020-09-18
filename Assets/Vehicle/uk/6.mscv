@@ -1,6 +1,8 @@
 {
   "object" : 6,
   "is_matchless" : false,
-  "pattern" : ["Water Carrier"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Water Carrier"],
+    "extend" : {}
+  }
 }

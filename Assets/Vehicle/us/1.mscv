@@ -1,6 +1,8 @@
 {
   "object" : 1,
   "is_matchless" : false,
-  "pattern" : ["Type 2 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Type 2 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 7,
   "is_matchless" : false,
-  "pattern" : ["HazMat Unit", "HazMat", "hazmat"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["HazMat Unit", "HazMat", "hazmat"],
+    "extend" : {}
+  }
 }

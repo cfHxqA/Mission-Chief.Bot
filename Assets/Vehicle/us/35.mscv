@@ -1,8 +1,10 @@
 {
   "object" : 35,
   "is_matchless" : false,
-  "pattern" : ["Water drop helicopter"],
-  "pattern.extend" : {
-    "(\\d+) gal\\. water" : 1
+  "pattern" : {
+    "base" : ["Water drop helicopter"],
+    "extend" : {
+      "(\\d+) gal\\. water" : 1
+    }
   }
 }

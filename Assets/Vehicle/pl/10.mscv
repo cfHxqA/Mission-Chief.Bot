@@ -1,6 +1,8 @@
 {
   "object" : 10,
   "is_matchless" : false,
-  "pattern" : ["SPGaz"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["SPGaz"],
+    "extend" : {}
+  }
 }

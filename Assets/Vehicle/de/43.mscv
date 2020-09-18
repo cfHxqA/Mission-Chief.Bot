@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["BRmG", "BRmG R", "Radlader"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

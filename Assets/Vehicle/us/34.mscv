@@ -1,6 +1,8 @@
 {
   "object" : 34,
   "is_matchless" : false,
-  "pattern" : ["Crew Carrier"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Crew Carrier"],
+    "extend" : {}
+  }
 }

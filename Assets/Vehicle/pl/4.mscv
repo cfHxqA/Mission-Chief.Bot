@@ -1,6 +1,8 @@
 {
   "object" : 4,
   "is_matchless" : false,
-  "pattern" : ["Samochód ratownictwa technicznego", "Samochód Ratownictwa Technicznego"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Samochód ratownictwa technicznego", "Samochód Ratownictwa Technicznego"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 8,
   "is_matchless" : false,
-  "pattern" : ["Véhicule de patrouille", "voiture de patrouille"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Véhicule de patrouille", "voiture de patrouille"],
+    "extend" : {}
+  }
 }

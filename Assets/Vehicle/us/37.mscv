@@ -1,8 +1,10 @@
 {
   "object" : 37,
   "is_matchless" : false,
-  "pattern" : ["Heavy air tanker"],
-  "pattern.extend" : {
-    "(\\d+) gal\\. water" : 1
+  "pattern" : {
+    "base" : ["Heavy air tanker"],
+    "extend" : {
+      "(\\d+) gal\\. water" : 1
+    }
   }
 }

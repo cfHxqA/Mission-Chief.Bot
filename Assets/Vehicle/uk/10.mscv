@@ -1,6 +1,8 @@
 {
   "object" : 10,
   "is_matchless" : false,
-  "pattern" : ["Rapid Response Vehicle"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Rapid Response Vehicle"],
+    "extend" : {}
+  }
 }

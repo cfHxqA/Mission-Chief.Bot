@@ -1,6 +1,8 @@
 {
   "object" : 6,
   "is_matchless" : false,
-  "pattern" : ["Mobile air", "mobile air", "Mobile Air Unit"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Mobile air", "mobile air", "Mobile Air Unit"],
+    "extend" : {}
+  }
 }

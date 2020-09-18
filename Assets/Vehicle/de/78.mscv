@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-Einsatzleitung", "Abrollbehälter Einsatzleitung", "ELW 1", "ELW 2"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

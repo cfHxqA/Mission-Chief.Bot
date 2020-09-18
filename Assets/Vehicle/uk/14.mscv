@@ -1,6 +1,8 @@
 {
   "object" : 14,
   "is_matchless" : false,
-  "pattern" : ["BASU", "Breathing Apparatus Support Unit"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["BASU", "Breathing Apparatus Support Unit"],
+    "extend" : {}
+  }
 }

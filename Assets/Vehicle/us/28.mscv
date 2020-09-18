@@ -1,6 +1,8 @@
 {
   "object" : 28,
   "is_matchless" : false,
-  "pattern" : ["EMS Rescue"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["EMS Rescue"],
+    "extend" : {}
+  }
 }

@@ -1,6 +1,8 @@
 {
   "object" : 10,
   "is_matchless" : false,
-  "pattern" : ["Patrol car", "Patrol cars", "patrol car", "patrol cars", "Prisoners must be transported"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Patrol car", "Patrol cars", "patrol car", "patrol cars", "Prisoners must be transported"],
+    "extend" : {}
+  }
 }

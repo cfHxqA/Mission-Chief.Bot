@@ -1,6 +1,8 @@
 {
   "object" : 12,
   "is_matchless" : false,
-  "pattern" : ["FPTSR", "FPT", "FPTL", "fourgon d’incendie", "fourgons d’incendie", "Véhicule de secours routier", "véhicule de secours routier"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["FPTSR", "FPT", "FPTL", "fourgon d’incendie", "fourgons d’incendie", "Véhicule de secours routier", "véhicule de secours routier"],
+    "extend" : {}
+  }
 }

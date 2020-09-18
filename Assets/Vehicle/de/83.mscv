@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["GW-Werkfeuerwehr"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

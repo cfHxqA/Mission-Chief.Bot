@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["ALS-ambulanssi", "Ambulanssi", "Kuljetus tarvitaan"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

@@ -3,7 +3,7 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["KLF", "Löschfahrzeuge", "Löschfahrzeug"],
-    "pattern.extend" : {
+    "extend" : {
       "min\\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
       "min\\. (1[0-8]) Feuerwehrleute" : 2,
       "min\\. (19|2[0-7]) Feuerwehrleute" : 3,

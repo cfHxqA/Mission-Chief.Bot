@@ -1,6 +1,8 @@
 {
   "object" : 2,
   "is_matchless" : false,
-  "pattern" : ["Drabina mechaniczna", "– SP wysokościowe"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Drabina mechaniczna", "– SP wysokościowe"],
+    "extend" : {}
+  }
 }

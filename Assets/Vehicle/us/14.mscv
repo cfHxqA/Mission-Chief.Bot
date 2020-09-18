@@ -1,6 +1,8 @@
 {
   "object" : 14,
   "is_matchless" : false,
-  "pattern" : ["Police Helicopter", "Police helicopter", "police helicopter", "Policehelicopter"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Police Helicopter", "Police helicopter", "police helicopter", "Policehelicopter"],
+    "extend" : {}
+  }
 }

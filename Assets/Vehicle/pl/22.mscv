@@ -1,6 +1,8 @@
 {
   "object" : 22,
   "is_matchless" : false,
-  "pattern" : ["Ponton"],
-  "pattern.extend" : {}
+  "pattern" : {
+    "base" : ["Ponton"],
+    "extend" : {}
+  }
 }

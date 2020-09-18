@@ -1,10 +1,12 @@
 {
   "object" : 15,
   "is_matchless" : false,
-  "pattern" : ["Opancerzony Pojazd SPKP"],
-  "pattern.extend" : {
-    "([1-6]) policjanci SPKP" : 1,
-    "([7-9]|1[0-2]) policjanci SPKP" : 2,
-    "(1[3-8]) policjanci SPKP" : 3
+  "pattern" : {
+    "base" : ["Opancerzony Pojazd SPKP"],
+    "extend" : {
+      "([1-6]) policjanci SPKP" : 1,
+      "([7-9]|1[0-2]) policjanci SPKP" : 2,
+      "(1[3-8]) policjanci SPKP" : 3
+    }
   }
 }

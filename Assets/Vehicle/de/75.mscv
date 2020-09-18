@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["FLF", "Flugfeldlöschfahrzeuge", "Flugfeldlöschfahrzeug"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }

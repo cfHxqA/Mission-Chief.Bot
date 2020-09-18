@@ -3,7 +3,7 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Dekon-P", "AB-Dekon-P"],
-    "pattern.extend" : {
+    "extend" : {
       "min\\. ([1-6]) (Person|Personen) mit Dekon-P Ausbildung" : 1,
       "min\\. ([7-9]|1[0-2]) Personen mit Dekon-P Ausbildung" : 2
     }

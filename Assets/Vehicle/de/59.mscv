@@ -3,6 +3,6 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["ELW 1 (SEG)"],
-    "pattern.extend" : {}
+    "extend" : {}
   }
 }
