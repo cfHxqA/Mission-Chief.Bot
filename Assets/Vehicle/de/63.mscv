@@ -4,10 +4,10 @@
   "pattern" : {
     "base" : ["GW-Taucher", "Tauchkraftwagen"],
     "extend" : {
-      "min\\. ([1-6]) (Person|Personen) mit GW-Wasserrettung Ausbildung" : 1,
-      "min\\. ([7-9]|1[0-2]) Personen mit GW-Wasserrettung Ausbildung" : 2,
-      "min\\. (1[3-8]) Personen mit GW-Wasserrettung Ausbildung" : 3,
-      "min\\. (19|2[0-4]) Personen mit GW-Wasserrettung Ausbildung" : 4
+      "min\\. ([1-2]) (Person|Personen) mit GW-Taucher Ausbildung" : 1,
+      "min\\. ([3-4]) Personen mit GW-Taucher Ausbildung" : 2,
+      "min\\. ([5-6]) Personen mit GW-Taucher Ausbildung" : 3,
+      "min\\. ([7-8]) Personen mit GW-Taucher Ausbildung" : 4
     }
   }
 }
