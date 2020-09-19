@@ -16,7 +16,7 @@
   "gwoil" : [10, 49],
   "hazmat_dekon" : [53, 54],
   "hazmat_vehicles" : [27, 77],
-  "heavy_rescue_vehicles" : [4, 30, 39, 47, 90],
+  "heavy_rescue_vehicles" : [4, 30, 47, 90],
   "height_rescue_units" : [33],
   "k9" : [94],
   "kdow_lna" : [55],
