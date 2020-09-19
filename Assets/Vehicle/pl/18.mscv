@@ -2,7 +2,7 @@
   "object" : 18,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["SUV SPKP", "policjanci SPKP"],
+    "base" : ["SUV SPKP"],
     "extend" : {
       "([1-4]) policjanci SPKP" : 1,
       "([5-8]) policjanci SPKP" : 2,
