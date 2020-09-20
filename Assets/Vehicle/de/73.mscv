@@ -2,7 +2,7 @@
   "object" : 73,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GRTW", "RTW"],
+    "base" : ["GRTW"],
     "extend" : {}
   }
 }
