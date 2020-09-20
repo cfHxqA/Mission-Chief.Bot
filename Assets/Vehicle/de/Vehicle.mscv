@@ -3,7 +3,7 @@
   "arff" : [75],
   "battalion_chief_vehicles" : [3, 34, 78],
   "boats" : [66, 67, 68, 70, 71],
-  "diver_units" : [63, 64],
+  "diver_units" : [63],
   "firetrucks" : [0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90],
   "fukw" : [51],
   "fwk" : [57],
@@ -14,6 +14,7 @@
   "gw_werkfeuerwehr" : [83],
   "gwmess" : [12],
   "gwoil" : [10, 49],
+  "gw_wasser" : [64],
   "hazmat_dekon" : [53, 54],
   "hazmat_vehicles" : [27, 77],
   "heavy_rescue_vehicles" : [4, 30, 47, 90],
@@ -45,5 +46,5 @@
   "turboloescher" : [86],
   "ulf" : [84],
   "wasserwerfer" : [72],
-  "water_tankers" : [0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90]
+  "water_tankers" : [11, 13, 14, 15, 16, 62]
 }
