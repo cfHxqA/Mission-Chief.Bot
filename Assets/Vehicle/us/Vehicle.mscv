@@ -16,6 +16,7 @@
   "large_fire_boat" : [24],
   "large_rescue_boat" : [21],
   "k9" : [16, 20, 26],
+  "kdow_lna" : [29],
   "mobile_air_vehicles" : [6],
   "mobile_command_vehicles" : [12],
   "platform_trucks" : [2, 13],
