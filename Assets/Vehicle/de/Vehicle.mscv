@@ -1,5 +1,6 @@
 {
-  "ambulances" : [38, 28, 74],
+  "ambulances" : [28, 74],
+  "ambulances_ktw" : [38],
   "arff" : [75],
   "battalion_chief_vehicles" : [3, 34, 78],
   "boats" : [66, 67, 68, 70, 71],
