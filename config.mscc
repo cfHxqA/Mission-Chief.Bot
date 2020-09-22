@@ -25,8 +25,8 @@
       "estimated_duration" : 300,
       "is_enabled" : false
     },
-    "is_enabled" : false,
-    "is_events_enabled" : false,
+    "is_enabled" : true,
+    "is_events_enabled" : true,
     "is_complete_vehicles_enabled" : false,
     "is_complete_vehicles_list_enabled" : false,
     "limit" : {
@@ -49,14 +49,14 @@
         "capacity_patient" : 0,
         "capacity_prisoner" : 0,
         "distance" : 400,
-        "is_enabled" : false,
+        "is_enabled" : true,
         "tax": 0
       },
       "capacity_patient" : 0,
       "capacity_prisoner" : 0,
       "distance" : 400,
       "interval" : 1,
-      "is_enabled" : false
+      "is_enabled" : true
     }
   },
   "speed_step" : 3
