@@ -32,7 +32,7 @@
   "platform_trucks" : [2, 85],
   "police_cars" : [32],
   "police_helicopters" : [61],
-  "rescue_dog_units" : [91],
+  "rescue_dog_units" : [91, 92],
   "rescue_helicopter" : [31],
   "rettungstreppe" : [76],
   "seg_elw" : [59],
