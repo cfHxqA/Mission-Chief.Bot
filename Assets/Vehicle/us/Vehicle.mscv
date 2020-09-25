@@ -3,7 +3,7 @@
   "ambulances_ktw" : [27],
   "arff" : [17],
   "battalion_chief_vehicles" : [3],
-  "boats" : [22],
+  "boats" : [22, 21],
   "brush_truck" : [30, 31, 32],
   "fbi" : [42],
   "fbi_drone" : [46],
