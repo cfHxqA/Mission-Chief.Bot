@@ -1,0 +1,8 @@
+{
+  "object" : 15,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VATI miehistönkuljetusajoneuvo"],
+    "extend" : {}
+  }
+}

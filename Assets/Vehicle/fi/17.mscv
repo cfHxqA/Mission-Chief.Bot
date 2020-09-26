@@ -1,0 +1,8 @@
+{
+  "object" : 17,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Poliisimoottoripyörä"],
+    "extend" : {}
+  }
+}

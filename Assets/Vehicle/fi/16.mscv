@@ -1,0 +1,8 @@
+{
+  "object" : 16,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Koirapartioauto", "Koirapartio"],
+    "extend" : {}
+  }
+}

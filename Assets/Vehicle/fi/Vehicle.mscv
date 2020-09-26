@@ -4,8 +4,10 @@
   "firetrucks" : [0, 1, 12],
   "hazmat_vehicles" : [7],
   "heavy_rescue_vehicles" : [3],
+  "k9" : [15],
   "platform_trucks" : [2],
-  "police_cars" : [8],
+  "police_cars" : [8, 17],
+  "police_helicopters" : [14],
   "rescue_helicopter" : [9],
   "water_tankers" : [6]
 }
