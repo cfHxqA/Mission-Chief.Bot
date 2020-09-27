@@ -30,6 +30,8 @@
     "is_enabled" : true,
     "is_events_enabled" : true,
     "is_stopover_enabled" : false,
+    "is_vehicle_redirect_enabled" : false,
+    "is_vehicle_scaling_enabled" : false,
     "limit" : {
       "is_enabled" : false,
       "is_user_enabled" : false,
