@@ -3,6 +3,11 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Light 4X4 Pump (L4P)", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Light 4X4 Pump", "Fire engine", "Fire engines"],
-    "extend" : {}
+    "extend" : {
+      "([1-5]) more (firefighter|firefighters)" : 1,
+      "([6-9]|10) more firefighters" : 2,
+      "(1[1-5]) more firefighters" : 3,
+      "(1[6-9]|20) more firefighters" : 4
+    }
   }
 }

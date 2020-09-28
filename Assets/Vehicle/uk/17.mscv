@@ -3,6 +3,11 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["CARP", "Rescue Support Unit or Rescue Pump", "Aerial"],
-    "extend" : {}
+    "extend" : {
+      "([1-6]) more (firefighter|firefighters)" : 1,
+      "([7-9]|1[0-2]) more firefighters" : 2,
+      "(1[3-8]) more firefighters" : 3,
+      "(19|2[0-4]) more firefighters" : 4
+    }
   }
 }
