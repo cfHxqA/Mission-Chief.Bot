@@ -2,7 +2,7 @@
   "object" : 16,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Koirapartioauto", "Koirapartio"],
+    "base" : ["Koirapartioauto", "Koirapartio", "Koirapartiota"],
     "extend" : {}
   }
 }
