@@ -1,14 +1,13 @@
-+ Changes (General),
-  - Fixed, changes in the configuration (config.mscc) are NOT applied on-the-fly
- - Fixed, ToUnixTimestamp () function is not available in BeforeAdd / BeforeAlert
-
 + Changes (Alliance-)Missions,
- - Fixed, distance for alliance missions is NOT recorded correctly and the distance for missions is obtained
- - Fixed, ambulance service is still alerted when a request to speak has to be processed
+ - Fixed, missions with missing vehicles are NOT shared
+ - Fixed, unknown vehicles that are missing are NOT displayed in the log and the mission is marked without a message
+ - Optimized, duplicate functional sequence with various conditions removed and sequence reconstructed
 
-+ Changes Speeches,
- - Fixed, prisoner / patient limit is exceeded in connection with union prison cells / hospitals
- - Fixed, prisoners / patients are NOT released by other users
++ Changes Settings,
+ - NEW that the vehicles of other players are taken into account when alerting / re-alerting
+   See: is_vehicle_consider_enabled, legend:
+     true - the vehicles already alerted by other players are taken into account
+     false - the vehicles that have already been alerted - by other players - are ignored and the missing ones are alerted
 
 + Mandatory, 
   - Error and source code optimization
