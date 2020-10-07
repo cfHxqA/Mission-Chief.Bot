@@ -2,7 +2,7 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Aerial Appliance", "Aerial"],
+    "base" : ["Aerial Appliance", "Aerial", "Aerial Appliance Trucks"],
     "extend" : {}
   }
 }
