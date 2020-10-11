@@ -2,7 +2,7 @@
   "object" : 8,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Partioauto", "partioauto"],
+    "base" : ["Partioauto", "partioauto", "Vangit on kuljetettava"],
     "extend" : {}
   }
 }
