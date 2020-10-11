@@ -23,9 +23,13 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 
 * Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
 
+### How can I join? (Discord)
+
+Follow this **[link](https://discord.gg/dK4tQDG)** - the bot is NOT for free. You get technical support, regular updates & a nice community as long as your license is active!
+
 ### How to use it? (Windows)
 
-Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings! **As a Windows user you can choose between the console or the user interface!**
+Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
 
 ### How to use it? (Linux-/MacOS)
 
