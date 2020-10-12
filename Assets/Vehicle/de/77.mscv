@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["AB-Gefahrgut", "Abrollbehälter Gefahrgut", "GW-Gefahrgut"],
-    "extend" : {}
+    "extend" : {
+      "min\\. ([0-9]) (?:Person|Personen) mit GW-Gefahrgut Ausbildung" : 1
+    }
   }
 }
