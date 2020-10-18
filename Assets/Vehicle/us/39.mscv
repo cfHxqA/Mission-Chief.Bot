@@ -2,7 +2,9 @@
   "object" : 39,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Type 6 engine"],
-    "extend" : {}
+    "base" : ["Type 6 engine", "Wildland fire vehicle"],
+    "extend" : {
+      "(\\d+) gal\\. water" : 1
+    }
   }
 }

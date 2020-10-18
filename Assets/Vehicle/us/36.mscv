@@ -2,7 +2,7 @@
   "object" : 36,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Air tanker"],
+    "base" : ["Air tanker", "Wildland fire vehicle"],
     "extend" : {
       "(\\d+) gal\\. water" : 1
     }
