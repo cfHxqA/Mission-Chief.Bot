@@ -1,0 +1,8 @@
+{
+  "object" : 55,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AT-M", "AT Materiaalwagen", "AT Materiaalwagens"],
+    "extend" : {}
+  }
+}

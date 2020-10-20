@@ -1,0 +1,8 @@
+{
+  "object" : 50,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["TS-OR"],
+    "extend" : {}
+  }
+}

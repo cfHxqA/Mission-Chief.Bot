@@ -1,0 +1,8 @@
+{
+  "object" : 29,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["WTH", "Slangenwagen", "tankwagen of gelijkwaardige haakarmbak" ],
+    "extend" : {}
+  }
+}

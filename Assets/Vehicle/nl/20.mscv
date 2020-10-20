@@ -1,0 +1,8 @@
+{
+  "object" : 20,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA"],
+    "extend" : {}
+  }
+}

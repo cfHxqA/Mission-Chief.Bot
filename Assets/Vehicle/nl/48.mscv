@@ -1,0 +1,8 @@
+{
+  "object" : 48,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DB Hondengeleider", "Hondengeleider", "Noodhulpeenheden", "Noodhulpeenheid"],
+    "extend" : {}
+  }
+}

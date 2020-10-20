@@ -1,0 +1,8 @@
+{
+  "object" : 3,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA-OVD", "Officier van Dienst - Brandweer", "Officieren van Dienst - Brandweer"],
+    "extend" : {}
+  }
+}

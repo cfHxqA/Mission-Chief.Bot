@@ -1,0 +1,8 @@
+{
+  "object" : 46,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DM Noodhulp", "Noodhulpeenheden", "Noodhulpeenheid"],
+    "extend" : {}
+  }
+}

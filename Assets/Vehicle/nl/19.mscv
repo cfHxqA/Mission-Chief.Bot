@@ -1,0 +1,8 @@
+{
+  "object" : 19,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA-HOD", "Hoofd Officier van Dienst", "Hoofd Officieren van Dienst"],
+    "extend" : {}
+  }
+}

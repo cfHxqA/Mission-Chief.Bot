@@ -1,0 +1,8 @@
+{
+  "object" : 40,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["ME Flexbus", "ME Groepsvoertuigen"],
+    "extend" : {}
+  }
+}

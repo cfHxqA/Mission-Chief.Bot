@@ -1,0 +1,8 @@
+{
+  "object" : 22,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA Noodhulp", "Noodhulpeenheden", "Noodhulpeenheid", "Arrestanten zullen vervoerd worden"],
+    "extend" : {}
+  }
+}

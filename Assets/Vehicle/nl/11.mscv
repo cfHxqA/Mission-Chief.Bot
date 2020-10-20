@@ -1,0 +1,8 @@
+{
+  "object" : 11,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["PM-WVD", "Waarschuwings- en Verkenningsdienst", "Waarschuwings- en Verkenningsdiensten"],
+    "extend" : {}
+  }
+}

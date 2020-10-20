@@ -1,0 +1,8 @@
+{
+  "object" : 45,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DPH"],
+    "extend" : {}
+  }
+}

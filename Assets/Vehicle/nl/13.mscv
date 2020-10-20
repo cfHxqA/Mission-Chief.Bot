@@ -1,0 +1,8 @@
+{
+  "object" : 13,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["TS8 (4x4)"],
+    "extend" : {}
+  }
+}

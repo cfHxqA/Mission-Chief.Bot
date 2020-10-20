@@ -1,0 +1,8 @@
+{
+  "object" : 24,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA-AGS", "Adviseur Gevaarlijke Stoffen - Brandweer", "Adviseur Gevaarlijke Stoffen", "Adviseurs Gevaarlijke Stoffen"],
+    "extend" : {}
+  }
+}

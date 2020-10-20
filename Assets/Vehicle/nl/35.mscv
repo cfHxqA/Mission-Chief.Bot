@@ -1,0 +1,8 @@
+{
+  "object" : 35,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["OVD-P", "Officier van Dienst - Politie", "Officieren van Dienst - Politie"],
+    "extend" : {}
+  }
+}

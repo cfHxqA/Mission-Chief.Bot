@@ -1,0 +1,8 @@
+{
+  "object" : 38,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["OvD-G"],
+    "extend" : {}
+  }
+}

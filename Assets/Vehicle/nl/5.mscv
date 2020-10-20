@@ -1,0 +1,8 @@
+{
+  "object" : 5,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AB", "Adembeschermingsvoertuig of haakarmbak"],
+    "extend" : {}
+  }
+}

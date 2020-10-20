@@ -1,0 +1,8 @@
+{
+  "object" : 6,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["TST 8/9", "Tankautospuit", "Tankautospuiten"],
+    "extend" : {}
+  }
+}
