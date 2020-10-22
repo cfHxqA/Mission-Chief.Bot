@@ -2,7 +2,7 @@
   "object" : 10,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["SL", "Slangenwagen", "tankwagen of gelijkwaardige haakarmbak"],
+    "base" : ["SL", "Slangenwagen", "watertankwagen of gelijkwaardige haakarmbak"],
     "extend" : {}
   }
 }
