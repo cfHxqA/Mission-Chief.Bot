@@ -4,6 +4,7 @@
   "boats" : [26, 21],
   "diver_units" : [24],
   "firetrucks" : [0, 1, 12],
+  "traffic_car" : [30],
   "fwk" : [25],
   "hazmat_vehicles" : [7],
   "heavy_rescue_vehicles" : [4, 12],
