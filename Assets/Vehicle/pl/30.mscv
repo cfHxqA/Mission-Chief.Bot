@@ -2,7 +2,7 @@
   "object" : 30,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Radiowóz WRD"],
+    "base" : ["Radiowóz WRD", "Radiowozu WRD"],
     "extend" : {}
   }
 }
