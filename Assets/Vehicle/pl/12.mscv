@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["GBARt", "Ciężki samochód ratowniczo-gaśniczy", "Średni samochód gaśniczy", "Ciężki samochód gaśniczy", "samochód pożarniczy", "Samochód Ratownictwa Technicznego", "samochody(-ów) pożarnicze(-ych)"],
-    "extend" : {}
+    ""extend" : {
+      "([0-9]+) litrów wody" : 1
+    }
   }
 }

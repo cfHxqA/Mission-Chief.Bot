@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["GLBA"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+) litrów wody" : 1
+    }
   }
 }
