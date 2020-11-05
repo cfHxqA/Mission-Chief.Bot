@@ -4,7 +4,7 @@
   "at_c" : [53],
   "at_o" : [54],
   "at_m" : [55],
-  "battalion_chief_vehicles" : [3],
+  "battalion_chief_vehicles" : [3, 19],
   "boats" : [36],
   "diver_units" : [33],
   "elw3" : [19],
