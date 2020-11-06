@@ -15,6 +15,7 @@
   "hazmat_vehicles" : [24],
   "heavy_rescue_vehicles" : [4],
   "hondengeleider" : [47, 48],
+  "kdow_lna" : [38],
   "lebefkw" : [39],
   "mobile_air_vehicles" : [5, 27],
   "mobile_command_vehicles" : [31],
