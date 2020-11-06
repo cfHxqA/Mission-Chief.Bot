@@ -22,7 +22,7 @@
   "ovdg" : [38],
   "ovdp" : [35],
   "platform_trucks" : [2, 18],
-  "police_cars" : [22, 25, 46, 47, 48],
+  "police_cars" : [22, 25, 46, 59, 60],
   "police_helicopters" : [28],
   "spokesman" : [56],
   "water_tankers" : [10, 29, 34]
