@@ -2,7 +2,7 @@
   "object" : 19,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["DA-HOD", "Hoofd Officier van Dienst", "Hoofd Officieren van Dienst", "DA-OVD", "Officier van Dienst - Brandweer", "Officieren van Dienst - Brandweer", "Verkenningseenheden"],
+    "base" : ["DA-HOD", "Hoofd Officier van Dienst", "Hoofd Officieren van Dienst", "Officier van Dienst - Brandweer", "Officieren van Dienst - Brandweer"],
     "extend" : {}
   }
 }

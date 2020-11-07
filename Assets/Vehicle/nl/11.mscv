@@ -2,7 +2,7 @@
   "object" : 11,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["DB-VEB", "Verkenningseenheid"],
+    "base" : ["DB-VEB", "Verkenningseenheid", "Verkenningseenheden"],
     "extend" : {}
   }
 }
