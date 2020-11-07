@@ -2,7 +2,7 @@
   "object" : 60,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["DB-Bike"],
+    "base" : ["DB-Bike", "Biketeam"],
     "extend" : {}
   }
 }
