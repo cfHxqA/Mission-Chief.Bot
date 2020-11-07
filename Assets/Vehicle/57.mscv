@@ -1,0 +1,8 @@
+{
+  "object" : 57,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DA OVDG-RR"],
+    "extend" : {}
+  }
+}
