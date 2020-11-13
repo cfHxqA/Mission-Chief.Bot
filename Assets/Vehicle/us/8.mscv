@@ -2,7 +2,7 @@
   "object" : 8,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Heavy rescue vehicle", "Heavy rescue", "Heavy Rescue Vehicles"],
+    "base" : ["Heavy rescue vehicle", "Heavy rescue", "Heavy Rescue Vehicle", "Heavy Rescue Vehicles"],
     "extend" : {}
   }
 }

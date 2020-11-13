@@ -2,7 +2,7 @@
   "object" : 18,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Heavy rescue vehicle", "Heavy rescue", "Heavy Rescue Vehicles", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
+    "base" : ["Heavy rescue vehicle", "Heavy rescue", "Heavy Rescue Vehicle", "Heavy Rescue Vehicles", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
     "extend" : {}
   }
 }
