@@ -2,7 +2,7 @@
   "object" : 24,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Traffic Car"],
+    "base" : ["Traffic Car", "Traffic Cars"],
     "extend" : {}
   }
 }
