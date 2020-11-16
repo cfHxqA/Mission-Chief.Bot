@@ -1,30 +1,24 @@
-+ General changes,
-  - Fixed, changing window size during output causes a crash
-  - Fixed, inability to reach the game server generates an error message
-
 + Changes to assets,
-  - Fixed, changes to your own mission / vehicle assets are only adopted after a restart
-  - Fixed, Ext folder is created if it does NOT exist
-  - Fixed, error message is NOT output if an asset file is faulty
-  - Optimized, mission asset file is imported and the object is then discarded (performance background)
-  - Optimized, vehicle asset file is read in and the object is then discarded (performance background)
+  - Fixed, mission assets also scale required SWAT staff when creating them
 
 + Changes (Alliance-)Missions,
-  - Fixed, trailers (AB, boats, ...) are trying to send, without a carrier vehicle and set to status 6
-  - Fixed that the required vehicles must be complete, is ignored
-  - Fixed that the set limit is ignored for all use as well as user-specific
-  - Fixed, inaccessibility from the game server interrupts the bot in the (re) alerting
-  - Added, Halloween event is supported!
-  - Optimized, missions are sorted by creation date, before it was the latter
-  - Optimized, 'Mission' object also receives the fields 'CountVehicleMissing' and 'CountVehiclePresent'
+  - Fixed, trailer vehicles are tried to alert if the carrier vehicle is NOT available
+  - Fixed, updated radio message status to be compatible with ALL servers
+  - Fixed, non-existent mission asset generates an error when called
+  - Fixed, emergency service vehicles NOT required are alerted back
+  - Fixed, sorting against properties of a mission
+  - NEW, (Pre-)alert pool and verification pool added
+  - NEW, daily login bonus (collect)
+  - Optimized, finished missions renew the checking of existing missions if vehicles are missing
+  - Optimized, the time recording of the mission has been revised and shows the exact date as a UNIX time stamp
+  - Optimized, possible credits are updated when adding a mission (resource-saving)
+  - Optimized, ambulance vehicles NOT required are checked during synchronization (resource-saving)
+  - Optimized, ambulance vehicles that are NOT required will ONLY be checked if there are vehicles at the scene
+  - Optimized, the synchronization pool now updates the creation date of the mission
+  - Optimized, synchronization pool updates possible prisoner / patient speech requests from now on
 
-+ Changes filter,
-  - Fixed, (Alliance-)Missions filters without proper naming are NOT ignored
-  - Optimized, (Alliance) operations filter is read in and the object is then discarded (performance background)
-  - Optimized, (Alliance) operations filter (approval) is read in and the object is then discarded (performance background)
-
-+ Change of speaking requests,
-  - Fixed, inaccessibility from the game server interrupts the bot processing the speech requests
++ Changes Share,
+  - Fixed, missions are NOT shared in the alliance chat / mission chat
 
 + Mandatory,
   - Error and source code optimization
