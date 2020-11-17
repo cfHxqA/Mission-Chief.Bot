@@ -8,7 +8,12 @@
       "min\\. ([34]) Polizisten" : 2,
       "min\\. ([56]) Polizisten" : 3,
       "min\\. ([78]) Polizisten" : 4,
-      "min\\. (9|10) Polizisten" : 5
+      "min\\. (9|10) Polizisten" : 5,
+      "min\\. (1[12]) Polizisten" : 6,
+      "min\\. (1[34]) Polizisten" : 7,
+      "min\\. (1[56]) Polizisten" : 8,
+      "min\\. (1[78]) Polizisten" : 9,
+      "min\\. (19|20) Polizisten" : 10
     }
   }
 }
