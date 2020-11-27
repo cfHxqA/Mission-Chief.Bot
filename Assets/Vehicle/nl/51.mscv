@@ -2,7 +2,7 @@
   "object" : 51,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HVH"],
+    "base" : ["HVH", "Hulpverleningsvoertuig", "Hulpverleningsvoertuigen"],
     "extend" : {}
   }
 }
