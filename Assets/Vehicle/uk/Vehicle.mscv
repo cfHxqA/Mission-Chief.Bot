@@ -8,7 +8,7 @@
   "kdow_orgl" : [20],
   "mobile_air_vehicles" : [14],
   "mobile_command_vehicles" : [15],
-  "platform_trucks" : [2],
+  "platform_trucks" : [2, 17],
   "police_cars" : [8, 13, 18, 19],
   "police_helicopters" : [11],
   "rescue_helicopter" : [9],
