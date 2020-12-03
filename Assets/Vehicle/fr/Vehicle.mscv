@@ -1,6 +1,6 @@
 {
   "ambulances" : [5],
-  "battalion_chief_vehicles" : [3],
+  "battalion_chief_vehicles" : [3, 24],
   "boats" : [17],
   "firetrucks" : [0, 1, 12],
   "hazmat_vehicles" : [7],

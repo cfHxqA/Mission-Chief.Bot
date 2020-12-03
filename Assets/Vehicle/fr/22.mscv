@@ -1,0 +1,8 @@
+{
+  "object" : 22,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["CCFM"],
+    "extend" : {}
+  }
+}

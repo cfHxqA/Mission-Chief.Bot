@@ -1,0 +1,8 @@
+{
+  "object" : 24,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VLHR", "Chef de groupe", "chef de groupe", "chef de groupe requis", "chefs de groupe requis", "chefs de groupe"],
+    "extend" : {}
+  }
+}
