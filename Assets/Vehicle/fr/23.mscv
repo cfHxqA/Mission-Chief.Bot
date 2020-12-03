@@ -2,7 +2,7 @@
   "object" : 23,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["CCFL"],
+    "base" : ["CCFL", "CCF"],
     "extend" : {}
   }
 }
