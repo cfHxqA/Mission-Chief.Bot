@@ -1,5 +1,6 @@
 {
   "ambulances" : [16],
+  "ambulances_ktw" : [30],
   "arff" : [41, 42, 43],
   "at_c" : [53],
   "at_o" : [54],
