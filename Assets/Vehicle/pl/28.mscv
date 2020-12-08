@@ -2,7 +2,7 @@
   "object" : 28,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["SLRr", "samochodów Oficera Operacyjnego lub SLRr"],
+    "base" : ["SLRr", "samochodów Oficera Operacyjnego lub SLRr", "SLOp lub SLRr"],
     "extend" : {}
   }
 }
