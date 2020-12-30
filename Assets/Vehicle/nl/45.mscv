@@ -2,7 +2,7 @@
   "object" : 45,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["DPH"],
+    "base" : ["DPH", "Slangenwagen", "watertankwagen of gelijkwaardige haakarmbak"],
     "extend" : {}
   }
 }
