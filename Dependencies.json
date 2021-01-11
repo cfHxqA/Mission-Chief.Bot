@@ -162,5 +162,13 @@
   {
     "md5": "d0010fe175efbb0a6e1a6a12a37210fe",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/XC.RSAUtil.dll"
+  },
+  {
+    "md5": "c50712f7b5300d825a95c55c587b7eec",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x64/native/ClearScriptV8.win-x64.dll"
+  },
+  {
+    "md5": "47613d1f42d7271f36440e078d6ac986",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x86/native/ClearScriptV8.win-x86.dll"
   }
 ]
