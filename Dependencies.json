@@ -162,37 +162,5 @@
   {
     "md5": "d0010fe175efbb0a6e1a6a12a37210fe",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/XC.RSAUtil.dll"
-  },
-  {
-    "md5": "a7251b4e40d419e18507bb2f0331b418",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll"
-  },
-  {
-    "md5": "7b00ddec2a2a2e98a83305841b8d6c8d",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll"
-  },
-  {
-    "md5": "75979cb965aa50d1b7f64f3fd17a8acc",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll"
-  },
-  {
-    "md5": "eb0eb07ad2017f72a14b07dd723a58a6",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll"
-  },
-  {
-    "md5": "f12b0cf0324fbe3ed7a44c1cb5800a62",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll"
-  },
-  {
-    "md5": "c42a480977aa2c6a06337c0e16ceb7eb",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll"
-  },
-  {
-    "md5": "c50712f7b5300d825a95c55c587b7eec",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x64/native/ClearScriptV8.win-x64.dll"
-  },
-  {
-    "md5": "47613d1f42d7271f36440e078d6ac986",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x86/native/ClearScriptV8.win-x86.dll"
   }
 ]
