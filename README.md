@@ -4,7 +4,7 @@
   <img src="https://i.imgur.com/gacDkgO.png" />
 </p>
 
-# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/2.4.1.0/) [![Discord](https://img.shields.io/discord/365129052832530433.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/NDcUSYp) [![Discord](https://img.shields.io/discord/572882995917226049.svg?label=Leitstellenspiel-Bot&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ShjPccq)
+# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0/) [![Discord](https://img.shields.io/discord/365129052832530433.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/NDcUSYp) [![Discord](https://img.shields.io/discord/572882995917226049.svg?label=Leitstellenspiel-Bot&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ShjPccq)
 
 A little helper if the patients, prisoners or missions are too many ... for you! :smiley:
 
@@ -19,7 +19,7 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 
 ### Requirements (Windows-/MacOS-/Linux)
 
--   [.NET Core 3.1 Runtime or higher](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
+-   [.NET 5.0 Runtime or higher](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)*
 
 * Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
 
