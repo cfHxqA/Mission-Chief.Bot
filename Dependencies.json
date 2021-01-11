@@ -68,7 +68,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.IO.RecyclableMemoryStream.dll"
   },
   {
-    "md5": "03d3040294ba1d7ec3202bcdabd1c8d1",
+    "md5": "dd6399dc9bc839c0c66dd22a394d249c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Win32.SystemEvents.dll"
   },
   {
@@ -88,27 +88,27 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Noemax.Compression.dll"
   },
   {
-    "md5": "9b0b84da09995bec56cc7030a1c893fe",
+    "md5": "84ec30fd49e74631e654058f3864864e",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
-    "md5": "40e4632c6598b55ed426a9080c3dbeee",
+    "md5": "83c015178ef06354a7ec046b0ea7d7ef",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
-    "md5": "b8440d9bbc0d1456887f49587c51f7cb",
+    "md5": "43fdefa34f18d7994206ee218add0207",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "55f3525b109f7d5991b5d187ed7dfd71",
+    "md5": "4e9806e96dc97e3d9ad4ecdb40726229",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Common.dll"
   },
   {
-    "md5": "f9e7a82fc1ad2c0402e3500053dadfe0",
+    "md5": "00fc13c6af8ce884f6545e838247d6c8",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Model.dll"
   },
   {
-    "md5": "3144129e7be1e5138e1b3694bdb6c0e4",
+    "md5": "ccf03ad3d8eb3523ba845a02b8c2bd2e",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
@@ -116,11 +116,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/RestSharp.dll"
   },
   {
-    "md5": "2ec0543de71dff1bcac6cee3c14a6da4",
+    "md5": "8e748f63f6012c50d96441472483da98",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Configuration.ConfigurationManager.dll"
   },
   {
-    "md5": "5c1f77a3243cac806557e23d84111f77",
+    "md5": "2bb2433323109421d538d57b3839585b",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
   },
   {
@@ -128,19 +128,19 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
   {
-    "md5": "7237c760e089f1ecbb72e8201ed93248",
+    "md5": "194d3518734ae11038d1bca945db0b63",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Runtime.Caching.dll"
   },
   {
-    "md5": "5e827a4fbd40b53b854a1f654ba155c5",
+    "md5": "01e21ca3e08d9cd1556a43536e55835c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
   },
   {
-    "md5": "6dc3add8c9b3b3bce9d1a62269274806",
+    "md5": "706d8592956ef30e4a23e479e302119c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Permissions.dll"
   },
   {
-    "md5": "8d936c30787246bf5342096b6c63c08e",
+    "md5": "bdd02096130ca18e3238528abb813345",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
@@ -186,5 +186,13 @@
   {
     "md5": "c42a480977aa2c6a06337c0e16ceb7eb",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll"
+  },
+  {
+    "md5": "c50712f7b5300d825a95c55c587b7eec",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x64/native/ClearScriptV8.win-x64.dll"
+  },
+  {
+    "md5": "47613d1f42d7271f36440e078d6ac986",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x86/native/ClearScriptV8.win-x86.dll"
   }
 ]
