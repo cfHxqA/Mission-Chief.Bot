@@ -2,7 +2,7 @@
   "object" : 96,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Außenlastbehälter (allgemein)"],
+    "base" : ["Außenlastbehälter (allgemein)", "Außenlastbehälter"],
     "extend" : {}
   }
 }
