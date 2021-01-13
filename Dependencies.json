@@ -8,18 +8,6 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BouncyCastle.Crypto.dll"
   },
   {
-    "md5": "5dcbaf1cc5b6bb78c6cf190f1cfcbd84",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/ClearScript.Core.dll"
-  },
-  {
-    "md5": "eec423a44ec4cf974d1e1ed333d75b93",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/ClearScript.V8.dll"
-  },
-  {
-    "md5": "321be43704a4fc757dbbc64346b29052",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/ClearScript.Windows.dll"
-  },
-  {
     "md5": "a83f29517e8e5b45afaee36ec13fc2c5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
@@ -166,13 +154,5 @@
   {
     "md5": "4dbb2cb7dddffddf9755434bcaacfc44",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Z.Expressions.Eval.dll"
-  },
-  {
-    "md5": "c50712f7b5300d825a95c55c587b7eec",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x64/native/ClearScriptV8.win-x64.dll"
-  },
-  {
-    "md5": "47613d1f42d7271f36440e078d6ac986",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/runtimes/win-x86/native/ClearScriptV8.win-x86.dll"
   }
 ]
