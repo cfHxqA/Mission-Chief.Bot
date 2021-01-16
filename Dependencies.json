@@ -8,8 +8,16 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BouncyCastle.Crypto.dll"
   },
   {
+    "md5": "974e49fbfbb5845bfc788a245351fc4b",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
+  },
+  {
     "md5": "a83f29517e8e5b45afaee36ec13fc2c5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
+  },
+  {
+    "md5": "0b1ebcc14f60b013d88961ac76a5bd29",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
     "md5": "ac3be7cdf53dc2a81fef712d7fefd7e9",
@@ -150,9 +158,5 @@
   {
     "md5": "d0010fe175efbb0a6e1a6a12a37210fe",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/XC.RSAUtil.dll"
-  },
-  {
-    "md5": "4dbb2cb7dddffddf9755434bcaacfc44",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Z.Expressions.Eval.dll"
   }
 ]
