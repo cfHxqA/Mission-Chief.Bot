@@ -4,7 +4,7 @@
     "license" : ""
   },
   "environment" : {
-    "build" : "stable"
+    "build" : "stable",
     "is_debug_enabled" : false
   }
 }
