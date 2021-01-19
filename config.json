@@ -2,5 +2,9 @@
   "application" : {
     "identifier" : "Mission-Chief",
     "license" : ""
+  },
+  "environment" : {
+    "build" : "stable"
+    "is_debug_enabled" : false
   }
 }
