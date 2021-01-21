@@ -31,9 +31,10 @@
     "is_complete_vehicles_list_enabled" : false,
     "is_enabled" : true,
     "is_events_enabled" : true,
-    "is_stopover_enabled" : false,
-    "is_vehicle_scaling_enabled": true,
     "is_vehicle_consider_enabled": true,
+    "is_vehicle_disable_enabled": false,
+    "is_vehicle_scaling_enabled": true,
+    "is_stopover_enabled" : false,
     "limit" : {
       "is_enabled" : false,
       "is_user_enabled" : false,
