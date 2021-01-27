@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Tactical Ambulance"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+)x Tactical Medic Training" : 1
+    }
   }
 }
