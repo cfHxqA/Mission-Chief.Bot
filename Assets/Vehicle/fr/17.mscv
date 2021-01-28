@@ -2,7 +2,7 @@
   "object" : 17,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["BLS", "SAV", "SAV (Sauvetage Aquatique)"],
+    "base" : ["BLS", "SAV", "SAV \\(Sauvetage Aquatique\\)"],
     "extend" : {}
   }
 }

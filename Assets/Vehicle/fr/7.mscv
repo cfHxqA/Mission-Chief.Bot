@@ -2,7 +2,7 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VIRT", "véhicule(s) risques technologiques", "véhicules risques technologiques"],
+    "base" : ["VIRT", "véhicule\\(s\\) risques technologiques", "véhicules risques technologiques"],
     "extend" : {}
   }
 }

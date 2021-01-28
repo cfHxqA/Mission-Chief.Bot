@@ -2,7 +2,7 @@
   "object" : 12,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Dog Support Unit (DSU)", "Dog Support Unit", "DSU", "Police car"],
+    "base" : ["Dog Support Unit \\(DSU\\)", "Dog Support Unit", "DSU", "Police car"],
     "extend" : {}
   }
 }

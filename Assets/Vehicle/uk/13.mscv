@@ -2,7 +2,7 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Armed Response Vehicle (ARV)", "Armed Response Vehicle", "ARV", "Police car", "Police cars"],
+    "base" : ["Armed Response Vehicle \\(ARV\\)", "Armed Response Vehicle", "ARV", "Police car", "Police cars"],
     "extend" : {
       "([1-4]) Armed Response Personnel" : 1,
       "([5-8]) Armed Response Personnel" : 2

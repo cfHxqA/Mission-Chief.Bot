@@ -2,7 +2,7 @@
   "object" : 41,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["CT (8x8)", "Crashtenders", "Crashtender"],
+    "base" : ["CT \\(8x8\\)", "Crashtenders", "Crashtender"],
     "extend" : {}
   }
 }

@@ -2,7 +2,7 @@
   "object" : 57,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["FwK", "Feuerwehrkräne (FwK)"],
+    "base" : ["FwK", "Feuerwehrkräne \\(FwK\\)"],
     "extend" : {}
   }
 }
