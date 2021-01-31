@@ -36,9 +36,13 @@
     "is_vehicle_scaling_enabled": true,
     "is_stopover_enabled" : false,
     "limit" : {
+      "default_amount" : 5,
       "is_enabled" : false,
-      "is_user_enabled" : false,
-      "default_amount" : 5
+      "is_user_enabled" : false
+    },
+    "optimization" : {
+      "default_amount" : 5,
+      "is_enabled" : false
     },
     "share" : {
       "is_enabled" : false,
@@ -64,6 +68,12 @@
       "distance" : 400,
       "interval" : 1,
       "is_enabled" : true
+    }
+  },
+  "mission" : {
+    "optimize" : {
+      "default_amount" : 5,
+      "is_enabled" : false
     }
   },
   "speed_step" : 3
