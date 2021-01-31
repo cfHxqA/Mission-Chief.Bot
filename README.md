@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://i.imgur.com/gacDkgO.png" />
-</p>
+</p> 
 
 # Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0b3/) [![telegram](https://badgen.net/badge/icon/Contact%20Us/orange?icon=telegram&label)](https://t.me/cfHxqA) [![Discord](https://img.shields.io/discord/365129052832530433.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/NDcUSYp) [![Discord](https://img.shields.io/discord/572882995917226049.svg?label=LSS-Bot&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/ShjPccq)
 
