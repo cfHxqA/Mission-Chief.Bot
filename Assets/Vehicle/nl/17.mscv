@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["TS 6/7", "Tankautospuit", "Tankautospuiten"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+) L\\. water" : 1
+    }
   }
 }
