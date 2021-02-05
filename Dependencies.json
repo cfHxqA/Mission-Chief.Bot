@@ -8,7 +8,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BouncyCastle.Crypto.dll"
   },
   {
-    "md5": "974e49fbfbb5845bfc788a245351fc4b",
+    "md5": "05469eae96e0818455a8875510697728",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
@@ -60,7 +60,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Primitives.dll"
   },
   {
-    "md5": "8a5f401c38bc595a79528c7b6898025e",
+    "md5": "d21a13baca5df56e8fda99be7473b212",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.IO.RecyclableMemoryStream.dll"
   },
   {
@@ -144,11 +144,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Xml.XPath.XmlDocument.dll"
   },
   {
-    "md5": "72ab11a8fec0d41e5c90a10557dec360",
+    "md5": "f1f4227a3e41aaaff6f307ac27ba4e90",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "71e647e41b3159473db07f6305173481",
+    "md5": "72e14b455d9f97cbd5aed8839c381ee3",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
