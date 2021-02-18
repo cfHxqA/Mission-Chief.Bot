@@ -40,10 +40,6 @@
       "is_enabled" : false,
       "is_user_enabled" : false
     },
-    "optimization" : {
-      "default_amount" : 5,
-      "is_enabled" : false
-    },
     "share" : {
       "is_enabled" : false,
       "is_events_enabled" : false,
