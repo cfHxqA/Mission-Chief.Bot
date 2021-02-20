@@ -1,0 +1,8 @@
+{
+  "object" : 7,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VPME", "veículos para produtos perigosos"],
+    "extend" : {}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "object" : 9,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Heli INEM"],
+    "extend" : {}
+  }
+}

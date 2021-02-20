@@ -1,0 +1,8 @@
+{
+  "object" : 1,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VLCI", "VRCI", "caminhão de bombeiro", "caminhões de bombeiro"],
+    "extend" : {}
+  }
+}
