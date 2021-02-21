@@ -1,0 +1,8 @@
+{
+  "object" : 14,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VP"],
+    "extend" : {}
+  }
+}
