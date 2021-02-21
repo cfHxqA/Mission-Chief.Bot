@@ -2,7 +2,7 @@
   "object" : 8,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Carro patrulha", "carro de patrulha"],
+    "base" : ["Carro patrulha", "carro de patrulha", "Carro de Patrulha"],
     "extend" : {}
   }
 }

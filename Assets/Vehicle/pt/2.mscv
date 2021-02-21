@@ -2,7 +2,7 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VE", "caminhão plataforma", "caminhões plataforma"],
+    "base" : ["VE", "caminhão plataforma", "caminhões plataforma", "Veículo Escada"],
     "extend" : {}
   }
 }
