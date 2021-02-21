@@ -2,7 +2,7 @@
   "object" : 16,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VSAE"],
+    "base" : ["VSAE", "Veículo de Socorro e Assistência Especial"],
     "extend" : {}
   }
 }

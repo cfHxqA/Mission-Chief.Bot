@@ -2,7 +2,7 @@
   "object" : 4,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VSAT", "Veículo de resgate pesado"],
+    "base" : ["VSAT", "Veículo de resgate pesado", "Veículos de Comando Tático"],
     "extend" : {}
   }
 }
