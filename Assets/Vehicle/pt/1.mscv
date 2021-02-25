@@ -2,7 +2,7 @@
   "object" : 1,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VLCI", "VRCI", "caminhão de bombeiro", "caminhões de bombeiro", "Veículo de Combate a Incêndios"],
+    "base" : ["VLCI", "VRCI", "caminhão de bombeiro", "caminhões de bombeiro", "Veículo de Combate a Incêndios", "Veículos de Combate a Incêndios"],
     "extend" : {}
   }
 }

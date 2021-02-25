@@ -2,7 +2,7 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VPME", "veículos para produtos perigosos", "Veículos de Proteção Multiriscos e Ambiente"],
+    "base" : ["VPME", "veículos para produtos perigosos", "Veículos de Proteção Multiriscos e Ambiente", "Veículo de Proteção Multiriscos e Ambiente"],
     "extend" : {}
   }
 }

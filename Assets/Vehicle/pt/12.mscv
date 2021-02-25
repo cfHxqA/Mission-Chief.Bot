@@ -2,7 +2,7 @@
   "object" : 12,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["UEP\/UI - CIEXSS", "Veículo de Inativação de Explosivos e Segurança em Subsolo"],
+    "base" : ["UEP\/UI - CIEXSS", "Veículo de Inativação de Explosivos e Segurança em Subsolo", "Veículos de Inativação de Explosivos e Segurança em Subsolo"],
     "extend" : {}
   }
 }
