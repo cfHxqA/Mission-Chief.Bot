@@ -2,7 +2,7 @@
   "object" : 4,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VSAT", "Veículo de resgate pesado", "Veículos de Comando Tático", "Veículo de Comando Tático", "Veículo de Socorro e Assistência Tático"],
+    "base" : ["VSAT", "Veículo de resgate pesado", "Veículos de Comando Tático", "Veículo de Comando Tático", "Veículo de Socorro e Assistência Tático", "Veículos de Socorro e Assistência Tático"],
     "extend" : {}
   }
 }
