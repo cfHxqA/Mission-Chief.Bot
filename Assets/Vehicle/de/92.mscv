@@ -2,7 +2,7 @@
   "object" : 92,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Anh Hund", "Rettungshundefahrzeug", "Rettungshundestaffel", "1 Rettungshundestaffel/n", "2 Rettungshundestaffel/n"],
+    "base" : ["MTW-OV", "Anh Hund", "Rettungshundefahrzeug", "Rettungshundestaffel", "1 Rettungshundestaffel/n", "2 Rettungshundestaffel/n"],
     "extend" : {}
   }
 }

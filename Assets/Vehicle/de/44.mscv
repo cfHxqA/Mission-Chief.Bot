@@ -2,7 +2,7 @@
   "object" : 44,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Anh DLE", "Anhänger Drucklufterzeugung"],
+    "base" : ["Anh DLE", "Anhänger Drucklufterzeugung", "MLW 5"],
     "extend" : {}
   }
 }

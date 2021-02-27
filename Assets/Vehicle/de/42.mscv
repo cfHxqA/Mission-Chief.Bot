@@ -2,7 +2,7 @@
   "object" : 42,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["LKW K 9", "LKW K9", "LKW Kipper", "LKW Kipper (LKW K 9)"],
+    "base" : ["LKW K 9", "LKW K9", "LKW Kipper", "LKW Kipper \\(LKW K 9)\\)"],
     "extend" : {}
   }
 }
