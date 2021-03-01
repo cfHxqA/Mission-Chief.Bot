@@ -2,7 +2,7 @@
   "object" : 3,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VCOT", "viatura de batalhão"],
+    "base" : ["VCOT", "viatura de batalhão", "Veículos de Comando Tático", "Veículo de Comando Tático"],
     "extend" : {}
   }
 }
