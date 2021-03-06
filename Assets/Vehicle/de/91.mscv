@@ -5,7 +5,8 @@
     "base" : ["Rettungshundefahrzeug", "Rettungshundestaffel\\(|/n\\)"],
     "extend" : {
       "1 Rettungshundestaffel(|\/n)" : 1,
-      "2 Rettungshundestaffel(|\/n)" : 2
+      "2 Rettungshundestaffel(|\/n)" : 2,
+      "([0-9]+) Rettungshundestaffel(|\/n)" : 1
     }
   }
 }
