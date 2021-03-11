@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["FPT", "FPTL", "FPTSR", "fourgon d’incendie", "fourgons d’incendie"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]) pompier en plus" : 1
+    }
   }
 }
