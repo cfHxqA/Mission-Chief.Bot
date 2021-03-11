@@ -1,0 +1,8 @@
+{
+  "object" : 97,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["ITW"],
+    "extend" : {}
+  }
+}
