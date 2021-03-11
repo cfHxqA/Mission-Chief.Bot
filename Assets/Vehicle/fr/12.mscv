@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["FPTSR", "FPT", "FPTL", "fourgon d’incendie", "fourgons d’incendie", "Véhicule de secours routier", "véhicule de secours routier"],
     "extend" : {
-      "([0-9]) pompier en plus" : 1
+      "([0-9]+) (?:pompier|pompiers) en plus" : 1
     }
   }
 }
