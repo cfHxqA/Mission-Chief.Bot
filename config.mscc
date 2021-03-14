@@ -36,6 +36,10 @@
     "is_vehicle_scaling_enabled": true,
     "is_stopover_enabled" : false,
     "limit" : {
+      "credits": {
+        "amount": 0,
+        "offset": 1
+      },
       "default_amount" : 5,
       "is_enabled" : false,
       "is_user_enabled" : false
