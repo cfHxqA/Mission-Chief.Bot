@@ -1,0 +1,8 @@
+{
+  "object" : 51,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["DEA Unit", "DEA Units"],
+    "extend" : {}
+  }
+}
