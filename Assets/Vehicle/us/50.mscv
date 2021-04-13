@@ -2,7 +2,7 @@
   "object" : 50,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Hazmat Ambulance"],
+    "base" : ["Hazmat Ambulance", "Ambulance", "ambulance", "ambulances", "Ambulances", "Transport is needed", "HazMat", "hazmat"],
     "extend" : {}
   }
 }

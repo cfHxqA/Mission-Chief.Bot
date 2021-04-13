@@ -2,9 +2,7 @@
   "object" : 20,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Mass Casualty Unit"],
-    "extend" : {
-      "([6-9]|[1-8][0-9]|9[0-9]) SWAT Personnel" : 1
-    }
+    "base" : ["Mass Casualty Unit", "Ambulance", "ambulance", "ambulances", "Ambulances", "Transport is needed"],
+    "extend" : {}
   }
 }

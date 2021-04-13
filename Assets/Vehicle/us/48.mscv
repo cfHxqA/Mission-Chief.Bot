@@ -2,7 +2,7 @@
   "object" : 48,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["EMS Fire Engine/Ambulance"],
+    "base" : ["EMS Fire Engine/Ambulance", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Ambulance", "ambulance", "ambulances", "Ambulances", "Transport is needed"],
     "extend" : {}
   }
 }

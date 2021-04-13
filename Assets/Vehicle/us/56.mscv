@@ -2,7 +2,7 @@
   "object" : 56,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Warden's Truck", "Warden Trucks"],
+    "base" : ["Warden's Truck", "Warden Trucks", "Warden Truck"],
     "extend" : {}
   }
 }
