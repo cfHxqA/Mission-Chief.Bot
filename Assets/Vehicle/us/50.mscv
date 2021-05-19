@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Hazmat Ambulance", "Ambulance", "ambulance", "ambulances", "Ambulances", "Transport is needed", "HazMat", "hazmat"],
-    "extend" : {}
+    "extend" : {
+      "(\\d+)x HazMat" : 1
+    }
   }
 }

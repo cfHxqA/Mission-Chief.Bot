@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["HazMat", "hazmat"],
-    "extend" : {}
+    "extend" : {
+      "(\\d+)x HazMat" : 1
+    }
   }
 }
