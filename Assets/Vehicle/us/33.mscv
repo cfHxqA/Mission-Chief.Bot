@@ -2,7 +2,7 @@
   "object" : 33,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Pumper Tanker", "Water Tanker"],
+    "base" : ["Pumper Tanker", "Water Tanker", "Water Tankers"],
     "extend" : {
       "(\\d+) gal\\. water" : 1
     }

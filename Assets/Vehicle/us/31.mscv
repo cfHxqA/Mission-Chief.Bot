@@ -2,7 +2,7 @@
   "object" : 31,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Type 5 engine", "Wildland fire engines", "Wildland fire engine", "Wildland fire vehicle"],
+    "base" : ["Type 5 engine", "Wildland fire engines", "Wildland fire engine", "Wildland fire vehicle", "Water Tankers"],
     "extend" : {
       "(\\d+) gal\\. water" : 1
     }
