@@ -1,0 +1,8 @@
+{
+  "object" : 58,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["EMS Mass Casualty Trailer \\(small\\)", "EMS Mobile Command"],
+    "extend" : {}
+  }
+}

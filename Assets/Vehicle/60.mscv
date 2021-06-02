@@ -1,0 +1,8 @@
+{
+  "object" : 60,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["EMS Mobile Command Unit", "EMS Mobile Command"],
+    "extend" : {}
+  }
+}
