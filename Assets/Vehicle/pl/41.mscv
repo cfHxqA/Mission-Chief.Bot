@@ -1,0 +1,8 @@
+{
+  "object" : 41,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Kontener dekontaminacyjny"],
+    "extend" : {}
+  }
+}

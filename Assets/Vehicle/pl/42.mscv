@@ -1,0 +1,8 @@
+{
+  "object" : 42,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Kontener z AODO"],
+    "extend" : {}
+  }
+}

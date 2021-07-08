@@ -1,0 +1,8 @@
+{
+  "object" : 44,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Kontener do przewozu środków gaśniczych"],
+    "extend" : {}
+  }
+}

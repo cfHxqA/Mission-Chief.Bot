@@ -1,0 +1,8 @@
+{
+  "object" : 49,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Przyczepa chemiczno - ekologiczna"],
+    "extend" : {}
+  }
+}
