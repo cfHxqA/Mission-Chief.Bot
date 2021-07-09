@@ -2,7 +2,7 @@
   "object" : 51,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Przyczepa przeciwpowodziowa"],
+    "base" : ["Przyczepa przeciwpowodziowa", "sprzęt przeciwpowodziowy", "sprzęty przeciwpowodziowe"],
     "extend" : {}
   }
 }
