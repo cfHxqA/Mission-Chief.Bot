@@ -1,0 +1,11 @@
+{
+  "object" : 33,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["CCRM", "fourgon d’incendie", "fourgons d’incendie"],
+    "extend" : {
+      "([0-9]+).(?:pompier|pompiers) en plus" : 1,
+      "([0-9]+).l.d’eau" : 1
+    }
+  }
+}

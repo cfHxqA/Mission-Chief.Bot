@@ -1,0 +1,8 @@
+{
+  "object" : 37,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["FDGP"],
+    "extend" : {}
+  }
+}

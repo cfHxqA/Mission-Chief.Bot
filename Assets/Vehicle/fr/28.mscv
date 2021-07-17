@@ -1,0 +1,8 @@
+{
+  "object" : 28,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AR", "Ambulance", "ambulance", "ambulances", "Transport nécessaire"],
+    "extend" : {}
+  }
+}
