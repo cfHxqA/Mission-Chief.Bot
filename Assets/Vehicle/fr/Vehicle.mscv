@@ -7,6 +7,7 @@
   "hazmat_vehicles" : [7],
   "heavy_rescue_vehicles" : [4, 12, 13],
   "k9" : [19],
+  "kdow_orgl" : [29],
   "mobile_air_vehicles" : [9],
   "mobile_command_vehicles" : [11],
   "platform_trucks" : [2, 15],
