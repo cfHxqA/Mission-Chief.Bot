@@ -2,7 +2,7 @@
   "object" : 29,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["PC DSM"],
+    "base" : ["PC DSM", "Directeur des Secours Médicaux requis"],
     "extend" : {}
   }
 }

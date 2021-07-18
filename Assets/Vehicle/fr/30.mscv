@@ -2,7 +2,7 @@
   "object" : 30,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Ambulance Type A"],
+    "base" : ["Ambulance Type A", "Transport sanitaire"],
     "extend" : {}
   }
 }
