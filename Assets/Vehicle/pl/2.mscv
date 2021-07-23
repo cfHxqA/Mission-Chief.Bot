@@ -2,7 +2,7 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Drabina mechaniczna", "– SP wysokościowe", "SH lub SD"],
+    "base" : ["Drabina mechaniczna", "– SP wysokościowe", "– SH lub SD"],
     "extend" : {}
   }
 }
