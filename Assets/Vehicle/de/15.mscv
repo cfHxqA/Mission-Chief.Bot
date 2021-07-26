@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Schlauchwagen", "SW 2000-Tr", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+) l\\. Wasser" : 1
+    }
   }
 }
