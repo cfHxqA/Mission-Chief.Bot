@@ -2,6 +2,7 @@
   "ambulances" : [5],
   "battalion_chief_vehicles" : [3],
   "boats" : [26, 21],
+  "flood_equipment" : [51],
   "diver_units" : [24],
   "firetrucks" : [0, 1, 12],
   "traffic_car" : [30],
