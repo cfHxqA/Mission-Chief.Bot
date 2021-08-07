@@ -11,7 +11,8 @@
       "min\\. (3[7-9]|4[0-5]) Feuerwehrleute" : 5,
       "min\\. (4[6-9]|5[0-4]) Feuerwehrleute" : 6,
       "min\\. (5[5-9]|6[0-5]) Feuerwehrleute" : 7,
-      "min\\. (6[6-9]|7[0-4]) Feuerwehrleute" : 8
+      "min\\. (6[6-9]|7[0-4]) Feuerwehrleute" : 8,
+      "min\\. ([0-9]+) (?:Feuerwehrmann|Feuerwehrleute)" : 1
     }
   }
 }
