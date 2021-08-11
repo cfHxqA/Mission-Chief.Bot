@@ -1,0 +1,8 @@
+{
+  "object" : 100,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["MLW 4"],
+    "extend" : {}
+  }
+}
