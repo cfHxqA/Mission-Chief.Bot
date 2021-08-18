@@ -1,18 +1,13 @@
 {
+  "additional": {
+    "base.water": 0,
+    "base.pump": 1600,
+    "base.personnel": 9
+  },
   "object" : 9,
   "is_matchless" : false,
   "pattern" : {
     "base" : ["LF 16-TS", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe"],
-    "extend" : {
-      "min\\. ([0-9]) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
-      "min\\. (1[0-8]) Feuerwehrleute" : 2,
-      "min\\. (19|2[0-7]) Feuerwehrleute" : 3,
-      "min\\. (2[89]|3[0-6]) Feuerwehrleute" : 4,
-      "min\\. (3[7-9]|4[0-5]) Feuerwehrleute" : 5,
-      "min\\. (4[6-9]|5[0-4]) Feuerwehrleute" : 6,
-      "min\\. (5[5-9]|6[0-5]) Feuerwehrleute" : 7,
-      "min\\. (6[6-9]|7[0-4]) Feuerwehrleute" : 8,
-      "min\\. ([0-9]+) (?:Feuerwehrmann|Feuerwehrleute)" : 1
-    }
+    "extend" : {}
   }
 }
