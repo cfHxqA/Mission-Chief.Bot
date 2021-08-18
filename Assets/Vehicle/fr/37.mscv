@@ -2,7 +2,7 @@
   "object" : 37,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["FDGP"],
+    "base" : ["FDGP", "camion dévidoir"],
     "extend" : {}
   }
 }
