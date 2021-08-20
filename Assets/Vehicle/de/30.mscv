@@ -8,6 +8,11 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["HLF 20", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe"],
-    "extend" : {}
+    "extend" : {
+      "min\\. ([0-9]+) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
+      "(\d+) Feuerlöschpump(?:e|en)",
+      "Pumpenleistung (\d+) l\\/min",
+      "([0-9]+) l\\. Wasser" : 1
+    }
   }
 }

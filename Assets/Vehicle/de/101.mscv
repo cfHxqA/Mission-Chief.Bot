@@ -3,6 +3,9 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Anh SwPu"],
-    "extend" : {}
+    "extend" : {
+      "Pumpenleistung (\d+) l\\/min",
+      "(\d+) Schmutzwasserpump(?:e|en)"
+    }
   }
 }
