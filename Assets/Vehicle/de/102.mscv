@@ -4,8 +4,8 @@
   "pattern" : {
     "base" : ["Anh 7"],
     "extend" : {
-      "Pumpenleistung (\\d+) l\\/min",
-      "(\\d+) Schmutzwasserpump(?:e|en)"
+      "Pumpenleistung (\\d+) l\\/min" : 1,
+      "(\\d+) Schmutzwasserpump(?:e|en)" : 1
     }
   }
 }

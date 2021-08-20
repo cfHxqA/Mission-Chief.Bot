@@ -10,7 +10,7 @@
     "base" : ["LF 16-TS", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe"],
     "extend" : {
       "min\\. (\\d+) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
-      "Pumpenleistung (\\d+) l\\/min",
+      "Pumpenleistung (\\d+) l\\/min" : 1,
       "(\\d+) l\\. Wasser" : 1
     }
   }
