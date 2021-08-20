@@ -1,8 +1,10 @@
 {
   "additional": {
-    "base.water": 500,
-    "base.pump": 1000,
-    "base.personnel": 6
+    "base": {
+      "water": 500,
+      "pump": 1000,
+      "personnel": 6
+    }
   },
   "object" : 88,
   "is_matchless" : false,
