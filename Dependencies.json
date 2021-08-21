@@ -16,7 +16,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
-    "md5": "0333d2269dddf5200d78b51e8b4172d1",
+    "md5": "746108812b8f774cc2c4a768a8e294e9",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
@@ -80,27 +80,27 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Noemax.Compression.dll"
   },
   {
-    "md5": "5810f0d4857e3e301ee1ce11f958b8c3",
+    "md5": "fd165c4737a4e44c7258ff232c647c01",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
-    "md5": "b66f110c2eafef3086bc4ef69998292f",
+    "md5": "9aca396a6c9a00253ad3eaa6614c76ec",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
-    "md5": "0b6fd4114d3647ef021fd35199c70dec",
+    "md5": "83d18fcc496ab8efa32d56012981dd89",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "3519ebd4b0f528973fe886609e0c8c44",
+    "md5": "fb55555cbf5a4e7029df9f3b069cf5de",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Common.dll"
   },
   {
-    "md5": "0c9389462a39914d9dd574ff9f2ced16",
+    "md5": "b28098032e216e3f9a1fc1c6cf6e8a28",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Model.dll"
   },
   {
-    "md5": "113cbabbc426c01bc0b577254fcdd125",
+    "md5": "7cc8fe0e3cd97e10981511ccf806688d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
@@ -144,7 +144,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "f6e34c11b76eaa5c6dfe3ce625a00086",
+    "md5": "83f39f0aa28571418a7004b098d1669d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
