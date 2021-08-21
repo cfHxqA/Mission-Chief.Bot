@@ -11,10 +11,10 @@
   "pattern" : {
     "base" : ["TLF 8/8", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe"],
     "extend" : {
-      "min\\. (\\d+) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
+      "min\\. (?'personnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
       "(\\d+) Feuerlöschpump(?:e|en)" : 1,
-      "Pumpenleistung (\\d+) l\\/min" : 1,
-      "(\\d+) l\\. Wasser" : 1
+      "Pumpenleistung (?'pump'\\d+) l\\/min" : 1,
+      "(?'water'\\d+) l\\. Wasser" : 1
     }
   }
 }

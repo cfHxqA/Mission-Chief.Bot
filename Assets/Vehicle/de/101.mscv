@@ -1,10 +1,15 @@
 {
+  "additional": {
+    "base": {
+      "trailer": [99, 100]
+    }
+  },
   "object" : 101,
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Anh SwPu"],
     "extend" : {
-      "Pumpenleistung (\\d+) l\\/min" : 1,
+      "Pumpenleistung (?'pump'\\d+) l\\/min" : 1,
       "(\\d+) Schmutzwasserpump(?:e|en)" : 1
     }
   }
