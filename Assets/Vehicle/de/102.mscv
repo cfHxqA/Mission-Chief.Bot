@@ -1,7 +1,7 @@
 {
   "additional": {
     "base": {
-      "trailer": [99, 100]
+      "is_trailer": true
     }
   },
   "object" : 102,

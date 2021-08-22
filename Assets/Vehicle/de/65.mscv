@@ -1,4 +1,9 @@
 {
+  "additional": {
+    "base": {
+      "trailer": [66, 67, 68],
+    }
+  },
   "object" : 65,
   "is_matchless" : false,
   "pattern" : {
