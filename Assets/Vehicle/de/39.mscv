@@ -2,6 +2,7 @@
   "additional": {
     "base": {
       "trailer": [44],
+      "is_trailer_required": false
     }
   },
   "object" : 39,

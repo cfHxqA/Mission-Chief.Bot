@@ -1,4 +1,9 @@
 {
+  "additional": {
+    "base": {
+      "is_unique": true
+    }
+  },
   "object" : 56,
   "is_matchless" : true,
   "pattern" : {
