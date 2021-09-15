@@ -2,7 +2,7 @@
   "object" : 38,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MPR"],
+    "base" : ["MPR", "motopompes", "motopompe"],
     "extend" : {}
   }
 }
