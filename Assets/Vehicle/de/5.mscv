@@ -2,7 +2,7 @@
   "object" : 5,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GW-A", "GW-A oder AB-Atemschutz"],
+    "base" : ["GW-A", "GW-A oder AB-Atemschutz", "GW Atemschutz"],
     "extend" : {}
   }
 }
