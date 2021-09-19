@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
   {
-    "md5": "50faab2eba97a79cb9229f00add329a4",
+    "md5": "8d992d518b861002b8a3f9e93f3cb582",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BeetleX.dll"
   },
   {
@@ -12,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BouncyCastle.Crypto.dll"
   },
   {
-    "md5": "19b17e3946bd3d9b489d0211706cfe8d",
+    "md5": "5be7b0ea62b1eb022d5b8391169be2d4",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
@@ -80,27 +80,27 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Noemax.Compression.dll"
   },
   {
-    "md5": "fd165c4737a4e44c7258ff232c647c01",
+    "md5": "7091693294777e9dbad837cf7f3cf89f",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
-    "md5": "9aca396a6c9a00253ad3eaa6614c76ec",
+    "md5": "64294c0e5b0a08f4f761532893287565",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
-    "md5": "83d18fcc496ab8efa32d56012981dd89",
+    "md5": "4d2a3f5d0a940078dc3df12f45f4a664",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "fb55555cbf5a4e7029df9f3b069cf5de",
+    "md5": "ab33fc3e1936bc6bcb0ef08b70c41a54",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Common.dll"
   },
   {
-    "md5": "b28098032e216e3f9a1fc1c6cf6e8a28",
+    "md5": "7d6f3dbc390dba4bdfad8d637f60b6ee",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Model.dll"
   },
   {
-    "md5": "7cc8fe0e3cd97e10981511ccf806688d",
+    "md5": "3a15abc0adbed18884f9d6d4fbed5d6d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
@@ -140,11 +140,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Xml.XPath.XmlDocument.dll"
   },
   {
-    "md5": "72de0c6b701f13e1db88fe18f65432a9",
+    "md5": "43c9ef0d839ecbad2bcc4ef4206665fd",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "83f39f0aa28571418a7004b098d1669d",
+    "md5": "c5bc56d7cf3267fd3b6871cb15444549",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
