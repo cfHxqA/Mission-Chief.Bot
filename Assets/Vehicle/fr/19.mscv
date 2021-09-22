@@ -2,7 +2,7 @@
   "object" : 19,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Equipe cynophile"],
+    "base" : ["Equipe cynophile", "unité cynophile"],
     "extend" : {}
   }
 }
