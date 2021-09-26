@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["GPr"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+) litrów piany gaśniczej" : 1
+    }
   }
 }
