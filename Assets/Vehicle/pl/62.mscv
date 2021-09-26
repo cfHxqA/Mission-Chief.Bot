@@ -1,0 +1,8 @@
+{
+  "object" : 62,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Przyczepa wężowa"],
+    "extend" : {}
+  }
+}

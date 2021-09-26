@@ -1,0 +1,8 @@
+{
+  "object" : 57,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GCPr"],
+    "extend" : {}
+  }
+}
