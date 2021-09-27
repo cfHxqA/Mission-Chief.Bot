@@ -4,6 +4,7 @@
   "pattern" : {
     "base" : ["GLBARt"],
     "extend" : {
+      "([0-9]+) litrów wody" : 1,
       "([0-9]+) litrów piany gaśniczej" : 1
     }
   }
