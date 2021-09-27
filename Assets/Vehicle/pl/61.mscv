@@ -2,7 +2,7 @@
   "object" : 61,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["SW"],
+    "base" : ["SW", "Samochód wężowy"],
     "extend" : {}
   }
 }

@@ -5,7 +5,7 @@
     "base" : ["Ciężki samochód gaśniczy", "Średni samochód gaśniczy", "samochód pożarniczy", "samochody\\(-ów\\) pożarnicze\\(-ych\\)"],
     "extend" : {
       "([0-9]+) litrów wody" : 1,
-      "([0-9]+) litrów piany gaśniczej" : 1,
+      "([0-9]+) litrów piany gaśniczej" : 1
     }
   }
 }
