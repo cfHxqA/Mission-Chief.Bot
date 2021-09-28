@@ -2,7 +2,7 @@
   "object" : 62,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Fire Investigator Unit", "Fire Investigator Units"],
+    "base" : ["Fire Investigator Unit", "Fire Investigator Units", "Fire Investigation Unit", "Fire Investigation Units"],
     "extend" : {}
   }
 }
