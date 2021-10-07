@@ -29,6 +29,7 @@
     },
     "is_complete_vehicles_enabled" : false,
     "is_complete_vehicles_list_enabled" : false,
+    "is_complete_vehicles_list_offset": 3,
     "is_enabled" : true,
     "is_events_enabled" : true,
     "is_vehicle_consider_enabled": true,
