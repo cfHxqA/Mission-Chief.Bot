@@ -7,7 +7,7 @@
   "object" : 92,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MTW-OV", "Anh Hund", "Rettungshundefahrzeug", "Rettungshundestaffel|\\(?|\\/n\\)"],
+    "base" : ["MTW-OV", "Anh Hund", "Rettungshundefahrzeug", "Rettungshundestaffel|\\(?:>|\\/n\\)"],
     "extend" : {
     }
   }

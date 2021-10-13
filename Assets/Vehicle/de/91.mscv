@@ -2,7 +2,7 @@
   "object" : 91,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Rettungshundefahrzeug", "Rettungshundestaffel|\\(?|\\/n\\)"],
+    "base" : ["Rettungshundefahrzeug", "Rettungshundestaffel|\\(?:>|\\/n\\)"],
     "extend" : {
     }
   }
