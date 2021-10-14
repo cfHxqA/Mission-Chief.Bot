@@ -2,7 +2,7 @@
   "object" : 60,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["EMS Mobile Command Unit", "EMS Mobile Command"],
+    "base" : ["EMS Mobile Command Unit", "EMS Mobile Command", "EMS Chief"],
     "extend" : {
       "(\\d+)x EMS Mobile Command" : 1
     }

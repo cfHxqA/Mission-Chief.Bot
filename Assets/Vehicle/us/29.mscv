@@ -2,9 +2,8 @@
   "object" : 29,
   "is_matchless" : true,
   "pattern" : {
-    "base" : ["EMS Chief", "EMS Mobile Command"],
+    "base" : ["EMS Chief"],
     "extend" : {
-      "(\\d+)x EMS Mobile Command" : 1
     }
   }
 }
