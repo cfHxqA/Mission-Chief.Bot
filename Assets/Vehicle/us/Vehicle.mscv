@@ -12,6 +12,7 @@
   "fbi_mcc" : [44],
   "fire_aviation" : [36, 37],
   "firetrucks" : [0, 1, 13, 18, 33],
+  "fire_investigation" : [62, 63],
   "game_warden" : [56],
   "hazmat_vehicles" : [9],
   "heavy_rescue_vehicles" : [4, 8, 18],
