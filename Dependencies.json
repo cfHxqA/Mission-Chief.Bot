@@ -16,11 +16,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
-    "md5": "746108812b8f774cc2c4a768a8e294e9",
+    "md5": "8f6469e73de7581ccdaf44a95fc35b16",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "ea174f1f5b7040a7b12dd83509d39414",
+    "md5": "8dfbf4fdb602c92be547efd21a1e58b0",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
@@ -80,27 +80,27 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Noemax.Compression.dll"
   },
   {
-    "md5": "7091693294777e9dbad837cf7f3cf89f",
+    "md5": "c599bfe82137cb64dda5a0249a4b9fc3",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
-    "md5": "64294c0e5b0a08f4f761532893287565",
+    "md5": "d3e5a27ff98ffce8324d43a0a013da95",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
-    "md5": "4d2a3f5d0a940078dc3df12f45f4a664",
+    "md5": "30ec3740d540639ca3b869a41db876bc",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "ab33fc3e1936bc6bcb0ef08b70c41a54",
+    "md5": "bb694c7a19a7a89d0e0749ea92165a48",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Common.dll"
   },
   {
-    "md5": "7d6f3dbc390dba4bdfad8d637f60b6ee",
+    "md5": "d84d583727eb5685b460de02c6c22401",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Model.dll"
   },
   {
-    "md5": "3a15abc0adbed18884f9d6d4fbed5d6d",
+    "md5": "8eef249b38340432c0b7eea9a1f7eeb5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
@@ -140,11 +140,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Xml.XPath.XmlDocument.dll"
   },
   {
-    "md5": "43c9ef0d839ecbad2bcc4ef4206665fd",
+    "md5": "32ee2eef7b54b3d7c465d160b76ce230",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "c5bc56d7cf3267fd3b6871cb15444549",
+    "md5": "87703f386a2897bfe5f5971e3e4a1383",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
