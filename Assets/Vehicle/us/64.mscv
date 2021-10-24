@@ -1,0 +1,8 @@
+{
+  "object" : 64,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Foam Tender"],
+    "extend" : {}
+  }
+}

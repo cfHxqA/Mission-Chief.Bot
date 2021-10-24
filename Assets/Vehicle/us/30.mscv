@@ -4,7 +4,8 @@
   "pattern" : {
     "base" : ["Type 3 engine", "Wildland fire engines", "Wildland fire engine", "Wildland fire vehicle(s?)", "Water Tankers"],
     "extend" : {
-      "(\\d+) gal\\. water" : 1
+      "(\\d+) gal\\. water" : 1,
+      "(\\d+) gal\\. foam" : 1
     }
   }
 }

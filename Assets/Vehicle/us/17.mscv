@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["ARFF", "arff"],
-    "extend" : {}
+    "extend" : {
+      "(\\d+) gal\\. foam" : 1
+    }
   }
 }

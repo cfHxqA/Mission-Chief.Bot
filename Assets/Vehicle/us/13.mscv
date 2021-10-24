@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["platform trucks", "platform truck", "platform", "Type 1 fire engine", "Firetrucks", "firetrucks", "Firetruck", "firetruck"],
-    "extend" : {}
+    "extend" : {
+      "(\\d+) gal\\. foam" : 1
+    }
   }
 }

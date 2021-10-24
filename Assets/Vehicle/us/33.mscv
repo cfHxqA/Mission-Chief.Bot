@@ -4,7 +4,8 @@
   "pattern" : {
     "base" : ["Pumper Tanker", "Water Tanker", "Water Tankers"],
     "extend" : {
-      "(\\d+) gal\\. water" : 1
+      "(\\d+) gal\\. water" : 1,
+      "(\\d+) gal\\. foam" : 1
     }
   }
 }
