@@ -2,7 +2,10 @@
   "object" : 103,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["FuStW (DGL)", "Funkstreifenwagen \\(Dienstgruppenleitung\\)"],
-    "extend" : {}
+    "base" : ["FuStW \\(DGL\\)", "Funkstreifenwagen \\(Dienstgruppenleitung\\)"],
+    "extend" : {
+      "FuStW \\(DGL\\)" : 1,
+      "Funkstreifenwagen \\(Dienstgruppenleitung\\)" : 1
+    }
   }
 }
