@@ -96,11 +96,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/RestSharp.dll"
   },
   {
-    "md5": "2ec0543de71dff1bcac6cee3c14a6da4",
+    "md5": "ddf59e9676dcc326fc09865f40a43568",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Configuration.ConfigurationManager.dll"
   },
   {
-    "md5": "5c1f77a3243cac806557e23d84111f77",
+    "md5": "916949ef1ba93758bd98d58a6b278092",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
   },
   {
@@ -112,15 +112,15 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Runtime.Caching.dll"
   },
   {
-    "md5": "5e827a4fbd40b53b854a1f654ba155c5",
+    "md5": "538fee2001d33945a4c4621505e27ad5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
   },
   {
-    "md5": "6dc3add8c9b3b3bce9d1a62269274806",
+    "md5": "3e045924190b6bd04a0f416d901d8d37",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Permissions.dll"
   },
   {
-    "md5": "8d936c30787246bf5342096b6c63c08e",
+    "md5": "75d0858b4e49b817e469cc302b3a90a4",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
