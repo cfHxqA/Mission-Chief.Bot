@@ -56,6 +56,10 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.IO.RecyclableMemoryStream.dll"
   },
   {
+    "md5": "fe9dbe5dd00cad8e0c009f9d1b642d91",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Win32.SystemEvents.dll"
+  },
+  {
     "md5": "916d32b899f1bc23b209648d007b99fd",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Newtonsoft.Json.dll"
   },
@@ -96,6 +100,10 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Configuration.ConfigurationManager.dll"
   },
   {
+    "md5": "19ff37e998f5fb9f3f4f29b5f2e139dd",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
+  },
+  {
     "md5": "85dfb37bd0c7cec80e4174fda18f3002",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
@@ -104,8 +112,16 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Runtime.Caching.dll"
   },
   {
+    "md5": "2389ebcdaf8df5e5bd20bfee43ffbadd",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
+  },
+  {
     "md5": "3e045924190b6bd04a0f416d901d8d37",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Permissions.dll"
+  },
+  {
+    "md5": "323302eb6b8aacb91c3aa2dd918cc0fd",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
     "md5": "fccedcb5436d25bda6ae8aa7b3b043e1",
