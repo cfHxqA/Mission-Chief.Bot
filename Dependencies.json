@@ -1,5 +1,9 @@
 [
   {
+    "md5": "b4c97d832932f0a9f8add6b8c88df00f",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
+  },
+  {
     "md5": "8d992d518b861002b8a3f9e93f3cb582",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BeetleX.dll"
   },
@@ -98,6 +102,10 @@
   {
     "md5": "5c1f77a3243cac806557e23d84111f77",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
+  },
+  {
+    "md5": "85dfb37bd0c7cec80e4174fda18f3002",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
   {
     "md5": "7237c760e089f1ecbb72e8201ed93248",
