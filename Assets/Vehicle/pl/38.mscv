@@ -2,7 +2,7 @@
   "object" : 38,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GCBARt", "samochody\\(-ów\\) pożarnicze\\(-ych\\)"],
+    "base" : ["GCBARt", "samochody\\(-ów\\) pożarnicze\\(-ych\\)", "samochód pożarniczy"],
     "extend" : {
       "([0-9]+) litrów wody" : 1,
       "([0-9]+) litrów piany gaśniczej" : 1
