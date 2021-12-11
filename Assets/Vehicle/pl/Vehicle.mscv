@@ -4,7 +4,7 @@
   "boats" : [26, 21],
   "flood_equipment" : [51],
   "diver_units" : [24],
-  "firetrucks" : [0, 1, 12],
+  "firetrucks" : [0, 1, 12, 29, 38, 39, 55, 56],
   "foam" : [0, 1, 12, 29, 38, 39, 55, 56],
   "traffic_car" : [30],
   "fwk" : [25],
