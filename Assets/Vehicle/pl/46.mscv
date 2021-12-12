@@ -2,7 +2,7 @@
   "object" : 46,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Kontener powodziowo - pompowy", "sprzęt przeciwpowodziowy"],
+    "base" : ["Kontener powodziowo - pompowy", "sprzęt przeciwpowodziowy", "sprzęty przeciwpowodziowe"],
     "extend" : {}
   }
 }
