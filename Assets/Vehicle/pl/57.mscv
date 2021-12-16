@@ -2,7 +2,7 @@
   "object" : 57,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GCPr"],
+    "base" : ["GCPr", "Samochód ze zbiornikiem na pianę"],
     "extend" : {
       "([0-9]+) litrów piany gaśniczej" : 1
     }
