@@ -2,7 +2,7 @@
   "object" : 32,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Samochód Lekarza", "Lekarz"],
+    "base" : ["Samochód Lekarza", "Lekarz", "Potrzebny transport", "potrzebny transport"],
     "extend" : {}
   }
 }
