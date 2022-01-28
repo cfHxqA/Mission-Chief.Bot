@@ -9,7 +9,7 @@
   "pattern" : {
     "base" : ["Anh 7"],
     "extend" : {
-      "(?'pump'\d+) l\/min Pumpenleistung" : 1,
+      "(?'pump'\\d+) l\/min Pumpenleistung" : 1,
       "(\\d+) Schmutzwasserpump(e(n)?)" : 1
     }
   }
