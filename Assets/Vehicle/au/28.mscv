@@ -1,0 +1,8 @@
+{
+  "object" : 28,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Brush Trucks", "Brush Truck", "Light Tanker", "Ultra-Light Tanker", "brush trucks", "brush truck"],
+    "extend" : {}
+  }
+}

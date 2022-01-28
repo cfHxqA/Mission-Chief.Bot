@@ -71,11 +71,5 @@
       "is_enabled" : true
     }
   },
-  "mission" : {
-    "optimize" : {
-      "default_amount" : 5,
-      "is_enabled" : false
-    }
-  },
   "speed_step" : 3
 }
