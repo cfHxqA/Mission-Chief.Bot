@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Radiowóz", "radiowóz", "radiowóz OPI", "Więźniowie muszą zostać przetransportowani"],
-    "extend" : {}
+    "extend" : {
+      "Potrzeba jeszcze (\\d+) policjanta": 1
+    }
   }
 }
