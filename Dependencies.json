@@ -104,7 +104,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
   },
   {
-    "md5": "85dfb37bd0c7cec80e4174fda18f3002",
+    "md5": "cc387f50f9f88db1aa777d78ffd22ff4",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Interactive.Async.dll"
+  },
+  {
+    "md5": "f7541ec3df7a001fe2a9013ac31d4e2c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
   {
