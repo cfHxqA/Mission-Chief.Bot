@@ -1,5 +1,6 @@
 # How to obtain license?
 Hey could you please update the README.md and describe how to get a license or provide a valid discord link?
+Also it would be nice if you enable the issue feature. :)
 
 ---
 
