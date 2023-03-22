@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["Pelastusauto", "paloautoa", "paloauto"],
     "extend" : {
-      "(?'firetrucksNeededWater'\\d+) litraa (vettä|vaahtoa)": 1
+      "(?'firetrucksNeededWater'\\d+) litraa vettä": 1
     }
   }
 }
