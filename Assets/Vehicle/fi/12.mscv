@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Pelastusauto", "paloautoa", "paloauto"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededWater'\\d+) litraa vettä": 1
+    }
   }
 }
