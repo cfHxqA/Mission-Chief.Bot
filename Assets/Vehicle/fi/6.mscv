@@ -4,6 +4,7 @@
   "pattern" : {
     "base" : ["Säiliöauto", "säiliöauto", "säiliöautoa"],
     "extend" : {
+      "(?'firetrucksNeededPersonnel'\\d+) pelastajaa": 1,
       "(?'firetrucksNeededWater'\\d+) litraa vettä": 1,
       "(\\d+) litraa vaahtoa": 1
     }

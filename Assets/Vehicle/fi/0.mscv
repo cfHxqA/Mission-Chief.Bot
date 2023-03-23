@@ -4,6 +4,7 @@
   "pattern" : {
     "base" : ["Tyypin 1 paloauto", "Tyypin 2 paloauto", "paloautoa", "paloauto"],
     "extend" : {
+      "(?'firetrucksNeededPersonnel'\\d+) pelastajaa": 1,
       "(?'firetrucksNeededWater'\\d+) litraa vettä": 1
     }
   }
