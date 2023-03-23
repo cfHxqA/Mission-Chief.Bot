@@ -1,0 +1,9 @@
+{
+  "object" : 36,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Tutkintayksikkö"],
+    "extend" : {
+    }
+  }
+}

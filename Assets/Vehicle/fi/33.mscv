@@ -1,0 +1,9 @@
+{
+  "object" : 33,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VATV-yksikkö"],
+    "extend" : {
+    }
+  }
+}

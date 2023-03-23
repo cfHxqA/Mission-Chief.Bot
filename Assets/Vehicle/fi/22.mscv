@@ -1,0 +1,9 @@
+{
+  "object" : 22,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Vaativan hoitotason ambulanssi", "Vaativan hoitotason"],
+    "extend" : {
+    }
+  }
+}

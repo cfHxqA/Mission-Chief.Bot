@@ -1,0 +1,9 @@
+{
+  "object" : 23,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Perustason ambulanssi"],
+    "extend" : {
+    }
+  }
+}

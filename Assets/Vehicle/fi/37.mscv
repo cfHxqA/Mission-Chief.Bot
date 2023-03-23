@@ -1,0 +1,9 @@
+{
+  "object" : 37,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["RVL Partioauto"],
+    "extend" : {
+    }
+  }
+}

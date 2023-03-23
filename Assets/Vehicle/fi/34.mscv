@@ -1,0 +1,9 @@
+{
+  "object" : 34,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Vaaka-auto"],
+    "extend" : {
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "object" : 38,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["RVL Partiovene"],
+    "extend" : {
+    }
+  }
+}

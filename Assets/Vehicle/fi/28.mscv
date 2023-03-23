@@ -1,0 +1,9 @@
+{
+  "object" : 28,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Letkuajoneuvo (suurtehopumpulla)"],
+    "extend" : {
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "object" : 25,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Vaahtoyksikkö"],
+    "extend" : {
+    }
+  }
+}

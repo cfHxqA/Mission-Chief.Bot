@@ -1,0 +1,9 @@
+{
+  "object" : 19,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["EVA-yksikkö"],
+    "extend" : {
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "object" : 42,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["ARFF Lentokenttäpaloauto"],
+    "extend" : {
+    }
+  }
+}

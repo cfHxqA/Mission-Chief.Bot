@@ -1,0 +1,9 @@
+{
+  "object" : 32,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Miehistönkuljetusauto"],
+    "extend" : {
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "object" : 30,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Peräkärry (Suurtehopumppu + letku)"],
+    "extend" : {
+    }
+  }
+}

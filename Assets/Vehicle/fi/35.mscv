@@ -1,0 +1,9 @@
+{
+  "object" : 35,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Poliisin kenttäjohtaja"],
+    "extend" : {
+    }
+  }
+}

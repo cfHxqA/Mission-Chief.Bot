@@ -1,0 +1,9 @@
+{
+  "object" : 24,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["EVY-yksikkö"],
+    "extend" : {
+    }
+  }
+}

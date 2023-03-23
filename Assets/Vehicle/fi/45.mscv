@@ -1,0 +1,9 @@
+{
+  "object" : 45,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Lentokentän Johtoauto"],
+    "extend" : {
+    }
+  }
+}
