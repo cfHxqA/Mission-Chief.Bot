@@ -3,6 +3,9 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Säiliöauto", "säiliöauto", "säiliöautoa"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededWater'\\d+) litraa vettä": 1,
+      "(\\d+) litraa vaahtoa": 1
+    }
   }
 }
