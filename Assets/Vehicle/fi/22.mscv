@@ -2,7 +2,7 @@
   "object" : 22,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Vaativan hoitotason ambulanssi", "Vaativan hoitotason"],
+    "base" : ["Vaativan hoitotason ambulanssi", "Vaativan hoitotason, Ambulanssi"],
     "extend" : {
     }
   }
