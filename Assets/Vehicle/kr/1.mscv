@@ -3,7 +3,7 @@
   "object": 1,
   "pattern": {
     "base": [
-      "전술 대응 차량(TRV)"
+      "전술 대응 차량(TRV)", "소방차"
     ],
     "extend": {}
   }
