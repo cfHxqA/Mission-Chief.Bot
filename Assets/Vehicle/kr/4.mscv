@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 4,
+  "pattern": {
+    "base": [
+      "구조공작차(MRU)"
+    ],
+    "extend": {}
+  }
+}

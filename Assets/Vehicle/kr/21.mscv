@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 21,
+  "pattern": {
+    "base": [
+      "무장 개입"
+    ],
+    "extend": {}
+  }
+}

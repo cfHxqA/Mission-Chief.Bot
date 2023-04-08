@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 1,
+  "pattern": {
+    "base": [
+      "전술 대응 차량(TRV)"
+    ],
+    "extend": {}
+  }
+}

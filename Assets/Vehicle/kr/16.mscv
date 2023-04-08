@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 16,
+  "pattern": {
+    "base": [
+      "긴급 이송용 오토바이"
+    ],
+    "extend": {}
+  }
+}

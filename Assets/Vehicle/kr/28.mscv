@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 28,
+  "pattern": {
+    "base": [
+      "승무원 캐리어"
+    ],
+    "extend": {}
+  }
+}

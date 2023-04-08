@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 10,
+  "pattern": {
+    "base": [
+      "이동식 호흡 장비"
+    ],
+    "extend": {}
+  }
+}

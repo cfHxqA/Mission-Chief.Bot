@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 19,
+  "pattern": {
+    "base": [
+      "포장치 운반차"
+    ],
+    "extend": {}
+  }
+}

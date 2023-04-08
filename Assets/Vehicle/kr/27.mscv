@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 27,
+  "pattern": {
+    "base": [
+      "진압 경찰 장비 차량"
+    ],
+    "extend": {}
+  }
+}

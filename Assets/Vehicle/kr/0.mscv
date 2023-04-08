@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 0,
+  "pattern": {
+    "base": [
+      "구조사다리"
+    ],
+    "extend": {}
+  }
+}

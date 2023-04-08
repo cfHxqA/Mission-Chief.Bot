@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 20,
+  "pattern": {
+    "base": [
+      "엔진 펌프 트레일러"
+    ],
+    "extend": {}
+  }
+}

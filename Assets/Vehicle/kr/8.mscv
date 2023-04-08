@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 8,
+  "pattern": {
+    "base": [
+      "사고 대응차량(IRV)"
+    ],
+    "extend": {}
+  }
+}
