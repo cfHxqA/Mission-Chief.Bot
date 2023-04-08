@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 31,
+  "pattern": {
+    "base": [
+      "UEP/UI - GOE/POE"
+    ],
+    "extend": {}
+  }
+}

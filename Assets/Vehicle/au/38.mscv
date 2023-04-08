@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 38,
+  "pattern": {
+    "base": [
+      "MVR Quad"
+    ],
+    "extend": {}
+  }
+}

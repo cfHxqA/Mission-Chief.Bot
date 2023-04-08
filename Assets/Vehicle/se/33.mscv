@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 33,
+  "pattern": {
+    "base": [
+      "IVPA"
+    ],
+    "extend": {}
+  }
+}

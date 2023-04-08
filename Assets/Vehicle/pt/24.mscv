@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 24,
+  "pattern": {
+    "base": [
+      "VTTF"
+    ],
+    "extend": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 41,
+  "pattern": {
+    "base": [
+      "SES Mobile Command"
+    ],
+    "extend": {}
+  }
+}

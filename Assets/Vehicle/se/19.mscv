@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 19,
+  "pattern": {
+    "base": [
+      "Tryckkammarbil"
+    ],
+    "extend": {}
+  }
+}

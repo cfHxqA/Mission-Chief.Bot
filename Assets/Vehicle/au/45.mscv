@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 45,
+  "pattern": {
+    "base": [
+      "Emergency Stairs"
+    ],
+    "extend": {}
+  }
+}

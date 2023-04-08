@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 34,
+  "pattern": {
+    "base": [
+      "Ambulance Officer"
+    ],
+    "extend": {}
+  }
+}

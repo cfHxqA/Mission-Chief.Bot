@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 40,
+  "pattern": {
+    "base": [
+      "BR"
+    ],
+    "extend": {}
+  }
+}

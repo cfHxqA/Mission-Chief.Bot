@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 51,
+  "pattern": {
+    "base": [
+      "PSU Carrier"
+    ],
+    "extend": {}
+  }
+}

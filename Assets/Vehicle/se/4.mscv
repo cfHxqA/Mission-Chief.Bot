@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 4,
+  "pattern": {
+    "base": [
+      "Lastväxlare"
+    ],
+    "extend": {}
+  }
+}

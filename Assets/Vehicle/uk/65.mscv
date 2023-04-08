@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 65,
+  "pattern": {
+    "base": [
+      "Coastguard Rescue Helicopter (Large)"
+    ],
+    "extend": {}
+  }
+}

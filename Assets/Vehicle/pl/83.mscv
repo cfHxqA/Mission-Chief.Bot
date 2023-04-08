@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 83,
+  "pattern": {
+    "base": [
+      "Quad ratowniczy"
+    ],
+    "extend": {}
+  }
+}

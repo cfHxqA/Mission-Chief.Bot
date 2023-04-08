@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 28,
+  "pattern": {
+    "base": [
+      "Akutläkarbil"
+    ],
+    "extend": {}
+  }
+}

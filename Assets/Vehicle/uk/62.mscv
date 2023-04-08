@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 62,
+  "pattern": {
+    "base": [
+      "Mud Decontamination Unit"
+    ],
+    "extend": {}
+  }
+}
