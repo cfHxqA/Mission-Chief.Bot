@@ -1,7 +1,7 @@
 {
-  "ambulances" : [],
+  "ambulances" : [5],
   "battalion_chief_vehicles" : [],
-  "firetrucks" : [0, 1],
+  "firetrucks" : [0, 1, 2],
   "hazmat_vehicles" : [],
   "heavy_rescue_vehicles" : [],
   "k9" : [],
