@@ -1,0 +1,16 @@
+{
+  "ambulances" : [],
+  "battalion_chief_vehicles" : [],
+  "firetrucks" : [0, 1],
+  "hazmat_vehicles" : [],
+  "heavy_rescue_vehicles" : [],
+  "k9" : [],
+  "kdow_orgl" : [],
+  "mobile_air_vehicles" : [],
+  "mobile_command_vehicles" : [],
+  "platform_trucks" : [],
+  "police_cars" : [],
+  "police_helicopters" : [],
+  "rescue_helicopter" : [],
+  "water_tankers" : [],
+}
