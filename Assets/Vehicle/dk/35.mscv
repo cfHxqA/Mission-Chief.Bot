@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 35,
+  "pattern": {
+    "base": [
+      "Rydningsvogn med vandkanon"
+    ],
+    "extend": {}
+  }
+}
