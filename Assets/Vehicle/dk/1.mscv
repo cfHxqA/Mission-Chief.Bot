@@ -3,7 +3,7 @@
   "object": 1,
   "pattern": {
     "base": [
-      "Slangetender"
+      "Slangetender", "brandbil"
     ],
     "extend": {}
   }

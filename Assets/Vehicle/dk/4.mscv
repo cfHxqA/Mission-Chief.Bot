@@ -3,7 +3,7 @@
   "object": 4,
   "pattern": {
     "base": [
-      "Redningsvogn"
+      "Redningsvogn", "Redningsvogne", "Slange Tender"
     ],
     "extend": {}
   }

@@ -3,7 +3,7 @@
   "object": 3,
   "pattern": {
     "base": [
-      "Indsatsleder Brand"
+      "Indsatsleder Brand", "Indsatsledere Brand"
     ],
     "extend": {}
   }

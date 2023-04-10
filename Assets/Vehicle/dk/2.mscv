@@ -3,7 +3,7 @@
   "object": 2,
   "pattern": {
     "base": [
-      "Stigevogn"
+      "Stigevogn", "brandbil"
     ],
     "extend": {}
   }

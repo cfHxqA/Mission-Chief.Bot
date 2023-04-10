@@ -3,7 +3,7 @@
   "object": 0,
   "pattern": {
     "base": [
-      "Autosprøjte"
+      "Autosprøjte", "brandbil"
     ],
     "extend": {}
   }
