@@ -5,6 +5,8 @@
     "base": [
       "Slangetender", "brandbil"
     ],
-    "extend": {}
+    "extend": {
+      "(?'firetrucksNeededWater'\\d+) l\\. Vand": 1,
+    }
   }
 }

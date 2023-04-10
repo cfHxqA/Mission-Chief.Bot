@@ -5,6 +5,8 @@
     "base": [
       "Specialsprøjte", "vandtankvogn"
     ],
-    "extend": {}
+    "extend": {
+      "(?'firetrucksNeededWater'\\d+) l\\. Vand": 1,
+    }
   }
 }

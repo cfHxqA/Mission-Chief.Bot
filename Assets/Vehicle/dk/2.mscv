@@ -5,6 +5,8 @@
     "base": [
       "Stigevogn", "brandbil"
     ],
-    "extend": {}
+    "extend": {
+      "(?'firetrucksNeededWater'\\d+) l\\. Vand": 1,
+    }
   }
 }
