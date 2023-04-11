@@ -1,9 +1,9 @@
 {
-  "is_matchless": false,
+  "is_matchless": true,
   "object": 11,
   "pattern": {
     "base": [
-      "LKM"
+      "LKM", "Ledelses- og kommunikationsmodul"
     ],
     "extend": {}
   }
