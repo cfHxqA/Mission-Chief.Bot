@@ -2,7 +2,7 @@
   "object" : 14,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Helikopter Policyjny"],
+    "base" : ["Helikopter Policyjny", "Helikopterów Policyjnych"],
     "extend" : {}
   }
 }
