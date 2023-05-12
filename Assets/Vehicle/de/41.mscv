@@ -7,7 +7,7 @@
   "object" : 41,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["THW-Mehrzweckkraftwagen", "MzKW"],
+    "base" : ["THW-Mehrzweckkraftwagen", "MzGW \\(FGr N\\)"],
     "extend" : {}
   }
 }
