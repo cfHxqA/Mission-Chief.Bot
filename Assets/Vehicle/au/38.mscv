@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 38,
-  "pattern": {
-    "base": [
-      "MVR Quad"
-    ],
-    "extend": {}
+  "object" : 38,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["MVR Quad", "MVR Quads"], 
+    "extend" : {}
   }
 }

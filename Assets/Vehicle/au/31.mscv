@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 31,
-  "pattern": {
-    "base": [
-      "Fire Helicopter"
-    ],
-    "extend": {}
+  "object" : 31,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Fire Helicopter"],
+    "extend" : {}
   }
 }

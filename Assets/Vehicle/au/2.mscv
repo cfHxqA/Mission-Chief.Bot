@@ -2,7 +2,7 @@
   "object" : 2,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Turntable Ladder trucks"],
+    "base" : ["Turntable Ladder trucks", "Ladder Platform Truck", "Ladder Platform", "Ladder Platform Trucks"],
     "extend" : {}
   }
 }

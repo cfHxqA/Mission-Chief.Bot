@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 37,
-  "pattern": {
-    "base": [
-      "Senior Sergeant"
-    ],
-    "extend": {}
+  "object" : 37,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Senior Sergeant", "Senior Sergeants"], 
+    "extend" : {}
   }
 }

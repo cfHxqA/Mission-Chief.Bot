@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 35,
-  "pattern": {
-    "base": [
-      "Riot Police Group Vehicle"
-    ],
-    "extend": {}
+  "object" : 35,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Riot Police Group Vehicle", "Riot Police Group Vehicles"],
+    "extend" : {}
   }
 }

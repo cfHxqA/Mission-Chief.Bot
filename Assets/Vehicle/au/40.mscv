@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 40,
-  "pattern": {
-    "base": [
-      "SES Rescue Truck"
-    ],
-    "extend": {}
+  "object" : 40,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : [""],
+    "extend" : {}
   }
 }

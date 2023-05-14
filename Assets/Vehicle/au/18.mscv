@@ -2,7 +2,7 @@
   "object" : 18,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["TOG SUV"],
+    "base" : ["TOG SUV", "TOG Armoured Bearcat"],
     "extend" : {
       "([1-4]) TOG Personnel" : 1,
       "([5-8]) TOG Personnel" : 2,

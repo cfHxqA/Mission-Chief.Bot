@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 39,
-  "pattern": {
-    "base": [
-      "MVR Boat"
-    ],
-    "extend": {}
+  "object" : 39,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : [""], 
+    "extend" : {}
   }
 }

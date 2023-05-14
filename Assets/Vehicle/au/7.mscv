@@ -2,7 +2,7 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HAZMAT Units", "HAZMAT Unit", "HAZMAT Truck\\(s\\)", "HAZMAT Trucks"],
+    "base" : ["HAZMAT Truck", "HAZMAT Units", "HAZMAT Unit", "HAZMAT Truck\\(s\\)", "HAZMAT Trucks"],
     "extend" : {}
   }
 }

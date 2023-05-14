@@ -2,9 +2,7 @@
   "is_matchless": false,
   "object": 44,
   "pattern": {
-    "base": [
-      "RIV"
-    ],
+    "base": ["RIV"],
     "extend": {}
   }
 }

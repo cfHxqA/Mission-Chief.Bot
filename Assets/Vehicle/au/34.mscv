@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 34,
-  "pattern": {
-    "base": [
-      "Riot Police SUV"
-    ],
-    "extend": {}
+  "object" : 34,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Riot Police SUV", "Riot Police SUVs"],
+    "extend" : {}
   }
 }

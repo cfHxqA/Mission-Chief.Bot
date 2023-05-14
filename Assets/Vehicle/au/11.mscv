@@ -2,7 +2,7 @@
   "object" : 11,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MCV", "Mobile Command Vehicle"],
+    "base" : ["MCV", "Mobile Command Vehicle", "SES Mobile Command", "MCV or SES Mobile Command"],
     "extend" : {}
   }
 }

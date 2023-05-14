@@ -2,7 +2,7 @@
   "object" : 6,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Bulk Water Tanker", "Water Carrier", "water carrier","Water Carriers", "water carriers"],
+    "base" : ["Water Carrier", "Water Carriers", "Bulk Water Tankers", "Bulk Water Tanker"],
     "extend" : {}
   }
 }

@@ -1,8 +1,8 @@
 {
   "object" : 24,
-  "is_matchless" : false,
+  "is_matchless" : true,
   "pattern" : {
-    "base" : ["ICP", "Intensive Care"],
+    "base" : ["ICP"],
     "extend" : {}
   }
 }

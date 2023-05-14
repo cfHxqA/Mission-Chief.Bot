@@ -2,7 +2,7 @@
   "object" : 0,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Pumper", "Fire engines", "Fire engine"],
+    "base" : ["Fire engines", "Fire engine", "Pumper"],
     "extend" : {}
   }
 }

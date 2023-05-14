@@ -1,10 +1,8 @@
 {
-  "is_matchless": false,
-  "object": 42,
-  "pattern": {
-    "base": [
-      "SES Storm Trailer"
-    ],
-    "extend": {}
+  "object" : 42,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["SES Storm Trailer", "SES Storm Trailers"], 
+    "extend" : {}
   }
 }

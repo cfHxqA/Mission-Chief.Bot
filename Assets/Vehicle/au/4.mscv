@@ -2,7 +2,7 @@
   "object" : 4,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Major Rescue Vehicle", "Rescue", "Major Rescue Vehicles"],
+    "base" : ["MRV or SES Rescue Truck", "MRV or SES Rescue Trucks", "Major Rescue Vehicle", "Rescue"],
     "extend" : {}
   }
 }
