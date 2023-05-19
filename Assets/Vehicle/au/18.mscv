@@ -4,9 +4,9 @@
   "pattern" : {
     "base" : ["TOG SUV", "TOG Armoured Bearcat"],
     "extend" : {
-      "([1-4]) TOG Personnel" : 1,
-      "([5-8]) TOG Personnel" : 2,
-      "(9|1[0-2]) TOG Personnel" : 3
+      "^([1-4]) TOG Personnel" : 1,
+      "^([5-8]) TOG Personnel" : 2,
+      "^(9|1[0-2]) TOG Personnel" : 3
     }
   }
 }
