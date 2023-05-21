@@ -24,7 +24,7 @@
   "mobile_command_vehicles" : [12],
   "platform_trucks" : [2, 13],
   "police_boat" : [55],
-  "police_cars" : [10, 19, 23],
+  "police_cars" : [10, 19, 23, 47],
   "police_helicopters" : [14],
   "rescue_helicopter" : [11],
   "sheriff" : [47],
