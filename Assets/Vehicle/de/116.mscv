@@ -1,0 +1,9 @@
+{
+  "object" : 116,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AB-Lüfter", "Lüfter"],
+    "extend" : {
+    }
+  }
+}

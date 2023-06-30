@@ -1,0 +1,9 @@
+{
+  "object" : 114,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GW Lüfter", "Lüfter"],
+    "extend" : {
+    }
+  }
+}
