@@ -9,7 +9,7 @@
   "object" : 89,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MLF", "Löschfahrzeuge", "Löschfahrzeug"],
+    "base" : ["MLF", "Löschfahrzeuge", "Löschfahrzeuge \\(LF\\)", "Löschfahrzeug"],
     "extend" : {
       "min\\. (?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,

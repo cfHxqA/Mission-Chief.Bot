@@ -9,7 +9,7 @@
   "object" : 30,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HLF 20", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeuge", "Löschfahrzeug", "Tragehilfe"],
+    "base" : ["HLF 20", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeuge", "Löschfahrzeuge \\(LF\\)", "Löschfahrzeug", "Tragehilfe"],
     "extend" : {
       "min\\. (?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,

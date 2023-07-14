@@ -2,7 +2,7 @@
   "object" : 85,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["TM 50", "Teleskopmasten", "Teleskopmast", "DLK 23", "Drehleitern", "Drehleiter"],
+    "base" : ["TM 50", "Teleskopmasten", "Teleskopmast", "DLK 23", "Drehleitern (DLK 23)", "Drehleiter"],
     "extend" : {}
   }
 }

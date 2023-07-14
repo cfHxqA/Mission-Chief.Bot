@@ -2,7 +2,7 @@
   "object" : 11,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GW-L2-Wasser", "GW L 2 Wasser", "Schlauchwagen", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches"],
+    "base" : ["GW-L2-Wasser", "GW L 2 Wasser", "Schlauchwagen (GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches)", "GW-L2 Wasser, SW 1000, SW 2000 oder Ähnliches"],
     "extend" : {
       "([0-9]|[1-8][0-9]|9[0-9]|[1-8][0-9]{2}|9[0-8][0-9]|99[0-9]|1[0-7][0-9]{2}|18[0-4][0-9]|1850) l\\. Wasser": 1,
       "(18[5-8][0-9]|189[0-9]|19[0-9]{2}|2[0-9]{3}|3[0-6][0-9]{2}|3700) l\\. Wasser": 2,
