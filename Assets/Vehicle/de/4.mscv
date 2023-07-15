@@ -2,7 +2,7 @@
   "object" : 4,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["RW", "Rüstwagen", "Rüstwagen oder HLF"],
+    "base" : ["Rüstwagen oder HLF"],
     "extend" : {}
   }
 }

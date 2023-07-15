@@ -9,7 +9,7 @@
   "object" : 90,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HLF 10", "Löschfahrzeuge", "Löschfahrzeuge \\(LF\\)", "Löschfahrzeug", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Tragehilfe"],
+    "base" : ["HLF 10", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Löschfahrzeug", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Tragehilfe"],
     "extend" : {
       "min\\. (?'personnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)" : 1,
       "(\\d+) Feuerlöschpump(?:e|en)" : 1,

@@ -2,7 +2,7 @@
   "object" : 40,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MTW-TZ", "MTW TZ", "THW-Einsatzleitung"],
+    "base" : ["MTW-TZ", "MTW TZ", "THW-Einsatzleitung (MTW TZ)"],
     "extend" : {}
   }
 }
