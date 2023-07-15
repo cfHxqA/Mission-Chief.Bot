@@ -9,7 +9,7 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["LF 20/16", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Feuerlöschpumpe \\(z. B. LF\\)", "Tragehilfe"],
+    "base" : ["LF 20/16", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Feuerlöschpumpe \\(z. B. LF\\)", "Tragehilfe \\(z\\.B\\. durch ein LF\\)"],
     "extend" : {
       "min\\. (?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,
