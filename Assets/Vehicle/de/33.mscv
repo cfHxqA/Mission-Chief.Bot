@@ -2,7 +2,7 @@
   "object" : 33,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GW-Höhenrettung", "GW-Höhenrettung"],
+    "base" : ["GW-Höhenrettung"],
     "extend" : {}
   }
 }
