@@ -2,7 +2,7 @@
   "object" : 81,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MEK-ZF", "MEK-\\(Fahrzeuge|Fahrzeug\\)"],
+    "base" : ["MEK-ZF", "MEK-(Fahrzeuge|Fahrzeug)"],
     "extend" : {}
   }
 }
