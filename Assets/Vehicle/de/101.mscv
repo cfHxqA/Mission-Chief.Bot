@@ -7,10 +7,9 @@
   "object" : 101,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Anh SwPu"],
+    "base" : ["Anh SwPu", "(Schmutzwasserpumpen|Schmutzwasserpumpe)"],
     "extend" : {
       "(?'pump'\\d+) l\/min Pumpenleistung" : 1,
-      "(\\d+) Schmutzwasserpump(e(n)?)" : 1
     }
   }
 }
