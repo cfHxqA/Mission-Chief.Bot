@@ -1,0 +1,11 @@
+{
+  "object" : 90,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GLPr", "Samochód ze zbiornikiem na pianę"],
+    "extend" : {
+      "([0-9]+) litrów wody" : 1,
+      "([0-9]+) litrów piany gaśniczej" : 1
+    }
+  }
+}
