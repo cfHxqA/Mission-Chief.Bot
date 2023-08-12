@@ -2,7 +2,7 @@
   "object" : 56,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GBAPr", "samochody\\(-ów\\) pożarnicze\\(-ych\\)", "samochód pożarniczy", "Samochód ze zbiornikiem na pianę"],
+    "base" : ["GBAPr", "samochody\\(-ów\\) pożarnicze\\(-ych\\)", "samochód pożarniczy", "Samochody ze zbiornikiem na pianę", "Samochód ze zbiornikiem na pianę"],
     "extend" : {
       "([0-9]+) litrów wody" : 1,
       "([0-9]+) litrów piany gaśniczej" : 1

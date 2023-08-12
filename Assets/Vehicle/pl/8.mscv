@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["Radiowóz", "radiowóz", "radiowóz OPI", "Więźniowie muszą zostać przetransportowani"],
     "extend" : {
-      "Potrzeba jeszcze (\\d+) policjanta": 1
+      "Potrzeba jeszcze (\\d+) policjantów": 2
     }
   }
 }

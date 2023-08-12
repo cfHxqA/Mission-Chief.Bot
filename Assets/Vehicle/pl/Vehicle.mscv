@@ -5,7 +5,7 @@
   "flood_equipment" : [46, 51],
   "diver_units" : [24],
   "firetrucks" : [0, 1, 12, 29, 38, 39, 55, 56],
-  "foam" : [0, 1, 12, 29, 38, 39, 55, 56],
+  "foam" : [0, 1, 12, 29, 38, 39, 55, 56, 57, 58, 59],
   "traffic_car" : [30],
   "fwk" : [25],
   "hazmat_vehicles" : [7],
