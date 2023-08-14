@@ -1,0 +1,9 @@
+{
+  "object" : 119,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AB-Lösch"],
+    "extend" : {
+    }
+  }
+}

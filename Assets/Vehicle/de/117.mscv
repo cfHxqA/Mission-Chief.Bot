@@ -1,0 +1,9 @@
+{
+  "object" : 117,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["AB-Tank"],
+    "extend" : {
+    }
+  }
+}
