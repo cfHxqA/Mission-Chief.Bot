@@ -4,6 +4,7 @@
   "pattern" : {
     "base" : ["Foam Trailer"],
     "extend" : {
+      "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
     }
   }
 }
