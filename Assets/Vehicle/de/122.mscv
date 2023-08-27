@@ -1,0 +1,9 @@
+{
+  "object" : 122,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["LKW 7 Lbw \\(FGr E\\)"],
+    "extend" : {
+    }
+  }
+}
