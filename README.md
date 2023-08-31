@@ -25,7 +25,7 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 
 ### How can I join? (Discord)
 
-Follow this **[link](https://discord.gg/dK4tQDG)** - the bot is NOT for free. You get technical support, regular updates & a nice community as long as your license is active!
+Follow this **[link](https://discord.gg/HXWrHgwtxv)** - the bot is NOT for free. You get technical support, regular updates & a nice community as long as your license is active!
 
 ### How to use it? (Windows)
 
