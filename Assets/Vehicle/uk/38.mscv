@@ -3,7 +3,7 @@
   "object": 38,
   "pattern": {
     "base": [
-      "RP CAFS"
+      "RP CAFS", "Foam Unit"
     ],
     "extend": {}
   }
