@@ -1,0 +1,9 @@
+{
+  "object" : 125,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["MTW-Tr UL "],
+    "extend" : {
+    }
+  }
+}
