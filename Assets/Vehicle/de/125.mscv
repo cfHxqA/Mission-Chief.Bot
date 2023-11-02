@@ -2,7 +2,7 @@
   "object" : 125,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MTW-Tr UL "],
+    "base" : ["MTW-Tr UL ", "Drohneneinheit"],
     "extend" : {
     }
   }
