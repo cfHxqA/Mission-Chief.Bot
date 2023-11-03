@@ -2,7 +2,7 @@
   "object" : 16,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Swat", "swat", "SWAT", "SWAT Armoured Vehicles", "SWAT Armoured Vehicle"],
+    "base" : ["Swat", "swat", "SWAT", "SWAT Armoured Vehicles", "SWAT Armoured Vehicle", "SWATs or Patrol Cars"],
     "extend" : {
       "([0-6]) SWAT Personnel" : 1,
       "([7-9]|1[0-2]) SWAT Personnel" : 2,
