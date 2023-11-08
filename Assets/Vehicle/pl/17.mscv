@@ -2,7 +2,7 @@
   "object" : 17,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Motocykl Policyjny"],
+    "base" : ["Motocykl Policyjny", "Furgonetka policyjna"],
     "extend" : {
       "Potrzeba jeszcze (\\d+) policjantów": 1
     }
