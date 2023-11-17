@@ -27,11 +27,11 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 
 Follow this **[link](https://discord.gg/HXWrHgwtxv)** - the bot is NOT for free. You get technical support, regular updates & a nice community as long as your license is active!
 
-### How to use it? (Windows)
+### How to use it? (Windows 8 or HIGHER)
 
 Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
 
-### How to use it? (ARM-/Linux-/MacOS)
+### How to use it? (MacOS-/Linux/ARM)
 
 Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
 
