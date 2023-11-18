@@ -2,7 +2,7 @@
   "object" : 129,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["ELW2 Drohne"],
+    "base" : ["ELW2 Drohne", "ELW Drohne", "Drohneneinheit"],
     "extend" : {
     }
   }
