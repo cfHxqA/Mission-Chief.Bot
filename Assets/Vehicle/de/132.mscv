@@ -1,0 +1,9 @@
+{
+  "object" : 132,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["FKH"],
+    "extend" : {
+    }
+  }
+}

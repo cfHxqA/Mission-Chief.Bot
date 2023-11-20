@@ -1,0 +1,9 @@
+{
+  "object" : 130,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["GW-Bt"],
+    "extend" : {
+    }
+  }
+}

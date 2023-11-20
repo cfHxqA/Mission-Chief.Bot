@@ -1,0 +1,9 @@
+{
+  "object" : 131,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Bt-Kombi"],
+    "extend" : {
+    }
+  }
+}
