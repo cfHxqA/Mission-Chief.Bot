@@ -4,7 +4,7 @@
   <img src="https://i.imgur.com/gacDkgO.png" />
 </p> 
 
-# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0/) [![Discord](https://img.shields.io/discord/1095284310820540441.svg?label=BotNix&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HXWrHgwtxv)
+# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0/) [![Discord](https://img.shields.io/discord/1095284310820540441.svg?label=BotNix%20|%20Join%20Us&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HXWrHgwtxv)
 
 A little helper if the patients, prisoners or missions are too many ... for you! :smiley:
 
