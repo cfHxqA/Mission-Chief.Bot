@@ -10,7 +10,7 @@
   "pattern" : {
     "base" : ["LF 16-TS", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Feuerlöschpumpe \\(z. B. LF\\)", "Tragehilfe \\(z\\.B\\. durch ein LF\\)"],
     "extend" : {
-      "min\\. (?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
+      "(?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,
       "Pumpenleistung (?'firetrucksNeededPump'\\d+) l\\/min": 1,
       "(\\d+) Feuerlöschpump(?:e|en)" : 1
