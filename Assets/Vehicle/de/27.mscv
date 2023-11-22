@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["GW-Gefahrgut"],
     "extend" : {
-      "min\\. ([0-9]) (?:Person|Personen) mit GW-Gefahrgut Ausbildung" : 1
+      "([0-9]) (?:Person|Personen) mit GW-Gefahrgut-Ausbildung" : 1
     }
   }
 }
