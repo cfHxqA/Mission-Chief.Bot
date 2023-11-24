@@ -2,7 +2,7 @@
   "object" : 34,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["ELW 1", "ELW 2"],
+    "base" : ["ELW 1", "ELW 2", "Einsatzleiter 2"],
     "extend" : {
       "min\\. ([0-9]) (?:Person|Personen) mit ELW-2 Ausbildung" : 1
     }
