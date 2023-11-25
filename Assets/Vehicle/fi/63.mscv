@@ -1,0 +1,8 @@
+{
+  "object" : 63,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["CEDM", "Cellule de décontamination de personne", "Cellule de décontamination de masse"],
+    "extend" : {}
+  }
+}

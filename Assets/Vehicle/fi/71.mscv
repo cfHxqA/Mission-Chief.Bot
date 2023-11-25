@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 71,
+  "pattern": {
+    "base": [
+      "UPM", "Unité de Pompage Mobile", "Cellule épuisement", "Cellule épuisements"
+    ],
+    "extend": {}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "object" : 67,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["CESD", "Cellule Sauvetage et déblaiement", "Cellules de sauvetage et déblaiement"],
+    "extend" : {
+    }
+  }
+}

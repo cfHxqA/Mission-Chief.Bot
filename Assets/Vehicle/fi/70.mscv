@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 70,
+  "pattern": {
+    "base": [
+      "MAI", "CEEP", "Cellule épuisements", "Cellule épuisement"
+    ],
+    "extend": {}
+  }
+}

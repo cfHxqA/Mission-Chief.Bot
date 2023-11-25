@@ -1,0 +1,18 @@
+{
+  "is_matchless": false,
+  "object": 66,
+  "pattern": {
+    "base": ["VTPSC"],
+   "extend" : {
+    "([1-3])x USAR": 1,
+    "([4-6])x USAR": 2,
+    "([7-9])x USAR": 3,
+    "(1[0-2])x USAR": 4,
+    "(1[3-5])x USAR": 5,
+    "(1[6-8])x USAR": 6,
+    "(19|2[01])x USAR": 8,
+    "(2[2-4])x USAR": 9,
+    "(2[5-7])x USAR": 10,
+   }
+  }
+}
