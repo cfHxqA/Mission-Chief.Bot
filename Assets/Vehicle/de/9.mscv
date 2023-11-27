@@ -12,7 +12,7 @@
     "extend" : {
       "(?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,
-      "Pumpenleistung (?'firetrucksNeededPump'\\d+) l\\/min": 1,
+      "(?'firetrucksNeededPump'\\d+) l\\/min Pumpenleistung": 1,
       "(\\d+) Feuerlöschpump(?:e|en)" : 1
     }
   }
