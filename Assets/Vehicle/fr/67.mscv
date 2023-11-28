@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["CESD", "Cellule Sauvetage et déblaiement", "Cellules de sauvetage et déblaiement"],
     "extend" : {
-     "\d+x USAR" : 1,
+     "\\d+x USAR" : 1,
     }
   }
 }
