@@ -1,0 +1,8 @@
+{
+  "is_matchless": false,
+  "object": 66,
+  "pattern": {
+    "base": ["VTPSC"],
+   "extend" : {}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "object" : 68,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VEC", "Véhicule équipe cynophile"],
+    "extend" : {}
+  }
+}

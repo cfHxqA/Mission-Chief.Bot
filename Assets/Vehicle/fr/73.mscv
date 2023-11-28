@@ -1,0 +1,8 @@
+{
+  "object" : 73,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VPCE", "Véhicule porte cellule"],
+    "extend" : {}
+  }
+}

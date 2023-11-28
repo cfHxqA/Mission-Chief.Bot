@@ -1,0 +1,8 @@
+{
+  "object" : 62,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["VDIP", "Véhicule de Détection Identification et Prélèvements", "Unité de mesure de décontamination", "Unité de mesure de décontamination requises", "Unité de mesure de la décontamination"],
+    "extend" : {}
+  }
+}
