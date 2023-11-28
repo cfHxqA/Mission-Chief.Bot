@@ -3,6 +3,8 @@
   "object": 66,
   "pattern": {
     "base": ["VTPSC"],
-   "extend" : {}
+   "extend" : {
+     "\\d+x USAR" : 1,
+   }
   }
 }
