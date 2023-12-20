@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["FuStW", "Streifenwagen", "Gefangene sollen abtransportiert werden"],
     "extend" : {
-      "([12]) Polizist\\(en\\)" : 1,
+      "([12]) Polizist(?:en|)" : 1,
       "([34]) Polizisten" : 2,
       "([56]) Polizisten" : 3,
       "([78]) Polizisten" : 4,
