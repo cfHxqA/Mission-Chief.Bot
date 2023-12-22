@@ -4,12 +4,12 @@
   "pattern" : {
     "base" : ["GW-Bt", "Betreuungs- und Verpflegungsausstattung"],
     "extend" : {
-      "([1-3]) (Betreuungs|Verpflegungs)helfer": 1,
-      "([4-6]) (Betreuungs|Verpflegungs)helfer": 2,
-      "([7-9]) (Betreuungs|Verpflegungs)helfer": 3,
-      "(1[0-2]) (Betreuungs|Verpflegungs)helfer": 4,
-      "(1[3-5]) (Betreuungs|Verpflegungs)helfer": 5,
-      "(1[6-8]) (Betreuungs|Verpflegungs)helfer": 6,
+      "([1-3])x (Betreuungs|Verpflegungs)helfer": 1,
+      "([4-6])x (Betreuungs|Verpflegungs)helfer": 2,
+      "([7-9])x (Betreuungs|Verpflegungs)helfer": 3,
+      "(1[0-2])x (Betreuungs|Verpflegungs)helfer": 4,
+      "(1[3-5])x (Betreuungs|Verpflegungs)helfer": 5,
+      "(1[6-8])x (Betreuungs|Verpflegungs)helfer": 6,
     }
   }
 }
