@@ -4,8 +4,8 @@
   "pattern" : {
     "base" : ["Bt-Kombi"],
     "extend" : {
-      "([1-9]) Betreuungshelfer": 1,
-      "(1[0-8]) Betreuungshelfer": 2,
+      "([1-9]) (Betreuungs|Verpflegungs)helfer": 1,
+      "(1[0-8]) (Betreuungs|Verpflegungs)helfer": 2,
     }
   }
 }
