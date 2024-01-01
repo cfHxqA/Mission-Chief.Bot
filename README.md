@@ -19,7 +19,7 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 
 ### Requirements (ARM-/Linux-/MacOS-/Windows)
 
-- [.NET 7.0 SDK or higher](https://dotnet.microsoft.com/download)*
+- [.NET 8.0 SDK or higher](https://dotnet.microsoft.com/download)*
 
 * Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
 
