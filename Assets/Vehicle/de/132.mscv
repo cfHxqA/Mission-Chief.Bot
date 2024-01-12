@@ -2,7 +2,7 @@
   "object" : 132,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["FKH", "Betreuungs- und Verpflegungsausstattung"],
+    "base" : ["FKH", "Betreuungs- und Verpflegungsausstattung(?:$|en)"],
     "extend" : {
     }
   }

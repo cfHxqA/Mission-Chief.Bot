@@ -2,7 +2,7 @@
   "object" : 130,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GW-Bt", "Betreuungs- und Verpflegungsausstattung"],
+    "base" : ["GW-Bt", "Betreuungs- und Verpflegungsausstattung(?:$|en)"],
     "extend" : {
       "([1-3])x (Betreuungs|Verpflegungs)helfer": 1,
       "([4-6])x (Betreuungs|Verpflegungs)helfer": 2,
