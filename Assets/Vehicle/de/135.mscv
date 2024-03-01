@@ -1,0 +1,9 @@
+{
+  "object" : 135,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Polizeipferde"],
+    "extend" : {
+    }
+  }
+}
