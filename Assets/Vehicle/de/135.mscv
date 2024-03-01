@@ -2,8 +2,10 @@
   "object" : 135,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Polizeipferde"],
+    "base" : ["Pferdetransporter groß"],
     "extend" : {
+       "([1-4]) Polizeipferde": 1,
+       "([5-8]) Polizeipferde": 2,
     }
   }
 }
