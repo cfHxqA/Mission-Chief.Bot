@@ -2,7 +2,7 @@
   "object" : 21,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["General Practitioner"],
+    "base" : ["General Practitioner", "Critical Care"],
     "extend" : {}
   }
 }
