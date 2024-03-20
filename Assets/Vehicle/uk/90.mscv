@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 90,
+  "pattern": {
+    "base": [
+      Drone Vehicle \\(Fire Station\\)"
+    ],
+    "extend": {}
+  }
+}

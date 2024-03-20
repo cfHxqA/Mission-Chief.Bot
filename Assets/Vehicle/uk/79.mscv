@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 79,
+  "pattern": {
+    "base": [
+      "Airfield Operations Vehicle"
+    ],
+    "extend": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "is_matchless": false,
+  "object": 81,
+  "pattern": {
+    "base": [
+      "Medical equipment trailer"
+    ],
+    "extend": {}
+  }
+}
