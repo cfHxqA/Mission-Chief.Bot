@@ -6,6 +6,9 @@
     "extend" : {
       "([1-9])x (Betreuungs|Verpflegungs)helfer": 1,
       "(1[0-8])x (Betreuungs|Verpflegungs)helfer": 2,
+      "(19|2[0-7])x (Betreuungs|Verpflegungs)helfer": 3,
+      "(2[89]|3[0-6])x (Betreuungs|Verpflegungs)helfer": 4,
+      "(3[7-9]|4[0-5])x (Betreuungs|Verpflegungs)helfer": 5,
     }
   }
 }
