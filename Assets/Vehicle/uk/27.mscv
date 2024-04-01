@@ -2,9 +2,7 @@
   "is_matchless": false,
   "object": 27,
   "pattern": {
-    "base": [
-      "PRV"
-    ],
+    "base": ["PRV","Primary Response Vehicle","Primary Response Vehicles"],
     "extend": {}
   }
 }

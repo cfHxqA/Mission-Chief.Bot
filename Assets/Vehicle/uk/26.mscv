@@ -3,7 +3,7 @@
   "object": 26,
   "pattern": {
     "base": [
-      "Heavy 4x4 Tanker"
+      "Heavy 4x4 Tanker", "Water Carrier"
     ],
     "extend": {}
   }
