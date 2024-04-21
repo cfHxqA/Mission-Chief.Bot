@@ -3,7 +3,7 @@
   "object": 30,
   "pattern": {
     "base": [
-      "Pumper Tanker"
+      "Pumper Tanker", "Bushfire Vehicles"
     ],
     "extend": {}
   }
