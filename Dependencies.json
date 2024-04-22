@@ -1,10 +1,10 @@
 [
   {
-    "md5": "c8a4a719cf3c0552fede21052a9fedbb",
+    "md5": "66f8bd5edf1968039faf19ec81ecb0ee",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
   {
-    "md5": "2c98cade4c8c227f719e0836afe016c5",
+    "md5": "7d4204ea1bea150066a227f9ce852b9b",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
@@ -12,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "0726be9df4469efaa67211f7ee05ac11",
+    "md5": "62750bb21cfff08e31105ac8aed62a11",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
@@ -42,6 +42,10 @@
   {
     "md5": "f48c45d592355ecc709677347e7f053d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Logging.Abstractions.dll"
+  },
+  {
+    "md5": "950440793a182cc76ffc7f7280e55daf",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Options.dll"
   },
   {
     "md5": "f45226e320f41097397b1ba7468c2d1c",
