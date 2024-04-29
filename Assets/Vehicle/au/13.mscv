@@ -2,7 +2,7 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Aerial Pumper", "Fire engines", "Fire engine", "Turntable Ladder truck", "Turntable Ladder trucks", "Ladder Platform", "Bushfire Vehicle"],
+    "base" : ["Aerial Pumper", "Fire engines", "Fire engine", "Turntable Ladder truck", "Turntable Ladder trucks", "Ladder Platform"],
     "extend" : {}
   }
 }
