@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["TST 8/9", "Tankautospuit", "Tankautospuiten"],
     "extend" : {
-      "([0-9]+) L\\. water" : 1
+      "(?'firetrucksNeededWater'\\d+) l\/min": 1,
     }
   }
 }

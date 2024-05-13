@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["SL", "Slangenwagen", "watertankwagen of gelijkwaardige haakarmbak"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededWater'\\d+) l\/min": 1,
+    }
   }
 }

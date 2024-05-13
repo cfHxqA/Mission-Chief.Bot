@@ -5,6 +5,8 @@
     "base": [
       "TS-HV"
     ],
-    "extend": {}
+    "extend": {
+      "(?'firetrucksNeededWater'\\d+) l\/min": 1,
+    }
   }
 }
