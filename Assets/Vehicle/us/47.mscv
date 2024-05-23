@@ -2,7 +2,7 @@
   "object" : 47,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Police Supervisor \/ Sheriff", "Prisoners must be transported", "SWATs or Patrol Cars"],
+    "base" : ["Police Supervisor \/ Sheriff", "Police Supervisors \/ Sheriffs", "Prisoners must be transported", "SWATs or Patrol Cars"],
     "extend" : {}
   }
 }

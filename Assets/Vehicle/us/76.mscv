@@ -3,7 +3,7 @@
   "object": 76,
   "pattern": {
     "base": [
-      "Smoke Jumper Plane"
+      "Smoke Jumper Plane", "Smoke Jumpers"
     ],
     "extend": {}
   }
