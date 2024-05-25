@@ -4,7 +4,8 @@
   "pattern" : {
     "base" : ["TST-NBB 6/7", "Tankautospuit", "Tankautospuiten"],
     "extend" : {
-      "(?'firetrucksNeededWater'\\d+) l\/min": 1,
+      "(?'firetrucksNeededWater'\\d+) L\\. water": 1,
+      "(?'firetrucksNeededPump+) l\/min": 1,
     }
   }
 }

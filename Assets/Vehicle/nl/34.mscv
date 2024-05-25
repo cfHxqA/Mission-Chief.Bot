@@ -4,7 +4,8 @@
   "pattern" : {
     "base" : ["TW", "Slangenwagen", "watertankwagen of gelijkwaardige haakarmbak"],
     "extend" : {
-      "(?'firetrucksNeededWater'\\d+) l\/min": 1,
+      "(?'firetrucksNeededWater'\\d+) L\\. water": 1,
+      "(?'firetrucksNeededPump+) l\/min": 1,
     }
   }
 }
