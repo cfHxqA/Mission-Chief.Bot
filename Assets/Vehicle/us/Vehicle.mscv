@@ -29,6 +29,7 @@
   "rescue_helicopter" : [11],
   "sheriff" : [47],
   "swat" : [16, 26],
+  "tow_trucks": [105, 106],
   "water_needed" : [7, 30, 31, 33, 35, 36, 37, 38],
   "water_tankers" : [7, 33]
 }
