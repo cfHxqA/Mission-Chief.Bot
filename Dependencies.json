@@ -8,11 +8,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
   },
   {
-    "md5": "419a44e3b6740bf44a29a0a89446c258",
+    "md5": "2076af7ba65ad5c78ed01da2b62b668b",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "62750bb21cfff08e31105ac8aed62a11",
+    "md5": "162d7e202faba66f67ce7f2013bf7450",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
@@ -128,11 +128,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
-    "md5": "405d1c849ea237b9f97f9e98b4a5ce26",
+    "md5": "a22b0820ad9a69ea7da25735a317b8fe",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "2416749db29cc6339791b11c56a3917c",
+    "md5": "f6a0faacf6f72a2c9fa1b2e4e4866966",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   }
 ]
