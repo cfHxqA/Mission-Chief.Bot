@@ -2,7 +2,7 @@
   "object" : 17,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["CARP", "Fire engine or Rescue Support Vehicle", "Rescue Support Unit or Rescue Pump", "Rescue Support Units or Rescue Pumps", "Aerial", "Aerial Appliance", "Aerial Appliance Trucks"],
+    "base" : ["CARP", "Aerial", "Aerial Appliance", "Aerial Appliance Trucks"],
     "extend" : {
       "([1-6]) more (firefighter|firefighters)" : 1,
       "([7-9]|1[0-2]) more firefighters" : 2,
