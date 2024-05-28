@@ -3,7 +3,7 @@
   "object": 81,
   "pattern": {
     "base": [
-      "DA-RWS"
+      "DA-RWS", "Signalisatie Voertuig"
     ],
     "extend": {}
   }
