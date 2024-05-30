@@ -2,7 +2,7 @@
   "object" : 6,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VTTU", "caminhão pipa", "Veículos Tanque Tático Urbano"],
+    "base" : ["VTTU", "caminhão pipa", "Veículos Tanque Tático Urbano", "Veículos Tanque"],
     "extend" : {}
   }
 }

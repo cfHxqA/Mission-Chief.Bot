@@ -3,7 +3,7 @@
   "object": 21,
   "pattern": {
     "base": [
-      "ERAS"
+      "ERAS", "Equipa de Reconhecimento and Avaliação da Situação"
     ],
     "extend": {}
   }
