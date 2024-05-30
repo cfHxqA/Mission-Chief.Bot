@@ -3,7 +3,7 @@
   "object": 36,
   "pattern": {
     "base": [
-      "PCO"
+      "PCO", "Veículo de Posto de Comando"
     ],
     "extend": {}
   }

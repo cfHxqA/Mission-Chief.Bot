@@ -3,7 +3,7 @@
   "object": 31,
   "pattern": {
     "base": [
-      "UEP/UI - GOE/POE"
+      "UEP/UI - GOE/POE", "Veículos de Operações Especiais"
     ],
     "extend": {}
   }

@@ -3,7 +3,7 @@
   "object": 32,
   "pattern": {
     "base": [
-      "UEP/UI - CI/UI"
+      "UEP/UI - CI/UI", "Grupos de Intervenção"
     ],
     "extend": {}
   }

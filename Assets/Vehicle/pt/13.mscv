@@ -2,7 +2,7 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["EPRI"],
+    "base" : ["EPRI", "Equipas de Prevenção e Reacção Imediata"],
     "extend" : {}
   }
 }

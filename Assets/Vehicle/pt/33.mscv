@@ -3,7 +3,7 @@
   "object": 33,
   "pattern": {
     "base": [
-      "UEP/UI - GOC"
+      "UEP/UI - GOC", "Equipa Operacional Cinotécnica", "Equipas Operacionais Cinotécnicas"
     ],
     "extend": {}
   }
