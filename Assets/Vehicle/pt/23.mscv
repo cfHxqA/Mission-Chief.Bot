@@ -3,7 +3,7 @@
   "object": 23,
   "pattern": {
     "base": [
-      "MR"
+      "MR", "Veículos Florestais"
     ],
     "extend": {}
   }

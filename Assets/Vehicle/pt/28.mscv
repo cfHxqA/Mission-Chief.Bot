@@ -3,7 +3,7 @@
   "object": 28,
   "pattern": {
     "base": [
-      "VECI", "Veículos Florestais", "Veículo Especial de Combate a Incêndios"
+      "VECI", "Veículo Especial de Combate a Incêndios"
     ],
     "extend": {}
   }

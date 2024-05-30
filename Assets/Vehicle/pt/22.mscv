@@ -3,7 +3,7 @@
   "object": 22,
   "pattern": {
     "base": [
-      "Semi-Reboque"
+      "Semi-Reboque", "Veículos Florestais"
     ],
     "extend": {}
   }
