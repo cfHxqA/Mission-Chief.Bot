@@ -3,7 +3,7 @@
   "object": 18,
   "pattern": {
     "base": [
-      "SIV"
+      "SIV", "VMER or SIV"
     ],
     "extend": {}
   }
