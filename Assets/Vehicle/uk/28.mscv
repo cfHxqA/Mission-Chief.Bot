@@ -3,7 +3,7 @@
   "object": 28,
   "pattern": {
     "base": [
-      "SRV"
+      "SRV", "Secondary Response Vehicle"
     ],
     "extend": {}
   }
