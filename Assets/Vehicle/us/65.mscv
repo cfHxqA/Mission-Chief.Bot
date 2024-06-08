@@ -2,7 +2,7 @@
   "object" : 65,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Foam Trailer"],
+    "base" : ["Foam Trailer", "Foam Tender", "Foam Tenders"],
     "extend" : {
       "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
     }
