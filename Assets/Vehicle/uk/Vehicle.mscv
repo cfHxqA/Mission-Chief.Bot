@@ -2,7 +2,7 @@
   "ambulances" : [5],
   "battalion_chief_vehicles" : [3],
   "firetrucks" : [0, 1, 16, 17],
-  "hazmat_vehicles" : [7],
+  "hazmat_vehicles" : [7, 32],
   "heavy_rescue_vehicles" : [4],
   "k9" : [12],
   "kdow_orgl" : [20],

@@ -2,7 +2,7 @@
   "object" : 7,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HazMat Unit", "HazMat", "hazmat"],
+    "base" : ["HazMat Unit", "HazMat", "hazmat", "HazMat Unit or CBRN Vehicle"],
     "extend" : {}
   }
 }

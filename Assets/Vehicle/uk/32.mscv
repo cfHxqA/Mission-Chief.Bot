@@ -3,7 +3,7 @@
   "object": 32,
   "pattern": {
     "base": [
-      "CBRN Vehicle"
+      "CBRN Vehicle", "HazMat Unit or CBRN Vehicle"
     ],
     "extend": {}
   }
