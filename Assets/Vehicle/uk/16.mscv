@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["Rescue Pump", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Fire engine", "Fire engines", "Rescue Pump", "Fire engine or Rescue Support Vehicle", "Rescue Support Unit or Rescue Pump", "Rescue Support Units or Rescue Pumps"],
     "extend" : {
-      "([1-9]) more (Firefighter|Firefighters)" : 1,
+      "([1-9]) (Firefighter|Firefighters)" : 1,
       "(1[0-8]) Firefighters" : 2
     }
   }
