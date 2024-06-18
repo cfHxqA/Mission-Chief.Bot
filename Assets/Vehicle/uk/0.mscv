@@ -4,8 +4,8 @@
   "pattern" : {
     "base" : ["Water Ladder", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Fire engine", "Fire engines"],
     "extend" : {
-      "([1-9]) (Firefighters|Firefighterss)" : 1,
-      "(1[0-8]) Firefighterss" : 2
+      "([1-9]) (Firefighter|Firefighters)" : 1,
+      "(1[0-8]) Firefighters" : 2
     }
   }
 }

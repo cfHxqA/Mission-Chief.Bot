@@ -4,10 +4,10 @@
   "pattern" : {
     "base" : ["CARP", "Aerial", "Aerial Appliance", "Aerial Appliance Trucks"],
     "extend" : {
-      "([1-6]) more (Firefighters|Firefighterss)" : 1,
-      "([7-9]|1[0-2]) more Firefighterss" : 2,
-      "(1[3-8]) more Firefighterss" : 3,
-      "(19|2[0-4]) more Firefighterss" : 4
+      "([1-6]) more (Firefighter|Firefighters)" : 1,
+      "([7-9]|1[0-2]) Firefighters" : 2,
+      "(1[3-8]) Firefighters" : 3,
+      "(19|2[0-4]) Firefighters" : 4
     }
   }
 }
