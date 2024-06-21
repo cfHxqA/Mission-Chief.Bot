@@ -12,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "162d7e202faba66f67ce7f2013bf7450",
+    "md5": "6875d1aedbd949fb0c3388d705a678b9",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
@@ -128,11 +128,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
-    "md5": "a22b0820ad9a69ea7da25735a317b8fe",
+    "md5": "255d458512e43e923817435adbdb445f",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "f6a0faacf6f72a2c9fa1b2e4e4866966",
+    "md5": "c40626837445091845a7a5c2816287f4",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   }
 ]
