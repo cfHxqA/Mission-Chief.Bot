@@ -5,6 +5,11 @@
     "url":"https://www.missionchief-australia.com/"
   },
   {
+    "code":"cz",
+    "sha":"00787394f1ea247e9b3f095b25ed6301dc3df94b",
+    "url":"https://www.operacni-stredisko.cz/"
+  },
+  {
     "code":"de",
     "sha":"e884676c5b4410660580cec541ae41008c640acf",
     "url":"https://www.leitstellenspiel.de/"
