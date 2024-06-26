@@ -33,6 +33,7 @@
   "mek" : [81, 82],
   "mobile_air_vehicles" : [5, 48],
   "mobile_command_vehicles" : [34, 78],
+  "mountain": [158],
   "nef" : [29, 31, 74],
   "platform_trucks" : [2, 85],
   "police_cars" : [32, 95],
