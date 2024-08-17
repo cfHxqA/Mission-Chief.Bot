@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 35,
-  "pattern": {
-    "base": [
-      "Slangbil"
-    ],
-    "extend": {}
-  }
-}
+{"object":35,"is_matchless":false,"pattern":{"base":["Slangbil"]}}

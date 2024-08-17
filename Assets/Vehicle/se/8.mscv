@@ -1,8 +1,1 @@
-{
-  "object" : 8,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["Radiobil"],
-    "extend" : {}
-  }
-}
+{"object":8,"is_matchless":false,"pattern":{"base":["Radiobil"]}}

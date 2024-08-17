@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 16,
-  "pattern": {
-    "base": [
-      "Polismotorcykel"
-    ],
-    "extend": {}
-  }
-}
+{"object":16,"is_matchless":false,"pattern":{"base":["Polismotorcykel"]}}

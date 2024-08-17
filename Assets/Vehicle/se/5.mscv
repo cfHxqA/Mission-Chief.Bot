@@ -1,8 +1,1 @@
-{
-  "object" : 5,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["Ambulans", "Transport krävs"],
-    "extend" : {}
-  }
-}
+{"object":5,"is_matchless":false,"pattern":{"base":["Ambulans", "Transport krävs"]}}

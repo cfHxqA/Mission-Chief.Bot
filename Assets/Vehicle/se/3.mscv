@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 3,
-  "pattern": {
-    "base": [
-      "Brandbefäl"
-    ],
-    "extend": {}
-  }
-}
+{"object":3,"is_matchless":false,"pattern":{"base":["Brandbefäl"]}}

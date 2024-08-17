@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 52,
-  "pattern": {
-    "base": [
-      "Haveribil"
-    ],
-    "extend": {}
-  }
-}
+{"object":52,"is_matchless":false,"pattern":{"base":["Haveribil"]}}

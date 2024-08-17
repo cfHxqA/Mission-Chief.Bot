@@ -1,8 +1,1 @@
-{
-  "object" : 0,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["BAS 1 - Släckbil", "släckbil"],
-    "extend" : {}
-  }
-}
+{"object":0,"is_matchless":false,"pattern":{"base":["BAS 1", "släckbil"]}}

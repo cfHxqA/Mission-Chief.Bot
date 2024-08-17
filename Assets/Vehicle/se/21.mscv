@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 21,
-  "pattern": {
-    "base": [
-      "Terrängbil"
-    ],
-    "extend": {}
-  }
-}
+{"object":21,"is_matchless":false,"pattern":{"base":["Terrängbil"]}}

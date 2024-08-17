@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 30,
-  "pattern": {
-    "base": [
-      "Lättvårdsambulans"
-    ],
-    "extend": {}
-  }
-}
+{"object":30,"is_matchless":false,"pattern":{"base":["Lättvårdsambulans"]}}

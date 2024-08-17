@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 39,
-  "pattern": {
-    "base": [
-      "Trafikpolis"
-    ],
-    "extend": {}
-  }
-}
+{"object":39,"is_matchless":false,"pattern":{"base":["Trafikpolis"]}}

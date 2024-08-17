@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 36,
-  "pattern": {
-    "base": [
-      "Slangbil med pump"
-    ],
-    "extend": {}
-  }
-}
+{"object":36,"is_matchless":false,"pattern":{"base":["Slangbil med pump"]}}

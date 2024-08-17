@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 43,
-  "pattern": {
-    "base": [
-      "Häktesbuss"
-    ],
-    "extend": {}
-  }
-}
+{"object":43,"is_matchless":false,"pattern":{"base":["Häktesbuss"]}}

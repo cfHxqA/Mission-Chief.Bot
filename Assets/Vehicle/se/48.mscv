@@ -1,10 +1,1 @@
-{
-  "is_matchless": false,
-  "object": 48,
-  "pattern": {
-    "base": [
-      "Kombifartyg"
-    ],
-    "extend": {}
-  }
-}
+{"object":48,"is_matchless":false,"pattern":{"base":["Kombifartyg"]}}
