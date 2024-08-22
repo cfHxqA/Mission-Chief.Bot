@@ -1,1 +1,15 @@
-{"object":6,"is_matchless":false,"pattern":{"base":["Tankbil", "tankbilar"]}}
+{ 
+ "additional": {
+    "base": {
+      "water": 6000
+    }
+  },
+  "object":6,
+  "is_matchless":false,
+  "pattern":{
+    "base":["Tankbil", "tankbilar"],
+    "extend" : {
+      "(?'firetrucksNeededWater'\\d+) l\\. vatten": 5
+    }
+  }
+}

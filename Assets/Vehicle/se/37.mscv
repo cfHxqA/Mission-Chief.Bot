@@ -1,1 +1,7 @@
-{"object":37,"is_matchless":false,"pattern":{"base":["Skumenhet"]}}
+{"object":37,"is_matchless":false,"pattern":{
+     "base":["Skumenhet","Skumenheter"],
+     "extend":  {
+        "(\\d+) l\\. skum" : 3
+     }
+  }
+}

@@ -1,1 +1,12 @@
-{"object":17,"is_matchless":false,"pattern":{"base":["Insatsfordon"]}}
+{"object":17,"is_matchless":false,
+   "pattern": {
+       "base":["Insatsfordon"],
+       "extend":  {
+      "([0-5]) Insats-personal" : 1,
+      "([6-9]|10) Insats-personal" : 2,
+      "(1[1-5]) Insats-personal" : 3,
+      "([0-9]) Poliser": 2,
+      "(1[0-9]) Poliser": 4
+       }      
+    }
+}
