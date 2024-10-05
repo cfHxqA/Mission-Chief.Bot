@@ -2,7 +2,7 @@
   "object" : 126,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["MTF Drohne", "Drohneneinheit"],
+    "base" : ["MTF Drohne", "Drohneneinheit", "Drohneneinheiten"],
     "extend" : {
     }
   }
