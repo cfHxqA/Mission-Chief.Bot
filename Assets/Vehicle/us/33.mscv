@@ -2,7 +2,7 @@
   "object" : 33,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Pumper Tanker", "Water Tanker", "Water Tankers"],
+    "base" : ["Pumper Tanker", "Water Tanker", "Water Tankers", "Firetruck or Heavy Rescue Vehicle"],
     "extend" : {
       "(\\d+) gal\\. water" : 1,
       "(\\d+) gal\\. foam" : 1

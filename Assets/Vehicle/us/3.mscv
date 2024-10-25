@@ -2,7 +2,7 @@
   "object" : 3,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Battalion chief unit", "Battalion chief units", "battalion chief unit", "battalion chief units"],
+    "base" : ["Battalion chief unit", "Battalion chief units", "battalion chief unit", "battalion chief units", "Technical Rescue Equipment", "SAR Equipment"],
     "extend" : {}
   }
 }
