@@ -2,7 +2,7 @@
   "object" : 121,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["GTLF"],
+    "base" : ["GTLF", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)"],
     "extend" : {
     }
   }
