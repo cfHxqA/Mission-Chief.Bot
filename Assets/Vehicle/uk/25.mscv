@@ -3,6 +3,9 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Armed Traffic Car"],
-    "extend" : {}
+    "extend" : {
+      "([1-4]) Armed Response Personnel \\(in Armed Vehicles\\)" : 1,
+      "([5-8]) Armed Response Personnel \\(in Armed Vehicles\\)" : 2
+    }
   }
 }

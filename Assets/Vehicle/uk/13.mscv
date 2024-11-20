@@ -4,8 +4,8 @@
   "pattern" : {
     "base" : ["Police Car or Armed Response Vehicle \\(ARV\\)", "Armed Response Vehicle \\(ARV\\)", "Armed Response Vehicle", "ARV", "Police car", "Police cars"],
     "extend" : {
-      "([1-4]) Armed Response Personnel" : 1,
-      "([5-8]) Armed Response Personnel" : 2
+      "([1-4]) Armed Response Personnel \\(in Armed Vehicles\\)" : 1,
+      "([5-8]) Armed Response Personnel \\(in Armed Vehicles\\)" : 2
     }
   }
 }
