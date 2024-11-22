@@ -3,7 +3,7 @@
   "object": 38,
   "pattern": {
     "base": [
-      "RP CAFS", "Foam Unit"
+      "RP CAFS", "Foam Unit", "Rescue Support Unit or Rescue Pump", "Rescue Support Units or Rescue Pumps"
     ],
     "extend": {}
   }
