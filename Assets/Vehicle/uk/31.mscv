@@ -3,7 +3,7 @@
   "object": 31,
   "pattern": {
     "base": [
-      "Ambulance Control Unit"
+      "Ambulance Control Unit", "ICCU or Ambulance Control Unit", "ICCU or Ambulance Control Units"
     ],
     "extend": {}
   }

@@ -2,7 +2,7 @@
   "object" : 10,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Rapid Response Vehicle"],
+    "base" : ["Rapid Response Vehicle", "RRV or Specialist Paramedic RRV"],
     "extend" : {}
   }
 }

@@ -2,7 +2,7 @@
   "object" : 25,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Armed Traffic Car"],
+    "base" : ["Armed Traffic Car", "Traffic Car"],
     "extend" : {
       "([1-4]) Armed Response Personnel \\(in Armed Vehicles\\)" : 1,
       "([5-8]) Armed Response Personnel \\(in Armed Vehicles\\)" : 2
