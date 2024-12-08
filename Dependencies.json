@@ -1,5 +1,9 @@
 [
   {
+    "md5": "0e3ada6621f2116ce656ca29645d1b48",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Acornima.dll"
+  },
+  {
     "md5": "66f8bd5edf1968039faf19ec81ecb0ee",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
@@ -16,15 +20,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/DidiSoft.Pgp.dll"
   },
   {
-    "md5": "7d4204ea1bea150066a227f9ce852b9b",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Esprima.dll"
-  },
-  {
     "md5": "5747a24afeb5b39d13549eda4f6ec96d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "a8bb26dcc9ae5b1d0b3f0f0cb016a970",
+    "md5": "443619a346a6930b0e1f3ae47257f3a3",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
