@@ -3,7 +3,7 @@
   "object": 2,
   "pattern": {
     "base": [
-      "Stigevogn", "brandbil"
+      "Stigevogn"
     ],
     "extend": {
       "(?'firetrucksNeededWater'\\d+) l\\. Vand": 1,
