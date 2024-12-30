@@ -5,6 +5,8 @@
     "base": [
       "AKS Pansret mandskabsvogn"
     ],
-    "extend": {}
+    "extend": {
+      "(\\d+)x AKS-personale" : 1
+    }
   }
 }

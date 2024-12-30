@@ -3,7 +3,7 @@
   "object": 1,
   "pattern": {
     "base": [
-      "Slangetender", "brandbil"
+      "Slangetender", "Slange Tender", "brandbil", "brandbiler", "brandbil eller redningsvogn"
     ],
     "extend": {
       "(?'firetrucksNeededWater'\\d+) l\\. Vand": 1,

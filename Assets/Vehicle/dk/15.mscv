@@ -3,7 +3,7 @@
   "object": 15,
   "pattern": {
     "base": [
-      "Hundepatrulje"
+      "Hundepatrulje", "hundepatruljer", "hundepatrulje"
     ],
     "extend": {}
   }
