@@ -1048,6 +1048,10 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/us/57.mscv"
   },
   {
+    "md5": "5a83f89735afde1525fd6e0744c1ffd8",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/39.mscv"
+  },
+  {
     "md5": "edacbcf7c6fce05a7a4888211ba880c0",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/5.mscv"
   },
@@ -1058,6 +1062,10 @@
   {
     "md5": "83a7d7e6ad219d9159ad59ba9ecdb836",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/42.mscv"
+  },
+  {
+    "md5": "f9fe541690d2455a1c7a229099c6aa43",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/54.mscv"
   },
   {
     "md5": "f21ec193ad092223b468c454c5380c95",
@@ -1092,8 +1100,16 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/22.mscv"
   },
   {
+    "md5": "1133f37e93d5731f0facc0e30d8200eb",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/55.mscv"
+  },
+  {
     "md5": "332a7be3670cc67e9ee73679beeaaf0a",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/43.mscv"
+  },
+  {
+    "md5": "649f6a89a877ef456f2bc19fc0a50f17",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/14.mscv"
   },
   {
     "md5": "3c19a70764a070b5e8882353bee64f30",
@@ -1182,6 +1198,14 @@
   {
     "md5": "ee3559da00baa062c34b31577a283492",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/30.mscv"
+  },
+  {
+    "md5": "87b38960c456cffb7d48061739ecf4ae",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/56.mscv"
+  },
+  {
+    "md5": "baba852ffaef8a90ec005654b3f8639a",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Assets/Vehicle/cz/40.mscv"
   },
   {
     "md5": "d38b2003ee03d3970d85262ec5155f27",
