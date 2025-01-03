@@ -1,6 +1,6 @@
 [
   {
-    "md5": "0711d07c2ed0bf0a8b512e85b00a67f0",
+    "md5": "d611d2cbd0a3f2703059848149be5050",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Win32.SystemEvents.dll"
   },
   {
@@ -8,7 +8,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
   {
-    "md5": "30114f00aba8c264684d35eacbabb2e8",
+    "md5": "52403c8636261e58d31a2cfd41a204c3",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Permissions.dll"
   },
   {
@@ -36,7 +36,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Logging.Abstractions.dll"
   },
   {
-    "md5": "0c3f8ebf188a681c1bf940bc012fa7fd",
+    "md5": "6d7ba2bb5c5eacaacb22f1bb636685d3",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Private.Windows.Core.dll"
   },
   {
@@ -56,7 +56,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
-    "md5": "909596653411252f6e7511d18400cd00",
+    "md5": "93330e268776de668666cead119f6f52",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
@@ -124,7 +124,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "fda921fb799406eb3f8f68b23a4690a4",
+    "md5": "41f1db1cb3d8aa2f0a8f8476f6bdf226",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
   },
   {
@@ -144,11 +144,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
   },
   {
-    "md5": "400183c4c2ebde42951ba32e4913743d",
+    "md5": "834293785ca71199d6827b75a417f11f",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Configuration.ConfigurationManager.dll"
   },
   {
-    "md5": "d75cd22627972d31d75fd68adbafd658",
+    "md5": "c9fad7c142285a8113d37c7335bf8a12",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Diagnostics.EventLog.dll"
   },
   {
@@ -156,7 +156,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
   {
-    "md5": "6385e86bf1136432c2c90d876ffeb0fe",
+    "md5": "92b7735d55b139fc84e6737216c0f833",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
   },
   {
