@@ -3,7 +3,7 @@
   "object": 7,
   "pattern": {
     "base": [
-      "CBRN", "gift og kemikalie-enhed"
+      "CBRN", "gift og kemikalie-enhed", "gift- og kemikaliekøretøjer"
     ],
     "extend": {}
   }

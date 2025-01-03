@@ -1,9 +1,9 @@
 {
   "is_matchless": false,
-  "object": 29,
+  "object": 53,
   "pattern": {
     "base": [
-      "Påhængs Pumpe", "påhængs pumpe"
+      "Specialambulance", "Ambulance"
     ],
     "extend": {}
   }
