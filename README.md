@@ -17,9 +17,9 @@ A little helper if the patients, prisoners or missions are too many ... for you!
 ### **The following servers are supported:**
 ![country-au](https://img.shields.io/badge/AU%3F-yes-green.svg) ![country-de](https://img.shields.io/badge/DE%3F-yes-green.svg) ![country-dk](https://img.shields.io/badge/DK%3F-yes-green.svg) ![country-es](https://img.shields.io/badge/ES%3F-yes-green.svg) ![country-fi](https://img.shields.io/badge/FI%3F-yes-green.svg) ![country-fr](https://img.shields.io/badge/FR%3F-yes-green.svg) ![country-it](https://img.shields.io/badge/IT%3F-yes-green.svg) ![country-jp](https://img.shields.io/badge/JP%3F-yes-green.svg) ![country-kr](https://img.shields.io/badge/KR%3F-yes-green.svg) ![country-nl](https://img.shields.io/badge/NL%3F-yes-green.svg) ![country-no](https://img.shields.io/badge/NO%3F-yes-green.svg) ![country-pl](https://img.shields.io/badge/PL%3F-yes-green.svg) ![country-pt](https://img.shields.io/badge/PT%3F-yes-green.svg) ![country-ro](https://img.shields.io/badge/RO%3F-yes-green.svg) ![country-ru](https://img.shields.io/badge/RU%3F-yes-green.svg) ![country-se](https://img.shields.io/badge/SE%3F-yes-green.svg) ![country-uk](https://img.shields.io/badge/UK%3F-yes-green.svg) ![country-us](https://img.shields.io/badge/US%3F-yes-green.svg)
 
-### Requirements (ARM-/Linux-/MacOS-/Windows)
+### Requirements (Win8+/MacOS/Linux/ARM)
 
-- [.NET 8.0 SDK or higher](https://dotnet.microsoft.com/download)*
+- [.NET 9.0 SDK or higher](https://dotnet.microsoft.com/download)*
 
 * Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
 
