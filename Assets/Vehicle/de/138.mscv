@@ -1,8 +1,1 @@
-{
-  "object" : 138,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["GW-Verpflegung"],
-    "extend" : {}
-  }
-}
+{"object":138,"is_matchless":false,"pattern":{"base":["GW-Verpflegung"]}}

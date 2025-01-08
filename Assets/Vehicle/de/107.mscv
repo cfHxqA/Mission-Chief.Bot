@@ -1,9 +1,1 @@
-{
-  "object" : 107,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["LF-l"],
-    "extend" : {
-    }
-  }
-}
+{"object":107,"is_matchless":false,"pattern":{"base":["LF-L"]}}

@@ -1,9 +1,1 @@
-{
-  "object" : 109,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["MzGW SB"],
-    "extend" : {
-    }
-  }
-}
+{"object":109,"is_matchless":false,"pattern":{"base":["MzGW SB"]}}

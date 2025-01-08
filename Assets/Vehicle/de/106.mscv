@@ -1,9 +1,1 @@
-{
-  "object" : 106,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["MTF-L"],
-    "extend" : {
-    }
-  }
-}
+{"object":106,"is_matchless":false,"pattern":{"base":["MTF-L"]}}

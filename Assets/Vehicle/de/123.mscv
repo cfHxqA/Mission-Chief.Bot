@@ -1,9 +1,1 @@
-{
-  "object" : 123,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["LKW 7 Lbw \\(FGr WP\\)"],
-    "extend" : {
-    }
-  }
-}
+{"object":123,"is_matchless":false,"pattern":{"base":["LKW 7 Lbw \\(FGr WP\\)"]}}

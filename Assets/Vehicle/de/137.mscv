@@ -1,8 +1,1 @@
-{
-  "object" : 137,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["Zugfahrzeug Pferdetransport"],
-    "extend" : {}
-  }
-}
+{"object":137,"is_matchless":false,"pattern":{"base":["Zugfahrzeug Pferdetransport"]}}

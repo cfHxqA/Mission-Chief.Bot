@@ -1,13 +1,1 @@
-{
-  "additional": {
-    "base": {
-      "trailer": [101, 102]
-    }
-  },
-  "object" : 100,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["MLW 4"],
-    "extend" : {}
-  }
-}
+{"object":100,"is_matchless":false,"pattern":{"base":["MLW 4"]}}

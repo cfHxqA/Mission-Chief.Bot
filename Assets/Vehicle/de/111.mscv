@@ -1,9 +1,1 @@
-{
-  "object" : 111,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["NEA50"],
-    "extend" : {
-    }
-  }
-}
+{"object":111,"is_matchless":false,"pattern":{"base":["NEA50"]}}

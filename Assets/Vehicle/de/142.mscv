@@ -1,8 +1,1 @@
-{
-  "object" : 142,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["AB-Küche"],
-    "extend" : {}
-  }
-}
+{"object":142,"is_matchless":false,"pattern":{"base":["AB-Küche"]}}

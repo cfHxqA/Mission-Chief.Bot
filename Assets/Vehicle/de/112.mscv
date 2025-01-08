@@ -1,9 +1,1 @@
-{
-  "object" : 112,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["NEA200"],
-    "extend" : {
-    }
-  }
-}
+{"object":112,"is_matchless":false,"pattern":{"base":["NEA200"]}}

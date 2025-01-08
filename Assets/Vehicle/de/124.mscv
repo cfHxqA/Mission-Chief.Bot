@@ -1,9 +1,1 @@
-{
-  "object" : 124,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["MTW-OV"],
-    "extend" : {
-    }
-  }
-}
+{"object":124,"is_matchless":false,"pattern":{"base":["MTW-OV"]}}

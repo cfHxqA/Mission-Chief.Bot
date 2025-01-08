@@ -1,9 +1,1 @@
-{
-  "object" : 118,
-  "is_matchless" : false,
-  "pattern" : {
-    "base" : ["Kleintankwagen"],
-    "extend" : {
-    }
-  }
-}
+{"object":118,"is_matchless":false,"pattern":{"base":["Kleintankwagen"]}}
