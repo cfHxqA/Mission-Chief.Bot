@@ -1,0 +1,5 @@
+{
+  "ambulances" : [5],
+  "firetrucks" : [0, 1],
+  "police_cars" : [8],
+}
