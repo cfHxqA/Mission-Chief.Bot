@@ -2,7 +2,7 @@
   "object" : 95,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Polizeimotorrad", "Polizeimotorräder", "Streifenwagen oder Polizeimotorrad", "Streifenwagen oder Polizeimotorräder", "Streifenwagen"],
+    "base" : ["Polizeimotorrad", "Polizeimotorräder", "Streifenwagen oder (Zivilstreifenwagen|Polizeimotor(?:rad|räder))", "Streifenwagen oder Zivilistreifenwagen oder Polizeimotor(?:rad|räder)"],
     "extend" : {}
   }
 }
