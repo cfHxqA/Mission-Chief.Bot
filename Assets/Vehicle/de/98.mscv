@@ -2,7 +2,7 @@
   "object" : 98,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Zivilstreifenwagen", "Streifenwagen oder Zivilstreifenwagen", "Streifenwagen oder Zivilstreifenwagen oder Polizeimotor(?:rad|räder)"],
+    "base" : ["Zivilstreifenwagen", "Funkstreifenwagen oder (Zivilstreifenwagen|Polizeimotor(?:rad|räder))", "Funkstreifenwagen oder Zivilstreifenwagen oder Polizeimotor(?:rad|räder)"],
     "extend" : {}
   }
 }
