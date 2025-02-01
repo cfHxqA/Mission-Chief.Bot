@@ -1,1 +1,12 @@
-{"object":137,"is_matchless":false,"pattern":{"base":["Zugfahrzeug Pferdetransport"]}}
+{
+  "object" : 137,
+  "is_matchless" : false,
+  "pattern" : {
+    "base" : ["Zugfahrzeug Pferdetransport"],
+    "extend" : {
+       "([1-2]) Polizeipferde": 1,
+       "([3-4]) Polizeipferde": 2,
+       "\\d+ Reiterstaffel": 1,
+    }
+  }
+}
