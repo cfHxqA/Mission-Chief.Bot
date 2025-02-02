@@ -1,1 +1,1 @@
-{"object":156,"is_matchless":false,"pattern":{"base":["Polizeihubschrauber mit verbauter Winde", "Hubschrauber mit Winde"]}}
+{"object":156,"is_matchless":false,"pattern":{"base":["Polizeihubschrauber(?: mit verbauter Winde|)"]}}

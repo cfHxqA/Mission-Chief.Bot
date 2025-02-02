@@ -58,4 +58,6 @@
   "water_tankers" : [11, 13, 14, 15, 16, 62, 121],
   "oneof_coastal_rescue_boat_or_boat_large": [159, 160, 161],
   "coastal_boat_large": [159],
+  "lift": [157],
+  "mountain_equipment": [158],
 }
