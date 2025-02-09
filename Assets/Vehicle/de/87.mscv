@@ -9,7 +9,7 @@
   "object" : 87,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["TLF 4000", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Feuerlöschpumpe \\(z. B. LF\\)"],
+    "base" : ["TLF 4000", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Löschfahrzeug(?:|e) oder Rüstwagen", "Feuerlöschpumpe \\(z. B. LF\\)"],
     "extend" : {
       "(?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,
