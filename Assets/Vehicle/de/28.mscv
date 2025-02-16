@@ -2,7 +2,7 @@
   "object" : 28,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["RTW", "RTW oder KTW Typ B", "RTW oder KTW oder KTW-B", "Ein Fahrzeug hat einen Sprechwunsch"],
+    "base" : ["RTW", "RTW oder KTW", "RTW oder KTW Typ B", "RTW oder KTW oder KTW-B", "Ein Fahrzeug hat einen Sprechwunsch"],
     "extend" : {}
   }
 }
