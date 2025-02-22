@@ -9,7 +9,7 @@
   "object" : 19,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["TLF 8/8", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Löschfahrzeug(?:|e) oder Rüstwagen", "Feuerlöschpumpe \\(z. B. LF\\)", "Tragehilfe \\(z\\.B\\. durch ein LF\\)"],
+    "base" : ["TLF 8/8", "(Löschfahrzeuge|Löschfahrzeug) \\(LF\\)", "Löschfahrzeug(?:|e) oder Rüstwagen", "Feuerlöschpumpe \\(z. B. LF\\)", "Tragehilfe \\(z\\.B\\. durch ein LF\\)", "Löschfahrzeug, Rüstwagen oder Gerätewagen Öl"],
     "extend" : {
       "(?'firetrucksNeededPersonnel'\\d+) (?:Feuerwehrmann|Feuerwehrleute)": 1,
       "(?'firetrucksNeededWater'\\d+) l\\. Wasser": 1,

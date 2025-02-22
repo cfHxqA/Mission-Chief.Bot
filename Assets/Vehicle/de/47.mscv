@@ -7,7 +7,7 @@
   "object" : 47,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeug oder Rüstwagen"],
+    "base" : ["AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeug oder Rüstwagen", "Löschfahrzeug, Rüstwagen oder Gerätewagen Öl"],
     "extend" : {}
   }
 }

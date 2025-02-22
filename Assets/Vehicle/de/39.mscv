@@ -8,7 +8,7 @@
   "object" : 39,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Gerätekraftwagen \\(GKW\\)", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeug oder Rüstwagen"],
+    "base" : ["Gerätekraftwagen \\(GKW\\)", "AB-Rüst", "RW", "Rüstwagen", "Rüstwagen oder HLF", "Löschfahrzeug oder Rüstwagen", "Löschfahrzeug, Rüstwagen oder Gerätewagen Öl"],
     "extend" : {}
   }
 }
