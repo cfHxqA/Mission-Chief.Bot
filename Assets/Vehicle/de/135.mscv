@@ -6,7 +6,7 @@
     "extend" : {
        "([1-4]) Polizeipferde": 1,
        "([5-8]) Polizeipferde": 2,
-       "\\d+ Reiterstaffel": 1,
+       "\\d+x Reiterstaffel": 1,
     }
   }
 }
