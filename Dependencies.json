@@ -24,7 +24,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
-    "md5": "81f3fcefca786d05ec6439f4cd318e69",
+    "md5": "dfd836f47d55244d175f43c9f289eb95",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Net.Http.Headers.dll"
   },
   {
@@ -32,7 +32,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.ServiceModel.dll"
   },
   {
-    "md5": "f48c45d592355ecc709677347e7f053d",
+    "md5": "2cba6f9ec5c0739568dda7e79d067f90",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Logging.Abstractions.dll"
   },
   {
@@ -44,7 +44,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
-    "md5": "ebf181ef6f8cbfdd9149d9d609059051",
+    "md5": "fe767d556eb2476965191325c46af771",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Configuration.dll"
   },
   {
@@ -52,7 +52,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Konscious.Security.Cryptography.Argon2.dll"
   },
   {
-    "md5": "3cf89497c170406889705f056054656b",
+    "md5": "94472baf0365fd8068a1e05a2145cc2d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.WebSockets.dll"
   },
   {
@@ -60,11 +60,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Windows.Extensions.dll"
   },
   {
-    "md5": "f45226e320f41097397b1ba7468c2d1c",
+    "md5": "5cb91a7a14c2cb498f7d2259a1ff96c6",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Primitives.dll"
   },
   {
-    "md5": "443619a346a6930b0e1f3ae47257f3a3",
+    "md5": "f14e5a7852dcce40c406cf995ff90ed7",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
@@ -72,7 +72,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
-    "md5": "e7a18af72d80765ab8d3ef3f819b1f6e",
+    "md5": "b46877320fac6787e905675c22f4e22e",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.AspNetCore.WebUtilities.dll"
   },
   {
@@ -80,11 +80,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Noemax.Compression.dll"
   },
   {
-    "md5": "e1f852e450395bd9cad83625ca41afab",
+    "md5": "7f08e867fd620f3f4101cf436cab0e32",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Configuration.Abstractions.dll"
   },
   {
-    "md5": "950440793a182cc76ffc7f7280e55daf",
+    "md5": "2f6f0c47136e38c0587d70b71d1b14fe",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.Options.dll"
   },
   {
@@ -104,7 +104,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/BeetleX.dll"
   },
   {
-    "md5": "706999014538fc99ce4f98eaca2c1ae6",
+    "md5": "479e1fbcae104171c2e58b97ccddce95",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
@@ -124,7 +124,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
-    "md5": "41f1db1cb3d8aa2f0a8f8476f6bdf226",
+    "md5": "133674df0f58662c90ab979a46b124ec",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
   },
   {
@@ -140,19 +140,23 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.IO.RecyclableMemoryStream.dll"
   },
   {
-    "md5": "38236f9c2408bda46c13efef364326fe",
+    "md5": "1b3bcadfe417e6acdbedf5acf7a6d7c6",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
   },
   {
-    "md5": "834293785ca71199d6827b75a417f11f",
+    "md5": "6722e1b9f8755c2b8054f41701a865b5",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/ZstdSharp.dll"
+  },
+  {
+    "md5": "ac3883b126e8dd2b287f5ff93454eb0e",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Configuration.ConfigurationManager.dll"
   },
   {
-    "md5": "c9fad7c142285a8113d37c7335bf8a12",
+    "md5": "8aaa4d89d4639c08f8f45db84054754d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Diagnostics.EventLog.dll"
   },
   {
-    "md5": "66f8bd5edf1968039faf19ec81ecb0ee",
+    "md5": "ed0c26d2f32cf1ef91c87552f916fe0d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
   {
@@ -160,7 +164,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Drawing.Common.dll"
   },
   {
-    "md5": "0e3ada6621f2116ce656ca29645d1b48",
+    "md5": "d0d9af404c4c74d29cd68234d94f8068",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Acornima.dll"
   },
   {
