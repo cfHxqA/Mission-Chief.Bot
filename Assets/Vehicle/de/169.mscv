@@ -1,1 +1,1 @@
-{"object":169,"is_matchless":false,"pattern":{"base":["AB-Sonderlöschmittel"],"extend":{"(?'firetrucksNeededFoam'\\d+) l\\. Schaum":1}}}
+{"object":169,"is_matchless":false,"pattern":{"base":["AB-Sonderlöschmittel"],"extend":{"\\d+ Sonderlöschmittel":1}}}

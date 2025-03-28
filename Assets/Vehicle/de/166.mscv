@@ -1,1 +1,1 @@
-{"object":166,"is_matchless":false,"pattern":{"base":["PTLF 4000"],"extend":{"(?'firetrucksNeededFoam'\\d+) l\\. Schaum":1}}}
+{"object":166,"is_matchless":false,"pattern":{"base":["PTLF 4000"],"extend":{"\\d+ Sonderlöschmittel":1}}}
