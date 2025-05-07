@@ -3,7 +3,7 @@
   "object": 8,
   "pattern": {
     "base": [
-      "Patruljevogn", "patruljebil", "politibiler eller fangetransport", "politibil eller fangetransport"
+      "Patruljevogn", "patruljebil", "politibiler eller fangetransport", "politibil eller fangetransport", "Påkrævet politibil eller fangetransport", "Påkrævet politibiler eller fangetransport"
     ],
     "extend": {}
   }

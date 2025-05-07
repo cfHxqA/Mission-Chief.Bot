@@ -3,7 +3,7 @@
   "object": 21,
   "pattern": {
     "base": [
-      "Indsatsleder Politi"
+      "Indsatsleder Politi", "Indsatsledere Politi"
     ],
     "extend": {}
   }

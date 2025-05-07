@@ -3,7 +3,7 @@
   "object": 11,
   "pattern": {
     "base": [
-      "LKM", "Ledelses- og kommunikationsmodul"
+      "LKM", "Ledelses- og kommunikationsmodul", "Ledelses- og kommunikationsmoduler"
     ],
     "extend": {}
   }
