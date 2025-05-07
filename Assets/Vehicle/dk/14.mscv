@@ -6,7 +6,7 @@
       "AKS Pansret mandskabsvogn"
     ],
     "extend": {
-      "(\\d+) AKS-personale (i AKS-køretøjer)" : 1
+      "(\\d+) AKS-personale \\(i AKS-køretøjer\\)" : 1
     }
   }
 }
