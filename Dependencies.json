@@ -16,11 +16,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/DidiSoft.Pgp.dll"
   },
   {
-    "md5": "d8169e24a7f0815a3d09876550224f28",
+    "md5": "4f19f8d121776078c2d79aafe8020da2",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Common.dll"
   },
   {
-    "md5": "020d546ec6230ea4af42fa0265316e56",
+    "md5": "d99039b942cd560969f4a508c65f6ca2",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Threading.dll"
   },
   {
@@ -40,7 +40,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Private.Windows.Core.dll"
   },
   {
-    "md5": "122ed4ef081a0ffa22c798a099752ad1",
+    "md5": "5ded0e0493a0f084eee7c30db1768cca",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Aggregation.dll"
   },
   {
@@ -68,7 +68,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Jint.dll"
   },
   {
-    "md5": "50258dd368add9d5903d10d6a18b3de8",
+    "md5": "8e91de6b8f08330d85255d3effb56b9a",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.dll"
   },
   {
@@ -92,7 +92,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "00291d16ee4a0a7c01a9d72ce45db074",
+    "md5": "208b09d05dfadcdb521cebd6bdd2def0",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Model.dll"
   },
   {
@@ -120,7 +120,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Newtonsoft.Json.dll"
   },
   {
-    "md5": "fb28b97b56559cd96a6d1280561a001d",
+    "md5": "09e623b98dda8dce35ed12ce43754b72",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/PostSharp.Patterns.Caching.dll"
   },
   {
