@@ -1,1 +1,3 @@
-{"object":1,"is_matchless":false,"pattern":{"base":["CAS 30"]}}
+{"object":1,"is_matchless":false,"pattern":{"base":["CAS 30"], "extend" : {
+      "(?'firetrucksNeededWater'\\d+) gal\\. water": 1,
+    }}}
