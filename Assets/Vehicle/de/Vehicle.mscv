@@ -60,4 +60,5 @@
   "coastal_boat_large": [159],
   "lift": [157],
   "mountain_equipment": [158],
+  "oneof_police_patrol_or_motorcycle": [32, 95],
 }
