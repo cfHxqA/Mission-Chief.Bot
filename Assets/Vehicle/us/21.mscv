@@ -2,7 +2,7 @@
   "object" : 21,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["boat", "Boat", "Boats", "Heavy rescue", "Heavy rescue vehicle", "Light Boat", "Light Boats"],
+    "base" : ["boat", "Boat", "Boats", "Heavy rescue", "Heavy rescue vehicle", "Light Boat", "Light Boats", "Large Coastal Boat", "Large Coastal Boats"],
     "extend" : {
       "([1-4]) more (people|person) with water rescue training" : 1,
       "([5-8]) more (people|person) with water rescue training" : 2
