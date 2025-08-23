@@ -2,7 +2,7 @@
   "object" : 31,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Fire Helicopter"],
+    "base" : ["Fire Helicopter", "Airborne Firefighting Unit", "Airborne Firefighting Units"],
     "extend" : {}
   }
 }
