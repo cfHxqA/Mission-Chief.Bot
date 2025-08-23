@@ -2,7 +2,7 @@
   "is_matchless": false,
   "object": 43,
   "pattern": {
-    "base": ["ULFV Crash Tender"],
+    "base": ["ULFV Crash Tender", "ULFV Crash Tenders"],
     "extend": {}
   }
 }
