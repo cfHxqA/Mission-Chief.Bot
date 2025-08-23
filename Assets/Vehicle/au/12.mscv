@@ -2,7 +2,7 @@
   "object" : 12,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Rescue Pumper", "Fire engines", "Fire engine", "MRV or SES Rescue Truck"],
+    "base" : ["Rescue Pumper", "Fire engines", "Fire engine", "MRV or SES Rescue Truck", "MRV or SES Rescue Trucks"],
     "extend" : {
       "(?'firetrucksNeededFoam'\\d+) l\\. foam": 1,
     }
