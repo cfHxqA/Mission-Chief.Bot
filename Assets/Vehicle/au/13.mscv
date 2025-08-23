@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Aerial Pumper", "Fire engines", "Fire engine", "Turntable Ladder truck", "Turntable Ladder trucks", "Ladder Platform", "Ladder Platform Truck", "Ladder Platform Trucks"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
+    }
   }
 }

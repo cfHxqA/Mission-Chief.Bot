@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Rescue Pumper", "Fire engines", "Fire engine", "MRV or SES Rescue Truck"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
+    }
   }
 }

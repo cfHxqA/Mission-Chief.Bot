@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Light Tanker", "Fire engines", "Fire engine", "Bushfire Vehicles"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
+    }
   }
 }
