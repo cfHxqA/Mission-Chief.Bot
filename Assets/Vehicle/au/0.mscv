@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["Fire engines", "Fire engine", "Pumper"],
     "extend" : {
-      "(?'firetrucksNeededFoam'\\d+) gal\\. foam": 1,
+      "(?'firetrucksNeededFoam'\\d+) l\\. foam": 1,
     }
   }
 }
