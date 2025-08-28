@@ -4,7 +4,7 @@
   "pattern" : {
     "base" : ["CCRM", "fourgon d’incendie", "fourgons d’incendie"],
     "extend" : {
-      "([0-9]+).(?:pompier|pompiers)" : 1,
+      "([0-9]+).(?:Pompier|Pompiers)" : 1,
       "([0-9]+).l.d’eau" : 1
     }
   }
