@@ -2,7 +2,7 @@
   "object" : 73,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VPCE", "Véhicule porte cellule"],
+    "base" : ["VPCE", "Véhicule porte cellule", "Cellules de sauvetage et déblaiement"],
     "extend" : {}
   }
 }
