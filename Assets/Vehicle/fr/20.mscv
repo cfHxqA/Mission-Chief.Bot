@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["Unité motocycliste", "unité cynophile"],
-    "extend" : {}
+    "extend" : {
+      "([0-9]+).(?:Policier|Policiers)" : 1,
+    }
   }
 }

@@ -2,7 +2,7 @@
   "object" : 37,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["FDGP", "camion dévidoir", "camions dévidoirs", "motopompe"],
+    "base" : ["FDGP", "camion dévidoir", "camions dévidoirs", "motopompe", "motopompes"],
     "extend" : {}
   }
 }
