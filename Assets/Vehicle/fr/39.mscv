@@ -6,6 +6,7 @@
       "VR"
     ],
     "extend": {
+      "([0-9]+) Barre-pont" : 1,
       "([0-9]+) Barres-ponts" : 1,
     }
   }
