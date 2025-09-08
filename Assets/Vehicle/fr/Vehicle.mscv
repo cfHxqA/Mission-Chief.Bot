@@ -13,6 +13,7 @@
   "platform_trucks" : [2, 15],
   "police_cars" : [8, 20],
   "police_helicopters" : [18],
+  "rapid_patrol": [79],
   "rescue_helicopter" : [9],
   "thw_gkw" : [13],
   "water_rescue" : [16, 17],

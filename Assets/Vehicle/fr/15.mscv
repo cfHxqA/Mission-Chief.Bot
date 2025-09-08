@@ -2,7 +2,7 @@
   "object" : 15,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["BEA", "Moyen Élévateur Aérien", "Moyens Élévateurs Aériens", "EPA"],
+    "base" : ["BEA", "Moyen Élévateur Aérien", "Moyens Élévateurs Aériens", "EPA", "Fourgons d’incendie ou véhicules de secours routier requis"],
     "extend" : {}
   }
 }
