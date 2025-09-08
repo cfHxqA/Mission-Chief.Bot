@@ -4,8 +4,8 @@
   "pattern" : {
     "base" : ["VGRIMP"],
     "extend" : {
-      "([1-5]) spécialiste IMP manquant" : 1,
-      "([6-9]|10) spécialiste IMP manquant" : 2
+      "([1-5]) spécialistes IMP manquants" : 1,
+      "([6-9]|10) spécialistes IMP manquants" : 2
     }
   }
 }
