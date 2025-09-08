@@ -2,7 +2,7 @@
   "object" : 13,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VTU", "Véhicule Tout Usage", "Véhicule de secours routier", "véhicule de secours routier"],
+    "base" : ["VTU", "Véhicule Tout Usage", "Véhicules Tout Usage", "Véhicule de secours routier", "véhicule de secours routier"],
     "extend" : {}
   }
 }
