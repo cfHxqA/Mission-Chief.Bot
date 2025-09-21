@@ -37,7 +37,7 @@
   "mountain_height_rescue": [158],
   "nef" : [29, 31, 74],
   "platform_trucks" : [2, 85],
-  "police_cars" : [32, 95, 98],
+  "police_cars" : [32, 95],
   "police_helicopters" : [61],
   "police_service_group_leader" : [103],
   "rescue_dog_units" : [91, 92],
