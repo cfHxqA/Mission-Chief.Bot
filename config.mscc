@@ -22,14 +22,6 @@
       "is_vehicle_consider_enabled" : false,          // consider vehicles from members, default is disabled
     },
     "distance" : 400,                                 // max. distance (post-)alert missions in range
-    "forward" : {
-      "distance" : 400,                               // max. distance forward vehicles in range
-      "estimated_duration" : 300,                     // max remaining time in seconds for the mission (completed state)
-      "is_enabled" : false                            // enable forward-vehicles to missions in range, default is disabled
-    },
-    "is_complete_vehicles_enabled" : false,           // enable (post-)alert mission ONLY if all vehicles are possible, default is disabled
-    "is_complete_vehicles_list_enabled" : false,      // enable loading of multiple pages of vehicles (partial slower alert), default is disabled
-    "is_complete_vehicles_list_offset": 3,            // see option above, amount of possible pages to load vehicles
     "is_enabled" : true,                              // enable (post-)alert missions, default is enabled
     "is_events_enabled" : true,                       // enable mission-events, default is enabled
     "is_vehicle_consider_enabled": false,             // consider vehicles from members, default is disabled
