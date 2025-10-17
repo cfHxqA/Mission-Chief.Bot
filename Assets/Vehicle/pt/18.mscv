@@ -3,7 +3,7 @@
   "object": 18,
   "pattern": {
     "base": [
-      "SIV", "VMER or SIV"
+      "SIV", "VMER or SIV", "Ambulância"
     ],
     "extend": {}
   }
