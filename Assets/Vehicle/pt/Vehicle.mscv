@@ -5,6 +5,7 @@
   "hazmat_vehicles" : [7],
   "heavy_rescue_vehicles" : [4],
   "platform_trucks" : [2],
+  "oneof_fire_engine_or_rescue" : [0, 1, 11, 5],
   "police_cars" : [8],
   "rescue_helicopter" : [9],
   "water_tankers" : [6]

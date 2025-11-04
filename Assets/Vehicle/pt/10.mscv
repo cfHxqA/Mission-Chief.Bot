@@ -2,7 +2,7 @@
   "object" : 10,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["VCOC", "Veículo de Comando e Comunicações"],
+    "base" : ["VCOC", "Veículo de Comando e Comunicações", "Veículos de Comando e Comunicações"],
     "extend" : {}
   }
 }
