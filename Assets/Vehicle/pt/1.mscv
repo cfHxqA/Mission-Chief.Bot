@@ -4,6 +4,7 @@
   "pattern" : {
     "base" : ["VLCI", "VRCI", "VUCI", "caminhão de bombeiro", "caminhões de bombeiro", "Veículo de Combate a Incêndios", "Veículos de Combate a Incêndios"],
     "extend" : {
+      "(?'firetrucksNeededPersonnel'\\d+) Bombeiros": 1,
       "(?'firetrucksNeededWater'\\d+) Litros de Água": 1,
     }
   }

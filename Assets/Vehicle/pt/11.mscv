@@ -3,6 +3,8 @@
   "is_matchless" : false,
   "pattern" : {
     "base" : ["VUCI", "VFCI", "VLCI", "caminhão de bombeiro", "caminhões de bombeiro", "Veículo de Combate a Incêndios", "Veículos de Combate a Incêndios"],
-    "extend" : {}
+    "extend" : {
+      "(?'firetrucksNeededPersonnel'\\d+) Bombeiros": 1,
+    }
   }
 }
