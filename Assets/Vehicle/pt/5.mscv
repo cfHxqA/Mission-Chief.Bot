@@ -2,7 +2,7 @@
   "object" : 5,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["ABSC", "Ambulância", "Um transporte é necessário", "É necessário efetuar o transporte", "É necessário efetuar o transporte", "Ambulâncias de Socorro"],
+    "base" : ["ABSC", "Ambulância", "Ambulância de Socorro", "Um transporte é necessário", "É necessário efetuar o transporte", "É necessário efetuar o transporte", "Ambulâncias de Socorro"],
     "extend" : {}
   }
 }

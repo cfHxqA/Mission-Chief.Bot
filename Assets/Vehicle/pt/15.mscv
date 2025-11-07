@@ -2,7 +2,7 @@
   "object" : 15,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["UAAR", "Unidade Autónoma de Ar Respirável"],
+    "base" : ["UAAR", "Unidade Autónoma de Ar Respirável", "Unidades Autónomas de Ar Respirável"],
     "extend" : {}
   }
 }
