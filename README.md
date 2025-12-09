@@ -38,6 +38,54 @@ Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-
 Enter the following command into the command line to start the bot - switch before into the directory:
 `dotnet /your/location/BotNix.App.dll`
 
+### How to use it? (Docker, Linux-/MacOS)
+
+Unpack the downloaded archive **[docker-image.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/docker-image.zip)**. If this is all done, start the application and set your settings!
+
+
+Main command before usage itself  `chmod +x start-bot.sh`. <br>
+Enter the following command into the command line to start the bot:
+```
+// start the docker container with default parameters; see 'msc-bot'
+./start-bot.sh
+
+// start the docker container with a specific name; see name 'msc-bot-a'
+start-bot.sh msc-bot-a
+
+// start the docker container with a specific name and path; see name 'msc-bot-a' and path 'folder-a'
+start-bot.sh msc-bot-a folder-a
+
+// stop the docker container with the specified name; see name 'msc-bot'
+docker stop msc-bot
+
+/// see logs from the specific running docker container; see name 'msc-bot'
+docker logs -f msc-bot
+```
+
+### How to use it? (Docker, Windows)
+
+Unpack the downloaded archive **[docker-image.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/docker-image.zip)**. If this is all done, start the application and set your settings!
+
+
+Main command before usage itself  `chmod +x start-bot.sh`. <br>
+Enter the following command into the command line to start the bot:
+```
+// start the docker container with default parameters; see 'msc-bot
+.\start-bot.ps1
+
+// start the docker container with a specific name; see name 'msc-bot-a'
+.\start-bot.ps1 msc-bot-a
+
+// start the docker container with a specific name and path; see name 'msc-bot-a' and path 'folder-a'
+.\start-bot.ps1 msc-bot-a folder-a
+
+// stop the docker container with the specified name; see name 'msc-bot'
+docker stop msc-bot
+
+/// see logs from the specific running docker container; see name 'msc-bot'
+docker logs -f msc-bot
+```
+
 # Legal
 
 Violation of any of the terms below will result in the termination of your Account. You agree to use the Service at your own risk.
