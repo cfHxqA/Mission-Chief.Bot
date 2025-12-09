@@ -46,7 +46,7 @@ Unpack the downloaded archive **[docker-image.zip](https://github.com/cfHxqA/Mis
 Main command before usage itself  `chmod +x start-bot.sh`. <br>
 Enter the following command into the command line to start the bot:
 ```
-// start the docker container with default parameters; see 'msc-bot'
+// start the docker container with default parameters; see 'msc-bot' and path 'app'
 ./start-bot.sh
 
 // start the docker container with a specific name; see name 'msc-bot-a'
@@ -68,7 +68,7 @@ Unpack the downloaded archive **[docker-image.zip](https://github.com/cfHxqA/Mis
 
 Enter the following command into the command line to start the bot; see PowerShell command line:
 ```
-// start the docker container with default parameters; see 'msc-bot
+// start the docker container with default parameters; see name 'msc-bot' and path 'app'
 .\start-bot.ps1
 
 // start the docker container with a specific name; see name 'msc-bot-a'
