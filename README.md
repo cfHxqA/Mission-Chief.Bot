@@ -40,7 +40,7 @@ Enter the following command into the command line to start the bot - switch befo
 
 ### How to use it? (Docker, Linux-/MacOS)
 
-Unpack the downloaded archive **[docker-image.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/docker-image.tar.gz)**. If this is all done, start the application and set your settings!
+Unpack the downloaded archive **[MSC-Bot-docker.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot-docker.tar.gz)**. If this is all done, start the application and set your settings!
 
 
 Main command before usage itself  `chmod +x start-bot.sh`. <br>
@@ -64,7 +64,7 @@ docker logs -f msc-bot
 
 ### How to use it? (Docker, Windows)
 
-Unpack the downloaded archive **[docker-image.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/docker-image.tar.gz)**. If this is all done, start the application and set your settings!
+Unpack the downloaded archive **[MSC-Bot-docker.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot-docker.tar.gz)**. If this is all done, start the application and set your settings!
 
 Enter the following command into the command line to start the bot; see PowerShell command line:
 ```
