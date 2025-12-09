@@ -66,9 +66,7 @@ docker logs -f msc-bot
 
 Unpack the downloaded archive **[docker-image.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/docker-image.zip)**. If this is all done, start the application and set your settings!
 
-
-Main command before usage itself  `chmod +x start-bot.sh`. <br>
-Enter the following command into the command line to start the bot:
+Enter the following command into the command line to start the bot; see PowerShell command line:
 ```
 // start the docker container with default parameters; see 'msc-bot
 .\start-bot.ps1
