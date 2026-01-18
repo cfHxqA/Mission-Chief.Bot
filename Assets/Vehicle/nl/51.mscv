@@ -2,7 +2,7 @@
   "object" : 51,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["HVH", "Hulpverleningsvoertuig", "Hulpverleningsvoertuigen"],
+    "base" : ["HVH", "Hulpverleningsvoertuig", "Hulpverleningsvoertuigen", "Tankautospuit of hulpverleningsvoertuig"],
     "extend" : {}
   }
 }
