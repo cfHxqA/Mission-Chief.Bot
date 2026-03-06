@@ -40,6 +40,7 @@
   "police_cars" : [32, 95],
   "police_helicopters" : [61],
   "police_service_group_leader" : [103],
+  "railway_fire": [162, 163, 164],
   "rescue_dog_units" : [91, 92],
   "rescue_helicopter" : [31],
   "rettungstreppe" : [76],
