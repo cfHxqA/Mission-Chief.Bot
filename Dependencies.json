@@ -4,8 +4,16 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Snappier.dll"
   },
   {
+    "md5": "54eee15d2409133f6a95ef1847b9e2e1",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Timestamps.dll"
+  },
+  {
     "md5": "12af75a7434838457d9fd96051261694",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Net.Http.Headers.dll"
+  },
+  {
+    "md5": "a2603514d3bf9cd7d7548e6fb646c2c5",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/WatsonWebserver.dll"
   },
   {
     "md5": "b26484c3af80f845a6c397faba71c5f7",
@@ -48,12 +56,24 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
+    "md5": "271cb7a76ce785084e88d383c6c415d2",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/IpMatcher.dll"
+  },
+  {
     "md5": "ca4afe9f4591dc1efe6e0d46a8af4d0d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Konscious.Security.Cryptography.Blake2.dll"
   },
   {
     "md5": "ca61d8bc130436f9a11d7bc3269f14db",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
+  },
+  {
+    "md5": "68f8a1e09203694f75a17c998903d269",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/WatsonWebsocket.dll"
+  },
+  {
+    "md5": "10a7133aafd12b16d831ea06c30c110d",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/RegexMatcher.dll"
   },
   {
     "md5": "529cce12036b088efef771336e3e683e",
@@ -70,6 +90,10 @@
   {
     "md5": "ed0c26d2f32cf1ef91c87552f916fe0d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
+  },
+  {
+    "md5": "8c07b9f926ec473fe240a24de29a1092",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/UrlMatcher.dll"
   },
   {
     "md5": "09cf4db983b0400c9119972bc07bc139",
