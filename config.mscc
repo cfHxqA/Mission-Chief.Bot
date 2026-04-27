@@ -3,6 +3,10 @@
     "country" : "us",                                 // server country, like us = missionchief.com, eg.
     "username" : "CHANGEME",                          // defines username as name OR e-mail address
     "password" : "CHANGEME",                          // defines password for specific username
+    "remote_access": {
+      "ip_address": "127.0.0.1",                      // defines webinterface address; default is localhost
+        "password_hash": ""                           // defines webinterface password as hashed value
+    },
   },
   "building" : {
     "hire" : {
