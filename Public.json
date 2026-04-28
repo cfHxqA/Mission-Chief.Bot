@@ -1,0 +1,66 @@
+[
+  {
+    "md5": "8aa586aed28ef70f76417dc5769ff82d",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/index.html"
+  },
+  {
+    "md5": "d154c20a2dccea25b2c53096865c00ed",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/css/style.css"
+  },
+  {
+    "md5": "05a33c1fa453e31a2a976e3542604d94",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/socket.js"
+  },
+  {
+    "md5": "e03e03501feaf8bffcf553ceb0f38adc",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/api.js"
+  },
+  {
+    "md5": "097c2477bb9ad70dc6c5e2b9205c75f5",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/app.js"
+  },
+  {
+    "md5": "05b6b0d18af8d97eee986ea8ee5914cb",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/config/widgets.js"
+  },
+  {
+    "md5": "9746c0564ef3bad42605a1af6a632dac",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/Badge.js"
+  },
+  {
+    "md5": "9900a472ddfd722b96b79e107e526026",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/DataTable.js"
+  },
+  {
+    "md5": "595afcba0cbbc22ea4c082a572908675",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/LiveConsole.js"
+  },
+  {
+    "md5": "52a6a3efe445ed3a3c1b78e607692f68",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/KPICard.js"
+  },
+  {
+    "md5": "91e5f900acdfe559e06b37e5999cd93e",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/ActivityChart.js"
+  },
+  {
+    "md5": "f2da900d81ca9ce37dc846c48bed18a6",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Showroom.js"
+  },
+  {
+    "md5": "8edd92bf206a2e4aeaabb965f706a911",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Login.js"
+  },
+  {
+    "md5": "704496506abf9fabe8134bee6e8aa962",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Logs.js"
+  },
+  {
+    "md5": "ba852b66697fabd2dd71777922ad70f7",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Dashboard.js"
+  },
+  {
+    "md5": "224fa0b4cef1a2772c1177776abb7852",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Settings.js"
+  }
+]

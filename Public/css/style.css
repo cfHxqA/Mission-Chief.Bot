@@ -1,0 +1,72 @@
+/* MC-Interface Master Stylesheet */
+
+/* --- Grundlayout & Scrollbar --- */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.log-scroll::-webkit-scrollbar { width: 4px; }
+.log-scroll::-webkit-scrollbar-track { background: transparent; }
+.log-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+.dark .log-scroll::-webkit-scrollbar-thumb { background: #475569; }
+
+/* --- Navigation --- */
+.nav-link.nav-active { 
+    background-color: rgba(100, 116, 139, 0.1); 
+    border-left: 3px solid #64748B; 
+    color: #0F172A; 
+    font-weight: 500;
+}
+.dark .nav-link.nav-active { color: #F8FAFC; border-left: 3px solid #94A3B8; }
+
+/* --- Modulare KPI Panels --- */
+.kpi-panel { 
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+}
+.dark .kpi-panel { 
+    background: #1E293B; 
+    border: 1px solid #334155; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.kpi-panel:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+/* Fix für KPI Design (Höhe) & Konsole */
+[data-widget^="widget-kpi-"] { height: 7rem; } 
+
+[data-widget="widget-control"] {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mini-log-container {
+    flex: 1 1 0%;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+/* --- Toggles & Sparklines --- */
+.toggle-checkbox:checked { right: 0; border-color: #64748B; }
+.toggle-checkbox:checked + .toggle-label { background-color: #64748B; }
+.dark .toggle-checkbox:checked + .toggle-label { background-color: #94A3B8; }
+
+.sparkline-path { stroke-dasharray: 100; stroke-dashoffset: 100; animation: drawLine 1.5s ease-out forwards; }
+@keyframes drawLine { to { stroke-dashoffset: 0; } }
+
+/* --- Drag & Drop --- */
+.draggable { cursor: grab; }
+.draggable:active { cursor: grabbing; }
+.dragging { opacity: 0.4; transform: scale(0.98); }
+.drag-over { border: 2px dashed #64748B !important; }
+
+/* --- View Animationen --- */
+.view-section { animation: fadeIn 0.2s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
