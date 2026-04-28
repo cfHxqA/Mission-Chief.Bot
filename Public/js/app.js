@@ -172,10 +172,12 @@ window.addEventListener('botStats', (e) => {
     const formatTrend = (num) => (num >= 0 ? '+' : '') + new Intl.NumberFormat('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(num) + '%';
     
     Object.keys(stats).forEach(key => {
-        const data = stats[key]; 
+        const data = stats[key];
+        data.sub = data.prev === 0 ? 0 : ((data.curr - data.prev) / data.prev) * 100;
+
         const $valEl = $(`#stat-val-${key}`);
         if ($valEl.length) {
-            const newVal = formatValue(data.val);
+            const newVal = formatValue(data.curr);
             if ($valEl.text() !== newVal) $valEl.fadeOut(100, function() { $(this).text(newVal).fadeIn(100); });
         }
         const $subEl = $(`#stat-sub-${key}`);
@@ -188,7 +190,7 @@ window.addEventListener('botStats', (e) => {
         if (window.chartInstances && window.chartInstances[key]) {
             const chart = window.chartInstances[key];
             const dataset = chart.data.datasets[0];
-            dataset.data.push(data.val);
+            dataset.data.push(data.curr);
             if (dataset.data.length > 20) dataset.data.shift();
             const color = data.sub > 0 ? '#10b981' : (data.sub < 0 ? '#f43f5e' : '#94a3b8');
             dataset.borderColor = color;

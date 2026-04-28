@@ -10,6 +10,8 @@ const widgetConfig = [
     { id: 'widget-kpi-kpiMissionsIncoming', title: 'Neue Einsätze', desc: 'KPI-Card für neu generierte Einsätze.', cat: 'stats' },
     { id: 'widget-kpi-kpiMissionsProcessed', title: 'Bearbeitete Einsätze', desc: 'KPI-Card für erfolgreich alarmierte Einsätze.', cat: 'stats' },
     { id: 'widget-kpi-kpiMissionSuccessRate', title: 'Erfolgsquote', desc: 'KPI-Card zur Überwachung der Missions-Erfolge.', cat: 'stats' },
+    { id: 'widget-kpi-kpiSpeechesIncoming', title: 'Neue Sprechwünsche', desc: 'KPI-Card für neu generierte Sprechwünsche.', cat: 'stats' },
+    { id: 'widget-kpi-kpiSpeechesProcessed', title: 'Bearbeitete Einsätze', desc: 'KPI-Card für erfolgreich bearbeitete Sprechwünsche.', cat: 'stats' },
     { id: 'widget-kpi-kpiCreditsPerHour', title: 'Credits pro Stunde', desc: 'KPI-Card für den simulierten stündlichen Verdienst.', cat: 'stats' },
     { id: 'widget-chart', title: 'Aktivitätsverlauf', desc: 'Liniendiagramm für die Einsätze.', cat: 'visuals' },
     { id: 'widget-table-missions', title: 'Häufigste Einsatzarten', desc: 'Tabelle der Einsätze inkl. Sparkline.', cat: 'visuals' },

@@ -18,6 +18,8 @@ export const API = {
                     kpiMissionsIncoming: { val: 0, sub: 0 },
                     kpiMissionsProcessed: { val: 0, sub: 0 },
                     kpiMissionSuccessRate: { val: 0, sub: 0 },
+                    kpiSpeechesIncoming: { val: 0, sub: 0 },
+                    kpiSpeechesProcessed: { val: 0, sub: 0 },
                     kpiCreditsPerHour: { val: 0, sub: 0 }
                 });
             }, 100);

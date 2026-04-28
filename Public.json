@@ -12,11 +12,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/socket.js"
   },
   {
-    "md5": "e03e03501feaf8bffcf553ceb0f38adc",
+    "md5": "4a41de570bce5382512ffe38904374c8",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/api.js"
   },
   {
-    "md5": "097c2477bb9ad70dc6c5e2b9205c75f5",
+    "md5": "5d359b77e262e380d07601e74c417939",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/app.js"
   },
   {
@@ -56,11 +56,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Logs.js"
   },
   {
-    "md5": "ba852b66697fabd2dd71777922ad70f7",
+    "md5": "8f82acff99c336d8051c9a0544c5d9b0",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Dashboard.js"
   },
   {
-    "md5": "224fa0b4cef1a2772c1177776abb7852",
+    "md5": "c96d0e596c0a33597654f267b0cd5933",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Settings.js"
   }
 ]

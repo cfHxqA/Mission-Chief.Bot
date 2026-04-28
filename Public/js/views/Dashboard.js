@@ -17,8 +17,10 @@ export const Dashboard = {
 
         const kpiConfigs = [
           { id: 'widget-kpi-kpiMissionsIncoming', title: 'Einsätze (Neu)', val: stats.kpiMissionsIncoming.val, sub: stats.kpiMissionsIncoming.sub, subLabel: 'vs. Vorstunde' },
-          { id: 'widget-kpi-kpiMissionsProcessed', title: 'Bearbeitet', val: stats.kpiMissionsProcessed.val, sub: stats.kpiMissionsProcessed.sub, subLabel: 'vs. Vorstunde' },
+          { id: 'widget-kpi-kpiMissionsProcessed', title: 'Einsätze (Bearbeitet)', val: stats.kpiMissionsProcessed.val, sub: stats.kpiMissionsProcessed.sub, subLabel: 'vs. Vorstunde' },
           { id: 'widget-kpi-kpiMissionSuccessRate', title: 'Erfolgsquote', val: stats.kpiMissionSuccessRate.val, sub: stats.kpiMissionSuccessRate.sub, subLabel: 'vs. Vorstunde' },
+          { id: 'widget-kpi-kpiSpeechesIncoming', title: 'Sprechwünsche (Neu)', val: stats.kpiSpeechesIncoming.val, sub: stats.kpiSpeechesIncoming.sub, subLabel: 'vs. Vorstunde' },
+          { id: 'widget-kpi-kpiSpeechesProcessed', title: 'Sprechwünsche (Bearbeitet)', val: stats.kpiSpeechesProcessed.val, sub: stats.kpiSpeechesProcessed.sub, subLabel: 'vs. Vorstunde' },
           { id: 'widget-kpi-kpiCreditsPerHour', title: '⌀ Credits / Stunde', val: stats.kpiCreditsPerHour.val, sub: stats.kpiCreditsPerHour.sub, subLabel: 'vs. Vorstunde' }
         ];
 
