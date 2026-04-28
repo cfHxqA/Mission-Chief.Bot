@@ -68,10 +68,6 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/VIEApps.Components.Utility.dll"
   },
   {
-    "md5": "68f8a1e09203694f75a17c998903d269",
-    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/WatsonWebsocket.dll"
-  },
-  {
     "md5": "10a7133aafd12b16d831ea06c30c110d",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/RegexMatcher.dll"
   },
