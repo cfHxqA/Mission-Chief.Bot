@@ -1,6 +1,10 @@
 {
   "common": {
     "dashboard": "Dashboard",
+    "editor": {
+      "mission": "Mission Editor",
+      "vehicle": "Vehicle Editor"
+    },
     "live_logs": "Live Logs",
     "section": {
       "editor": "Editors",
@@ -26,9 +30,9 @@
   },
   "editor": {
     "mission": {
-      "additional_title": "Additional (object)",
       "add_generic": "Add",
       "add_requirement": "Add requirement",
+      "additional_title": "Additional (object)",
       "amount_label": "Amount",
       "base_data": "Base data",
       "base_id": "Base mission ID",
@@ -36,6 +40,7 @@
       "credits": "Avg. credits",
       "import_btn": "Import .mscm",
       "json_preview": "Live JSON output",
+      "key_placeholder": "Key",
       "log_export_success": "File successfully exported: ",
       "log_import_error": "Invalid file format or malformed JSON.",
       "log_import_success": ".mscm file successfully imported.",
@@ -101,7 +106,7 @@
         "kpiMissionsIncoming": "New missions",
         "kpiMissionsIncoming_desc": "KPI card for newly generated missions.",
         "kpiMissionsProcessed": "Processed missions",
-        "kpiMissionsProcessed_desc": "KPI card for successfully dispatched missions.",
+        "kpiMissionsProcessed_desc": "KPI card for successfully handled missions.",
         "kpiSpeechesIncoming": "New speech requests",
         "kpiSpeechesIncoming_desc": "KPI card for newly generated speech requests.",
         "kpiSpeechesProcessed": "Processed speech requests",

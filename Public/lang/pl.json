@@ -1,12 +1,14 @@
 {
   "common": {
     "dashboard": "Panel",
+    "editor": {
+      "mission": "Edytor misji",
+      "vehicle": "Edytor pojazdów"
+    },
     "live_logs": "Logi na żywo",
     "section": {
-      "section": {
-        "editor": "Edytory",
-        "settings": "Konfiguracja"
-      }
+      "editor": "Edytory",
+      "settings": "Konfiguracja"
     },
     "settings": "Ustawienia",
     "showroom": "Showroom",
@@ -28,16 +30,17 @@
   },
   "editor": {
     "mission": {
-      "additional_title": "Additional (obiekt)",
       "add_generic": "Dodaj",
       "add_requirement": "Dodaj wymaganie",
+      "additional_title": "Additional (obiekt)",
       "amount_label": "Ilość",
       "base_data": "Dane podstawowe",
       "base_id": "ID misji bazowej",
       "chances_title": "Chances (obiekt)",
-      "credits": "Ø Kredyty",
+      "credits": "Avg. kredyty",
       "import_btn": "Import .mscm",
       "json_preview": "Podgląd JSON na żywo",
+      "key_placeholder": "Key",
       "log_export_success": "Plik został wyeksportowany: ",
       "log_import_error": "Nieprawidłowy format pliku lub błędny JSON.",
       "log_import_success": "Plik .mscm został pomyślnie zaimportowany.",
@@ -59,11 +62,11 @@
       "import_btn": "Import .mscv",
       "invalid_regex": "Nieprawidłowy regex",
       "json_preview": "Podgląd JSON na żywo",
-      "key_placeholder": "Klucz regex (np. (?'water'\\d+))",
+      "key_placeholder": "Regex key (np. (?'water'\\d+))",
       "log_export_success": "Konfiguracja pojazdu wyeksportowana: ",
       "log_import_error": "Błąd importu konfiguracji pojazdu.",
       "log_import_success": "Plik .mscv został pomyślnie zaimportowany.",
-      "matchless": "Matchless (brak wymaganego dopasowania)",
+      "matchless": "Matchless (brak dopasowania wymagany)",
       "object_id": "ID obiektu",
       "patterns_title": "Wzorce bazowe (tablica regex)",
       "regex_placeholder": "np. (wozy strażackie|LF)",
@@ -87,7 +90,7 @@
       "end": "Do (czas)",
       "start": "Od (czas)"
     },
-    "subtitle": "Pełna historia wszystkich działań bota z zaawansowanymi opcjami filtrowania.",
+    "subtitle": "Pełna historia wszystkich działań bota z zaawansowanymi filtrami.",
     "title": "Logi systemowe na żywo"
   },
   "settings": {
