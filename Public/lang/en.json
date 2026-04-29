@@ -3,6 +3,7 @@
     "dashboard": "Dashboard",
     "live_logs": "Live Logs",
     "section": {
+      "editor": "Editors",
       "settings": "Configuration"
     },
     "settings": "Settings",
@@ -22,6 +23,54 @@
     },
     "subtitle": "Real-time analysis of bot activities.",
     "title": "Dashboard"
+  },
+  "editor": {
+    "mission": {
+      "additional_title": "Additional (object)",
+      "add_generic": "Add",
+      "add_requirement": "Add requirement",
+      "amount_label": "Amount",
+      "base_data": "Base data",
+      "base_id": "Base mission ID",
+      "chances_title": "Chances (object)",
+      "credits": "Avg. credits",
+      "import_btn": "Import .mscm",
+      "json_preview": "Live JSON output",
+      "log_export_success": "File successfully exported: ",
+      "log_import_error": "Invalid file format or malformed JSON.",
+      "log_import_success": ".mscm file successfully imported.",
+      "name": "Name",
+      "overlays": "Additive overlays",
+      "requirements_title": "Requirements (array)",
+      "save_btn": "Save configuration",
+      "subtitle": "Manage .mscm configuration files.",
+      "title": "Mission editor",
+      "val_placeholder": "Value",
+      "vehicle_ids_label": "Vehicle IDs",
+      "vehicle_ids_placeholder": "32, 95..."
+    },
+    "vehicle": {
+      "add_extend": "Add requirement",
+      "add_pattern": "Add pattern",
+      "base_data": "Base data",
+      "extend_title": "Extended requirements (object)",
+      "import_btn": "Import .mscv",
+      "invalid_regex": "Invalid regex",
+      "json_preview": "Live JSON output",
+      "key_placeholder": "Regex key (e.g. (?'water'\\d+))",
+      "log_export_success": "Vehicle configuration exported: ",
+      "log_import_error": "Error importing vehicle configuration.",
+      "log_import_success": ".mscv file successfully imported.",
+      "matchless": "Matchless (no match required)",
+      "object_id": "Object ID",
+      "patterns_title": "Base patterns (regex array)",
+      "regex_placeholder": "e.g. (fire trucks|LF)",
+      "required": "Required field",
+      "save_btn": "Save configuration",
+      "subtitle": "Configuration of vehicle detection patterns.",
+      "title": "Vehicle editor",
+      "val_placeholder": "Value"
+    }
   },
   "live_logs": {
     "noEntities": "No log entries available.",

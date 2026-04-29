@@ -7,6 +7,8 @@ import { Dashboard } from './views/Dashboard.js';
 import { Showroom } from './views/Showroom.js';
 import { Settings } from './views/Settings.js';
 import { Logs } from './views/Logs.js';
+import { VehicleEditor } from './views/editor/VehicleEditor.js';
+import { MissionEditor } from './views/editor/MissionEditor.js';
 import { Login } from './views/Login.js';
 
 window.systemLogs = []; 
@@ -98,6 +100,8 @@ const routes = {
     '/livelogs': Logs, 
     '/showroom': Showroom, 
     '/settings': Settings,
+    '/vehicle_editor': VehicleEditor,
+    '/mission_editor': MissionEditor,
     '/login': Login 
 };
 

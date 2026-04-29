@@ -3,6 +3,7 @@
     "dashboard": "Dashboard",
     "live_logs": "Live logs",
     "section": {
+      "editor": "Editors",
       "settings": "Configuratie"
     },
     "settings": "Instellingen",
@@ -22,6 +23,54 @@
     },
     "subtitle": "Realtime analyse van botactiviteiten.",
     "title": "Dashboard"
+  },
+  "editor": {
+    "mission": {
+      "additional_title": "Additional (object)",
+      "add_generic": "Toevoegen",
+      "add_requirement": "Requirement toevoegen",
+      "amount_label": "Aantal",
+      "base_data": "Basisgegevens",
+      "base_id": "Basis missie-ID",
+      "chances_title": "Chances (object)",
+      "credits": "Ø Credits",
+      "import_btn": ".mscm importeren",
+      "json_preview": "Live JSON output",
+      "log_export_success": "Bestand succesvol geëxporteerd: ",
+      "log_import_error": "Ongeldig bestandsformaat of foutieve JSON.",
+      "log_import_success": ".mscm bestand succesvol geïmporteerd.",
+      "name": "Naam",
+      "overlays": "Additieve overlays",
+      "requirements_title": "Requirements (array)",
+      "save_btn": "Configuratie opslaan",
+      "subtitle": ".mscm configuratiebestanden beheren.",
+      "title": "Missie-editor",
+      "val_placeholder": "Waarde",
+      "vehicle_ids_label": "Voertuig-ID's",
+      "vehicle_ids_placeholder": "32, 95..."
+    },
+    "vehicle": {
+      "add_extend": "Toevoegen",
+      "add_pattern": "Patroon toevoegen",
+      "base_data": "Basisgegevens",
+      "extend_title": "Uitgebreide vereisten (object)",
+      "import_btn": ".mscv importeren",
+      "invalid_regex": "Ongeldige regex",
+      "json_preview": "Live JSON output",
+      "key_placeholder": "Regex sleutel (bijv. (?'water'\\d+))",
+      "log_export_success": "Voertuigconfiguratie geëxporteerd: ",
+      "log_import_error": "Fout bij importeren van voertuigconfiguratie.",
+      "log_import_success": ".mscv bestand succesvol geïmporteerd.",
+      "matchless": "Matchless (geen match vereist)",
+      "object_id": "Object-ID",
+      "patterns_title": "Basispatronen (regex-array)",
+      "regex_placeholder": "bijv. (brandweerwagens|LF)",
+      "required": "Verplicht veld",
+      "save_btn": "Configuratie opslaan",
+      "subtitle": "Configuratie van voertuigherkenningspatronen.",
+      "title": "Voertuig-editor",
+      "val_placeholder": "Waarde"
+    }
   },
   "live_logs": {
     "noEntities": "Geen logvermeldingen beschikbaar.",

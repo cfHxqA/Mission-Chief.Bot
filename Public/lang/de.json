@@ -1,8 +1,13 @@
 {
   "common": {
     "dashboard": "Dashboard",
+    "editor": {
+      "mission": "Einsatz-Editor",
+      "vehicle": "Fahrzeug-Editor"
+    },
     "live_logs": "Live-Logs",
     "section": {
+      "editor": "Editoren",
       "settings": "Konfiguration"
     },
     "settings": "Einstellungen",
@@ -22,6 +27,55 @@
     },
     "subtitle": "Echtzeit-Analyse der Bot-Aktivitäten.",
     "title": "Dashboard"
+  },
+  "editor": {
+    "mission": {
+      "title": "Einsatz-Editor",
+      "subtitle": "Verwalten von .mscm Konfigurationsdateien.",
+      "import_btn": "Import .mscm",
+      "base_data": "Basis-Daten",
+      "name": "Name",
+      "base_id": "Base Mission ID",
+      "credits": "Avg. Credits",
+      "overlays": "Additive Overlays",
+      "requirements_title": "Requirements (Array)",
+      "add_requirement": "Requirement hinzufügen",
+      "amount_label": "Menge",
+      "vehicle_ids_label": "Fahrzeug-IDs",
+      "vehicle_ids_placeholder": "32, 95...",
+      "additional_title": "Additional (Object)",
+      "chances_title": "Chances (Object)",
+      "add_generic": "Hinzufügen",
+      "key_placeholder": "Key",
+      "val_placeholder": "Wert",
+      "save_btn": "Konfiguration speichern",
+      "json_preview": "Live JSON Ausgabe",
+      "log_import_success": ".mscm Datei erfolgreich importiert.",
+      "log_import_error": "Ungültiges Dateiformat oder fehlerhaftes JSON.",
+      "log_export_success": "Datei erfolgreich exportiert: "
+    },
+    "vehicle": {
+      "title": "Fahrzeug-Editor",
+      "subtitle": "Konfiguration der Fahrzeug-Erkennungsmuster.",
+      "import_btn": "Import .mscv",
+      "base_data": "Basis-Daten",
+      "object_id": "Objekt ID",
+      "matchless": "Matchless (Kein Treffer erforderlich)",
+      "patterns_title": "Basis-Muster (RegEx-Array)",
+      "add_pattern": "Muster hinzufügen",
+      "regex_placeholder": "z.B. (Löschfahrzeuge|LF)",
+      "extend_title": "Erweiterte Anforderungen (Object)",
+      "add_extend": "Anforderung hinzufügen",
+      "key_placeholder": "RegEx Key (z.B. (?'water'\\d+))",
+      "val_placeholder": "Wert",
+      "save_btn": "Konfiguration speichern",
+      "json_preview": "Live JSON Ausgabe",
+      "log_import_success": ".mscv Datei erfolgreich importiert.",
+      "log_import_error": "Fehler beim Importieren der Fahrzeug-Konfiguration.",
+      "log_export_success": "Fahrzeug-Konfiguration exportiert: ",
+      "invalid_regex": "Ungültiger RegEx",
+      "required": "Pflichtfeld"
+    }
   },
   "live_logs": {
     "noEntities": "Keine Log-Einträge vorhanden.",

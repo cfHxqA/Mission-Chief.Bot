@@ -3,7 +3,10 @@
     "dashboard": "Panel",
     "live_logs": "Logi na żywo",
     "section": {
-      "settings": "Konfiguracja"
+      "section": {
+        "editor": "Edytory",
+        "settings": "Konfiguracja"
+      }
     },
     "settings": "Ustawienia",
     "showroom": "Showroom",
@@ -22,6 +25,54 @@
     },
     "subtitle": "Analiza aktywności bota w czasie rzeczywistym.",
     "title": "Panel"
+  },
+  "editor": {
+    "mission": {
+      "additional_title": "Additional (obiekt)",
+      "add_generic": "Dodaj",
+      "add_requirement": "Dodaj wymaganie",
+      "amount_label": "Ilość",
+      "base_data": "Dane podstawowe",
+      "base_id": "ID misji bazowej",
+      "chances_title": "Chances (obiekt)",
+      "credits": "Ø Kredyty",
+      "import_btn": "Import .mscm",
+      "json_preview": "Podgląd JSON na żywo",
+      "log_export_success": "Plik został wyeksportowany: ",
+      "log_import_error": "Nieprawidłowy format pliku lub błędny JSON.",
+      "log_import_success": "Plik .mscm został pomyślnie zaimportowany.",
+      "name": "Nazwa",
+      "overlays": "Nakładki addytywne",
+      "requirements_title": "Requirements (tablica)",
+      "save_btn": "Zapisz konfigurację",
+      "subtitle": "Zarządzanie plikami konfiguracyjnymi .mscm.",
+      "title": "Edytor misji",
+      "val_placeholder": "Wartość",
+      "vehicle_ids_label": "ID pojazdów",
+      "vehicle_ids_placeholder": "32, 95..."
+    },
+    "vehicle": {
+      "add_extend": "Dodaj wymaganie",
+      "add_pattern": "Dodaj wzorzec",
+      "base_data": "Dane podstawowe",
+      "extend_title": "Rozszerzone wymagania (obiekt)",
+      "import_btn": "Import .mscv",
+      "invalid_regex": "Nieprawidłowy regex",
+      "json_preview": "Podgląd JSON na żywo",
+      "key_placeholder": "Klucz regex (np. (?'water'\\d+))",
+      "log_export_success": "Konfiguracja pojazdu wyeksportowana: ",
+      "log_import_error": "Błąd importu konfiguracji pojazdu.",
+      "log_import_success": "Plik .mscv został pomyślnie zaimportowany.",
+      "matchless": "Matchless (brak wymaganego dopasowania)",
+      "object_id": "ID obiektu",
+      "patterns_title": "Wzorce bazowe (tablica regex)",
+      "regex_placeholder": "np. (wozy strażackie|LF)",
+      "required": "Pole wymagane",
+      "save_btn": "Zapisz konfigurację",
+      "subtitle": "Konfiguracja wzorców wykrywania pojazdów.",
+      "title": "Edytor pojazdów",
+      "val_placeholder": "Wartość"
+    }
   },
   "live_logs": {
     "noEntities": "Brak wpisów w logach.",

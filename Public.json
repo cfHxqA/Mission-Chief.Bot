@@ -1,10 +1,10 @@
 [
   {
-    "md5": "c690b7856b6d7355bc4384710190d63b",
+    "md5": "fe672cedf107a551004164e6c62bb153",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/index.html"
   },
   {
-    "md5": "d154c20a2dccea25b2c53096865c00ed",
+    "md5": "62cd154f5392c79464749a7cdfdeb4c5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/css/style.css"
   },
   {
@@ -16,7 +16,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/api.js"
   },
   {
-    "md5": "27de33fc81122b2e4bf29702b7d58e12",
+    "md5": "14e4bf886e0de8c0b0074b0524972c7b",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/app.js"
   },
   {
@@ -44,6 +44,14 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/components/ActivityChart.js"
   },
   {
+    "md5": "8339b54ddc2de3ca480dfea293cfb6e6",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/MissionEditor.js"
+  },
+  {
+    "md5": "cb6963bc6559203c8873daf8579ffc81",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/VehicleEditor.js"
+  },
+  {
     "md5": "f2da900d81ca9ce37dc846c48bed18a6",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Showroom.js"
   },
@@ -64,19 +72,27 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Settings.js"
   },
   {
+    "md5": "e3a73a22f4623b07c7fc4c21db042aaa",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/editor/MissionEditor.js"
+  },
+  {
+    "md5": "a32c057ca9cfab38cf400b1bce606e36",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/editor/VehicleEditor.js"
+  },
+  {
     "md5": "df56c5e30531e7511a6d1f192b0b8b44",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/services/i18n.js"
   },
   {
-    "md5": "813be7e1130ad5abe9c798eefa6fada9",
+    "md5": "fbcb036e55aacd7836d34dc093ee804c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/nl.json"
   },
   {
-    "md5": "2a3f15d5cb405172bef16aa08dbce8be",
+    "md5": "541ab101e033416998f9a56977dcd245",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/de.json"
   },
   {
-    "md5": "96e3df1aca01d2267752bf6c052d0a36",
+    "md5": "27a3e21e212c7050227d6a3e8c6e48f1",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/pl.json"
   },
   {
@@ -84,7 +100,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/gb.json"
   },
   {
-    "md5": "83dad98c4e896e04eb9f934b4ec36854",
+    "md5": "0a7d08fae20b153258093fa8a41671c4",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/en.json"
   }
 ]
