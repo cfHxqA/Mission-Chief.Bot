@@ -25,10 +25,10 @@ export const Settings = {
                         <input type="text" id="settings-search" placeholder="${t('settings.search.empty')}" class="w-full bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg pl-10 pr-4 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:border-brand-base transition-colors">
                     </div>
                     <div class="flex gap-2 overflow-x-auto pb-1 hide-scroll">
-                        <button class="settings-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-brand-base text-white transition-colors whitespace-nowrap" data-filter="all">${t('settings.category.all')}</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="system">${t('settings.category.system')}</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="stats">${t('settings.category.stats')}</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="visuals">${t('settings.category.visuals')}</button>
+                        <button class="settings-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-brand-base text-white transition-colors whitespace-nowrap" data-filter="all">${t('settings.category.all.title')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="system">${t('settings.category.system.title')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="stats">${t('settings.category.stats.title')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="visuals">${t('settings.category.visuals.title')}</button>
                     </div>
                 </div>
 
@@ -46,12 +46,12 @@ export const Settings = {
       const { t } = I18nService;
       
       const widgetConfig = [
-          { id: 'widget-kpi-kpiMissionsIncoming', title: t('settings.kpi.missionsIncoming'), desc: t('settings.kpi.missionsIncoming_desc'), cat: 'stats' },
-          { id: 'widget-kpi-kpiMissionsProcessed', title: t('settings.kpi.missionsProcessed'), desc: t('settings.kpi.missionsProcessed_desc'), cat: 'stats' },
-          { id: 'widget-kpi-kpiMissionSuccessRate', title: t('settings.kpi.missionSuccessRate'), desc: t('settings.kpi.missionSuccessRate_desc'), cat: 'stats' },
-          { id: 'widget-kpi-kpiSpeechesIncoming', title: t('settings.kpi.speechesIncoming'), desc: t('settings.kpi.speechesIncoming_desc'), cat: 'stats' },
-          { id: 'widget-kpi-kpiSpeechesProcessed', title: t('settings.kpi.speechesProcessed'), desc: t('settings.kpi.speechesProcessed_desc'), cat: 'stats' },
-          { id: 'widget-kpi-kpiCreditsPerHour', title: t('settings.kpi.creditsPerHour'), desc: t('settings.kpi.creditsPerHour_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiMissionsIncoming', title: t('settings.category.stats.kpiMissionsIncoming'), desc: t('settings.category.stats.kpiMissionsIncoming_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiMissionsProcessed', title: t('settings.category.stats.kpiMissionsProcessed'), desc: t('settings.category.stats.kpiMissionsProcessed_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiMissionSuccessRate', title: t('settings.category.stats.kpiMissionSuccessRate'), desc: t('settings.category.stats.kpiMissionSuccessRate_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiSpeechesIncoming', title: t('settings.category.stats.kpiSpeechesIncoming'), desc: t('settings.category.stats.kpiSpeechesIncoming_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiSpeechesProcessed', title: t('settings.category.stats.kpiSpeechesProcessed'), desc: t('settings.category.stats.kpiSpeechesProcessed_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiCreditsPerHour', title: t('settings.category.stats.kpiCreditsPerHour'), desc: t('settings.category.stats.kpiCreditsPerHour_desc'), cat: 'stats' },
           //{ id: 'widget-chart', title: 'Aktivitätsverlauf', desc: 'Liniendiagramm für die Einsätze.', cat: 'visuals' },
           //{ id: 'widget-table-missions', title: 'Häufigste Einsatzarten', desc: 'Tabelle der Einsätze inkl. Sparkline.', cat: 'visuals' },
           //{ id: 'widget-table-buildings', title: 'Meist alarmierte Gebäude', desc: 'Tabelle der Wachen mit den meisten Alarmen.', cat: 'visuals' }
@@ -96,7 +96,7 @@ export const Settings = {
 
             let groupHtml = `
                 <div class="settings-group w-full" data-category="${catId}">
-                    <h2 class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3 px-1 text-left">${t(`settings.category.${catId}`)}</h2>
+                    <h2 class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3 px-1 text-left">${t(`settings.category.${catId}.title`)}</h2>
                     <div class="bg-white dark:bg-slate-900/50 rounded-xl overflow-hidden divide-y divide-slate-100 dark:divide-slate-800/50 border border-slate-200 dark:border-slate-800 shadow-sm">
             `;
 

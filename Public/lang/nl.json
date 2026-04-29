@@ -1,66 +1,75 @@
 {
   "common": {
+    "dashboard": "Dashboard",
+    "live_logs": "Live logs",
     "section": {
       "settings": "Configuratie"
     },
-    "welcome": "Welkom terug!",
-    "dashboard": "Dashboard",
-    "live_logs": "Live logs",
+    "settings": "Instellingen",
     "showroom": "Showroom",
-    "settings": "Instellingen"
+    "welcome": "Welkom terug!"
   },
   "dashboard": {
-    "title": "Dashboard",
-    "subtitle": "Realtime analyse van botactiviteiten.",
     "kpi": {
+      "creditsPerHour": "Ø Credits / uur",
+      "missionSuccessRate": "Succesratio",
       "missionsIncoming": "Missies (nieuw)",
       "missionsProcessed": "Missies (verwerkt)",
-      "missionSuccessRate": "Succespercentage",
+      "placeholder": "Placeholder",
       "speechesIncoming": "Spreekverzoeken (nieuw)",
       "speechesProcessed": "Spreekverzoeken (verwerkt)",
-      "creditsPerHour": "Gem. credits / uur",
-      "subLabel": "vs. vorig uur",
-      "placeholder": "Placeholder"
-    }
+      "subLabel": "vs. vorig uur"
+    },
+    "subtitle": "Realtime analyse van botactiviteiten.",
+    "title": "Dashboard"
   },
   "live_logs": {
-    "title": "Systeem live logs",
-    "subtitle": "Volledige geschiedenis van alle botacties met geavanceerde filteropties.",
+    "noEntities": "Geen logvermeldingen beschikbaar.",
     "search": {
-      "date": "Datum",
-      "start": "Van (tijd)",
-      "end": "Tot (tijd)",
       "button": {
-        "apply_title": "Acties & filters",
         "apply": "Toepassen",
-        "export": "Exporteren (CSV)",
-        "clean": "Buffer leegmaken"
-      }
+        "apply_title": "Acties & filters",
+        "clean": "Buffer legen",
+        "export": "Export (CSV)"
+      },
+      "date": "Datum",
+      "end": "Tot (tijd)",
+      "start": "Van (tijd)"
     },
-    "noEntities": "Geen logitems beschikbaar."
+    "subtitle": "Volledige geschiedenis van alle botacties met uitgebreide filteropties.",
+    "title": "Systeem live logs"
   },
   "settings": {
-    "title": "Instellingen & modules",
-    "subtitle": "Beheer de zichtbaarheid van je dashboardmodules.",
-    "search": {
-      "empty": "Zoek naar instellingen of modulenamen..."
-    },
     "category": {
-      "all": "Alle categorieën",
-      "system": "Systeem",
-      "stats": "KPI's & statistieken",
-      "visuals": "Grafieken & tabellen"
+      "all": {
+        "title": "Alle categorieën"
+      },
+      "stats": {
+        "kpiCreditsPerHour": "Credits per uur",
+        "kpiCreditsPerHour_desc": "KPI-kaart voor gesimuleerde uurinkomsten.",
+        "kpiMissionSuccessRate": "Succesratio",
+        "kpiMissionSuccessRate_desc": "KPI-kaart voor het monitoren van missiesucces.",
+        "kpiMissionsIncoming": "Nieuwe missies",
+        "kpiMissionsIncoming_desc": "KPI-kaart voor nieuw gegenereerde missies.",
+        "kpiMissionsProcessed": "Verwerkte missies",
+        "kpiMissionsProcessed_desc": "KPI-kaart voor succesvol afgehandelde missies.",
+        "kpiSpeechesIncoming": "Nieuwe spreekverzoeken",
+        "kpiSpeechesIncoming_desc": "KPI-kaart voor nieuw gegenereerde spreekverzoeken.",
+        "kpiSpeechesProcessed": "Verwerkte spreekverzoeken",
+        "kpiSpeechesProcessed_desc": "KPI-kaart voor succesvol verwerkte spreekverzoeken.",
+        "title": "KPI's & statistieken"
+      },
+      "system": {
+        "title": "Systeem"
+      },
+      "visuals": {
+        "title": "Grafieken & tabellen"
+      }
     },
-    "kpi": {
-      "missionsIncoming": "Nieuwe missies",
-      "missionsIncoming_desc": "KPI-kaart voor nieuw aangemaakte missies.",
-      "missionsProcessed": "Verwerkte missies",
-      "missionSuccessRate": "Succespercentage",
-      "speechesIncoming": "Nieuwe spreekverzoeken",
-      "speechesProcessed": "Verwerkte spreekverzoeken",
-      "creditsPerHour": "Credits per uur",
-      "subLabel": "vs. vorig uur",
-      "placeholder": "Placeholder"
-    }
+    "search": {
+      "empty": "Zoek naar instellingen of modulenaam..."
+    },
+    "subtitle": "Beheer de zichtbaarheid van je dashboardmodules.",
+    "title": "Instellingen & modules"
   }
 }

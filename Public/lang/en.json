@@ -1,66 +1,75 @@
 {
   "common": {
+    "dashboard": "Dashboard",
+    "live_logs": "Live Logs",
     "section": {
       "settings": "Configuration"
     },
-    "welcome": "Welcome back!",
-    "dashboard": "Dashboard",
-    "live_logs": "Live Logs",
+    "settings": "Settings",
     "showroom": "Showroom",
-    "settings": "Settings"
+    "welcome": "Welcome back!"
   },
   "dashboard": {
-    "title": "Dashboard",
-    "subtitle": "Real-time analysis of bot activities.",
     "kpi": {
+      "creditsPerHour": "Ø Credits / hour",
+      "missionSuccessRate": "Success rate",
       "missionsIncoming": "Missions (new)",
       "missionsProcessed": "Missions (processed)",
-      "missionSuccessRate": "Success rate",
+      "placeholder": "Placeholder",
       "speechesIncoming": "Speech requests (new)",
       "speechesProcessed": "Speech requests (processed)",
-      "creditsPerHour": "Avg. credits / hour",
-      "subLabel": "vs. previous hour",
-      "placeholder": "Placeholder"
-    }
+      "subLabel": "vs. previous hour"
+    },
+    "subtitle": "Real-time analysis of bot activities.",
+    "title": "Dashboard"
   },
   "live_logs": {
-    "title": "System Live Logs",
-    "subtitle": "Complete history of all bot actions with advanced filtering options.",
+    "noEntities": "No log entries available.",
     "search": {
-      "date": "Date",
-      "start": "From (time)",
-      "end": "To (time)",
       "button": {
-        "apply_title": "Actions & Filters",
         "apply": "Apply",
-        "export": "Export (CSV)",
-        "clean": "Clear buffer"
-      }
+        "apply_title": "Actions & Filters",
+        "clean": "Clear buffer",
+        "export": "Export (CSV)"
+      },
+      "date": "Date",
+      "end": "To (time)",
+      "start": "From (time)"
     },
-    "noEntities": "No log entries available."
+    "subtitle": "Complete history of all bot actions with advanced filtering options.",
+    "title": "System Live Logs"
   },
   "settings": {
-    "title": "Settings & Modules",
-    "subtitle": "Manage the visibility of your dashboard modules.",
+    "category": {
+      "all": {
+        "title": "All categories"
+      },
+      "stats": {
+        "kpiCreditsPerHour": "Credits per hour",
+        "kpiCreditsPerHour_desc": "KPI card for simulated hourly earnings.",
+        "kpiMissionSuccessRate": "Success rate",
+        "kpiMissionSuccessRate_desc": "KPI card for monitoring mission success.",
+        "kpiMissionsIncoming": "New missions",
+        "kpiMissionsIncoming_desc": "KPI card for newly generated missions.",
+        "kpiMissionsProcessed": "Processed missions",
+        "kpiMissionsProcessed_desc": "KPI card for successfully dispatched missions.",
+        "kpiSpeechesIncoming": "New speech requests",
+        "kpiSpeechesIncoming_desc": "KPI card for newly generated speech requests.",
+        "kpiSpeechesProcessed": "Processed speech requests",
+        "kpiSpeechesProcessed_desc": "KPI card for successfully processed speech requests.",
+        "title": "KPIs & Statistics"
+      },
+      "system": {
+        "title": "System"
+      },
+      "visuals": {
+        "title": "Charts & Tables"
+      }
+    },
     "search": {
       "empty": "Search for settings or module names..."
     },
-    "category": {
-      "all": "All categories",
-      "system": "System",
-      "stats": "KPIs & Statistics",
-      "visuals": "Charts & Tables"
-    },
-    "kpi": {
-      "missionsIncoming": "New missions",
-      "missionsIncoming_desc": "KPI card for newly generated missions.",
-      "missionsProcessed": "Processed missions",
-      "missionSuccessRate": "Success rate",
-      "speechesIncoming": "New speech requests",
-      "speechesProcessed": "Processed speech requests",
-      "creditsPerHour": "Credits per hour",
-      "subLabel": "vs. previous hour",
-      "placeholder": "Placeholder"
-    }
+    "subtitle": "Manage the visibility of your dashboard modules.",
+    "title": "Settings & Modules"
   }
 }

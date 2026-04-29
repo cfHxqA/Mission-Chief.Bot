@@ -1,66 +1,75 @@
 {
   "common": {
+    "dashboard": "Dashboard",
+    "live_logs": "Live-Logs",
     "section": {
       "settings": "Konfiguration"
     },
-    "welcome": "Willkommen zurück!",
-    "dashboard": "Dashboard",
-    "live_logs": "Live-Logs",
+    "settings": "Einstellungen",
     "showroom": "Showroom",
-    "settings": "Einstellungen"
+    "welcome": "Willkommen zurück!"
   },
   "dashboard": {
-    "title": "Dashboard",
-    "subtitle": "Echtzeit-Analyse der Bot-Aktivitäten.",
     "kpi": {
+      "creditsPerHour": "Ø Credits / Stunde",
+      "missionSuccessRate": "Erfolgsquote",
       "missionsIncoming": "Einsätze (neu)",
       "missionsProcessed": "Einsätze (bearbeitet)",
-      "missionSuccessRate": "Erfolgsquote",
+      "placeholder": "Platzhalter",
       "speechesIncoming": "Sprechwünsche (neu)",
       "speechesProcessed": "Sprechwünsche (bearbeitet)",
-      "creditsPerHour": "Ø Credits / Stunde",
-      "subLabel": "vs. Vorstunde",
-      "placeholder": "Platzhalter"
-    }
+      "subLabel": "vs. Vorstunde"
+    },
+    "subtitle": "Echtzeit-Analyse der Bot-Aktivitäten.",
+    "title": "Dashboard"
   },
   "live_logs": {
-    "title": "System Live-Logs",
-    "subtitle": "Vollständige Historie aller Bot-Aktionen mit erweiterten Filtermöglichkeiten.",
+    "noEntities": "Keine Log-Einträge vorhanden.",
     "search": {
-      "date": "Datum",
-      "start": "Von (Zeit)",
-      "end": "Bis (Zeit)",
       "button": {
-        "apply_title": "Aktionen & Filter",
         "apply": "Anwenden",
-        "export": "Export (CSV)",
-        "clean": "Buffer leeren"
-      }
+        "apply_title": "Aktionen & Filter",
+        "clean": "Buffer leeren",
+        "export": "Export (CSV)"
+      },
+      "date": "Datum",
+      "end": "Bis (Zeit)",
+      "start": "Von (Zeit)"
     },
-    "noEntities": "Keine Log-Einträge vorhanden."
+    "subtitle": "Vollständige Historie aller Bot-Aktionen mit erweiterten Filtermöglichkeiten.",
+    "title": "System Live-Logs"
   },
   "settings": {
-    "title": "Einstellungen & Module",
-    "subtitle": "Verwalte die Sichtbarkeit deiner Dashboard-Module.",
+    "category": {
+      "all": {
+        "title": "Alle Kategorien"
+      },
+      "stats": {
+        "kpiCreditsPerHour": "Credits pro Stunde",
+        "kpiCreditsPerHour_desc": "KPI-Card für den simulierten stündlichen Verdienst.",
+        "kpiMissionSuccessRate": "Erfolgsquote",
+        "kpiMissionSuccessRate_desc": "KPI-Card zur Überwachung der Missions-Erfolge.",
+        "kpiMissionsIncoming": "Neue Einsätze",
+        "kpiMissionsIncoming_desc": "KPI-Card für neu generierte Einsätze.",
+        "kpiMissionsProcessed": "Bearbeitete Einsätze",
+        "kpiMissionsProcessed_desc": "KPI-Card für erfolgreich alarmierte Einsätze.",
+        "kpiSpeechesIncoming": "Neue Sprechwünsche",
+        "kpiSpeechesIncoming_desc": "KPI-Card für neu generierte Sprechwünsche.",
+        "kpiSpeechesProcessed": "Bearbeitete Sprechwünsche",
+        "kpiSpeechesProcessed_desc": "KPI-Card für erfolgreich bearbeitete Sprechwünsche.",
+        "title": "KPIs & Statistiken"
+      },
+      "system": {
+        "title": "System"
+      },
+      "visuals": {
+        "title": "Diagramme & Tabellen"
+      }
+    },
     "search": {
       "empty": "Nach Einstellung oder Modulnamen suchen..."
     },
-    "category": {
-      "all": "Alle Kategorien",
-      "system": "System",
-      "stats": "KPIs & Statistiken",
-      "visuals": "Diagramme & Tabellen"
-    },
-    "kpi": {
-      "missionsIncoming": "Neue Einsätze",
-      "missionsIncoming_desc": "KPI-Card für neu generierte Einsätze.",
-      "missionsProcessed": "Bearbeitete Einsätze",
-      "missionSuccessRate": "Erfolgsquote",
-      "speechesIncoming": "Neue Sprechwünsche",
-      "speechesProcessed": "Bearbeitete Sprechwünsche",
-      "creditsPerHour": "Credits pro Stunde",
-      "subLabel": "vs. Vorstunde",
-      "placeholder": "Platzhalter"
-    }
+    "subtitle": "Verwalte die Sichtbarkeit deiner Dashboard-Module.",
+    "title": "Einstellungen & Module"
   }
 }
