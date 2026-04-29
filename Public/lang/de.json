@@ -1,0 +1,66 @@
+{
+  "common": {
+    "section": {
+      "settings": "Konfiguration"
+    },
+    "welcome": "Willkommen zurück!",
+    "dashboard": "Dashboard",
+    "live_logs": "Live-Logs",
+    "showroom": "Showroom",
+    "settings": "Einstellungen"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Echtzeit-Analyse der Bot-Aktivitäten.",
+    "kpi": {
+      "missionsIncoming": "Einsätze (neu)",
+      "missionsProcessed": "Einsätze (bearbeitet)",
+      "missionSuccessRate": "Erfolgsquote",
+      "speechesIncoming": "Sprechwünsche (neu)",
+      "speechesProcessed": "Sprechwünsche (bearbeitet)",
+      "creditsPerHour": "Ø Credits / Stunde",
+      "subLabel": "vs. Vorstunde",
+      "placeholder": "Platzhalter"
+    }
+  },
+  "live_logs": {
+    "title": "System Live-Logs",
+    "subtitle": "Vollständige Historie aller Bot-Aktionen mit erweiterten Filtermöglichkeiten.",
+    "search": {
+      "date": "Datum",
+      "start": "Von (Zeit)",
+      "end": "Bis (Zeit)",
+      "button": {
+        "apply_title": "Aktionen & Filter",
+        "apply": "Anwenden",
+        "export": "Export (CSV)",
+        "clean": "Buffer leeren"
+      }
+    },
+    "noEntities": "Keine Log-Einträge vorhanden."
+  },
+  "settings": {
+    "title": "Einstellungen & Module",
+    "subtitle": "Verwalte die Sichtbarkeit deiner Dashboard-Module.",
+    "search": {
+      "empty": "Nach Einstellung oder Modulnamen suchen..."
+    },
+    "category": {
+      "all": "Alle Kategorien",
+      "system": "System",
+      "stats": "KPIs & Statistiken",
+      "visuals": "Diagramme & Tabellen"
+    },
+    "kpi": {
+      "missionsIncoming": "Neue Einsätze",
+      "missionsIncoming_desc": "KPI-Card für neu generierte Einsätze.",
+      "missionsProcessed": "Bearbeitete Einsätze",
+      "missionSuccessRate": "Erfolgsquote",
+      "speechesIncoming": "Neue Sprechwünsche",
+      "speechesProcessed": "Bearbeitete Sprechwünsche",
+      "creditsPerHour": "Credits pro Stunde",
+      "subLabel": "vs. Vorstunde",
+      "placeholder": "Platzhalter"
+    }
+  }
+}

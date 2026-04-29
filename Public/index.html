@@ -1,149 +1,172 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission-Chief.Bot Dashboard</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    
-    <script>
-        /**
-         * configures tailwind css with custom brand colors and dark mode.
-         * @returns {void}
-         */
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            base: '#64748B',
-                            dark: '#0F172A',
-                            panel: '#1E293B',
-                            light: '#F8FAFC',
-                            border: '#E2E8F0',
-                            borderDark: '#334155'
-                        }
-                    }
-                }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission-Chief.Bot Dashboard</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script>
+    /**
+     * configures tailwind css with custom brand colors and dark mode.
+     * @returns {void}
+     */
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              base: '#64748B',
+              dark: '#0F172A',
+              panel: '#1E293B',
+              light: '#F8FAFC',
+              border: '#E2E8F0',
+              borderDark: '#334155'
             }
+          }
         }
-    </script>
+      }
+    }
+  </script>
 </head>
 <body class="bg-brand-light dark:bg-brand-dark text-slate-800 dark:text-slate-300 font-sans h-screen flex overflow-hidden transition-colors duration-300">
 
-    <aside class="w-64 bg-white dark:bg-brand-panel border-r border-brand-border dark:border-brand-borderDark flex flex-col hidden md:flex z-20 shadow-sm">
-        
-        <div class="h-16 flex items-center px-6 border-b border-brand-border dark:border-brand-borderDark">
-            <i class="fa-solid fa-server text-slate-500 dark:text-slate-400 text-xl mr-3"></i>
-            <span class="text-slate-900 dark:text-white font-bold text-lg tracking-tight uppercase">Mission-Chief</span>
-        </div>
-
-        <nav class="flex-1 overflow-y-auto py-6 px-4">
-            <ul class="space-y-1.5" id="main-nav">
-                <li>
-                    <a href="#/dashboard" class="nav-link flex items-center px-4 py-2.5 rounded-lg transition-all group">
-                        <i class="fa-solid fa-border-all w-5 text-center text-sm mr-3"></i> 
-                        <span class="text-sm font-medium">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#/livelogs" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
-                        <i class="fa-solid fa-terminal w-5 text-center text-sm mr-3"></i> 
-                        <span class="text-sm font-medium">Live-Logs</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#/showroom" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
-                        <i class="fa-solid fa-code w-5 text-center text-sm mr-3"></i> 
-                        <span class="text-sm font-medium">Showroom</span>
-                    </a>
-                </li>
-
-                <li class="pt-6 pb-2 px-4">
-                    <span class="text-[10px] font-bold text-slate-400 dark:text-slate-600 uppercase tracking-widest">Konfiguration</span>
-                </li>
-
-                <li>
-                    <a href="#/settings" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
-                        <i class="fa-solid fa-sliders w-5 text-center text-sm mr-3"></i> 
-                        <span class="text-sm font-medium">Einstellungen</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="p-4 border-t border-brand-border dark:border-brand-borderDark bg-slate-50/50 dark:bg-black/10">
-            <div class="flex items-center justify-between p-3 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm">
-                <div class="flex items-center gap-2">
-                    <div class="relative flex h-2.5 w-2.5">
-                        <span id="status-ping" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
-                        <span id="status-dot" class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
-                    </div>
-                    <div class="flex items-baseline gap-1.5">
-                        <span class="text-[10px] text-slate-400 dark:text-slate-500 font-bold uppercase leading-none text-left">System</span>
-                        <span id="status-text" class="text-[10px] font-bold text-rose-500 uppercase tracking-wider leading-none text-left">Offline</span>
-                    </div>
-                </div>
-                <div class="text-[10px] text-slate-300 dark:text-slate-600 font-mono text-right">v1.1.0.0</div>
-            </div>
-        </div>
-    </aside>
-
-    <div class="flex-1 flex flex-col h-screen overflow-hidden relative">
-        
-        <header class="h-16 bg-white/80 dark:bg-brand-panel/80 backdrop-blur-md z-10 flex items-center justify-between px-6 border-b border-brand-border dark:border-brand-borderDark">
-            <div class="text-sm font-medium text-slate-400 italic text-left">Willkommen zurück!</div>
-            
-            <div class="flex items-center gap-5">
-                <button onclick="window.toggleTheme()" class="w-8 h-8 flex items-center justify-center rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:text-indigo-500 transition-all">
-                    <i id="theme-icon" class="fa-solid fa-moon"></i>
-                </button>
-                
-                <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700">
-                    <i class="fa-regular fa-clock text-slate-400 text-xs"></i>
-                    <span id="clock" class="text-xs font-bold text-slate-500 dark:text-slate-400 font-mono">00:00:00</span>
-                </div>
-            </div>
-        </header>
-
-        <main class="flex-1 overflow-y-auto p-6" id="app-content"></main>
+  <aside class="w-64 bg-white dark:bg-brand-panel border-r border-brand-border dark:border-brand-borderDark flex flex-col hidden md:flex z-20 shadow-sm">
+    <div class="h-16 flex items-center px-6 border-b border-brand-border dark:border-brand-borderDark">
+      <i class="fa-solid fa-server text-slate-500 dark:text-slate-400 text-xl mr-3"></i>
+      <span class="text-slate-900 dark:text-white font-bold text-lg tracking-tight uppercase">Mission-Chief</span>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <nav class="flex-1 overflow-y-auto py-6 px-4">
+      <ul class="space-y-1.5" id="main-nav">
+        <li>
+          <a href="#/dashboard" class="nav-link flex items-center px-4 py-2.5 rounded-lg transition-all group">
+            <i class="fa-solid fa-border-all w-5 text-center text-sm mr-3"></i> 
+            <span class="text-sm font-medium" data-i18n="common.dashboard">common.dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#/livelogs" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
+            <i class="fa-solid fa-terminal w-5 text-center text-sm mr-3"></i> 
+            <span class="text-sm font-medium" data-i18n="common.live_logs">common.live_logs</span>
+          </a>
+        </li>
+        <li>
+          <a href="#/showroom" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
+            <i class="fa-solid fa-code w-5 text-center text-sm mr-3"></i> 
+            <span class="text-sm font-medium" data-i18n="common.showroom">common.showroom</span>
+          </a>
+        </li>
+        <li class="pt-6 pb-2 px-4">
+          <span class="text-[10px] font-bold text-slate-400 dark:text-slate-600 uppercase tracking-widest" data-i18n="common.section.settings">common.section.settings</span>
+        </li>
+        <li>
+          <a href="#/settings" class="nav-link flex items-center px-4 py-2.5 rounded-lg text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all group">
+            <i class="fa-solid fa-sliders w-5 text-center text-sm mr-3"></i> 
+            <span class="text-sm font-medium" data-i18n="common.settings">common.settings</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="p-4 border-t border-brand-border dark:border-brand-borderDark bg-slate-50/50 dark:bg-black/10">
+      <div class="flex items-center justify-between p-3 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 shadow-sm">
+        <div class="flex items-center gap-2">
+          <div class="relative flex h-2.5 w-2.5">
+            <span id="status-ping" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+            <span id="status-dot" class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
+          </div>
+          <div class="flex items-baseline gap-1.5">
+            <span class="text-[10px] text-slate-400 dark:text-slate-500 font-bold uppercase leading-none text-left">System</span>
+            <span id="status-text" class="text-[10px] font-bold text-rose-500 uppercase tracking-wider leading-none text-left">Offline</span>
+          </div>
+        </div>
+        <div class="text-[10px] text-slate-300 dark:text-slate-600 font-mono text-right">v1.1.0.0</div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="flex-1 flex flex-col h-screen overflow-hidden relative">
     
-    <script type="module" src="js/app.js"></script>
+    <header class="h-16 bg-white/80 dark:bg-brand-panel/80 backdrop-blur-md z-10 flex items-center justify-between px-6 border-b border-brand-border dark:border-brand-borderDark">
+      <div class="text-sm font-medium text-slate-400 italic text-left" data-i18n="common.welcome">Welcome</div>
+      
+      <div class="flex items-center gap-3">
+        <div class="relative flex items-center h-9">
+          <select id="lang-select" onchange="if(window.I18nService) I18nService.setLanguage(this.value)" class="appearance-none h-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 pr-8 text-[10px] font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 focus:outline-none focus:border-brand-base transition-all cursor-pointer">
+            <option value="de">DE</option>
+            <option value="en">EN</option>
+            <option value="gb">GB</option>
+            <option value="nl">NL</option>
+            <option value="pl">PL</option>
+          </select>
+          <i class="fa-solid fa-chevron-down absolute right-3 text-[8px] text-slate-400 pointer-events-none"></i>
+        </div>
 
-    <script>
-        /**
-         * toggles between light and dark theme and persists choice.
-         * @returns {void}
-         */
-        window.toggleTheme = function() {
-            const isDark = document.documentElement.classList.toggle('dark');
-            localStorage.setItem('theme', isDark ? 'dark' : 'light');
-            $('#theme-icon').attr('class', isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon');
-            window.dispatchEvent(new Event('themeChanged'));
-        };
+        <div class="flex items-center h-9 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg overflow-hidden shadow-sm">
+          <button onclick="window.toggleTheme()" class="h-full px-3 flex items-center justify-center hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-500 dark:text-slate-400 transition-colors border-r border-slate-200 dark:border-slate-700 group">
+            <i id="theme-icon" class="fa-solid fa-moon text-xs group-hover:text-indigo-500 transition-colors"></i>
+          </button>
+          <div class="flex items-center gap-2 px-3 h-full min-w-[90px] justify-center">
+            <i class="fa-regular fa-clock text-slate-400 text-[10px]"></i>
+            <span id="clock" class="text-xs font-bold text-slate-500 dark:text-slate-400 font-mono leading-none">00:00:00</span>
+          </div>
+        </div>
+      </div>
+    </header>
 
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark') {
-            document.documentElement.classList.add('dark');
-            $('#theme-icon').attr('class', 'fa-solid fa-sun');
-        }
+    <main class="flex-1 overflow-y-auto p-6" id="app-content"></main>
+  </div>
 
-        /**
-         * updates the live clock display every second.
-         * @returns {void}
-         */
-        setInterval(() => { 
-            const c = document.getElementById('clock'); 
-            if(c) c.innerText = new Date().toLocaleTimeString('de-DE', { hour12: false }); 
-        }, 1000);
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  
+  <script type="module" src="js/app.js"></script>
+
+  <script>
+    /**
+     * toggles between light and dark theme and persists choice.
+     * @returns {void}
+     */
+    window.toggleTheme = function() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      $('#theme-icon').attr('class', isDark ? 'fa-solid fa-sun text-xs' : 'fa-solid fa-moon text-xs');
+      window.dispatchEvent(new Event('themeChanged'));
+    };
+
+    /**
+     * initializes ui states for theme and language.
+     * @returns {void}
+     */
+    const initUI = () => {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+        $('#theme-icon').attr('class', 'fa-solid fa-sun text-xs');
+      }
+
+      // set initial value for language dropdown
+      const savedLang = localStorage.getItem('app_lang') || 'de';
+      const langSelect = document.getElementById('lang-select');
+      if (langSelect) langSelect.value = savedLang;
+    };
+
+    /**
+     * updates the live clock display every second.
+     * @returns {void}
+     */
+    setInterval(() => { 
+      const c = document.getElementById('clock'); 
+      if(c) c.innerText = new Date().toLocaleTimeString('de-DE', { hour12: false }); 
+    }, 1000);
+
+    // run init on load
+    window.addEventListener('load', initUI);
+  </script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+{
+  "common": {
+    "section": {
+      "settings": "Configuration"
+    },
+    "welcome": "Welcome back!",
+    "dashboard": "Dashboard",
+    "live_logs": "Live Logs",
+    "showroom": "Showroom",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Real-time analysis of bot activities.",
+    "kpi": {
+      "missionsIncoming": "Missions (new)",
+      "missionsProcessed": "Missions (processed)",
+      "missionSuccessRate": "Success rate",
+      "speechesIncoming": "Speech requests (new)",
+      "speechesProcessed": "Speech requests (processed)",
+      "creditsPerHour": "Avg. credits / hour",
+      "subLabel": "vs. previous hour",
+      "placeholder": "Placeholder"
+    }
+  },
+  "live_logs": {
+    "title": "System Live Logs",
+    "subtitle": "Complete history of all bot actions with advanced filtering options.",
+    "search": {
+      "date": "Date",
+      "start": "From (time)",
+      "end": "To (time)",
+      "button": {
+        "apply_title": "Actions & Filters",
+        "apply": "Apply",
+        "export": "Export (CSV)",
+        "clean": "Clear buffer"
+      }
+    },
+    "noEntities": "No log entries available."
+  },
+  "settings": {
+    "title": "Settings & Modules",
+    "subtitle": "Manage the visibility of your dashboard modules.",
+    "search": {
+      "empty": "Search for settings or module names..."
+    },
+    "category": {
+      "all": "All categories",
+      "system": "System",
+      "stats": "KPIs & Statistics",
+      "visuals": "Charts & Tables"
+    },
+    "kpi": {
+      "missionsIncoming": "New missions",
+      "missionsIncoming_desc": "KPI card for newly generated missions.",
+      "missionsProcessed": "Processed missions",
+      "missionSuccessRate": "Success rate",
+      "speechesIncoming": "New speech requests",
+      "speechesProcessed": "Processed speech requests",
+      "creditsPerHour": "Credits per hour",
+      "subLabel": "vs. previous hour",
+      "placeholder": "Placeholder"
+    }
+  }
+}

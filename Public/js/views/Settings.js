@@ -1,28 +1,7 @@
 // file: /js/views/Settings.js
-// version: 1.0.0.1, 26.04.2026 20:05
+// version: 1.0.0.3, 29.04.2026 16:30
 
-/**
- * view module for application settings.
- * manages widget visibility and module configuration.
- * @namespace
- */
-const widgetConfig = [
-    { id: 'widget-kpi-kpiMissionsIncoming', title: 'Neue Einsätze', desc: 'KPI-Card für neu generierte Einsätze.', cat: 'stats' },
-    { id: 'widget-kpi-kpiMissionsProcessed', title: 'Bearbeitete Einsätze', desc: 'KPI-Card für erfolgreich alarmierte Einsätze.', cat: 'stats' },
-    { id: 'widget-kpi-kpiMissionSuccessRate', title: 'Erfolgsquote', desc: 'KPI-Card zur Überwachung der Missions-Erfolge.', cat: 'stats' },
-    { id: 'widget-kpi-kpiSpeechesIncoming', title: 'Neue Sprechwünsche', desc: 'KPI-Card für neu generierte Sprechwünsche.', cat: 'stats' },
-    { id: 'widget-kpi-kpiSpeechesProcessed', title: 'Bearbeitete Einsätze', desc: 'KPI-Card für erfolgreich bearbeitete Sprechwünsche.', cat: 'stats' },
-    { id: 'widget-kpi-kpiCreditsPerHour', title: 'Credits pro Stunde', desc: 'KPI-Card für den simulierten stündlichen Verdienst.', cat: 'stats' },
-    { id: 'widget-chart', title: 'Aktivitätsverlauf', desc: 'Liniendiagramm für die Einsätze.', cat: 'visuals' },
-    { id: 'widget-table-missions', title: 'Häufigste Einsatzarten', desc: 'Tabelle der Einsätze inkl. Sparkline.', cat: 'visuals' },
-    { id: 'widget-table-buildings', title: 'Meist alarmierte Gebäude', desc: 'Tabelle der Wachen mit den meisten Alarmen.', cat: 'visuals' }
-];
-
-const categories = {
-    system: "System & Core",
-    stats: "KPIs & Statistiken",
-    visuals: "Diagramme & Tabellen"
-};
+import { I18nService } from '../services/i18n.js';
 
 export const Settings = {
     /**
@@ -31,23 +10,25 @@ export const Settings = {
      * @returns {string} html template.
      */
     render: async () => {
+        const { t } = I18nService;
+      
         return `
             <div class="view-section w-full">
                 <div class="mb-6 px-1">
-                    <h1 class="text-2xl font-bold text-slate-900 dark:text-white text-left">Einstellungen & Module</h1>
-                    <p class="text-sm text-slate-500 mt-1 text-left">Verwalte die Sichtbarkeit deiner Dashboard-Module.</p>
+                    <h1 class="text-2xl font-bold text-slate-900 dark:text-white text-left">${t('settings.title')}</h1>
+                    <p class="text-sm text-slate-500 mt-1 text-left">${t('settings.subtitle')}</p>
                 </div>
 
                 <div class="flex flex-col gap-4 mb-8 bg-white dark:bg-slate-900/50 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm w-full">
                     <div class="relative w-full">
                         <i class="fa-solid fa-search absolute left-3 top-3 text-slate-400"></i>
-                        <input type="text" id="settings-search" placeholder="Nach Modulnamen suchen..." class="w-full bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg pl-10 pr-4 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:border-brand-base transition-colors">
+                        <input type="text" id="settings-search" placeholder="${t('settings.search.empty')}" class="w-full bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg pl-10 pr-4 py-2 text-sm text-slate-800 dark:text-slate-200 focus:outline-none focus:border-brand-base transition-colors">
                     </div>
                     <div class="flex gap-2 overflow-x-auto pb-1 hide-scroll">
-                        <button class="settings-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-brand-base text-white transition-colors whitespace-nowrap" data-filter="all">Alle Kategorien</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="system">System</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="stats">Statistiken</button>
-                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="visuals">Visualisierung</button>
+                        <button class="settings-filter-btn active px-3 py-1.5 rounded-lg text-xs font-medium bg-brand-base text-white transition-colors whitespace-nowrap" data-filter="all">${t('settings.category.all')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="system">${t('settings.category.system')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="stats">${t('settings.category.stats')}</button>
+                        <button class="settings-filter-btn px-3 py-1.5 rounded-lg text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors whitespace-nowrap" data-filter="visuals">${t('settings.category.visuals')}</button>
                     </div>
                 </div>
 
@@ -62,6 +43,22 @@ export const Settings = {
      * @returns {void}
      */
     after_render: async () => {
+      const { t } = I18nService;
+      
+      const widgetConfig = [
+          { id: 'widget-kpi-kpiMissionsIncoming', title: t('settings.kpi.missionsIncoming'), desc: t('settings.kpi.missionsIncoming_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiMissionsProcessed', title: t('settings.kpi.missionsProcessed'), desc: t('settings.kpi.missionsProcessed_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiMissionSuccessRate', title: t('settings.kpi.missionSuccessRate'), desc: t('settings.kpi.missionSuccessRate_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiSpeechesIncoming', title: t('settings.kpi.speechesIncoming'), desc: t('settings.kpi.speechesIncoming_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiSpeechesProcessed', title: t('settings.kpi.speechesProcessed'), desc: t('settings.kpi.speechesProcessed_desc'), cat: 'stats' },
+          { id: 'widget-kpi-kpiCreditsPerHour', title: t('settings.kpi.creditsPerHour'), desc: t('settings.kpi.creditsPerHour_desc'), cat: 'stats' },
+          //{ id: 'widget-chart', title: 'Aktivitätsverlauf', desc: 'Liniendiagramm für die Einsätze.', cat: 'visuals' },
+          //{ id: 'widget-table-missions', title: 'Häufigste Einsatzarten', desc: 'Tabelle der Einsätze inkl. Sparkline.', cat: 'visuals' },
+          //{ id: 'widget-table-buildings', title: 'Meist alarmierte Gebäude', desc: 'Tabelle der Wachen mit den meisten Alarmen.', cat: 'visuals' }
+      ];
+
+        const categories = [ 'system', 'stats', 'visuals'];
+      
         const container = $('#settings-widget-list');
         const savedState = JSON.parse(localStorage.getItem('widgetState')) || {};
 
@@ -93,13 +90,13 @@ export const Settings = {
             });
         };
 
-        for (const [catId, catName] of Object.entries(categories)) {
+        for (const catId of categories) {
             const catWidgets = widgetConfig.filter(w => w.cat === catId);
             if (catWidgets.length === 0) continue;
 
             let groupHtml = `
                 <div class="settings-group w-full" data-category="${catId}">
-                    <h2 class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3 px-1 text-left">${catName}</h2>
+                    <h2 class="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-3 px-1 text-left">${t(`settings.category.${catId}`)}</h2>
                     <div class="bg-white dark:bg-slate-900/50 rounded-xl overflow-hidden divide-y divide-slate-100 dark:divide-slate-800/50 border border-slate-200 dark:border-slate-800 shadow-sm">
             `;
 

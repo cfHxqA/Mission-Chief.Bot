@@ -1,6 +1,7 @@
 // file: /js/app.js
-// version: 1.0.0.5, 27.04.2026 20:45
+// version: 1.0.0.6, 29.04.2026 16:30
 
+import { I18nService } from './services/i18n.js';
 import { SocketService } from './socket.js';
 import { Dashboard } from './views/Dashboard.js';
 import { Showroom } from './views/Showroom.js';
@@ -212,7 +213,12 @@ window.addEventListener('socket_disconnected', () => window.location.reload());
  * initialization and routing listeners.
  */
 window.addEventListener('hashchange', router);
-window.addEventListener('load', () => {
+window.addEventListener('load', async () => {
     if (window.location.protocol === 'file:') return;
+    
+    /** * initialize i18n before any view is rendered */
+    window.I18nService = I18nService;
+    await I18nService.init();
+    
     router();
 });

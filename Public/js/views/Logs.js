@@ -1,5 +1,7 @@
 // file: /js/views/Logs.js
-// version: 1.0.0.1, 26.04.2026 20:20
+// version: 1.0.0.3, 29.04.2026 16:30
+
+import { I18nService } from '../services/i18n.js';
 
 /**
  * view module for system live-logs.
@@ -12,35 +14,37 @@ export const Logs = {
      * @returns {string} html template string.
      */
     render: async () => {
+        const { t } = I18nService;
+      
         return `
             <div class="view-section w-full flex flex-col h-[calc(100vh-6rem)]">
                 <div class="mb-6 px-1">
-                    <h1 class="text-2xl font-bold text-slate-900 dark:text-white text-left">System Live-Logs</h1>
-                    <p class="text-sm text-slate-500 mt-1 text-left">Vollständige Historie aller Bot-Aktionen mit erweiterten Filtermöglichkeiten.</p>
+                    <h1 class="text-2xl font-bold text-slate-900 dark:text-white text-left">${t('live_logs.title')}</h1>
+                    <p class="text-sm text-slate-500 mt-1 text-left">${t('live_logs.subtitle')}</p>
                 </div>
 
                 <div class="kpi-panel rounded-xl p-4 mb-6 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-4 items-end shadow-sm">
                     <div class="flex flex-col gap-1 col-span-1">
-                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">Datum</label>
+                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">${t('live_logs.search.date')}</label>
                         <input type="date" id="filter-date" class="bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-brand-base">
                     </div>
                     <div class="flex flex-col gap-1 col-span-1">
-                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">Von (Zeit)</label>
+                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">${t('live_logs.search.start')}</label>
                         <input type="time" id="filter-time-start" class="bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-brand-base">
                     </div>
                     <div class="flex flex-col gap-1 col-span-1">
-                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">Bis (Zeit)</label>
+                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">${t('live_logs.search.stop')}</label>
                         <input type="time" id="filter-time-end" class="bg-slate-50 dark:bg-[#0F172A] border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-brand-base">
                     </div>
 
                     <div class="flex flex-col gap-1 col-span-1 md:col-span-2 lg:col-span-3">
-                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">Aktionen & Filter</label>
+                        <label class="text-[10px] uppercase font-bold text-slate-400 text-left">${t('live_logs.search.button.apply_title')}</label>
                         <div class="flex gap-2">
                             <button id="btn-apply-filter" class="flex-1 px-4 py-2 bg-slate-700 text-white rounded-lg text-xs hover:bg-slate-600 transition-colors uppercase font-bold flex items-center justify-center">
-                                <i class="fa-solid fa-filter mr-2"></i> Anwenden
+                                <i class="fa-solid fa-filter mr-2"></i> ${t('live_logs.search.button.apply')}
                             </button>
                             <button id="btn-export-logs" class="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-700 rounded-lg text-xs hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors uppercase font-bold flex items-center justify-center">
-                                <i class="fa-solid fa-file-export mr-2"></i> Export (CSV)
+                                <i class="fa-solid fa-file-export mr-2"></i> ${t('live_logs.search.button.export')}
                             </button>
                             <button onclick="$('#filter-time-start, #filter-time-end, #filter-date').val('');" class="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs hover:bg-slate-200 transition-colors uppercase" title="Reset">
                                 <i class="fa-solid fa-undo"></i>
@@ -53,7 +57,7 @@ export const Logs = {
                     <div class="bg-slate-50 dark:bg-slate-800/50 px-4 py-2 border-b border-brand-border dark:border-brand-borderDark text-[10px] text-slate-500 font-mono flex justify-between items-center uppercase tracking-widest">
                         <span>system_log_stream.sh</span>
                         <div class="flex gap-4">
-                            <button id="btn-clear-global" class="hover:text-rose-500 transition-colors"><i class="fa-solid fa-eraser mr-1"></i>Buffer leeren</button>
+                            <button id="btn-clear-global" class="hover:text-rose-500 transition-colors"><i class="fa-solid fa-eraser mr-1"></i>${t('live_logs.search.button.clean')}</button>
                         </div>
                     </div>
                     <div id="full-log-container" class="bg-white dark:bg-[#0B1120] p-4 overflow-y-auto log-scroll flex-1 text-slate-600 dark:text-slate-400">
@@ -69,6 +73,7 @@ export const Logs = {
      * @returns {void}
      */
     after_render: async () => {
+        const { t } = I18nService;
         const $container = $('#full-log-container');
 
         /**
@@ -79,7 +84,7 @@ export const Logs = {
         const renderLogs = (filteredlogs = window.systemLogs) => {
             $container.empty();
             if (!filteredlogs || filteredlogs.length === 0) {
-                $container.append('<div class="opacity-30 italic text-center py-10 text-xs">Keine Log-Einträge vorhanden.</div>');
+                $container.append(`<div class="opacity-30 italic text-center py-10 text-xs">${t('live_logs.noEntities')}</div>`);
                 return;
             }
             

@@ -1,0 +1,66 @@
+{
+  "common": {
+    "section": {
+      "settings": "Configuratie"
+    },
+    "welcome": "Welkom terug!",
+    "dashboard": "Dashboard",
+    "live_logs": "Live logs",
+    "showroom": "Showroom",
+    "settings": "Instellingen"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Realtime analyse van botactiviteiten.",
+    "kpi": {
+      "missionsIncoming": "Missies (nieuw)",
+      "missionsProcessed": "Missies (verwerkt)",
+      "missionSuccessRate": "Succespercentage",
+      "speechesIncoming": "Spreekverzoeken (nieuw)",
+      "speechesProcessed": "Spreekverzoeken (verwerkt)",
+      "creditsPerHour": "Gem. credits / uur",
+      "subLabel": "vs. vorig uur",
+      "placeholder": "Placeholder"
+    }
+  },
+  "live_logs": {
+    "title": "Systeem live logs",
+    "subtitle": "Volledige geschiedenis van alle botacties met geavanceerde filteropties.",
+    "search": {
+      "date": "Datum",
+      "start": "Van (tijd)",
+      "end": "Tot (tijd)",
+      "button": {
+        "apply_title": "Acties & filters",
+        "apply": "Toepassen",
+        "export": "Exporteren (CSV)",
+        "clean": "Buffer leegmaken"
+      }
+    },
+    "noEntities": "Geen logitems beschikbaar."
+  },
+  "settings": {
+    "title": "Instellingen & modules",
+    "subtitle": "Beheer de zichtbaarheid van je dashboardmodules.",
+    "search": {
+      "empty": "Zoek naar instellingen of modulenamen..."
+    },
+    "category": {
+      "all": "Alle categorieën",
+      "system": "Systeem",
+      "stats": "KPI's & statistieken",
+      "visuals": "Grafieken & tabellen"
+    },
+    "kpi": {
+      "missionsIncoming": "Nieuwe missies",
+      "missionsIncoming_desc": "KPI-kaart voor nieuw aangemaakte missies.",
+      "missionsProcessed": "Verwerkte missies",
+      "missionSuccessRate": "Succespercentage",
+      "speechesIncoming": "Nieuwe spreekverzoeken",
+      "speechesProcessed": "Verwerkte spreekverzoeken",
+      "creditsPerHour": "Credits per uur",
+      "subLabel": "vs. vorig uur",
+      "placeholder": "Placeholder"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "common": {
+    "section": {
+      "settings": "Konfiguracja"
+    },
+    "welcome": "Witamy ponownie!",
+    "dashboard": "Panel",
+    "live_logs": "Logi na żywo",
+    "showroom": "Showroom",
+    "settings": "Ustawienia"
+  },
+  "dashboard": {
+    "title": "Panel",
+    "subtitle": "Analiza aktywności bota w czasie rzeczywistym.",
+    "kpi": {
+      "missionsIncoming": "Zadania (nowe)",
+      "missionsProcessed": "Zadania (przetworzone)",
+      "missionSuccessRate": "Wskaźnik sukcesu",
+      "speechesIncoming": "Prośby o wypowiedź (nowe)",
+      "speechesProcessed": "Prośby o wypowiedź (przetworzone)",
+      "creditsPerHour": "Śr. kredyty / godz.",
+      "subLabel": "vs. poprzednia godzina",
+      "placeholder": "Placeholder"
+    }
+  },
+  "live_logs": {
+    "title": "Logi systemowe na żywo",
+    "subtitle": "Pełna historia wszystkich działań bota z zaawansowanymi opcjami filtrowania.",
+    "search": {
+      "date": "Data",
+      "start": "Od (czas)",
+      "end": "Do (czas)",
+      "button": {
+        "apply_title": "Akcje i filtry",
+        "apply": "Zastosuj",
+        "export": "Eksport (CSV)",
+        "clean": "Wyczyść bufor"
+      }
+    },
+    "noEntities": "Brak wpisów w logach."
+  },
+  "settings": {
+    "title": "Ustawienia i moduły",
+    "subtitle": "Zarządzaj widocznością modułów pulpitu.",
+    "search": {
+      "empty": "Szukaj ustawień lub nazw modułów..."
+    },
+    "category": {
+      "all": "Wszystkie kategorie",
+      "system": "System",
+      "stats": "KPI i statystyki",
+      "visuals": "Wykresy i tabele"
+    },
+    "kpi": {
+      "missionsIncoming": "Nowe zadania",
+      "missionsIncoming_desc": "Karta KPI dla nowo wygenerowanych zadań.",
+      "missionsProcessed": "Przetworzone zadania",
+      "missionSuccessRate": "Wskaźnik sukcesu",
+      "speechesIncoming": "Nowe prośby o wypowiedź",
+      "speechesProcessed": "Przetworzone prośby o wypowiedź",
+      "creditsPerHour": "Kredyty na godzinę",
+      "subLabel": "vs. poprzednia godzina",
+      "placeholder": "Placeholder"
+    }
+  }
+}
