@@ -3,6 +3,7 @@
     "dashboard": "Dashboard",
     "editor": {
       "mission": "Einsatz-Editor",
+      "script": "Skript-Editor",
       "vehicle": "Fahrzeug-Editor"
     },
     "live_logs": "Live-Logs",
@@ -53,6 +54,33 @@
       "log_import_success": ".mscm Datei erfolgreich importiert.",
       "log_import_error": "Ungültiges Dateiformat oder fehlerhaftes JSON.",
       "log_export_success": "Datei erfolgreich exportiert: "
+    },
+    "script": {
+      "title": "Skript-Editor",
+      "subtitle": "Visueller Script-Editor für leitstellenspiel.de zur Erstellung komplexer Einsatz- und Automatisierungslogiken. Mit Triggern, Bedingungen und Aktionen lassen sich dynamische Abläufe für Einsätze, Fahrzeuge und Systemereignisse im Spiel definieren. Variablen und Gruppen ermöglichen eine strukturierte und wiederverwendbare Logik. Der Editor bietet eine übersichtliche Möglichkeit, auch komplexe Spielmechaniken ohne Programmierung zu erstellen und zu verwalten.",
+      "info_title": "Script Info",
+      "label_name": "Name",
+      "label_version": "Version",
+      "label_author": "Autor",
+      "label_desc": "Beschreibung",
+      "placeholder_author": "Name...",
+      "placeholder_desc": "Zweck des Scripts...",
+      "placeholder_search": "Trigger durchsuchen...",
+      "placeholder_block_desc": "BESCHREIBUNG...",
+      "btn_triggers": "Trigger",
+      "btn_conditions": "Bedingungen",
+      "btn_actions": "Aktionen",
+      "btn_group": "Gruppe",
+      "btn_reset": "Reset",
+      "btn_export": "Export .mscf",
+      "modal_title": "Trigger Browser",
+      "level": "LEVEL",
+      "new_layer": "NEUE EBENE",
+      "var_title": "Variablen",
+      "var_none": "Keine Variablen",
+      "blocks_title": "Bausteine",
+      "confirm_reset": "Script wirklich zurücksetzen?",
+      "cat_all": "Alle"
     },
     "vehicle": {
       "title": "Fahrzeug-Editor",

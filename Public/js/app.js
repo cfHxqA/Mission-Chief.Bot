@@ -9,6 +9,7 @@ import { Settings } from './views/Settings.js';
 import { Logs } from './views/Logs.js';
 import { VehicleEditor } from './views/editor/VehicleEditor.js';
 import { MissionEditor } from './views/editor/MissionEditor.js';
+import { ScriptEditor } from './views/editor/ScriptEditor.js';
 import { Login } from './views/Login.js';
 
 window.systemLogs = []; 
@@ -102,6 +103,7 @@ const routes = {
     '/settings': Settings,
     '/vehicle_editor': VehicleEditor,
     '/mission_editor': MissionEditor,
+    '/script_editor': ScriptEditor,
     '/login': Login 
 };
 
