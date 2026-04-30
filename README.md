@@ -53,7 +53,6 @@ Mission-Chief.Bot is your ultimate helper when the flood of missions, prisoners,
 
 ## 🤝 Community & Support
 
-The bot is a premium project. With your active license, you get more than just a bot:
 * **Technical Support** directly via Discord.
 * **Regular Updates** for new Mission-Chief features.
 * **Join the Community** of like-minded players.
