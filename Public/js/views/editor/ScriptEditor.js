@@ -49,7 +49,7 @@ export const ScriptEditor = {
         .badge-active { background-color: var(--color-brand-base, #6366f1) !important; color: white !important; }
         .modal-bg { backdrop-filter: blur(12px); background-color: rgba(7, 10, 15, 0.85); }
         .trigger-card:hover { border-color: #10b981; background-color: rgba(16, 185, 129, 0.04); }
-        .btn-disabled { opacity: 0.2; cursor: not-allowed !important; filter: grayscale(1); pointer-events: none; }
+        .btn-disabled { opacity: 0.2; cursor: not-allowed !important; filter: grayscale(1); pointer-events: none; },
       </style>
         
       <div class="mb-8">
@@ -159,12 +159,7 @@ export const ScriptEditor = {
   },
 
   addVariable: () => { 
-    ScriptEditor.scriptData.variables.push({ 
-        id: Date.now(), 
-        name: "var_" + Date.now().toString().slice(-3), 
-        type: "number", 
-        config: { init: 0, items: "string" } 
-    }); 
+    ScriptEditor.scriptData.variables.push({ id: Date.now(), name: "var_" + Date.now().toString().slice(-3), type: "number", config: { init: 0, items: "string" } }); 
     ScriptEditor.renderAll(); 
   },
 
@@ -213,7 +208,6 @@ export const ScriptEditor = {
     document.getElementById('groups-container-top').innerHTML = ScriptEditor.scriptData.groups.map(g => ScriptEditor.renderGroup(g, 1)).join('');
   },
 
-  // Handlers
   after_render: async () => {
     ScriptEditor.renderAll();
     document.getElementById('save-script').onclick = () => {
@@ -278,8 +272,10 @@ export const ScriptEditor = {
     const isTrigger = cat === 'triggers';
     const header = `<div class="flex justify-between items-center ${isTrigger ? '' : 'mb-4'} h-full"><div class="flex items-center gap-3 flex-1 min-w-0"><i class="fa-solid fa-grip-vertical text-slate-300 dark:text-slate-700 text-[10px]"></i>${isTrigger ? `<div class="flex items-center gap-3"><div class="w-6 h-6 rounded bg-brand-base/10 flex items-center justify-center text-brand-base"><i class="fa-solid ${item.icon} text-[10px]"></i></div><span class="text-[10px] font-black uppercase tracking-widest dark:text-white">${item.name}</span></div>` : `<input type="text" placeholder="${I18nService.t('editor.script.placeholder_block_desc')}" onchange="ScriptEditor.updateData(${groupId}, '${cat}', ${item.id}, 'description', this.value)" value="${item.params.description || ''}" class="bg-transparent border-none text-[10px] font-bold text-slate-500 p-0 focus:ring-0 w-full uppercase tracking-widest italic truncate outline-none">`}</div><button onclick="ScriptEditor.removeItem('${cat}', ${item.id}, ${groupId})" class="text-slate-400 hover:text-red-500 transition-all flex-shrink-0 pl-2 self-center h-full flex items-center"><i class="fa-solid fa-trash-can text-[10px]"></i></button></div>`;
     if (isTrigger) return `<div draggable="true" ondragstart="ScriptEditor.handleDragStart(event, '${cat}', ${index}, ${groupId})" ondrop="ScriptEditor.handleDrop(event, '${cat}', index, groupId)" ondragover="event.preventDefault()" class="group bg-white dark:bg-brand-panel border border-slate-100 dark:border-slate-800 rounded-xl p-3 flex flex-col shadow-sm hover:border-brand-base transition-all mb-4 cursor-move relative overflow-hidden"><div class="absolute top-0 left-0 w-1 h-full bg-brand-base"></div>${header}</div>`;
+    
     let content = "";
     if (cat === 'conditions') {
+        const hasVars = ScriptEditor.scriptData.variables.length > 0;
         const v = ScriptEditor.scriptData.variables.find(x => x.name === item.params.variable);
         const type = v ? v.type : 'number';
         let ops = ['==', '!='];
@@ -287,7 +283,21 @@ export const ScriptEditor = {
         if(type === 'string') ops = ['==', '!=', 'contains', 'starts_with', 'ends_with'];
         if(type === 'bool') ops = ['is_true', 'is_false'];
         if(type === 'array') ops = ['contains', 'is_empty', 'length_is'];
-        content = `<select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'variable', this.value); ScriptEditor.renderAll();" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold dark:text-white outline-none"><option value="">-- VAR --</option>${ScriptEditor.scriptData.variables.map(v => `<option value="${v.name}" ${v.name === item.params.variable ? 'selected':''}>${v.name}</option>`).join('')}</select><select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'operator', this.value)" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold text-brand-base outline-none">${ops.map(op => `<option value="${op}" ${item.params.operator === op ? 'selected':''}>${op}</option>`).join('')}</select><input type="text" placeholder="Wert" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">`;
+        
+        content = hasVars ? `
+          <select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'variable', this.value); ScriptEditor.renderAll();" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold dark:text-white outline-none">
+            <option value="">-- VAR --</option>
+            ${ScriptEditor.scriptData.variables.map(v => `<option value="${v.name}" ${v.name === item.params.variable ? 'selected':''}>${v.name}</option>`).join('')}
+          </select>
+          <select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'operator', this.value)" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold text-brand-base outline-none">
+            ${ops.map(op => `<option value="${op}" ${item.params.operator === op ? 'selected':''}>${op}</option>`).join('')}
+          </select> 
+          <input type="text" placeholder="Wert" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">
+        ` : `
+          <div class="flex-1 p-2 rounded-lg bg-slate-50 dark:bg-slate-900/50 border border-dashed border-slate-200 dark:border-slate-800 text-[9px] text-slate-400 italic flex items-center justify-center gap-2">
+            <i class="fa-solid fa-circle-info"></i> ${I18nService.t('editor.script.var_none')}
+          </div>
+        `;
     } else {
         const mode = item.params.mode || 'return_number';
         const modes = [{v:'return_number', l:'#', c:'bg-brand-base'}, {v:'return_string', l:'Aa', c:'bg-amber-500'}, {v:'return_bool', l:'Y/N', c:'bg-emerald-500'}, {v:'return_array', l:'[]', c:'bg-purple-500'}, {v:'return_var', l:'VAR', c:'bg-slate-600'}];

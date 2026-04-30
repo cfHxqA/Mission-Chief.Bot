@@ -93,7 +93,7 @@
       "placeholder_search": "Triggers zoeken...",
       "requirements_title": "Requirements (array)",
       "save_btn": "Configuratie opslaan",
-      "subtitle": "Visuele script-editor voor leitstellenspiel.de om complexe missies en automatiseringen te maken. Met triggers, voorwaarden en acties kunnen dynamische processen voor missies, voertuigen en systeemgebeurtenissen worden gedefinieerd. Variabelen en groepen maken herbruikbare logica mogelijk. De editor biedt een overzichtelijke manier om ook complexe spelmechanieken zonder programmeren te bouwen en beheren.",
+      "subtitle": "Visuele script-editor om complexe missies en automatiseringen te maken. Met triggers, voorwaarden en acties kunnen dynamische processen voor missies, voertuigen en systeemgebeurtenissen worden gedefinieerd. Variabelen en groepen maken herbruikbare logica mogelijk. De editor biedt een overzichtelijke manier om ook complexe spelmechanieken zonder programmeren te bouwen en beheren.",
       "title": "Script-editor",
       "val_placeholder": "Waarde",
       "var_none": "Geen variabelen",

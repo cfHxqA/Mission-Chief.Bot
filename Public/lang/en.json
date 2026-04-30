@@ -93,7 +93,7 @@
       "placeholder_search": "Search triggers...",
       "requirements_title": "Requirements (array)",
       "save_btn": "Save configuration",
-      "subtitle": "Visual script editor for leitstellenspiel.de to create complex mission and automation logic. With triggers, conditions and actions, dynamic workflows for missions, vehicles and system events can be defined. Variables and groups enable structured and reusable logic. The editor provides a clear way to build and manage even complex game mechanics without programming.",
+      "subtitle": "Visual script editor to create complex mission and automation logic. With triggers, conditions and actions, dynamic workflows for missions, vehicles and system events can be defined. Variables and groups enable structured and reusable logic. The editor provides a clear way to build and manage even complex game mechanics without programming.",
       "title": "Script editor",
       "val_placeholder": "Value",
       "var_none": "No variables",

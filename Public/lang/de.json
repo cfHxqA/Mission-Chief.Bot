@@ -57,7 +57,7 @@
     },
     "script": {
       "title": "Skript-Editor",
-      "subtitle": "Visueller Script-Editor für leitstellenspiel.de zur Erstellung komplexer Einsatz- und Automatisierungslogiken. Mit Triggern, Bedingungen und Aktionen lassen sich dynamische Abläufe für Einsätze, Fahrzeuge und Systemereignisse im Spiel definieren. Variablen und Gruppen ermöglichen eine strukturierte und wiederverwendbare Logik. Der Editor bietet eine übersichtliche Möglichkeit, auch komplexe Spielmechaniken ohne Programmierung zu erstellen und zu verwalten.",
+      "subtitle": "Visueller Script-Editor zur Erstellung komplexer Einsatz- und Automatisierungslogiken. Mit Triggern, Bedingungen und Aktionen lassen sich dynamische Abläufe für Einsätze, Fahrzeuge und Systemereignisse im Spiel definieren. Variablen und Gruppen ermöglichen eine strukturierte und wiederverwendbare Logik. Der Editor bietet eine übersichtliche Möglichkeit, auch komplexe Spielmechaniken ohne Programmierung zu erstellen und zu verwalten.",
       "info_title": "Script Info",
       "label_name": "Name",
       "label_version": "Version",

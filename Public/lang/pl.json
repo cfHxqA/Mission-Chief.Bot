@@ -93,7 +93,7 @@
       "placeholder_search": "Szukaj triggerów...",
       "requirements_title": "Requirements (tablica)",
       "save_btn": "Zapisz konfigurację",
-      "subtitle": "Wizualny edytor skryptów dla leitstellenspiel.de do tworzenia złożonych logik misji i automatyzacji. Triggery, warunki i akcje pozwalają definiować dynamiczne procesy dla misji, pojazdów i zdarzeń systemowych. Zmienne i grupy umożliwiają tworzenie wielokrotnego użytku logiki. Edytor pozwala tworzyć nawet złożone mechaniki bez programowania.",
+      "subtitle": "Wizualny edytor skryptów do tworzenia złożonych logik misji i automatyzacji. Triggery, warunki i akcje pozwalają definiować dynamiczne procesy dla misji, pojazdów i zdarzeń systemowych. Zmienne i grupy umożliwiają tworzenie wielokrotnego użytku logiki. Edytor pozwala tworzyć nawet złożone mechaniki bez programowania.",
       "title": "Edytor skryptów",
       "val_placeholder": "Wartość",
       "var_none": "Brak zmiennych",
