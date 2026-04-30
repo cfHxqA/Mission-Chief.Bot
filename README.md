@@ -1,93 +1,68 @@
 # Preview
 
 <p align="center">
-  <img src="https://i.imgur.com/gacDkgO.png" />
+  <img src="https://i.imgur.com/gacDkgO.png" width="800" />
 </p> 
 
-# Mission-Chief.Bot ![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0/) [![Discord](https://img.shields.io/discord/1095284310820540441.svg?label=BotNix%20|%20Join%20Us&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HXWrHgwtxv)
+# Mission-Chief.Bot 🚒🚑🚓
+**Automation meets Efficiency.** Manage your stations, missions, and patients with ease.
 
-A little helper if the patients, prisoners or missions are too many ... for you! :smiley:
+![status](https://badgen.net/badge/Status/Proof/green) ![version](https://badgen.net/badge/Version/3.0.0.0/) [![Discord](https://img.shields.io/discord/1095284310820540441.svg?label=BotNix%20|%20Join%20Us&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/HXWrHgwtxv)
 
-> Is it possible to send vehicles, even to existing missions?<br>
-> <ins>Sure - why not?</ins>! „_You can only send the vehicles within a defined radius, for alliance missions or leave it alone!_“
+---
 
-> Can prisoners be transported and patients deliver to hospitals?<br>
-> „_<ins>Of course!</ins> - set a radius and the prisoners or patients will be released if there is no cell or bed available!_“
+## ✨ Highlights & Features
 
-### **The following servers are supported:**
-![country-au](https://img.shields.io/badge/AU%3F-yes-green.svg) ![country-de](https://img.shields.io/badge/DE%3F-yes-green.svg) ![country-dk](https://img.shields.io/badge/DK%3F-yes-green.svg) ![country-es](https://img.shields.io/badge/ES%3F-yes-green.svg) ![country-fi](https://img.shields.io/badge/FI%3F-yes-green.svg) ![country-fr](https://img.shields.io/badge/FR%3F-yes-green.svg) ![country-it](https://img.shields.io/badge/IT%3F-yes-green.svg) ![country-jp](https://img.shields.io/badge/JP%3F-yes-green.svg) ![country-kr](https://img.shields.io/badge/KR%3F-yes-green.svg) ![country-nl](https://img.shields.io/badge/NL%3F-yes-green.svg) ![country-no](https://img.shields.io/badge/NO%3F-yes-green.svg) ![country-pl](https://img.shields.io/badge/PL%3F-yes-green.svg) ![country-pt](https://img.shields.io/badge/PT%3F-yes-green.svg) ![country-ro](https://img.shields.io/badge/RO%3F-yes-green.svg) ![country-ru](https://img.shields.io/badge/RU%3F-yes-green.svg) ![country-se](https://img.shields.io/badge/SE%3F-yes-green.svg) ![country-uk](https://img.shields.io/badge/UK%3F-yes-green.svg) ![country-us](https://img.shields.io/badge/US%3F-yes-green.svg)
+Mission-Chief.Bot is your ultimate helper when the flood of missions, prisoners, and patients becomes overwhelming.
 
-### Requirements (Win8+/MacOS/Linux/ARM)
+* **🌐 Modern Web Interface:** Control and configure your bot comfortably via your browser – on PC or Smartphone.
+* **📡 Intelligent Vehicle Dispatching:** Send vehicles based on defined radii, including support for alliance missions.
+* **🏥 Patient & Prisoner Management:** Automatic transport to hospitals or cells. If no beds or cells are available? The bot handles the release automatically.
+* **🌍 Global Support:** Supports over 18 international servers (US, UK, DE, FR, etc.).
+* **🐳 Docker Ready:** Easy installation via Docker for 24/7 operation on servers or NAS.
 
-- [.NET 9.0 SDK or higher](https://dotnet.microsoft.com/download)*
+---
 
-* Be sure to install the **32- and 64-bit version on windows**! Both are absolutely necessary!
+## 🖥️ New Web Interface
 
-### How can I join? (Discord)
+> **Intuitive Control instead of Cryptic Commands.**
+> Our new web dashboard allows you to monitor and adjust all settings in real-time. No more worrying about config files – just click your way to success.
 
-Follow this **[link](https://discord.gg/HXWrHgwtxv)** - the bot is NOT for free. You get technical support, regular updates & a nice community as long as your license is active!
+<p align="center">
+  <i>[Dashboard Overview]</i><br>
+  <img src="https://i.imgur.com/4yPpFLM.png" width="700" />
+</p>
 
-### How to use it? (Windows 8 or HIGHER)
+---
 
-Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
+## 🚀 Installation & Setup
 
-### How to use it? (MacOS-/Linux/ARM)
+### Requirements
+* [.NET 10.0 SDK or higher](https://dotnet.microsoft.com/download)
+* *Note for Windows users:* Please install both the **32-bit** and **64-bit** versions!
 
-Unpack the downloaded archive **[MSC-Bot.zip](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot.zip)**. If this is all done, start the application and set your settings!
+### Quick Start Guide
 
-Enter the following command into the command line to start the bot - switch before into the directory:
-`dotnet /your/location/BotNix.App.dll`
+| Platform | Procedure |
+| :--- | :--- |
+| **Windows** | Unpack the archive, start the `.exe`, and configure via the web interface. |
+| **Linux / MacOS** | Run `dotnet BotNix.App.dll` within the directory. |
+| **Docker** | Use our provided scripts: `./start-bot.sh` (Linux) or `.\start-bot.ps1` (Win). |
 
-### How to use it? (Docker, Linux-/MacOS)
+---
 
-Unpack the downloaded archive **[MSC-Bot-docker.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot-docker.tar.gz)**. If this is all done, start the application and set your settings!
+## 🤝 Community & Support
 
+The bot is a premium project. With your active license, you get more than just a bot:
+* **Technical Support** directly via Discord.
+* **Regular Updates** for new Mission-Chief features.
+* **Join the Community** of like-minded players.
 
-Main command before usage itself  `chmod +x start-bot.sh`. <br>
-Enter the following command into the command line to start the bot:
-```
-// start the docker container with default parameters; see 'msc-bot' and path 'app'
-./start-bot.sh
+👉 **[Join our Discord and become part of the team!](https://discord.gg/HXWrHgwtxv)**
 
-// start the docker container with a specific name; see name 'msc-bot-a'
-start-bot.sh msc-bot-a
+---
 
-// start the docker container with a specific name and path; see name 'msc-bot-a' and path 'folder-a'
-start-bot.sh msc-bot-a folder-a
+## ⚖️ Legal & License
 
-// stop the docker container with the specified name; see name 'msc-bot'
-docker stop msc-bot
-
-/// see logs from the specific running docker container; see name 'msc-bot'
-docker logs -f msc-bot
-```
-
-### How to use it? (Docker, Windows)
-
-Unpack the downloaded archive **[MSC-Bot-docker.tar.gz](https://github.com/cfHxqA/Mission-Chief.Bot/raw/master/MSC-Bot-docker.tar.gz)**. If this is all done, start the application and set your settings!
-
-Enter the following command into the command line to start the bot; see PowerShell command line:
-```
-// start the docker container with default parameters; see name 'msc-bot' and path 'app'
-.\start-bot.ps1
-
-// start the docker container with a specific name; see name 'msc-bot-a'
-.\start-bot.ps1 msc-bot-a
-
-// start the docker container with a specific name and path; see name 'msc-bot-a' and path 'folder-a'
-.\start-bot.ps1 msc-bot-a folder-a
-
-// stop the docker container with the specified name; see name 'msc-bot'
-docker stop msc-bot
-
-/// see logs from the specific running docker container; see name 'msc-bot'
-docker logs -f msc-bot
-```
-
-# Legal
-
-Violation of any of the terms below will result in the termination of your Account. You agree to use the Service at your own risk.
-
-# License
-
-[Attribution-NonCommercial-NoDerivs 4.0 Unported](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+* **Terms of Service:** Violation of terms will result in account termination. Use at your own risk.
+* **License:** [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
