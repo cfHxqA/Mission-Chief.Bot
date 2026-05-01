@@ -1,20 +1,57 @@
 // file: /js/views/editor/ScriptEditor.js
-// version: 1.0.9.0, 30.04.2026 17:30
+// version: 1.1.2.0, 30.04.2026 22:45
 
 import { I18nService } from '../../services/i18n.js';
 
 export const ScriptEditor = {
   availableTriggers: [
-    { id: 'mission_start', name: I18nService.t('triggers.mission_start'), cat: 'Einsatz', icon: 'fa-triangle-exclamation' },
-    { id: 'mission_end', name: I18nService.t('triggers.mission_end'), cat: 'Einsatz', icon: 'fa-flag-checkered' },
-    { id: 'vehicle_arrived', name: I18nService.t('triggers.vehicle_arrived'), cat: 'Fahrzeug', icon: 'fa-truck-location' },
-    { id: 'vehicle_status_6', name: I18nService.t('triggers.vehicle_status_6'), cat: 'Fahrzeug', icon: 'fa-ban' },
-    { id: 'station_alarm', name: I18nService.t('triggers.station_alarm'), cat: 'System', icon: 'fa-bell' },
-    { id: 'variable_change', name: I18nService.t('triggers.variable_change'), cat: 'Status', icon: 'fa-arrow-rotate-left' },
-    { id: 'patient_treated', name: I18nService.t('triggers.patient_treated'), cat: 'Einsatz', icon: 'fa-user-nurse' },
-    { id: 'timer_elapsed', name: I18nService.t('triggers.timer_elapsed'), cat: 'System', icon: 'fa-stopwatch' },
-    { id: 'msg_received', name: I18nService.t('triggers.msg_received'), cat: 'System', icon: 'fa-envelope' },
-    { id: 'status_changed', name: I18nService.t('triggers.status_changed'), cat: 'Fahrzeug', icon: 'fa-signal' }
+    { 
+      id: 'mission_start', 
+      name: I18nService.t('triggers.mission_start'), 
+      cat: 'Einsatz', 
+      icon: 'fa-triangle-exclamation',
+      functions: [
+        { id: 'mission_assign_unit', args: ['number'] },
+        { id: 'mission_set_priority', args: ['number'] },
+        { id: 'mission_add_note', args: ['string'] }
+      ] 
+    },
+    { 
+      id: 'mission_end', 
+      name: I18nService.t('triggers.mission_end'), 
+      cat: 'Einsatz', 
+      icon: 'fa-flag-checkered',
+      functions: [{ id: 'mission_archive', args: [] }] 
+    },
+    { 
+      id: 'vehicle_arrived', 
+      name: I18nService.t('triggers.vehicle_arrived'), 
+      cat: 'Fahrzeug', 
+      icon: 'fa-truck-location',
+      functions: [{ id: 'unit_start_timer', args: ['number'] }] 
+    },
+    { 
+      id: 'vehicle_status_6', 
+      name: I18nService.t('triggers.vehicle_status_6'), 
+      cat: 'Fahrzeug', 
+      icon: 'fa-ban',
+      functions: [{ id: 'unit_set_unavailable', args: [] }] 
+    },
+    { 
+      id: 'station_alarm', 
+      name: I18nService.t('triggers.station_alarm'), 
+      cat: 'System', 
+      icon: 'fa-bell',
+      functions: [
+        { id: 'station_play_audio', args: ['string'] },
+        { id: 'station_toggle_lights', args: ['bool'] }
+      ] 
+    },
+    { id: 'variable_change', name: I18nService.t('triggers.variable_change'), cat: 'Status', icon: 'fa-arrow-rotate-left', functions: [] },
+    { id: 'patient_treated', name: I18nService.t('triggers.patient_treated'), cat: 'Einsatz', icon: 'fa-user-nurse', functions: [{ id: 'mission_update_patient', args: ['number'] }] },
+    { id: 'timer_elapsed', name: I18nService.t('triggers.timer_elapsed'), cat: 'System', icon: 'fa-stopwatch', functions: [{ id: 'sys_notify', args: ['string'] }] },
+    { id: 'msg_received', name: I18nService.t('triggers.msg_received'), cat: 'System', icon: 'fa-envelope', functions: [] },
+    { id: 'status_changed', name: I18nService.t('triggers.status_changed'), cat: 'Fahrzeug', icon: 'fa-signal', functions: [] }
   ],
 
   state: {
@@ -49,12 +86,12 @@ export const ScriptEditor = {
         .badge-active { background-color: var(--color-brand-base, #6366f1) !important; color: white !important; }
         .modal-bg { backdrop-filter: blur(12px); background-color: rgba(7, 10, 15, 0.85); }
         .trigger-card:hover { border-color: #10b981; background-color: rgba(16, 185, 129, 0.04); }
-        .btn-disabled { opacity: 0.2; cursor: not-allowed !important; filter: grayscale(1); pointer-events: none; },
+        .btn-disabled { opacity: 0.2; cursor: not-allowed !important; filter: grayscale(1); pointer-events: none; }
       </style>
         
-      <div class="mb-8">
-        <h1 class="text-2xl font-bold text-slate-900 dark:text-white text-left">${t('editor.script.title')}</h1>
-        <p class="text-sm text-slate-500 mt-1 text-left">${t('editor.script.subtitle')}</p>
+      <div class="mb-8 text-left">
+        <h1 class="text-2xl font-bold text-slate-900 dark:text-white">${t('editor.script.title')}</h1>
+        <p class="text-sm text-slate-500 mt-1">${t('editor.script.subtitle')}</p>
       </div>
 
       <div class="view-section w-full h-[calc(100vh-80px)] flex gap-6 text-left select-none overflow-hidden">
@@ -240,11 +277,14 @@ export const ScriptEditor = {
     const allLabel = I18nService.t('editor.script.cat_all');
     const cats = [allLabel, ...new Set(ScriptEditor.availableTriggers.map(t => t.cat))];
     document.getElementById('trigger-badges').innerHTML = cats.map(c => `<button onclick="ScriptEditor.filterCategory('${c}')" class="px-3 py-1.5 rounded-lg text-[12px] font-bold uppercase transition-colors ${ScriptEditor.state.activeCategory === c ? 'bg-brand-base text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-brand-base'}">${c}</button>`).join('');
+    
     const filtered = ScriptEditor.availableTriggers.filter(t => (t.name.toLowerCase().includes(ScriptEditor.state.searchQuery) && (ScriptEditor.state.activeCategory === allLabel || t.cat === ScriptEditor.state.activeCategory)));
     const totalPages = Math.ceil(filtered.length / ScriptEditor.state.itemsPerPage);
     const start = (ScriptEditor.state.modalPage - 1) * ScriptEditor.state.itemsPerPage;
     const paginated = filtered.slice(start, start + ScriptEditor.state.itemsPerPage);
+    
     document.getElementById('trigger-grid').innerHTML = paginated.map(t => `<button onclick="ScriptEditor.addSpecificTrigger('${t.id}')" class="trigger-card p-2 h-22 rounded-xl bg-slate-50 dark:bg-slate-900/40 border border-slate-100 dark:border-slate-800 flex flex-col items-center justify-center gap-1.5 text-center transition-all group outline-none"><div class="w-9 h-9 rounded-lg bg-white dark:bg-brand-panel flex items-center justify-center text-slate-400 border border-slate-100 dark:border-slate-800 group-hover:text-[#10b981] transition-colors"><i class="fa-solid ${t.icon} text-base"></i></div><div><div class="text-[12px] font-black uppercase leading-tight text-slate-700 dark:text-slate-200">${t.name}</div><div class="text-[9px] font-bold text-slate-500 uppercase mt-0.5">${t.cat}</div></div></button>`).join('');
+    
     let pagHTML = `<button onclick="ScriptEditor.changeModalPage(-1)" class="w-8 h-8 rounded border dark:border-slate-700 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-800 ${ScriptEditor.state.modalPage === 1 ? 'opacity-20 pointer-events-none' : ''}"><i class="fa-solid fa-chevron-left text-[10px]"></i></button>`;
     for(let i=1; i<=totalPages; i++) pagHTML += `<button onclick="ScriptEditor.setModalPage(${i})" class="w-8 h-8 rounded text-[10px] font-bold transition-all ${i === ScriptEditor.state.modalPage ? 'bg-brand-base text-white' : 'text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800'}">${i}</button>`;
     pagHTML += `<button onclick="ScriptEditor.changeModalPage(1)" class="w-8 h-8 rounded border dark:border-slate-700 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-800 ${ScriptEditor.state.modalPage === totalPages || totalPages === 0 ? 'opacity-20 pointer-events-none' : ''}"><i class="fa-solid fa-chevron-right text-[10px]"></i></button>`;
@@ -262,12 +302,28 @@ export const ScriptEditor = {
   updateVariableConfig: (id, key, val) => { const v = ScriptEditor.scriptData.variables.find(x => x.id === id); if(v) v.config[key] = val; },
   handleDragStart: (e, cat, index, sourceGroupId) => { ScriptEditor.draggingData = { cat, index, sourceGroupId }; },
   handleDrop: (e, targetCat, targetIndex, targetGroupId) => { e.preventDefault(); const src = ScriptEditor.draggingData; if (!src || src.cat !== targetCat) return; let item = (src.sourceGroupId === null) ? ScriptEditor.scriptData[src.cat].splice(src.index, 1)[0] : ScriptEditor.findContainerById(src.sourceGroupId, ScriptEditor.scriptData.groups)[src.cat].splice(src.index, 1)[0]; if (targetGroupId === null) { (targetIndex === -1) ? ScriptEditor.scriptData[targetCat].push(item) : ScriptEditor.scriptData[targetCat].splice(targetIndex, 0, item); } else { const g = ScriptEditor.findContainerById(targetGroupId, ScriptEditor.scriptData.groups); (targetIndex === -1) ? g[targetCat].push(item) : g[targetCat].splice(targetIndex, 0, item); } ScriptEditor.renderAll(); },
-  addItem: (cat) => { let list = (cat === 'actions' && ScriptEditor.scriptData.groups.length > 0) ? (function deepest(arr){ let l = arr[arr.length-1]; return l.groups.length > 0 ? deepest(l.groups) : l; })(ScriptEditor.scriptData.groups).actions : ScriptEditor.scriptData[cat]; list.push({ id: Date.now(), type: cat.slice(0,-1), params: { description: "", variable: "", operator: "==", value: "", mode: "return_number" } }); ScriptEditor.renderAll(); },
+  
+  addItem: (cat) => { 
+    let list = (cat === 'actions' && ScriptEditor.scriptData.groups.length > 0) ? (function deepest(arr){ let l = arr[arr.length-1]; return l.groups.length > 0 ? deepest(l.groups) : l; })(ScriptEditor.scriptData.groups).actions : ScriptEditor.scriptData[cat]; 
+    list.push({ id: Date.now(), type: cat.slice(0,-1), params: { description: "", variable: "", operator: "==", value: "", mode: "return_number", functionName: "", args: [] } }); 
+    ScriptEditor.renderAll(); 
+  },
+
+  updateArg: (gid, id, argIdx, val) => {
+    let list = (gid === null) ? ScriptEditor.scriptData['actions'] : ScriptEditor.findContainerById(gid, ScriptEditor.scriptData.groups)['actions'];
+    const item = list.find(x => x.id === id);
+    if(item) {
+      if(!item.params.args) item.params.args = [];
+      item.params.args[argIdx] = val;
+    }
+  },
+
   addGroup: (parentId = null, depth = 0) => { if (depth >= 3) return; const newG = { id: Date.now(), alias: I18nService.t('editor.script.new_layer'), conditions: [], actions: [], groups: [] }; if (parentId === null) { if (ScriptEditor.scriptData.actions.length > 0) { newG.actions = [...ScriptEditor.scriptData.actions]; ScriptEditor.scriptData.actions = []; } ScriptEditor.scriptData.groups.push(newG); } else ScriptEditor.findContainerById(parentId, ScriptEditor.scriptData.groups).groups.push(newG); ScriptEditor.renderAll(); },
   removeGroup: (id) => { const rem = (arr) => { const idx = arr.findIndex(g => g.id === id); if(idx !== -1){ arr.splice(idx,1); return true; } for(let g of arr) if(g.groups.length > 0 && rem(g.groups)) return true; return false; }; rem(ScriptEditor.scriptData.groups); ScriptEditor.renderAll(); },
   removeItem: (cat, id, gid) => { if (gid === null) ScriptEditor.scriptData[cat] = ScriptEditor.scriptData[cat].filter(i => i.id !== id); else ScriptEditor.findContainerById(gid, ScriptEditor.scriptData.groups)[cat] = ScriptEditor.findContainerById(gid, ScriptEditor.scriptData.groups)[cat].filter(i => i.id !== id); ScriptEditor.renderAll(); },
   updateData: (gid, cat, id, key, val) => { let list = (gid === null) ? ScriptEditor.scriptData[cat] : ScriptEditor.findContainerById(gid, ScriptEditor.scriptData.groups)[cat]; const i = list.find(x => x.id === id); if(i) i.params[key] = val; },
   updateGroupInfo: (id, key, val) => { const g = ScriptEditor.findContainerById(id, ScriptEditor.scriptData.groups); if(g) g[key] = val; ScriptEditor.renderAll(); },
+  
   renderBlock: (item, cat, index, groupId = null) => {
     const isTrigger = cat === 'triggers';
     const header = `<div class="flex justify-between items-center ${isTrigger ? '' : 'mb-4'} h-full"><div class="flex items-center gap-3 flex-1 min-w-0"><i class="fa-solid fa-grip-vertical text-slate-300 dark:text-slate-700 text-[10px]"></i>${isTrigger ? `<div class="flex items-center gap-3"><div class="w-6 h-6 rounded bg-brand-base/10 flex items-center justify-center text-brand-base"><i class="fa-solid ${item.icon} text-[10px]"></i></div><span class="text-[10px] font-black uppercase tracking-widest dark:text-white">${item.name}</span></div>` : `<input type="text" placeholder="${I18nService.t('editor.script.placeholder_block_desc')}" onchange="ScriptEditor.updateData(${groupId}, '${cat}', ${item.id}, 'description', this.value)" value="${item.params.description || ''}" class="bg-transparent border-none text-[10px] font-bold text-slate-500 p-0 focus:ring-0 w-full uppercase tracking-widest italic truncate outline-none">`}</div><button onclick="ScriptEditor.removeItem('${cat}', ${item.id}, ${groupId})" class="text-slate-400 hover:text-red-500 transition-all flex-shrink-0 pl-2 self-center h-full flex items-center"><i class="fa-solid fa-trash-can text-[10px]"></i></button></div>`;
@@ -284,24 +340,32 @@ export const ScriptEditor = {
         if(type === 'bool') ops = ['is_true', 'is_false'];
         if(type === 'array') ops = ['contains', 'is_empty', 'length_is'];
         
-        content = hasVars ? `
-          <select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'variable', this.value); ScriptEditor.renderAll();" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold dark:text-white outline-none">
-            <option value="">-- VAR --</option>
-            ${ScriptEditor.scriptData.variables.map(v => `<option value="${v.name}" ${v.name === item.params.variable ? 'selected':''}>${v.name}</option>`).join('')}
-          </select>
-          <select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'operator', this.value)" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold text-brand-base outline-none">
-            ${ops.map(op => `<option value="${op}" ${item.params.operator === op ? 'selected':''}>${op}</option>`).join('')}
-          </select> 
-          <input type="text" placeholder="Wert" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">
-        ` : `
-          <div class="flex-1 p-2 rounded-lg bg-slate-50 dark:bg-slate-900/50 border border-dashed border-slate-200 dark:border-slate-800 text-[9px] text-slate-400 italic flex items-center justify-center gap-2">
-            <i class="fa-solid fa-circle-info"></i> ${I18nService.t('editor.script.var_none')}
-          </div>
-        `;
+        content = hasVars ? `<select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'variable', this.value); ScriptEditor.renderAll();" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold dark:text-white outline-none"><option value="">-- VAR --</option>${ScriptEditor.scriptData.variables.map(v => `<option value="${v.name}" ${v.name === item.params.variable ? 'selected':''}>${v.name}</option>`).join('')}</select><select onchange="ScriptEditor.updateData(${groupId}, 'conditions', ${item.id}, 'operator', this.value)" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-2 py-1.5 text-[10px] font-bold text-brand-base outline-none">${ops.map(op => `<option value="${op}" ${item.params.operator === op ? 'selected':''}>${op}</option>`).join('')}</select><input type="text" placeholder="Wert" class="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">` : `<div class="flex-1 p-2 rounded-lg bg-slate-50 dark:bg-slate-900/50 border border-dashed border-slate-200 dark:border-slate-800 text-[9px] text-slate-400 italic flex items-center justify-center gap-2"><i class="fa-solid fa-circle-info"></i> ${I18nService.t('editor.script.var_none')}</div>`;
     } else {
         const mode = item.params.mode || 'return_number';
-        const modes = [{v:'return_number', l:'#', c:'bg-brand-base'}, {v:'return_string', l:'Aa', c:'bg-amber-500'}, {v:'return_bool', l:'Y/N', c:'bg-emerald-500'}, {v:'return_array', l:'[]', c:'bg-purple-500'}, {v:'return_var', l:'VAR', c:'bg-slate-600'}];
-        content = `<div class="flex flex-col gap-3 w-full"><div class="flex gap-1.5 items-center">${modes.map(m => `<button onclick="ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'mode', '${m.v}'); ScriptEditor.renderAll();" class="px-2 py-1 rounded text-[10px] font-black uppercase transition-all ${mode === m.v ? m.c + ' text-white shadow-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-brand-base'}">${m.l}</button>`).join('')}</div><div class="flex flex-wrap gap-2 items-center bg-slate-50/50 dark:bg-slate-900/50 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800/50 min-h-[40px]">${mode === 'return_var' ? ScriptEditor.scriptData.variables.map(v => `<button onclick="ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'target', '${v.name}'); ScriptEditor.renderAll();" class="px-2 py-1 rounded text-[10px] font-bold transition-all border ${item.params.target === v.name ? 'bg-brand-base text-white border-brand-base' : 'bg-white dark:bg-slate-800 text-slate-500 border-slate-200 dark:border-slate-700 hover:border-brand-base'}">${v.name}</button>`).join('') || `<span class="text-[9px] text-slate-400 italic w-full text-center">${I18nService.t('editor.script.var_none')}</span>` : '<input type="text" placeholder="Wert..." class="bg-white dark:bg-slate-800 border-none rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">'}</div></div>`;
+        const modes = [{v:'return_number', l:'#', c:'bg-brand-base'}, {v:'return_string', l:'Aa', c:'bg-amber-500'}, {v:'return_bool', l:'Y/N', c:'bg-emerald-500'}, {v:'return_array', l:'[]', c:'bg-purple-500'}, {v:'return_var', l:'VAR', c:'bg-slate-600'}, {v:'execute_fn', l:'FN', c:'bg-indigo-500'}];
+        let actionUI = "";
+        if (mode === 'execute_fn') {
+          const activeTriggerIds = ScriptEditor.scriptData.triggers.map(t => t.event);
+          const availableFunctions = ScriptEditor.availableTriggers.filter(at => activeTriggerIds.includes(at.id)).flatMap(at => at.functions || []);
+          actionUI = `<div class="flex flex-col gap-2 w-full"><select onchange="ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'functionName', this.value); ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'args', []); ScriptEditor.renderAll();" class="bg-white dark:bg-slate-800 border-none rounded-lg px-3 py-1.5 text-[10px] font-bold flex-1 outline-none text-indigo-500"><option value="">-- FUNKTION --</option>${availableFunctions.map(fn => `<option value="${fn.id}" ${item.params.functionName === fn.id ? 'selected' : ''}>${fn.id}()</option>`).join('')}</select>`;
+          const selectedFnDef = availableFunctions.find(f => f.id === item.params.functionName);
+          if (selectedFnDef && selectedFnDef.args && selectedFnDef.args.length > 0) {
+            actionUI += `<div class="grid grid-cols-2 gap-2 mt-1">`;
+            selectedFnDef.args.forEach((type, argIdx) => {
+              const matchingVars = ScriptEditor.scriptData.variables.filter(v => v.type === type);
+              const currentVal = (item.params.args && item.params.args[argIdx]) ? item.params.args[argIdx] : "";
+              actionUI += `<div class="flex items-center gap-2 bg-indigo-500/5 p-1.5 rounded-lg border border-indigo-500/10"><span class="text-[8px] font-black text-indigo-400 uppercase w-4">${type.charAt(0)}</span>${matchingVars.length > 0 ? `<select onchange="ScriptEditor.updateArg(${groupId}, ${item.id}, ${argIdx}, this.value)" class="bg-transparent border-none text-[9px] font-bold dark:text-white outline-none flex-1"><option value="">-- ${type.toUpperCase()} --</option>${matchingVars.map(v => `<option value="${v.name}" ${currentVal === v.name ? 'selected' : ''}>${v.name}</option>`).join('')}</select>` : `<span class="text-[8px] text-slate-400 italic">${I18nService.t('editor.script.fn_arg_none')}</span>`}</div>`;
+            });
+            actionUI += `</div>`;
+          }
+          actionUI += `</div>`;
+        } else if (mode === 'return_var') {
+          actionUI = ScriptEditor.scriptData.variables.map(v => `<button onclick="ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'target', '${v.name}'); ScriptEditor.renderAll();" class="px-2 py-1 rounded text-[10px] font-bold transition-all border ${item.params.target === v.name ? 'bg-brand-base text-white border-brand-base' : 'bg-white dark:bg-slate-800 text-slate-500 border-slate-200 dark:border-slate-700 hover:border-brand-base'}">${v.name}</button>`).join('') || `<span class="text-[9px] text-slate-400 italic w-full text-center">${I18nService.t('editor.script.var_none')}</span>`;
+        } else {
+          actionUI = `<input type="text" placeholder="Wert..." class="bg-white dark:bg-slate-800 border-none rounded-lg px-3 py-1.5 text-[10px] flex-1 outline-none">`;
+        }
+        content = `<div class="flex flex-col gap-3 w-full"><div class="flex gap-1.5 items-center">${modes.map(m => `<button onclick="ScriptEditor.updateData(${groupId}, 'actions', ${item.id}, 'mode', '${m.v}'); ScriptEditor.renderAll();" class="px-2 py-1 rounded text-[10px] font-black uppercase transition-all ${mode === m.v ? m.c + ' text-white shadow-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 hover:text-brand-base'}">${m.l}</button>`).join('')}</div><div class="flex flex-wrap gap-2 items-center bg-slate-50/50 dark:bg-slate-900/50 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800/50 min-h-[40px]">${actionUI}</div></div>`;
     }
     return `<div draggable="true" ondragstart="ScriptEditor.handleDragStart(event, '${cat}', ${index}, ${groupId})" ondrop="ScriptEditor.handleDrop(event, '${cat}', index, groupId)" ondragover="event.preventDefault()" class="group bg-white dark:bg-brand-panel border border-slate-100 dark:border-slate-800 rounded-2xl p-6 flex flex-col shadow-sm hover:shadow-xl hover:border-brand-base transition-all mb-6 cursor-move relative overflow-hidden"><div class="absolute top-0 left-0 w-1 h-full bg-slate-200 dark:bg-slate-800 group-hover:bg-brand-base transition-colors"></div>${header}<div class="flex gap-3 border-t dark:border-slate-800/50 pt-5">${content}</div></div>`;
   },

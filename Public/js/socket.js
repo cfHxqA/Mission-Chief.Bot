@@ -20,7 +20,7 @@ export const SocketService = {
         if (this.isConnecting || (this.socket && this.socket.readyState === WebSocket.OPEN)) return;
         
         this.isConnecting = true;
-        const url = `ws://127.0.0.1:${this.basePort}`;
+        const url = `ws://${window.location.hostname}:${this.basePort}`;
         
         this.socket = new WebSocket(url);
 
