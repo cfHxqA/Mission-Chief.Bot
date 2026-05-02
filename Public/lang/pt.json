@@ -1,0 +1,202 @@
+{
+  "common": {
+    "dashboard": "Painel",
+    "editor": {
+      "mission": "Editor de Missões",
+      "script": "Editor de Scripts",
+      "vehicle": "Editor de Veículos"
+    },
+    "live_logs": "Registos em tempo real",
+    "section": {
+      "editor": "Editores",
+      "settings": "Configuração"
+    },
+    "settings": "Definições",
+    "showroom": "Showroom",
+    "welcome": "Bem-vindo de volta!"
+  },
+  "dashboard": {
+    "kpi": {
+      "creditsPerHour": "Média de créditos / hora",
+      "missionSuccessRate": "Taxa de sucesso",
+      "missionsIncoming": "Missões (novas)",
+      "missionsProcessed": "Missões (processadas)",
+      "placeholder": "Espaço reservado",
+      "speechesIncoming": "Pedidos (novos)",
+      "speechesProcessed": "Pedidos (processados)",
+      "subLabel": "vs. hora anterior"
+    },
+    "subtitle": "Análise em tempo real das atividades do bot.",
+    "title": "Painel"
+  },
+  "editor": {
+    "mission": {
+      "title": "Editor de Missões",
+      "subtitle": "Gestão de ficheiros de configuração .mscm.",
+      "import_btn": "Importar .mscm",
+      "base_data": "Dados base",
+      "name": "Nome",
+      "base_id": "ID da missão base",
+      "credits": "Média de créditos",
+      "overlays": "Overlays adicionais",
+      "requirements_title": "Requisitos (array)",
+      "add_requirement": "Adicionar requisito",
+      "amount_label": "Quantidade",
+      "vehicle_ids_label": "IDs de veículos",
+      "vehicle_ids_placeholder": "32, 95...",
+      "additional_title": "Adicional (objeto)",
+      "chances_title": "Probabilidades (objeto)",
+      "add_generic": "Adicionar",
+      "key_placeholder": "Chave",
+      "val_placeholder": "Valor",
+      "save_btn": "Guardar configuração",
+      "json_preview": "Pré-visualização JSON em tempo real",
+      "log_import_success": "Ficheiro .mscm importado com sucesso.",
+      "log_import_error": "Formato de ficheiro inválido ou JSON com erro.",
+      "log_export_success": "Ficheiro exportado com sucesso: "
+    },
+    "script": {
+      "default_author": "Administrador",
+      "default_script_name": "Novo script",
+      "btn_back": "Voltar",
+      "btn_next": "Seguinte",
+      "btn_export": "Exportar (.mscf)",
+      "lbl_yes": "Verdadeiro (Sim)",
+      "lbl_no": "Falso (Não)",
+      "lbl_please_select": "Selecionar...",
+      "lbl_enter_number": "Introduzir número...",
+      "lbl_enter_value": "Introduzir valor...",
+      "alert_invalid_file": "Selecione um ficheiro .mscf válido.",
+      "alert_read_error": "Erro ao ler o ficheiro. É um formato .mscf válido?",
+      "event_prefix": "Evento: ",
+      "custom_prefix": "Personalizado: ",
+      "choice_title": "Editor de Scripts",
+      "choice_desc": "Escolha iniciar um novo projeto ou carregar um existente.",
+      "choice_new": "Novo script",
+      "choice_import": "Importar (.mscf)",
+      "s1_title": "Definir metadados",
+      "s1_script_name": "Nome do script",
+      "s1_version": "Versão",
+      "s1_author": "Autor",
+      "s2_title": "Selecionar trigger",
+      "s2_desc": "Selecione todos os eventos que devem executar este script.",
+      "s2_btn_prev": "« Voltar",
+      "s2_btn_next": "Seguinte »",
+      "s3_title": "Lógica e ações",
+      "s3_desc": "As seguintes condições e ações aplicam-se automaticamente a todos os triggers selecionados.",
+      "s3_cond_title": "Condições",
+      "s3_cond_single": "Individual",
+      "s3_cond_group": "Grupos (blocos If)",
+      "s3_cond_add": "+ Adicionar condição",
+      "s3_group_title": "Grupo de condições",
+      "s3_group_del_title": "Eliminar grupo",
+      "s3_cond_add_more": "+ Adicionar outra condição",
+      "s3_act_group_title": "Ações (se cumprido)",
+      "s3_act_add_group": "+ Adicionar ação ao grupo",
+      "s3_group_add": "+ Adicionar novo grupo",
+      "s3_act_global_title": "Ações",
+      "s3_act_global_title_pre": "Globais ",
+      "s3_act_global_desc_group": "Estas ações são SEMPRE executadas no final, independentemente dos grupos.",
+      "s3_act_global_desc_single": "Estas ações são executadas assim que as condições são cumpridas.",
+      "s3_act_add_global": "+ Adicionar ação global",
+      "s4_title": "Pronto para exportação",
+      "s4_desc": "O seu script foi validado com sucesso e pode ser descarregado como ficheiro .mscf.",
+      "sb_sys_vars": "Variáveis do sistema e eventos",
+      "sb_custom_vars": "Variáveis personalizadas",
+      "sb_no_vars": "Ainda não existem variáveis",
+      "sb_var_name": "Identificador (ex: user_id)",
+      "sb_btn_add": "Adicionar",
+      "sb_del_title": "Eliminar",
+      "lr_select_var": "Selecionar variável...",
+      "lr_select_var_first": "Selecione primeiro uma variável",
+      "lr_target_var": "Selecionar variável de destino...",
+      "lr_target_var_left": "Selecione uma variável à esquerda",
+      "lr_select_func": "Selecionar função...",
+      "lr_no_args": "Ainda não existem argumentos",
+      "reg_type_number": "Número",
+      "reg_type_string": "Texto",
+      "reg_type_boolean": "Sim/Não",
+      "reg_type_array_string": "Lista (texto)",
+      "reg_type_array_number": "Lista (números)",
+      "reg_op_contains": "contém",
+      "reg_op_notContains": "não contém",
+      "reg_op_startsWith": "começa com",
+      "reg_fn_notify": "Notificar utilizador",
+      "reg_fn_log": "Criar registo",
+      "reg_act_set": "Definir variável",
+      "reg_act_ret": "Retornar variável",
+      "reg_act_call": "Chamar função"
+    },
+    "vehicle": {
+      "title": "Editor de Veículos",
+      "subtitle": "Configuração de padrões de deteção de veículos.",
+      "import_btn": "Importar .mscv",
+      "base_data": "Dados base",
+      "object_id": "ID do objeto",
+      "matchless": "Sem correspondência necessária",
+      "patterns_title": "Padrões base (array RegEx)",
+      "add_pattern": "Adicionar padrão",
+      "regex_placeholder": "ex.: (Camião de Bombeiros|CB)",
+      "extend_title": "Requisitos avançados (objeto)",
+      "add_extend": "Adicionar requisito",
+      "key_placeholder": "Chave RegEx",
+      "val_placeholder": "Valor",
+      "save_btn": "Guardar configuração",
+      "json_preview": "Pré-visualização JSON",
+      "log_import_success": "Ficheiro .mscv importado com sucesso.",
+      "log_import_error": "Erro ao importar configuração do veículo.",
+      "log_export_success": "Configuração do veículo exportada: ",
+      "invalid_regex": "RegEx inválido",
+      "required": "Campo obrigatório"
+    }
+  },
+  "live_logs": {
+    "noEntities": "Sem registos disponíveis.",
+    "search": {
+      "button": {
+        "apply": "Aplicar",
+        "apply_title": "Ações e filtros",
+        "clean": "Limpar buffer",
+        "export": "Exportar (CSV)"
+      },
+      "date": "Data",
+      "end": "Até (hora)",
+      "start": "Desde (hora)"
+    },
+    "subtitle": "Histórico completo de todas as ações do bot com opções avançadas de filtragem.",
+    "title": "Registos do sistema em tempo real"
+  },
+  "settings": {
+    "category": {
+      "all": {
+        "title": "Todas as categorias"
+      },
+      "stats": {
+        "kpiCreditsPerHour": "Créditos por hora",
+        "kpiCreditsPerHour_desc": "Cartão KPI para ganhos simulados por hora.",
+        "kpiMissionSuccessRate": "Taxa de sucesso",
+        "kpiMissionSuccessRate_desc": "Cartão KPI para monitorizar o sucesso das missões.",
+        "kpiMissionsIncoming": "Novas missões",
+        "kpiMissionsIncoming_desc": "Cartão KPI para missões recém-geradas.",
+        "kpiMissionsProcessed": "Missões processadas",
+        "kpiMissionsProcessed_desc": "Cartão KPI para missões tratadas com sucesso.",
+        "kpiSpeechesIncoming": "Novos pedidos",
+        "kpiSpeechesIncoming_desc": "Cartão KPI para novos pedidos.",
+        "kpiSpeechesProcessed": "Pedidos processados",
+        "kpiSpeechesProcessed_desc": "Cartão KPI para pedidos processados com sucesso.",
+        "title": "KPIs e estatísticas"
+      },
+      "system": {
+        "title": "Sistema"
+      },
+      "visuals": {
+        "title": "Gráficos e tabelas"
+      }
+    },
+    "search": {
+      "empty": "Pesquisar por definição ou nome do módulo..."
+    },
+    "subtitle": "Gerir a visibilidade dos módulos do painel.",
+    "title": "Definições e módulos"
+  }
+}

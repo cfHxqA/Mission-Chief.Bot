@@ -1,10 +1,10 @@
 [
   {
-    "md5": "db337c258eaf4540b654fff17dbecec0",
+    "md5": "4a63b600cebcdd0bf30f15dce31b4ab9",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/index.html"
   },
   {
-    "md5": "62cd154f5392c79464749a7cdfdeb4c5",
+    "md5": "dafae28ee5b4b418e76cb9e9c8ae5f91",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/css/style.css"
   },
   {
@@ -80,7 +80,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/editor/VehicleEditor.js"
   },
   {
-    "md5": "8d16fe970f2d865ef3b37f95a06f3e4f",
+    "md5": "6c56c9adb3a55d0fb9d3de70477df483",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/editor/ScriptEditor.js"
   },
   {
@@ -88,15 +88,15 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/services/i18n.js"
   },
   {
-    "md5": "eaff617edddb7a03107b99f0ecd6c49d",
+    "md5": "147f8009658a0ea56ab1568f1017d7cb",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/nl.json"
   },
   {
-    "md5": "8602fb8089f904bfbc075698857ebee0",
+    "md5": "414c5b2663329367899ddffd08e1bb34",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/de.json"
   },
   {
-    "md5": "c2768775d23838fb05fa378db407f748",
+    "md5": "c9da99964aa24648596069daeb2c1332",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/pl.json"
   },
   {
@@ -104,7 +104,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/gb.json"
   },
   {
-    "md5": "ae2f714927c648eef8e8bf3fa5f5dfbe",
+    "md5": "d3fed84e5be2fcfb7266156af85d2807",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/pt.json"
+  },
+  {
+    "md5": "bd127abfa7ce40e3830aa57340e94183",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/en.json"
   }
 ]

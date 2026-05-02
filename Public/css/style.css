@@ -178,3 +178,73 @@ body {
     scrollbar-width: thin;
     scrollbar-color: #1e293b #0f172a;
 }
+
+
+/* ==========================================
+   SCRIPT EDITOR STYLES
+   ========================================== */
+.se-wrapper { width: 100%; padding: 20px; box-sizing: border-box; font-family: 'Inter', sans-serif; color: #1e293b; background: #f8fafc; min-height: 100vh; transition: 0.3s; }
+.se-layout { display: flex; gap: 24px; align-items: flex-start; }
+
+.se-main-window { flex: 3; background: white; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); transition: 0.3s; }
+.se-side-window { flex: 1; background: white; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); position: sticky; top: 20px; min-width: 320px; transition: 0.3s; }
+
+.se-btn { padding: 8px 16px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
+.se-btn-primary { background: #3b82f6; color: white; }
+.se-btn-primary:hover { background: #2563eb; }
+.se-btn-outline { background: white; border-color: #e2e8f0; color: #64748b; }
+.se-btn-outline:hover { border-color: #3b82f6; color: #3b82f6; }
+.se-btn-outline:disabled { opacity: 0.5; cursor: not-allowed; border-color: #e2e8f0; color: #94a3b8; }
+
+.se-input { width: 100%; border: 1px solid #e2e8f0; border-radius: 6px; padding: 8px 12px; font-size: 12px; outline: none; background: #fff; color: inherit; transition: 0.2s; }
+.se-input:focus { border-color: #3b82f6; }
+
+.se-steps { display: flex; position: relative; justify-content: space-between; margin-bottom: 30px; }
+.se-steps::before { content: ''; position: absolute; top: 50%; left: 0; right: 0; height: 2px; background: #e2e8f0; z-index: 1; transform: translateY(-50%); transition: 0.3s; }
+.se-progress-fill { position: absolute; top: 50%; left: 0; height: 2px; background: #3b82f6; z-index: 1; transform: translateY(-50%); transition: width 0.4s ease; }
+.se-step-dot { width: 30px; height: 30px; background: white; border: 2px solid #e2e8f0; border-radius: 50%; z-index: 2; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; color: #94a3b8; transition: 0.3s; cursor: pointer; }
+.se-step-dot:hover { border-color: #3b82f6; color: #3b82f6; }
+.se-step-dot.active { border-color: #3b82f6; background: #3b82f6; color: white; transform: scale(1.1); }
+
+@keyframes stepErrorShake {
+    0%, 100% { transform: scale(1.1) translateX(0); }
+    25% { transform: scale(1.1) translateX(-4px); }
+    75% { transform: scale(1.1) translateX(4px); }
+}
+.se-step-dot.error { border-color: #ef4444 !important; color: #ef4444 !important; animation: stepErrorShake 0.4s ease-in-out; }
+
+.se-logic-box { border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 24px; background: #fcfdfe; transition: 0.3s; }
+.se-group-box { border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin-bottom: 16px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.01); transition: 0.3s; }
+.se-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+
+.badge-pill { padding: 5px 12px; border-radius: 20px; border: 1px solid #e2e8f0; font-size: 11px; font-weight: 600; cursor: pointer; background: #fff; color: #64748b; transition: 0.2s; display: inline-flex; align-items: center; justify-content: center; gap: 5px; user-select: none; }
+.badge-pill:hover { border-color: #3b82f6; color: #3b82f6; }
+.badge-pill.active { background: #3b82f6; color: #fff; border-color: #3b82f6; }
+
+/* Trigger List Styling */
+.trigger-pill { padding: 6px 12px; border-radius: 6px; border: 1px solid #e2e8f0; font-size: 12px; cursor: pointer; background: #fff; color: #64748b; transition: 0.2s; user-select: none; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+.trigger-pill:hover { border-color: #3b82f6; color: #3b82f6; }
+.trigger-pill.active { background: #eff6ff; border-color: #3b82f6; color: #1d4ed8; font-weight: bold; }
+
+/* Drag & Drop Feedback Editor */
+.se-drag-over { border-top: 2px solid #3b82f6 !important; border-radius: 0 !important; }
+.drag-handle { cursor: grab; padding: 4px 8px; color: #cbd5e1; transition: 0.2s; }
+.drag-handle:hover { color: #64748b; }
+.dark .drag-handle { color: #475569; }
+.dark .drag-handle:hover { color: #94a3b8; }
+
+/* DARK MODE OVERRIDES SCRIPT EDITOR */
+.dark .se-wrapper { background: #0f172a; color: #f1f5f9; }
+.dark .se-main-window, .dark .se-side-window { background: #1e293b; border-color: #334155; }
+.dark .se-input { background: #0f172a; border-color: #334155; color: #f1f5f9; }
+.dark .se-steps::before { background: #334155; }
+.dark .se-step-dot { background: #1e293b; border-color: #334155; color: #64748b; }
+.dark .se-step-dot.active { border-color: #3b82f6; background: #3b82f6; color: white; }
+.dark .se-logic-box { background: #0f172a; border-color: #334155; }
+.dark .se-group-box { background: #1e293b; border-color: #334155; }
+.dark .badge-pill { background: #1e293b; border-color: #334155; color: #94a3b8; }
+.dark .se-btn-outline { background: #1e293b; border-color: #334155; color: #94a3b8; }
+.dark .se-btn-outline:hover { border-color: #3b82f6; color: #3b82f6; }
+.dark .trigger-pill { background: #1e293b; border-color: #334155; color: #94a3b8; }
+.dark .trigger-pill:hover { border-color: #3b82f6; color: #60a5fa; }
+.dark .trigger-pill.active { background: #1e3a8a; border-color: #3b82f6; color: #93c5fd; }
