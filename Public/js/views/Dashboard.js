@@ -26,9 +26,6 @@ export const Dashboard = {
           { id: 'widget-kpi-kpiCreditsPerHour', title: t('dashboard.kpi.creditsPerHour'), val: stats.kpiCreditsPerHour.val, sub: stats.kpiCreditsPerHour.sub, subLabel: t('dashboard.kpi.subLabel') }
         ];
 
-        const missionData = [{ label: 'Brennender Mülleimer', value: '412' }, { label: 'Verkehrsunfall', value: '308' }, { label: 'Krankentransport', value: '189' }];
-        const buildingData = [{ label: 'Feuerwache 1 (Mitte)', value: '845' }, { label: 'Rettungswache Nord', value: '632' }, { label: 'Polizei Revier 3', value: '412' }];
-
         return `
             <div class="view-section w-full">
                 <div class="flex justify-between items-end mb-6 px-1">
@@ -42,10 +39,11 @@ export const Dashboard = {
                 </div>
 
                 <div id="dashboard-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-min">
-                    ${kpiConfigs.map(conf => KPICard(conf)).join('')}
-                    ${ActivityChart("Aktivitätsverlauf (24h)")}
-                    ${DataTable("widget-table-missions", "Top Einsatzarten", missionData)}
-                    ${DataTable("widget-table-buildings", "Top Gebäude", buildingData)}
+                  ${kpiConfigs.map(conf => KPICard(conf)).join('')}
+                  ${ActivityChart("Aktivitätsverlauf (24h)")}
+ 
+                  ${DataTable("widget-table-missions", t('dashboard.widgets.top_missions'), [])}
+                  ${DataTable("widget-table-buildings", t('dashboard.widgets.top_buildings'), [])}
                 </div>
             </div>
         `;

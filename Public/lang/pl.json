@@ -1,10 +1,10 @@
 {
   "common": {
-    "dashboard": "Panel",
+    "dashboard": "Dashboard",
     "editor": {
-      "mission": "Edytor misji",
-      "script": "Edytor skryptów",
-      "vehicle": "Edytor pojazdów"
+      "mission": "Edytor Zadań",
+      "script": "Edytor Skryptów",
+      "vehicle": "Edytor Pojazdów"
     },
     "live_logs": "Logi na żywo",
     "section": {
@@ -12,48 +12,52 @@
       "settings": "Konfiguracja"
     },
     "settings": "Ustawienia",
-    "showroom": "Showroom",
-    "welcome": "Witamy ponownie!"
+    "showroom": "Salon",
+    "welcome": "Witaj z powrotem!"
   },
   "dashboard": {
     "kpi": {
-      "creditsPerHour": "Śr. kredyty / godz.",
+      "creditsPerHour": "Ø Kredyty / godzinę",
       "missionSuccessRate": "Wskaźnik sukcesu",
-      "missionsIncoming": "Misje (nowe)",
-      "missionsProcessed": "Misje (przetworzone)",
+      "missionsIncoming": "Zadania (nowe)",
+      "missionsProcessed": "Zadania (przetworzone)",
       "placeholder": "Placeholder",
-      "speechesIncoming": "Zgłoszenia (nowe)",
-      "speechesProcessed": "Zgłoszenia (przetworzone)",
+      "speechesIncoming": "Prośby o głos (nowe)",
+      "speechesProcessed": "Prośby o głos (przetworzone)",
       "subLabel": "vs. poprzednia godzina"
     },
-    "subtitle": "Analiza działań bota w czasie rzeczywistym.",
-    "title": "Panel"
+    "widgets": {
+      "top_missions": "Najczęstsze typy zadań",
+      "top_buildings": "Najczęściej używane budynki"
+    },
+    "subtitle": "Analiza aktywności bota w czasie rzeczywistym.",
+    "title": "Dashboard"
   },
   "editor": {
     "mission": {
-      "title": "Edytor misji",
+      "title": "Edytor Zadań",
       "subtitle": "Zarządzanie plikami konfiguracyjnymi .mscm.",
       "import_btn": "Importuj .mscm",
       "base_data": "Dane podstawowe",
       "name": "Nazwa",
-      "base_id": "ID bazowej misji",
-      "credits": "Śr. kredyty",
-      "overlays": "Nakładki dodatkowe",
-      "requirements_title": "Wymagania (tablica)",
+      "base_id": "ID bazowego zadania",
+      "credits": "Śred. kredyty",
+      "overlays": "Nakładki addytywne",
+      "requirements_title": "Wymagania (Array)",
       "add_requirement": "Dodaj wymaganie",
       "amount_label": "Ilość",
       "vehicle_ids_label": "ID pojazdów",
       "vehicle_ids_placeholder": "32, 95...",
-      "additional_title": "Dodatkowe (obiekt)",
-      "chances_title": "Szanse (obiekt)",
+      "additional_title": "Additional (Object)",
+      "chances_title": "Szanse (Object)",
       "add_generic": "Dodaj",
       "key_placeholder": "Klucz",
       "val_placeholder": "Wartość",
       "save_btn": "Zapisz konfigurację",
       "json_preview": "Podgląd JSON na żywo",
-      "log_import_success": "Plik .mscm został pomyślnie zaimportowany.",
-      "log_import_error": "Nieprawidłowy format pliku lub błędny JSON.",
-      "log_export_success": "Plik został pomyślnie wyeksportowany: "
+      "log_import_success": "Plik .mscm zaimportowany pomyślnie.",
+      "log_import_error": "Nieprawidłowy format pliku lub uszkodzony JSON.",
+      "log_export_success": "Plik wyeksportowany pomyślnie: "
     },
     "script": {
       "default_author": "Gość",
@@ -63,45 +67,45 @@
       "btn_export": "Eksportuj (.mscf)",
       "lbl_yes": "Prawda (Tak)",
       "lbl_no": "Fałsz (Nie)",
-      "lbl_please_select": "Proszę wybrać...",
+      "lbl_please_select": "Wybierz...",
       "lbl_enter_number": "Wprowadź liczbę...",
       "lbl_enter_value": "Wprowadź wartość...",
-      "alert_invalid_file": "Proszę wybrać poprawny plik .mscf.",
-      "alert_read_error": "Błąd podczas odczytu pliku. Czy to poprawny format .mscf?",
-      "missing_trigger": "Brak wyzwalacza",
-      "choice_title": "Edytor skryptów",
-      "choice_desc": "Wybierz, czy chcesz rozpocząć nowy projekt, czy wczytać istniejący.",
+      "alert_invalid_file": "Wybierz prawidłowy plik .mscf.",
+      "alert_read_error": "Błąd odczytu pliku. Czy to poprawny format .mscf?",
+      "missing_trigger": "Brakujący wyzwalacz",
+      "choice_title": "Edytor Skryptów",
+      "choice_desc": "Wybierz, czy chcesz utworzyć nowy projekt, czy załadować istniejący.",
       "choice_new": "Nowy skrypt",
       "choice_import": "Importuj (.mscf)",
       "s1_title": "Zdefiniuj metadane",
       "s1_script_name": "Nazwa skryptu",
       "s1_version": "Wersja",
       "s1_author": "Autor",
-      "s2_title": "Wybierz wyzwalacz",
-      "s2_desc": "Wybierz wszystkie zdarzenia, które mają uruchamiać ten skrypt.",
+      "s2_title": "Wybierz wyzwalacze",
+      "s2_desc": "Wybierz wszystkie wydarzenia, które mają uruchamiać ten skrypt.",
       "s2_btn_prev": "« Wstecz",
       "s2_btn_next": "Dalej »",
       "s3_title": "Logika i akcje",
-      "s3_desc": "Poniższe warunki i akcje mają zastosowanie do wszystkich wybranych wyzwalaczy.",
+      "s3_desc": "Poniższe warunki i akcje dotyczą automatycznie wszystkich wybranych wyzwalaczy.",
       "s3_cond_title": "Warunki",
       "s3_cond_single": "Pojedyncze",
-      "s3_cond_group": "Grupy (bloki If)",
+      "s3_cond_group": "Grupy (Bloki If)",
       "s3_cond_add": "+ Dodaj warunek",
       "s3_group_title": "Grupa warunków",
       "s3_group_del_title": "Usuń grupę",
-      "s3_cond_add_more": "+ Dodaj kolejne warunki",
-      "s3_act_group_title": "Akcje (jeśli spełnione)",
+      "s3_cond_add_more": "+ Dodaj kolejny warunek",
+      "s3_act_group_title": "Akcje (gdy spełnione)",
       "s3_act_add_group": "+ Dodaj akcję do grupy",
       "s3_group_add": "+ Dodaj nową grupę",
       "s3_act_global_title": "Akcje",
       "s3_act_global_title_pre": "Globalne ",
-      "s3_act_global_desc_group": "Te akcje są ZAWSZE wykonywane na końcu, niezależnie od grup.",
+      "s3_act_global_desc_group": "Te akcje są zawsze wykonywane na końcu, niezależnie od grup.",
       "s3_act_global_desc_single": "Te akcje są wykonywane, gdy warunki zostaną spełnione.",
       "s3_act_add_global": "+ Dodaj akcję globalną",
       "s4_title": "Gotowe do eksportu",
-      "s4_desc": "Twój skrypt został pomyślnie zweryfikowany i może zostać pobrany jako plik .mscf.",
-      "sb_sys_vars": "Zmienne systemowe i zdarzeń",
-      "sb_custom_vars": "Zmienne własne",
+      "s4_desc": "Twój skrypt został pomyślnie zwalidowany i można go pobrać jako plik .mscf.",
+      "sb_sys_vars": "Zmienne systemowe i zdarzeniowe",
+      "sb_custom_vars": "Własne zmienne",
       "sb_no_vars": "Brak zmiennych",
       "sb_var_name": "Identyfikator (np. user_id)",
       "sb_btn_add": "Dodaj",
@@ -109,7 +113,7 @@
       "lr_select_var": "Wybierz zmienną...",
       "lr_select_var_first": "Najpierw wybierz zmienną",
       "lr_target_var": "Wybierz zmienną docelową...",
-      "lr_target_var_left": "Wybierz zmienną po lewej stronie",
+      "lr_target_var_left": "Wybierz zmienną po lewej",
       "lr_select_func": "Wybierz funkcję...",
       "lr_no_args": "Nie dodano jeszcze argumentów",
       "reg_type_number": "Liczba",
@@ -125,24 +129,24 @@
       "reg_act_call": "Wywołaj funkcję"
     },
     "vehicle": {
-      "title": "Edytor pojazdów",
-      "subtitle": "Konfiguracja wzorców wykrywania pojazdów.",
+      "title": "Edytor Pojazdów",
+      "subtitle": "Konfiguracja wzorców rozpoznawania pojazdów.",
       "import_btn": "Importuj .mscv",
       "base_data": "Dane podstawowe",
       "object_id": "ID obiektu",
-      "matchless": "Brak dopasowania wymagany",
-      "patterns_title": "Wzorce bazowe (tablica RegEx)",
+      "matchless": "Matchless (nie wymaga dopasowania)",
+      "patterns_title": "Wzorce podstawowe (Tablica RegEx)",
       "add_pattern": "Dodaj wzorzec",
-      "regex_placeholder": "np. (Wóz strażacki|WS)",
-      "extend_title": "Rozszerzone wymagania (obiekt)",
+      "regex_placeholder": "np. (Wozy strażackie|LF)",
+      "extend_title": "Rozszerzone wymagania (Object)",
       "add_extend": "Dodaj wymaganie",
       "key_placeholder": "Klucz RegEx (np. (?'water'\\d+))",
       "val_placeholder": "Wartość",
       "save_btn": "Zapisz konfigurację",
-      "json_preview": "Podgląd JSON",
-      "log_import_success": "Plik .mscv został pomyślnie zaimportowany.",
+      "json_preview": "Podgląd JSON na żywo",
+      "log_import_success": "Plik .mscv zaimportowany pomyślnie.",
       "log_import_error": "Błąd podczas importu konfiguracji pojazdu.",
-      "log_export_success": "Konfiguracja pojazdu została wyeksportowana: ",
+      "log_export_success": "Konfiguracja pojazdu wyeksportowana: ",
       "invalid_regex": "Nieprawidłowy RegEx",
       "required": "Pole wymagane"
     }
@@ -154,13 +158,13 @@
         "apply": "Zastosuj",
         "apply_title": "Akcje i filtry",
         "clean": "Wyczyść bufor",
-        "export": "Eksportuj (CSV)"
+        "export": "Eksport (CSV)"
       },
       "date": "Data",
       "end": "Do (czas)",
       "start": "Od (czas)"
     },
-    "subtitle": "Pełna historia wszystkich działań bota z zaawansowanymi opcjami filtrowania.",
+    "subtitle": "Pełna historia wszystkich akcji bota z zaawansowanymi możliwościami filtrowania.",
     "title": "Logi systemowe na żywo"
   },
   "settings": {
@@ -170,30 +174,34 @@
       },
       "stats": {
         "kpiCreditsPerHour": "Kredyty na godzinę",
-        "kpiCreditsPerHour_desc": "Karta KPI dla symulowanych zarobków godzinowych.",
+        "kpiCreditsPerHour_desc": "Karta KPI symulowanego zarobku godzinowego.",
         "kpiMissionSuccessRate": "Wskaźnik sukcesu",
-        "kpiMissionSuccessRate_desc": "Karta KPI do monitorowania sukcesów misji.",
-        "kpiMissionsIncoming": "Nowe misje",
-        "kpiMissionsIncoming_desc": "Karta KPI dla nowo wygenerowanych misji.",
-        "kpiMissionsProcessed": "Przetworzone misje",
-        "kpiMissionsProcessed_desc": "Karta KPI dla pomyślnie obsłużonych misji.",
-        "kpiSpeechesIncoming": "Nowe zgłoszenia",
-        "kpiSpeechesIncoming_desc": "Karta KPI dla nowych zgłoszeń.",
-        "kpiSpeechesProcessed": "Przetworzone zgłoszenia",
-        "kpiSpeechesProcessed_desc": "Karta KPI dla przetworzonych zgłoszeń.",
-        "title": "KPI i statystyki"
+        "kpiMissionSuccessRate_desc": "Karta KPI monitorująca sukcesy zadań.",
+        "kpiMissionsIncoming": "Nowe zadania",
+        "kpiMissionsIncoming_desc": "Karta KPI nowo wygenerowanych zadań.",
+        "kpiMissionsProcessed": "Przetworzone zadania",
+        "kpiMissionsProcessed_desc": "Karta KPI pomyślnie zaalarmowanych zadań.",
+        "kpiSpeechesIncoming": "Nowe prośby o głos",
+        "kpiSpeechesIncoming_desc": "Karta KPI nowo wygenerowanych próśb o głos.",
+        "kpiSpeechesProcessed": "Przetworzone prośby o głos",
+        "kpiSpeechesProcessed_desc": "Karta KPI pomyślnie przetworzonych próśb o głos.",
+        "title": "KPIs i Statystyki"
       },
       "system": {
         "title": "System"
       },
       "visuals": {
-        "title": "Wykresy i tabele"
+        "title": "Wykresy i Tabele",
+        "top_missions": "Najczęstsze typy zadań",
+        "top_missions_desc": "Pokazuje, które typy zadań występują obecnie najczęściej.",
+        "top_buildings": "Najczęściej używane budynki",
+        "top_buildings_desc": "Pokazuje, przy których budynkach generowane jest najwięcej zadań."
       }
     },
     "search": {
       "empty": "Szukaj ustawienia lub nazwy modułu..."
     },
-    "subtitle": "Zarządzaj widocznością modułów panelu.",
-    "title": "Ustawienia i moduły"
+    "subtitle": "Zarządzaj widocznością modułów dashboardu.",
+    "title": "Ustawienia i Moduły"
   }
 }

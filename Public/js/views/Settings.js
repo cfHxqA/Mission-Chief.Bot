@@ -53,8 +53,8 @@ export const Settings = {
           { id: 'widget-kpi-kpiSpeechesProcessed', title: t('settings.category.stats.kpiSpeechesProcessed'), desc: t('settings.category.stats.kpiSpeechesProcessed_desc'), cat: 'stats' },
           { id: 'widget-kpi-kpiCreditsPerHour', title: t('settings.category.stats.kpiCreditsPerHour'), desc: t('settings.category.stats.kpiCreditsPerHour_desc'), cat: 'stats' },
           //{ id: 'widget-chart', title: 'Aktivitätsverlauf', desc: 'Liniendiagramm für die Einsätze.', cat: 'visuals' },
-          //{ id: 'widget-table-missions', title: 'Häufigste Einsatzarten', desc: 'Tabelle der Einsätze inkl. Sparkline.', cat: 'visuals' },
-          //{ id: 'widget-table-buildings', title: 'Meist alarmierte Gebäude', desc: 'Tabelle der Wachen mit den meisten Alarmen.', cat: 'visuals' }
+          { id: 'widget-table-missions', title: t('settings.category.visuals.top_missions'), desc: t('settings.category.visuals.top_missions_desc'), cat: 'visuals' },
+          { id: 'widget-table-buildings', title: t('settings.category.visuals.top_buildings'), desc: t('settings.category.visuals.top_buildings_desc'), cat: 'visuals' }
       ];
 
         const categories = [ 'system', 'stats', 'visuals'];

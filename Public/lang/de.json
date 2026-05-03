@@ -26,6 +26,10 @@
       "speechesProcessed": "Sprechwünsche (bearbeitet)",
       "subLabel": "vs. Vorstunde"
     },
+    "widgets": {
+      "top_missions": "Top Einsatzarten",
+      "top_buildings": "Top Gebäude"
+    },
     "subtitle": "Echtzeit-Analyse der Bot-Aktivitäten.",
     "title": "Dashboard"
   },
@@ -187,7 +191,11 @@
         "title": "System"
       },
       "visuals": {
-        "title": "Diagramme & Tabellen"
+        "title": "Diagramme & Tabellen",
+        "top_missions": "Top Einsatzarten",
+        "top_missions_desc": "Aktiviert eine Tabelle, die anzeigt, welche Einsatzarten aktuell am häufigsten auftreten.",
+        "top_buildings": "Top Gebäude",
+        "top_buildings_desc": "Aktiviert eine Tabelle, die zeigt, an welchen deiner Gebäude die meisten Einsätze generiert werden."
       }
     },
     "search": {

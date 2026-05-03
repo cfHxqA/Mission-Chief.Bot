@@ -11,6 +11,7 @@ import { VehicleEditor } from './views/editor/VehicleEditor.js';
 import { MissionEditor } from './views/editor/MissionEditor.js';
 import { ScriptEditor } from './views/editor/ScriptEditor.js';
 import { Login } from './views/Login.js';
+import { DataTable } from './components/DataTable.js';
 
 window.systemLogs = []; 
 /** @type {boolean} tracking state to ensure socket is only initialized once */
@@ -170,41 +171,103 @@ const router = async () => {
     });
 };
 
-/**
- * listener for incoming bot statistics.
- */
 window.addEventListener('botStats', (e) => {
-    const stats = e.detail;
-    const formatValue = (num) => new Intl.NumberFormat('de-DE').format(num);
-    const formatTrend = (num) => (num >= 0 ? '+' : '') + new Intl.NumberFormat('de-DE', { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(num) + '%';
-    
-    Object.keys(stats).forEach(key => {
-        const data = stats[key];
-        data.sub = data.prev === 0 ? 0 : ((data.curr - data.prev) / data.prev) * 100;
+  const stats = e.detail;
 
-        const $valEl = $(`#stat-val-${key}`);
-        if ($valEl.length) {
-            const newVal = formatValue(data.curr);
-            if ($valEl.text() !== newVal) $valEl.fadeOut(100, function() { $(this).text(newVal).fadeIn(100); });
-        }
-        const $subEl = $(`#stat-sub-${key}`);
-        if ($subEl.length) $subEl.text(formatTrend(data.sub));
-        const $colorEl = $(`#stat-color-${key}`);
-        if ($colorEl.length) {
-            const newColor = data.sub > 0 ? 'text-emerald-500' : (data.sub < 0 ? 'text-rose-500' : 'text-slate-400');
-            $colorEl.removeClass((i, c) => (c.match(/(^|\s)text-(emerald|rose|slate|blue|amber)-\d+/g) || []).join(' ')).addClass(newColor);
-        }
-        if (window.chartInstances && window.chartInstances[key]) {
-            const chart = window.chartInstances[key];
-            const dataset = chart.data.datasets[0];
-            dataset.data.push(data.curr);
-            if (dataset.data.length > 20) dataset.data.shift();
-            const color = data.sub > 0 ? '#10b981' : (data.sub < 0 ? '#f43f5e' : '#94a3b8');
-            dataset.borderColor = color;
-            dataset.backgroundColor = data.sub > 0 ? 'rgba(16, 185, 129, 0.05)' : (data.sub < 0 ? 'rgba(244, 63, 94, 0.05)' : 'rgba(148, 163, 184, 0.05)');
-            chart.update('none');
-        }
-    });
+  const statsKPI = Object.fromEntries(
+    Object.entries(stats).filter(([key]) => key.startsWith('kpi'))
+  );
+
+  const statsRanking = stats['ranking'];
+
+  const formatValue = (num) => new Intl.NumberFormat('de-DE').format(num);
+  const formatTrend = (num) => 
+    (num >= 0 ? '+' : '') + 
+    new Intl.NumberFormat('de-DE', { 
+      minimumFractionDigits: 1, 
+      maximumFractionDigits: 1 
+    }).format(num) + '%';
+
+  Object.keys(statsKPI).forEach(key => {
+    const data = stats[key];
+    data.sub = data.prev === 0 ? 0 : ((data.curr - data.prev) / data.prev) * 100;
+
+    const $valEl = $(`#stat-val-${key}`);
+    if ($valEl.length) {
+      const newVal = formatValue(data.curr);
+      if ($valEl.text() !== newVal) {
+        $valEl.fadeOut(100, function() { 
+          $(this).text(newVal).fadeIn(100); 
+        });
+      }
+    }
+
+    const $subEl = $(`#stat-sub-${key}`);
+    if ($subEl.length) $subEl.text(formatTrend(data.sub));
+
+    const $colorEl = $(`#stat-color-${key}`);
+    if ($colorEl.length) {
+      const newColor = data.sub > 0 
+        ? 'text-emerald-500' 
+        : (data.sub < 0 ? 'text-rose-500' : 'text-slate-400');
+      
+      $colorEl.removeClass((i, c) => 
+        (c.match(/(^|\s)text-(emerald|rose|slate|blue|amber)-\d+/g) || []).join(' ')
+      ).addClass(newColor);
+    }
+
+    if (window.chartInstances && window.chartInstances[key]) {
+      const chart = window.chartInstances[key];
+      const dataset = chart.data.datasets[0];
+
+      dataset.data.push(data.curr);
+      if (dataset.data.length > 20) dataset.data.shift();
+
+      const color = data.sub > 0 ? '#10b981' : (data.sub < 0 ? '#f43f5e' : '#94a3b8');
+      dataset.borderColor = color;
+      dataset.backgroundColor = data.sub > 0 
+        ? 'rgba(16, 185, 129, 0.05)' 
+        : (data.sub < 0 ? 'rgba(244, 63, 94, 0.05)' : 'rgba(148, 163, 184, 0.05)');
+
+      chart.update('none');
+    }
+  });
+
+  if (statsRanking) {
+    if (statsRanking.missions) {
+      const topMissions = Object.values(statsRanking.missions)
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 5)
+        .map(item => ({
+          label: item.title,
+          value: item.value
+        }));
+
+      const $missionsWidget = $('[data-widget="widget-table-missions"]');
+      if ($missionsWidget.length && typeof DataTable === 'function') {
+        $missionsWidget.replaceWith(
+          DataTable("widget-table-missions", I18nService.t('dashboard.widgets.top_missions'), topMissions)
+        );
+      }
+    }
+
+    if (statsRanking.buildings) {
+      const topBuildings = Object.values(statsRanking.buildings)
+        .sort((a, b) => b.value - a.value)
+        .slice(0, 5)
+        .map(item => ({
+          label: item.title,
+          value: item.value
+        }));
+
+      const $buildingsWidget = $('[data-widget="widget-table-buildings"]');
+      if ($buildingsWidget.length && typeof DataTable === 'function') {
+        $buildingsWidget.replaceWith(
+          DataTable("widget-table-buildings", I18nService.t('dashboard.widgets.top_buildings'), topBuildings)
+        );
+      }
+    }
+  }
 });
 
 /**

@@ -16,7 +16,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/api.js"
   },
   {
-    "md5": "b291e99ae6093c309ce15ec7a261548f",
+    "md5": "b08ff59be933924c0431d2536346e602",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/app.js"
   },
   {
@@ -64,11 +64,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Logs.js"
   },
   {
-    "md5": "f86d847bbc85a9bee16641fb9a3be63a",
+    "md5": "0f8302a798cd7993ddbadfba50466622",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Dashboard.js"
   },
   {
-    "md5": "0a20a1562d41114ed1b7381272ef6fd7",
+    "md5": "87c6758de76106f0d9ef972328982414",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/views/Settings.js"
   },
   {
@@ -120,15 +120,15 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/js/services/i18n.js"
   },
   {
-    "md5": "8af096cc4f4af13229e64600625d863e",
+    "md5": "091e84ade6823a254770c72ea8c4da3b",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/nl.json"
   },
   {
-    "md5": "5794534e4d28ecf456cdd1b7a6cb8e51",
+    "md5": "9aa9d6040634b5abbf06fb6e24cfa184",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/de.json"
   },
   {
-    "md5": "366c7272c788e6e5bb1fe5ee064f5def",
+    "md5": "def754864ccac0b732f001a4755b8ee1",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/pl.json"
   },
   {
@@ -136,11 +136,11 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/gb.json"
   },
   {
-    "md5": "71b4af103b734fce2bcb91381994822d",
+    "md5": "861abcbc11613386a60f2aaabe21ff35",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/pt.json"
   },
   {
-    "md5": "2f1d0a5524f4fb7fab6b9651f136782e",
+    "md5": "36bec0b71a0dca4087b3dce91f2eec54",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Public/lang/en.json"
   }
 ]
