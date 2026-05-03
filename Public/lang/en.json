@@ -56,7 +56,7 @@
       "log_export_success": "File exported successfully: "
     },
     "script": {
-      "default_author": "Admin",
+      "default_author": "Guest",
       "default_script_name": "New Script",
       "btn_back": "Back",
       "btn_next": "Next",
@@ -68,8 +68,7 @@
       "lbl_enter_value": "Enter value...",
       "alert_invalid_file": "Please select a valid .mscf file.",
       "alert_read_error": "Error reading file. Is it a valid .mscf format?",
-      "event_prefix": "Event: ",
-      "custom_prefix": "Custom: ",
+      "missing_trigger": "Missing trigger",
       "choice_title": "Script Editor",
       "choice_desc": "Choose whether to start a new project or load an existing one.",
       "choice_new": "New Script",
@@ -96,7 +95,7 @@
       "s3_group_add": "+ Add new group",
       "s3_act_global_title": "Actions",
       "s3_act_global_title_pre": "Global ",
-      "s3_act_global_desc_group": "These actions are ALWAYS executed at the end regardless of groups.",
+      "s3_act_global_desc_group": "These actions are ALWAYS executed at the end, regardless of groups.",
       "s3_act_global_desc_single": "These actions are executed once conditions are met.",
       "s3_act_add_global": "+ Add global action",
       "s4_title": "Ready to export",
@@ -121,8 +120,6 @@
       "reg_op_contains": "contains",
       "reg_op_notContains": "does not contain",
       "reg_op_startsWith": "starts with",
-      "reg_fn_notify": "Notify user",
-      "reg_fn_log": "Create log entry",
       "reg_act_set": "Set variable",
       "reg_act_ret": "Return variable",
       "reg_act_call": "Call function"
@@ -169,17 +166,17 @@
   "settings": {
     "category": {
       "all": {
-        "title": "All Categories"
+        "title": "All categories"
       },
       "stats": {
         "kpiCreditsPerHour": "Credits per hour",
         "kpiCreditsPerHour_desc": "KPI card for simulated hourly earnings.",
         "kpiMissionSuccessRate": "Success rate",
-        "kpiMissionSuccessRate_desc": "KPI card to monitor mission success.",
+        "kpiMissionSuccessRate_desc": "KPI card for monitoring mission success.",
         "kpiMissionsIncoming": "New missions",
         "kpiMissionsIncoming_desc": "KPI card for newly generated missions.",
         "kpiMissionsProcessed": "Processed missions",
-        "kpiMissionsProcessed_desc": "KPI card for successfully dispatched missions.",
+        "kpiMissionsProcessed_desc": "KPI card for successfully handled missions.",
         "kpiSpeechesIncoming": "New requests",
         "kpiSpeechesIncoming_desc": "KPI card for newly generated requests.",
         "kpiSpeechesProcessed": "Processed requests",

@@ -1,0 +1,37 @@
+// file: /js/views/editor/script/registry/Triggers.js
+// version: 1.1.0.0, 03.05.2026
+
+export const Triggers = {
+  alliance_message:         { exports: [{name: 'msg_id', type: 'number'}] },
+  bed_expanded:             { exports: [{name: 'station_id', type: 'number'}, {name: 'capacity', type: 'number'}] },
+  building_fire:            { exports: [{name: 'station_id', type: 'number'}] },
+  chat_message_received:    { exports: [{name: 'user_id', type: 'number'}, {name: 'message', type: 'string'}] },
+  credits_changed:          { exports: [{name: 'amount_diff', type: 'number'}, {name: 'current_balance', type: 'number'}] },
+  daily_login:              { exports: [{name: 'user_id', type: 'number'}] },
+  level_up:                 { exports: [{name: 'new_level', type: 'number'}] },
+  mission_canceled:         { exports: [{name: 'mission_id', type: 'number'}] },
+  mission_completed:        { exports: [{name: 'mission_id', type: 'number'}, {name: 'reward', type: 'number'}] },
+  mission_failed:           { exports: [{name: 'mission_id', type: 'number'}] },
+  mission_generated:        { exports: [{name: 'mission_id', type: 'number'}] },
+  mission_started:          { exports: [{name: 'mission_id', type: 'number'}] },
+  mission_unit_assigned:    { exports: [{name: 'mission_id', type: 'number'}, {name: 'vehicle_id', type: 'number'}] },
+  personnel_fired:          { exports: [{name: 'person_id', type: 'number'}] },
+  personnel_hired:          { exports: [{name: 'person_id', type: 'number'}] },
+  personnel_injured:        { exports: [{name: 'person_id', type: 'number'}] },
+  personnel_promoted:       { exports: [{name: 'person_id', type: 'number'}, {name: 'new_rank', type: 'string'}] },
+  personnel_training_end:   { exports: [{name: 'person_id', type: 'number'}, {name: 'course_id', type: 'number'}] },
+  personnel_training_start: { exports: [{name: 'person_id', type: 'number'}, {name: 'course_id', type: 'number'}] },
+  player_banned:            { exports: [{name: 'user_id', type: 'number'}] },
+  shift_ended:              { exports: [{name: 'person_id', type: 'number'}] },
+  shift_started:            { exports: [{name: 'person_id', type: 'number'}] },
+  station_built:            { exports: [{name: 'station_id', type: 'number'}] },
+  station_destroyed:        { exports: [{name: 'station_id', type: 'number'}] },
+  station_upgraded:         { exports: [{name: 'station_id', type: 'number'}, {name: 'level', type: 'number'}] },
+  vehicle_arrived:          { exports: [{name: 'vehicle_id', type: 'number'}, {name: 'station_id', type: 'number'}] },
+  vehicle_bought:           { exports: [{name: 'vehicle_id', type: 'number'}, {name: 'cost', type: 'number'}] },
+  vehicle_damaged:          { exports: [{name: 'vehicle_id', type: 'number'}, {name: 'damage_percent', type: 'number'}] },
+  vehicle_departed:         { exports: [{name: 'vehicle_id', type: 'number'}] },
+  vehicle_refueled:         { exports: [{name: 'vehicle_id', type: 'number'}] },
+  vehicle_status_changed:   { exports: [{name: 'vehicle_id', type: 'number'}, {name: 'new_status', type: 'number'}] },
+  weather_changed:          { exports: [{name: 'weather_id', type: 'number'}] }
+};

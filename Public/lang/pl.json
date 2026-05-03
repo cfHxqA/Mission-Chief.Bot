@@ -56,7 +56,7 @@
       "log_export_success": "Plik został pomyślnie wyeksportowany: "
     },
     "script": {
-      "default_author": "Administrator",
+      "default_author": "Gość",
       "default_script_name": "Nowy skrypt",
       "btn_back": "Wstecz",
       "btn_next": "Dalej",
@@ -68,8 +68,7 @@
       "lbl_enter_value": "Wprowadź wartość...",
       "alert_invalid_file": "Proszę wybrać poprawny plik .mscf.",
       "alert_read_error": "Błąd podczas odczytu pliku. Czy to poprawny format .mscf?",
-      "event_prefix": "Zdarzenie: ",
-      "custom_prefix": "Własne: ",
+      "missing_trigger": "Brak wyzwalacza",
       "choice_title": "Edytor skryptów",
       "choice_desc": "Wybierz, czy chcesz rozpocząć nowy projekt, czy wczytać istniejący.",
       "choice_new": "Nowy skrypt",
@@ -121,8 +120,6 @@
       "reg_op_contains": "zawiera",
       "reg_op_notContains": "nie zawiera",
       "reg_op_startsWith": "zaczyna się od",
-      "reg_fn_notify": "Powiadom użytkownika",
-      "reg_fn_log": "Utwórz wpis logu",
       "reg_act_set": "Ustaw zmienną",
       "reg_act_ret": "Zwróć zmienną",
       "reg_act_call": "Wywołaj funkcję"
@@ -139,7 +136,7 @@
       "regex_placeholder": "np. (Wóz strażacki|WS)",
       "extend_title": "Rozszerzone wymagania (obiekt)",
       "add_extend": "Dodaj wymaganie",
-      "key_placeholder": "Klucz RegEx",
+      "key_placeholder": "Klucz RegEx (np. (?'water'\\d+))",
       "val_placeholder": "Wartość",
       "save_btn": "Zapisz konfigurację",
       "json_preview": "Podgląd JSON",
@@ -196,7 +193,7 @@
     "search": {
       "empty": "Szukaj ustawienia lub nazwy modułu..."
     },
-    "subtitle": "Zarządzaj widocznością modułów dashboardu.",
+    "subtitle": "Zarządzaj widocznością modułów panelu.",
     "title": "Ustawienia i moduły"
   }
 }

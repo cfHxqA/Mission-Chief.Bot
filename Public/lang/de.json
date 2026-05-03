@@ -56,7 +56,7 @@
       "log_export_success": "Datei erfolgreich exportiert: "
     },
     "script": {
-      "default_author": "Admin",
+      "default_author": "Guest",
       "default_script_name": "Neues Script",
       "btn_back": "Zurück",
       "btn_next": "Weiter",
@@ -68,8 +68,7 @@
       "lbl_enter_value": "Wert eingeben...",
       "alert_invalid_file": "Bitte wähle eine gültige .mscf Datei.",
       "alert_read_error": "Fehler beim Lesen der Datei. Ist es ein gültiges .mscf Format?",
-      "event_prefix": "Event: ",
-      "custom_prefix": "Custom: ",
+      "missing_trigger": "Fehlender Trigger",
       "choice_title": "Script Editor",
       "choice_desc": "Wähle, ob du ein neues Projekt starten oder ein bestehendes laden möchtest.",
       "choice_new": "Neues Script",
@@ -121,8 +120,6 @@
       "reg_op_contains": "enthält",
       "reg_op_notContains": "nicht enthält",
       "reg_op_startsWith": "beginnt mit",
-      "reg_fn_notify": "Nutzer benachrichtigen",
-      "reg_fn_log": "Log-Eintrag erstellen",
       "reg_act_set": "Variable setzen",
       "reg_act_ret": "Variable zurückgeben",
       "reg_act_call": "Funktion aufrufen"
