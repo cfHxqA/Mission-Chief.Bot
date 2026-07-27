@@ -25,6 +25,7 @@
   "heavy_rescue_vehicles" : [4, 30, 47, 90],
   "height_rescue_units" : [33],
   "helicopter_bucket" : [96],
+  "highway_police": [184],
   "k9" : [94],
   "kdow_lna" : [55],
   "kdow_orgl" : [56],
