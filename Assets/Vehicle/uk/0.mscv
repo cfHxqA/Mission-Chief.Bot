@@ -2,7 +2,7 @@
   "object" : 0,
   "is_matchless" : false,
   "pattern" : {
-    "base" : ["Water Ladder", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Fire engine", "Fire engines"],
+    "base" : ["Water Ladder", "Firetrucks", "firetrucks", "Firetruck", "firetruck", "Fire engine", "Fire engines", "any vehicle"],
     "extend" : {
       "([1-9]) (Firefighter|Firefighters)" : 1,
       "(1[0-8]) Firefighters" : 2
