@@ -1,5 +1,9 @@
 [
   {
+    "md5": "30bdbeeccaa49c7d63abef16e0361e74",
+    "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Caching.dll"
+  },
+  {
     "md5": "a71171bc5290e41ae7539396d10a42e7",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Linq.Async.dll"
   },
@@ -8,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Snappier.dll"
   },
   {
-    "md5": "54eee15d2409133f6a95ef1847b9e2e1",
+    "md5": "c28142fa02f7cf54ffa4831e38c61c89",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Timestamps.dll"
   },
   {
@@ -24,7 +28,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/Microsoft.Net.Http.Headers.dll"
   },
   {
-    "md5": "a2603514d3bf9cd7d7548e6fb646c2c5",
+    "md5": "de2bd439f7ba11bc33917eeeab9ad3b5",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/WatsonWebserver.dll"
   },
   {
@@ -92,7 +96,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/HtmlAgilityPack.dll"
   },
   {
-    "md5": "271cb7a76ce785084e88d383c6c415d2",
+    "md5": "841f4bcd15a363db2bf9efa99cee5439",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/IpMatcher.dll"
   },
   {
@@ -128,7 +132,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/System.Security.Cryptography.ProtectedData.dll"
   },
   {
-    "md5": "10a7133aafd12b16d831ea06c30c110d",
+    "md5": "e9a0104af68a6253b654fea05316de59",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/RegexMatcher.dll"
   },
   {
@@ -168,7 +172,7 @@
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/AutoMapper.dll"
   },
   {
-    "md5": "8c07b9f926ec473fe240a24de29a1092",
+    "md5": "b17b47144f867339b98ba7f528c1b10c",
     "url": "https://raw.githubusercontent.com/cfHxqA/Mission-Chief.Bot/master/Dependencies/UrlMatcher.dll"
   },
   {
